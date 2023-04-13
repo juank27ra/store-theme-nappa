@@ -1,0 +1,28 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop",
+      "rich-text#desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "title": "Header-rew1-desktop",
+    "props": {
+      "blockClass": ""
+    },
+    "children": ["header-force-center"]
+  },
+
+  "rich-text#desktop":{
+    "props":{
+      "text": "primer texto en el header",
+      "blockClass": "text-header-desktop"
+    }
+  }
+}

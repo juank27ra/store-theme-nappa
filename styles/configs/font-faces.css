@@ -1,19 +1,39 @@
 @font-face{
     font-family: "Roboto-Bold";
-    src: url(assets/fonts/Roboto-Bold.ttf); 
+    src: url(assets/fonts/Roboto-Bold.ttf);
 }
 
 @font-face{
     font-family: "Roboto-Light";
-    src: url(assets/fonts/Roboto-Light.ttf); 
+    src: url(assets/fonts/Roboto-Light.ttf);
 }
 
 @font-face{
     font-family: "Roboto-Medium";
-    src: url(assets/fonts/Roboto-Medium.ttf); 
+    src: url(assets/fonts/Roboto-Medium.ttf);
 }
 
 @font-face{
     font-family: "Roboto-Regular";
-    src: url(assets/fonts/Roboto-Regular.ttf); 
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+  font-family: "Poppins-Bold";
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face{
+  font-family: "Poppins-Light";
+  src: url(assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face{
+  font-family: "Poppins-Medium";
+  src: url(assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face{
+    font-family: "Poppins-Regular";
+    src: url(assets/fonts/Poppins-Regular.ttf);
 }

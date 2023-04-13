@@ -1,0 +1,15 @@
+{
+  "header-force-center": {
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/Nappa-logo.png",
+      "width": "180"
+    }
+  }
+}
