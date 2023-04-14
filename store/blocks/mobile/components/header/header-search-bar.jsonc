@@ -1,0 +1,13 @@
+{
+  "search-bar#mobile": {
+    "title": "Search-bar de mobile",
+    "props": {
+      "displayMode": "search-button",
+      "hasIconLeft": true,
+      "inputType": "search",
+      "maxWidth": "20%",
+      // "hidden": true,
+      "placeholder": "¿ QUE ESTAS BUSCANDO?"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "header-layout.desktop" : {
+    "title": "header desktop",
+    "children": [
+      "header-row#header__row--desktop"
+    ]
+  },
+  "header-row#header__row--desktop": {
+    "title": "header row desktop",
+    "children":[
+      "logo#row__desktop--logo",
+      "rich-text#row__desktop--Mujeres",
+      "rich-text#row__desktop--Hombres",
+      "rich-text#row__desktop--rebajas",
+      "menu-link#desktop",
+      "header-spacer",
+
+      "search-bar#desktop",
+      "minicart",
+      "login"
+    ]
+  }
+}
