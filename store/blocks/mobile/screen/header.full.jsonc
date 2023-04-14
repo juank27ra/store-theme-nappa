@@ -3,7 +3,7 @@
     "title": "header mobile",
     "children": [
       "logo#mobile",
-      "search-bar",
+      "search-bar#mobile",
       "login"
     ]
   }

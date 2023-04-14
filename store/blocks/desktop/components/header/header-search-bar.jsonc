@@ -1,0 +1,13 @@
+{
+  "search-bar#desktop": {
+    "title": "Search-bar de desktop",
+    "props": {
+      "displayMode": "search-button",
+      "hasIconLeft": true,
+      "inputType": "search",
+      "maxWidth": 350,
+      // "hidden": true,
+      "placeholder": "¿ QUE ESTAS BUSCANDO?"
+    }
+  }
+}
