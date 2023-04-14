@@ -5,7 +5,7 @@
       "displayMode": "search-button",
       "hasIconLeft": true,
       "inputType": "search",
-      "maxWidth": "96%",
+      "maxWidth": "20%",
       // "hidden": true,
       "placeholder": "¿ QUE ESTAS BUSCANDO?"
     }

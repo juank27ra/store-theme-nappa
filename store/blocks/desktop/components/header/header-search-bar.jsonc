@@ -2,6 +2,7 @@
   "search-bar#desktop": {
     "title": "Search-bar de desktop",
     "props": {
+      "autocompleteAlignment": "right",
       "displayMode": "search-button",
       "hasIconLeft": true,
       "inputType": "search",

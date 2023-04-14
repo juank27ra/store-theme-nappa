@@ -1,5 +1,5 @@
 {
-  "logo#desktop":{
+  "logo#row__desktop--logo":{
     "title": "logo en desktopo",
     "props": {
       "width": 210,

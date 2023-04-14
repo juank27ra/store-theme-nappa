@@ -1,8 +1,24 @@
 {
-  "rich-text#texto__header--desktop": {
+  "rich-text#row__desktop--Mujeres": {
     "title": "desktop-header",
     "props":{
-        "text": "### MUJERES"
+        "text": "## MUJERES",
+        "font": "heading-2"
+    }
+  },
+  "rich-text#row__desktop--Hombres": {
+    "title": "desktop-header",
+    "props":{
+        "text": "## HOMBRES",
+        "font": "heading-2"
+    }
+  },
+  "rich-text#row__desktop--rebajas": {
+    "title": "desktop-header",
+    "props":{
+        "text": "## REBAJAS",
+        "font": "heading-2"
     }
   }
+
 }
