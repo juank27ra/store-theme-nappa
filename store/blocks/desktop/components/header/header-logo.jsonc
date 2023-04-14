@@ -1,0 +1,13 @@
+{
+  "logo#desktop":{
+    "title": "logo en desktopo",
+    "props": {
+      "width": 210,
+      "height": 70,
+      "href": "/",
+      "mobileWidth": 90,
+      "mobileHeight": 32,
+      "url": "assets/img/Home/header/Logo-nappa.png"
+    }
+  }
+}

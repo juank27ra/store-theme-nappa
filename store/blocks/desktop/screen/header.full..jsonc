@@ -1,0 +1,11 @@
+{
+  "header-layout.desktop" : {
+    "title": "header desktop",
+    "children": [
+      "logo#desktop"
+      // "menu-link#desktop",
+      // "search-bar",
+      // "login"
+    ]
+  }
+}

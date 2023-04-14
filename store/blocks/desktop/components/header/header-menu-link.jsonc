@@ -1,0 +1,13 @@
+{
+  "menu-link":{
+    "title": "MUJER",
+    "props": {
+      "text": "MUJER",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [],
+      "sortSubcategories": "name"
+    }
+  }
+}

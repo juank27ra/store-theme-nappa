@@ -1,0 +1,12 @@
+{
+  "logo#mobile":{
+    "title": "logo en mobile",
+    "props": {
+      "width": 210,
+      "height": 90,
+      "mobileWidth": 90,
+      "mobileHeight": 32,
+      "url": "assets/img/Home/header/Logo-nappa.png"
+    }
+  }
+}

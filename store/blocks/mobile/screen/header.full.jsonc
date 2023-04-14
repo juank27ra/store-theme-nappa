@@ -1,0 +1,10 @@
+{
+  "header-layout.mobile" : {
+    "title": "header mobile",
+    "children": [
+      "logo#mobile",
+      "search-bar",
+      "login"
+    ]
+  }
+}
