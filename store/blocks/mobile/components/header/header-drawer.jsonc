@@ -1,0 +1,104 @@
+{
+  "drawer#mobile__header-menu": {
+    "title": "Mobile drawer menu",
+    "children":[
+      "menu#mobile__drawer--container"
+    ]
+  },
+  "menu#mobile__drawer--container": {
+    "title": "mobile drawer container",
+    "children": [
+      "logo#mobile__header--logo",
+      "menu-item#department__women",
+      "menu-item#department__men",
+      "link#header-drawer"
+    ],
+    "props": {
+      "orientation": "horizontal"
+    }
+  },
+  "menu-item#department__women":{
+    "title": "department women mobile",
+    "props": {
+      "id": "department-women-mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title women",
+        "text": "MUJER"
+      }
+    },
+    "blocks": ["submenu.accordion#department__women"]
+  },
+  "submenu.accordion#department__women": {
+    "children": [
+      "menu#department__ submenu--women"
+    ]
+  },
+  "menu#department__ submenu--women": {
+    "children": [
+      "menu-item#category__one",
+      "menu-item#category__two"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title men",
+        "text": "Los de 100pre"
+      }
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title men",
+        "text": "MORRALES"
+      }
+    }
+  },
+
+
+  "menu-item#department__men":{
+    "title": "department men mobile",
+    "props": {
+      "id": "department-men-mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title men",
+        "text": "HOMBRE"
+      }
+    },
+    "blocks": ["submenu.accordion#department__men"]
+  },
+  "submenu.accordion#department__men": {
+
+  },
+  "link#header-drawer" : {
+    "title": "Link rebajas",
+    "props": {
+        "blockClass": "header__drawer--link-button",
+        "href": "/",
+        "label": "REBAJAS",
+        "displayMode": "button"
+    }
+  }
+}

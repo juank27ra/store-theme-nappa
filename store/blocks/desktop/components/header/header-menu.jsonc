@@ -1,0 +1,42 @@
+{
+  "menu#desktop__menu--Mujeres": {
+    "children": [
+      "menu-item#menu__container--mujeres"
+    ]
+  },
+  "menu-item#menu__container--mujeres": {
+    "title": "department men mobile",
+    "props": {
+      "id": "department-men-mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title men",
+        "text": "MUJER"
+      }
+    },
+    "blocks": []
+  },
+  "menu#desktop__menu--Hombres": {
+    "children": [
+      "menu-item#menu__container--hombres"
+    ]
+  },
+  "menu-item#menu__container--hombres": {
+    "title": "department men mobile",
+    "props": {
+      "id": "department-men-mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title men",
+        "text": "HOMBRE"
+      }
+    },
+    "blocks": []
+  }
+}

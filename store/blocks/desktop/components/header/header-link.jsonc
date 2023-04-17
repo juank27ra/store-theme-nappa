@@ -1,0 +1,20 @@
+{
+  "link#desktop__header--link-tiktok" : {
+    "title": "Link tiktok",
+    "props": {
+        "blockClass": "desktop__header--link-tiktok",
+        "href": "https://www.tiktok.com/@nappa.colombia",
+        "label": "TIKTOK",
+        "displayMode": "button"
+    }
+  },
+  "link#desktop__header--link-rebajas": {
+    "title": "Link rebajas",
+    "props": {
+        "blockClass": "desktop__header--link-rebajas",
+        "href": "/",
+        "label": "REBAJAS",
+        "displayMode": "button"
+    }
+  }
+}

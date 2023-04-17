@@ -1,14 +1,15 @@
 {
-  "search-bar#desktop": {
+  "search-bar#desktop__header": {
     "title": "Search-bar de desktop",
     "props": {
       "autocompleteAlignment": "right",
       "displayMode": "search-button",
       "hasIconLeft": true,
       "inputType": "search",
-      "maxWidth": 350,
-      // "hidden": true,
-      "placeholder": "¿ QUE ESTAS BUSCANDO?"
+      "maxWidth": "10%",
+      "hidden": true,
+      "placeholder": "¿ QUE ESTAS BUSCANDO?",
+      "hideTitles": true
     }
   }
 }

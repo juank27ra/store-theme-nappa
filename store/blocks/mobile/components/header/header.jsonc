@@ -1,19 +1,20 @@
 {
-  "header-layout.mobile" : {
-    "title": "header mobile",
+  "header-layout.mobile#mobile__header--container" : {
+    "title": "mobile header container",
     "children": [
-      "header-row#header__row--mobile"
+      "header-row#mobile__header--row"
     ]
   },
-  "header-row#header__row--mobile": {
-    "title": "header row mobile",
+  "header-row#mobile__header--row": {
+    "title": "mobile__header--row",
     "children": [
-      "logo#mobile",
+      "drawer#mobile__header-menu",
+      "logo#mobile__header--logo",
       "header-spacer",
 
-      "search-bar#mobile",
-      "minicart",
-      "login"
+      "search-bar#mobile__header",
+      "minicart.v2",
+      "login#mobile"
     ]
   }
 }

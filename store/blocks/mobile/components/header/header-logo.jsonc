@@ -1,5 +1,5 @@
 {
-  "logo#mobile":{
+  "logo#mobile__header--logo":{
     "title": "logo en mobile",
     "props": {
       "width": 210,
