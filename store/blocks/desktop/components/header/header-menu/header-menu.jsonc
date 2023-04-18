@@ -1,5 +1,5 @@
 {
-  "menu#desktop__menu--categoriaUno": {
+  "menu#desktop__header--menu-categoriaUno": {
     "title": "desktop menu women container",
     "children": [
       "menu-item#desktop__menuitem--container-categoriaUno"
@@ -45,7 +45,7 @@
       "blockClass": "menu categoriaUno"
     }
   },
-  "menu#desktop__menu--categoriaDos": {
+  "menu#desktop__header--menu-categoriaDos": {
     "title": "desktop menu container men",
     "children": [
       "menu-item#desktop__menuitem--container-categoriaDos"

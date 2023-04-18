@@ -8,7 +8,7 @@
   "header-row#mobile__header--row": {
     "title": "mobile__header--row",
     "children": [
-      "drawer#mobile__header-menu",
+
       "logo#mobile__header--logo",
       "header-spacer",
 

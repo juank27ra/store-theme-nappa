@@ -2,6 +2,7 @@
   "login#desktop": {
     "title": "login mobile container",
     "props": {
+      "blockClass": "login desktop",
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",

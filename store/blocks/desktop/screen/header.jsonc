@@ -9,8 +9,8 @@
     "title": "header row desktop",
     "children":[
       "logo#desktop__header--logo",
-      "menu#desktop__menu--categoriaUno",
-      "menu#desktop__menu--categoriaDos",
+      "menu#desktop__header--menu-categoriaUno",
+      "menu#desktop__header--menu-categoriaDos",
       "link#desktop__header--link-rebajas",
       "header-spacer",
 
@@ -21,3 +21,8 @@
     ]
   }
 }
+
+
+
+
+
