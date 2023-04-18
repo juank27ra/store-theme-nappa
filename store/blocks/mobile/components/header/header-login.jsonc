@@ -7,6 +7,7 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
+      // "size": 20,
       "showIconProfile": true
     }
   }

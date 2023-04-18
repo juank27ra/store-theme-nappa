@@ -5,7 +5,7 @@
         "blockClass": "desktop__header--link-tiktok",
         "href": "https://www.tiktok.com/@nappa.colombia",
         "label": "TIKTOK",
-        "displayMode": "button"
+        "displayMode": "link"
     }
   },
   "link#desktop__header--link-rebajas": {
@@ -14,7 +14,7 @@
         "blockClass": "desktop__header--link-rebajas",
         "href": "/",
         "label": "REBAJAS",
-        "displayMode": "button"
+        "displayMode": "link"
     }
   }
 }

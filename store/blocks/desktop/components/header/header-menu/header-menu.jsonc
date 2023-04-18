@@ -1,0 +1,94 @@
+{
+  "menu#desktop__menu--categoriaUno": {
+    "title": "desktop menu women container",
+    "children": [
+      "menu-item#desktop__menuitem--container-categoriaUno"
+    ]
+  },
+  "menu-item#desktop__menuitem--container-categoriaUno": {
+    "title": "desktop menu container women",
+    "props": {
+      "id": "menu container women",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title women",
+        "text": "MUJER"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#desktop__submenu--categoriaUno"]
+  },
+  "vtex.menu@2.x:submenu#desktop__submenu--categoriaUno": {
+    "title": "desktop submenu women",
+    "children": [
+      "menu#desktop__menuItem--container-categoriaUno"
+    ]
+  },
+  "menu#desktop__menuItem--container-categoriaUno": {
+    "title": "desktop menu items women ",
+    "children": [
+      "link#desktop__submenu--losde100pre-categoriaUno",
+      "link#desktop__submenu--morrales-categoriaUno",
+      "menu-item#desktop__submenu--bolsos-categoriaUno",
+      "link#desktop__submenu--manoslibres-categoriaUno",
+      "menu-item#desktop__submenu--accesorios-categoriaUno",
+      "link#desktop__submenu--zapatos-categoriaUno",
+
+      "menu-item#desktop__submenu--credito-categoriaUno",
+      "link#desktop__submenu--vertodo-categoriaUno",
+      "link#desktop__submenu--Rebajasmujer-categoriaUno"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu categoriaUno"
+    }
+  },
+  "menu#desktop__menu--categoriaDos": {
+    "title": "desktop menu container men",
+    "children": [
+      "menu-item#desktop__menuitem--container-categoriaDos"
+    ]
+  },
+  "menu-item#desktop__menuitem--container-categoriaDos": {
+    "title": "desktop menu container men",
+    "props": {
+      "id": "menu container men",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title Hombre",
+        "text": "HOMBRE"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#desktop__submenu--categoriaDos"]
+  },
+  "vtex.menu@2.x:submenu#desktop__submenu--categoriaDos": {
+    "title": "desktop submenu men",
+    "children": [
+      "menu#desktop__menuItem--container-categoriaDos"
+    ]
+  },
+  "menu#desktop__menuItem--container-categoriaDos": {
+    "title": "desktop menu items men",
+    "children":[
+      "link#desktop__submenu--losde100pre-categoriaDos",
+      "link#desktop__submenu--morrales-categoriaDos",
+      "link#desktop__submenu--manoslibres-categoriaDos",
+      "menu-item#desktop__submenu--accesorios-categoriaDos",
+      "menu-item#desktop__submenu--credito-categoriaDos",
+      "link#desktop__submenu--vertodo-categoriaDos",
+      "link#desktop__submenu--Rebajashombre-categoriaDos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu categoriaDos"
+    }
+  }
+}
+
+
+

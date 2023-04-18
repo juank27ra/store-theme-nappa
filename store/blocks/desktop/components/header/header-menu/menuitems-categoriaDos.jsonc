@@ -1,0 +1,77 @@
+{
+  "link#desktop__submenu--losde100pre-categoriaDos": {
+    "title": "link submenu los de siempre men",
+    "props": {
+      "blockClass": "submenu__link--100pre-men",
+      "href": "/",
+      "label": "LOS DE 100PRE",
+      "displayMode": "link"
+    }
+  },
+  "link#desktop__submenu--morrales-categoriaDos": {
+    "title": "link submenu morrales men",
+    "props": {
+      "blockClass": "submenu__link--men-morrales",
+      "href": "/",
+      "label": "MORRALES",
+      "displayMode": "link"
+    }
+  },
+  "link#desktop__submenu--manoslibres-categoriaDos": {
+    "title": "link submenu manos libres men",
+    "props": {
+      "blockClass": "submenu__link--men-manoslibres",
+      "href": "/",
+      "label": "MANOS LIBRES",
+      "displayMode": "link"
+    }
+  },
+  "menu-item#desktop__submenu--accesorios-categoriaDos": {
+    "title": "submenu accesorios men",
+    "props": {
+      "id": "menuitem-accesorios-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title accesorios",
+        "text": "ACCESORIOS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#categoriaDos__accesorios"]
+  },
+  "menu-item#desktop__submenu--credito-categoriaDos": {
+    "title": "submenucredito men",
+    "props": {
+      "id": "menuitem-credito-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title credito",
+        "text": "CRÉDITO"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#categoriaDos__credito"]
+  },
+  "link#desktop__submenu--vertodo-categoriaDos": {
+    "title": "link submenu ver todo men",
+    "props": {
+      "blockClass": "submenu__link--men-vertodo",
+      "href": "/",
+      "label": "VER TODO HOMBRE",
+      "displayMode": "link"
+    }
+  },
+  "link#desktop__submenu--Rebajashombre-categoriaDos": {
+    "title": "link submenu rebajas men",
+    "props": {
+      "blockClass": "submenu__link--men-rebajashombre",
+      "href": "/",
+      "label": "REBAJAS HOMBRE",
+      "displayMode": "link"
+    }
+  }
+}

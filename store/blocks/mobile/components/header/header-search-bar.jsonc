@@ -7,6 +7,7 @@
       "inputType": "search",
       "maxWidth": "10%",
       // "hidden": true,
+      // "size": 16,
       "placeholder": "¿ QUE ESTAS BUSCANDO?"
     }
   }
