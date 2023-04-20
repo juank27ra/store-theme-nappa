@@ -1,35 +1,54 @@
 {
-  "link#desktop__submenu--losde100pre-categoriaDos": {
-    "title": "link submenu los de siempre men",
+  "menu-item#submenu__menu--menuitem-losde100pre-categoriaDos": {
+    "title": "menu-item los de siempre categoriaDos",
     "props": {
-      "blockClass": "submenu__link--100pre-men",
-      "href": "/",
-      "label": "LOS DE 100PRE",
-      "displayMode": "link"
+      "blockClass": "submenu__menu--menuitem-losde100pre-categoriaDos",
+      "id": "menuitem-los-de-100pre-categoriaDos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title los de 100pre",
+        "text": "LOS DE 100PRE"
+      }
     }
   },
-  "link#desktop__submenu--morrales-categoriaDos": {
-    "title": "link submenu morrales men",
+  "menu-item#submenu__menu--menuitem-morrales-categoriaDos": {
+    "title": "menu-item  morrales categoriaDos",
     "props": {
-      "blockClass": "submenu__link--men-morrales",
-      "href": "/",
-      "label": "MORRALES",
-      "displayMode": "link"
+      "blockClass": "submenu__menu--menuitem-morrales-categoriaDos",
+      "id": "menuitem-morrales-categoriaDos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title morrales",
+        "text": "MORRALES"
+      }
     }
   },
-  "link#desktop__submenu--manoslibres-categoriaDos": {
-    "title": "link submenu manos libres men",
+  "menu-item#submenu__menu--menuitem-manoslibres-categoriaDos": {
+    "title": "menu-item  manos libres categoriaDos",
     "props": {
-      "blockClass": "submenu__link--men-manoslibres",
-      "href": "/",
-      "label": "MANOS LIBRES",
-      "displayMode": "link"
+      "blockClass": "submenu__menu--menuitem-manoslibres-categoriaDos",
+      "id": "menuitem-manos-libres-categoriaDos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title manos libres",
+        "text": "MANOS LIBRES"
+      }
     }
   },
-  "menu-item#desktop__submenu--accesorios-categoriaDos": {
-    "title": "submenu accesorios men",
+  "menu-item#submenu__menu--menuitem-accesorios-categoriaDos": {
+    "title": "menuitem accesorios categoriaDos",
     "props": {
-      "id": "menuitem-accesorios-men",
+      "blockClass": "submenu__menu--menuitem-accesorios-categoriaDos",
+      "id": "menuitem-accesorios-categoriaDos",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -39,12 +58,13 @@
         "text": "ACCESORIOS"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#categoriaDos__accesorios"]
+    "blocks": ["vtex.menu@2.x:submenu#menu__accesorios"]
   },
-  "menu-item#desktop__submenu--credito-categoriaDos": {
-    "title": "submenucredito men",
+  "menu-item#submenu__menu--menuitem-credito-categoriaDos": {
+    "title": "menuitem credito categoriaDos",
     "props": {
-      "id": "menuitem-credito-men",
+      "blockClass": "submenu__menu--menuitem-credito-categoriaDos",
+      "id": "menuitem-credito-categoriaDos",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -54,24 +74,36 @@
         "text": "CRÉDITO"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#categoriaDos__credito"]
+    "blocks": ["vtex.menu@2.x:submenu#menu__credito"]
   },
-  "link#desktop__submenu--vertodo-categoriaDos": {
-    "title": "link submenu ver todo men",
+  "menu-item#submenu__menu--menuitem-vertodo-categoriaDos": {
+    "title": "menu-item ver todo categoriaDos",
     "props": {
-      "blockClass": "submenu__link--men-vertodo",
-      "href": "/",
-      "label": "VER TODO HOMBRE",
-      "displayMode": "link"
+      "blockClass": "submenu__menu--menuitem-vertodo-categoriaDos",
+      "id": "menuitem-ver-todo-hombre-categoriaDos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title ver todo hombre",
+        "text": "VER TODO HOMBRE"
+      }
     }
   },
-  "link#desktop__submenu--Rebajashombre-categoriaDos": {
-    "title": "link submenu rebajas men",
+  "menu-item#submenu__menu--menuitem-Rebajashombre-categoriaDos": {
+    "title": "menu-item rebajas categoriaDos",
     "props": {
-      "blockClass": "submenu__link--men-rebajashombre",
-      "href": "/",
-      "label": "REBAJAS HOMBRE",
-      "displayMode": "link"
+      "blockClass": "submenu__menu--menuitem-Rebajashombre-categoriaDos",
+      "id": "menuitem-ver-rebajashombre-categoriaDos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title rebajas hombre",
+        "text": "REBAJAS HOMBRE"
+      }
     }
   }
 }

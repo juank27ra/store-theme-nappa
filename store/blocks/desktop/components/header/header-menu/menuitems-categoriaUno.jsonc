@@ -1,26 +1,41 @@
 {
-  "link#desktop__submenu--losde100pre-categoriaUno":{
-    "title": "link submenu los de siempre mujer",
+  "menu-item#submenu__menu--menuitem-losde100pre-categoriaUno":{
+      "title": "menu-item los de siempre categoriaUno",
+      "props": {
+        "blockClass": "submenu__menu--menuitem-losde100pre-categoriaUno",
+        "id": "menuitems-los-de-100pre-categoriaUno",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "size": 16,
+          "tagTile": "Big Title los de 100pre",
+          "text": "LOS DE 100PRE"
+        }
+      }
+  },
+  "menu-item#submenu__menu--menuitem-morrales-categoriaUno":{
+    "title": "menu-item morrales categoriaUno",
     "props": {
-      "blockClass": "submenu__link--mujer-100pre",
-      "href": "/",
-      "label": "LOS DE 100PRE",
-      "displayMode": "link"
+      "blockClass": "submenu__menu--menuitem-morrales-categoriaUno",
+      "id": "menuitems-morrales-categoriaUno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "size": 16,
+        "tagTile": "Big Title morrales",
+        "text": "MORRALES"
+      }
     }
   },
-  "link#desktop__submenu--morrales-categoriaUno":{
-    "title": "link submenu morrales mujer",
+  "menu-item#submenu__menu--menuitem-bolsos-categoriaUno": {
+    "title": "menu-item bolsos categoriaUno",
     "props": {
-      "blockClass": "submenu__link--mujer-morrales",
-      "href": "/",
-      "label": "MORRALES",
-      "displayMode": "link"
-    }
-  },
-  "menu-item#desktop__submenu--bolsos-categoriaUno": {
-    "title": "submenu bolsos mujer",
-    "props": {
-      "id": "menuitems-bolsos-mujer",
+      "blockClass": "submenu__menu--menuitem-bolsos-categoriaUno",
+      "id": "menuitems-bolsos-categoriaUno",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -35,19 +50,27 @@
       "vtex.menu@2.x:submenu#categoriaUno__bolsos"
     ]
   },
-  "link#desktop__submenu--manoslibres-categoriaUno": {
-    "title": "link submenu manos libres mujer",
+  "menu-item#submenu__menu--menuitem-manoslibres-categoriaUno": {
+    "title": "menu-item manos libres categoriaUno",
     "props": {
-      "blockClass": "submenu__link--mujer-manoslibres",
-      "href": "/",
-      "label": "MANOS LIBRES",
-      "displayMode": "link"
+      "blockClass": "submenu__menu--menuitem-manoslibres-categoriaUno",
+      "id": "menu-items-manoslibres-categoriaUno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "size": 16,
+        "tagTile": "Big Title bolsos",
+        "text": "MANOS LIBRES"
+      }
     }
   },
-  "menu-item#desktop__submenu--accesorios-categoriaUno": {
-    "title": "submenu accesorios mujer",
+  "menu-item#submenu__menu--menuitem-accesorios-categoriaUno": {
+    "title": "menu-item accesorios mujer",
     "props": {
-      "id": "menuitem-accesorios-mujer",
+      "blockClass": "submenu__menu--menuitem-accesorios-categoriaUno",
+      "id": "menu-item-accesorios-categoriaUno",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -62,25 +85,32 @@
     ]
   },
 
-  "link#desktop__submenu--zapatos-categoriaUno": {
-    "title": "link submenu zapatos mujer",
+  "menu-item#submenu__menu--menuitem-zapatos-categoriaUno": {
+    "title": "menu-item zapatos categoriaUno",
     "props": {
-      "blockClass": "submenu__link--mujer-zapatos",
-      "href": "/",
-      "label": "ZAPATOS",
-      "displayMode": "link"
-    }
-  },
-  "menu-item#desktop__submenu--credito-categoriaUno": {
-    "title": "submenu credito mujer",
-    "props": {
-      "id": "menuitem-credito-mujer",
+      "blockClass": "submenu__menu--menuitem-zapatos-categoriaUnoo",
+      "id": "menuitem-zapatos-categoriaUno",
       "type": "custom",
       "itemProps": {
         "type": "external",
         "href": "/",
         "noFollow": true,
-        "tagTile": "Big Title accesorios",
+        "tagTile": "Big Title zapatos",
+        "text": "ZAPATOS"
+      }
+    }
+  },
+  "menu-item#submenu__menu--menuitem-credito-categoriaUno": {
+    "title": "menu-item credito categoriaUno",
+    "props": {
+      "blockClass": "submenu__menu--menuitem-credito-categoriaUno",
+      "id": "menu-item-credito-categoriaUno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title credito",
         "text": "CRÉDITO"
       }
     },
@@ -88,22 +118,34 @@
       "vtex.menu@2.x:submenu#categoriaUno__credito"
     ]
   },
-  "link#desktop__submenu--vertodo-categoriaUno": {
-    "title": "link submenu ver todo mujer",
+  "menu-item#submenu__menu--menuitem-vertodo-categoriaUno": {
+    "title": "menu-item ver todo categoriaUno",
     "props": {
-      "blockClass": "submenu__link--mujer-vertodo",
-      "href": "/",
-      "label": "VER TODO MUJER",
-      "displayMode": "link"
+      "blockClass": "submenu__menu--menuitem-vertodo-categoriaUno",
+      "id": "menuitem-ver-todo-categoriaUno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title ver todo",
+        "text": "VER TODO MUJER"
+      }
     }
   },
-  "link#desktop__submenu--Rebajasmujer-categoriaUno": {
-    "title": "link rebajas mujer",
+  "menu-item#submenu__menu--menuitem-Rebajasmujer-categoriaUno": {
+    "title": "menu-item rebajas categoriaUno",
     "props": {
-      "blockClass": "submenu__link--mujer-rebajasmujer",
-      "href": "/",
-      "label": "REBAJAS MUJER",
-      "displayMode": "link"
+      "blockClass": "submenu__menu--menuitem-Rebajasmujer-categoriaUno",
+      "id": "menuitem-rebajasmujer-categoriaUno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title rebajasmujer",
+        "text": "REBAJAS MUJER"
+      }
     }
   }
 }

@@ -1,60 +1,61 @@
 {
   "menu#desktop__header--menu-categoriaUno": {
-    "title": "desktop menu women container",
+    "title": "desktop menu container categoriaUno",
     "children": [
-      "menu-item#desktop__menuitem--container-categoriaUno"
+      "menu-item#header__menu--container-categoriaUno"
     ]
   },
-  "menu-item#desktop__menuitem--container-categoriaUno": {
-    "title": "desktop menu container women",
+  "menu-item#header__menu--container-categoriaUno": {
+    "title": "desktop menu container categoriaUno",
     "props": {
-      "id": "menu container women",
+      "blockClass": "header__menu--container-categoriaUno",
+      "id": "menu-container-categoriaUno",
       "type": "custom",
       "itemProps": {
         "type": "external",
         "href": "/",
         "noFollow": true,
-        "tagTile": "Big Title women",
+        "tagTile": "Big Title categoriaUno",
         "text": "MUJER"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#desktop__submenu--categoriaUno"]
+    "blocks": ["vtex.menu@2.x:submenu#menu__container--menuitem-categoriaUno"]
   },
-  "vtex.menu@2.x:submenu#desktop__submenu--categoriaUno": {
-    "title": "desktop submenu women",
+  "vtex.menu@2.x:submenu#menu__container--menuitem-categoriaUno": {
+    "title": "desktop menuitem categoriaUno",
     "children": [
-      "menu#desktop__menuItem--container-categoriaUno"
+      "menu#container__submenu--menu-categoriaUno"
     ]
   },
-  "menu#desktop__menuItem--container-categoriaUno": {
-    "title": "desktop menu items women ",
+  "menu#container__submenu--menu-categoriaUno": {
+    "title": "submenu categoriaUno ",
     "children": [
-      "link#desktop__submenu--losde100pre-categoriaUno",
-      "link#desktop__submenu--morrales-categoriaUno",
-      "menu-item#desktop__submenu--bolsos-categoriaUno",
-      "link#desktop__submenu--manoslibres-categoriaUno",
-      "menu-item#desktop__submenu--accesorios-categoriaUno",
-      "link#desktop__submenu--zapatos-categoriaUno",
+      "menu-item#submenu__menu--menuitem-losde100pre-categoriaUno",
+      "menu-item#submenu__menu--menuitem-morrales-categoriaUno",
+      "menu-item#submenu__menu--menuitem-bolsos-categoriaUno",
+      "menu-item#submenu__menu--menuitem-manoslibres-categoriaUno",
+      "menu-item#submenu__menu--menuitem-accesorios-categoriaUno",
+      "menu-item#submenu__menu--menuitem-zapatos-categoriaUno",
 
-      "menu-item#desktop__submenu--credito-categoriaUno",
-      "link#desktop__submenu--vertodo-categoriaUno",
-      "link#desktop__submenu--Rebajasmujer-categoriaUno"
+      "menu-item#submenu__menu--menuitem-credito-categoriaUno",
+      "menu-item#submenu__menu--menuitem-vertodo-categoriaUno",
+      "menu-item#submenu__menu--menuitem-Rebajasmujer-categoriaUno"
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "menu categoriaUno"
+      "blockClass": "container__submenu--menu-categoriaUno"
     }
   },
   "menu#desktop__header--menu-categoriaDos": {
-    "title": "desktop menu container men",
+    "title": "desktop menu container categoriaDos",
     "children": [
-      "menu-item#desktop__menuitem--container-categoriaDos"
+      "menu-item#header__menu--container-categoriaDos"
     ]
   },
-  "menu-item#desktop__menuitem--container-categoriaDos": {
-    "title": "desktop menu container men",
+  "menu-item#header__menu--container-categoriaDos": {
+    "title": "desktop menu container categoriaDos",
     "props": {
-      "id": "menu container men",
+      "id": "menu-container-categoriaDos",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -64,28 +65,28 @@
         "text": "HOMBRE"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#desktop__submenu--categoriaDos"]
+    "blocks": ["vtex.menu@2.x:submenu#menu__container--menuitem-categoriaDos"]
   },
-  "vtex.menu@2.x:submenu#desktop__submenu--categoriaDos": {
-    "title": "desktop submenu men",
+  "vtex.menu@2.x:submenu#menu__container--menuitem-categoriaDos": {
+    "title": "desktop submenu categoriaDos",
     "children": [
-      "menu#desktop__menuItem--container-categoriaDos"
+      "menu#menu#container__submenu--menu-categoriaDos"
     ]
   },
-  "menu#desktop__menuItem--container-categoriaDos": {
-    "title": "desktop menu items men",
+  "menu#menu#container__submenu--menu-categoriaDos": {
+    "title": "desktop menu items categoriaDos",
     "children":[
-      "link#desktop__submenu--losde100pre-categoriaDos",
-      "link#desktop__submenu--morrales-categoriaDos",
-      "link#desktop__submenu--manoslibres-categoriaDos",
-      "menu-item#desktop__submenu--accesorios-categoriaDos",
-      "menu-item#desktop__submenu--credito-categoriaDos",
-      "link#desktop__submenu--vertodo-categoriaDos",
-      "link#desktop__submenu--Rebajashombre-categoriaDos"
+      "menu-item#submenu__menu--menuitem-losde100pre-categoriaDos",
+      "menu-item#submenu__menu--menuitem-morrales-categoriaDos",
+      "menu-item#submenu__menu--menuitem-manoslibres-categoriaDos",
+      "menu-item#submenu__menu--menuitem-accesorios-categoriaDos",
+      "menu-item#submenu__menu--menuitem-credito-categoriaDos",
+      "menu-item#submenu__menu--menuitem-vertodo-categoriaDos",
+      "menu-item#submenu__menu--menuitem-Rebajashombre-categoriaDos"
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "menu categoriaDos"
+      "blockClass": "container__submenu--menu-categoriaDos"
     }
   }
 }

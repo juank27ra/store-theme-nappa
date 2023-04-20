@@ -1,5 +1,5 @@
 {
-  "vtex.menu@2.x:submenu#categoriaDos__accesorios": {
+  "vtex.menu@2.x:submenu#menu__accesorios": {
     "title": "submenu container accesorios categoriaDos",
     "children": [
       "menu#billeteras",
@@ -55,7 +55,7 @@
   // },
 
 
-  "vtex.menu@2.x:submenu#categoriaDos__credito": {
+  "vtex.menu@2.x:submenu#menu__credito": {
     "title": "submenu container credito categoriaDos",
     "children": [
       "link#Beneficios",

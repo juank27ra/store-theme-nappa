@@ -8,7 +8,7 @@
   "header-row#mobile__header--row": {
     "title": "mobile__header--row",
     "children": [
-
+      "drawer#mega-nenú",
       "logo#mobile__header--logo",
       "header-spacer",
 
@@ -18,3 +18,4 @@
     ]
   }
 }
+
