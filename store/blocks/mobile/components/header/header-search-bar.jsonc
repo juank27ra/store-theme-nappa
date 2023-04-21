@@ -1,5 +1,5 @@
 {
-  "search-bar#mobile__header": {
+  "search-bar#mobile__header--searchbar": {
     "title": "Search-bar de mobile",
     "props": {
       "displayMode": "search-button",
@@ -7,8 +7,10 @@
       "inputType": "search",
       "maxWidth": "10%",
       // "hidden": true,
-      // "size": 16,
-      "placeholder": "¿ QUE ESTAS BUSCANDO?"
-    }
+      "size": 160,
+      "placeholder": "¿ QUE ESTAS BUSCANDO?",
+      "openAutocompleteOnFocus": true
+    },
+    "blocks": ["autocomplete-result-list.v2"]
   }
 }

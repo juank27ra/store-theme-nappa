@@ -1,10 +1,10 @@
 {
-  "drawer#mega-nenú": {
+  "drawer#mobile__header--menu": {
     "title": "drawer mega menu",
-    "children": ["mega-menu#mobile"],
-    "blocks": ["drawer-header#my-drawer"]
+    "children": ["mega-menu#mobile__header--container"],
+    "blocks": ["drawer-header#mobile__header--container"]
   },
-  "mega-menu#mobile": {
+  "mega-menu#mobile__header--container": {
     "title": "departments",
     "props": {
       "defaultDepartmentActive": "MUJER",
@@ -12,11 +12,11 @@
       "openOnly": "horizontal"
     }
   },
-  "drawer-header#my-drawer": {
+  "drawer-header#mobile__header--container": {
     "title": "drawer header mega menu",
-    "children": ["flex-layout.row#drawer-header"]
+    "children": ["flex-layout.row#header__container--drawer-header"]
   },
-  "flex-layout.row#drawer-header": {
+  "flex-layout.row#header__container--drawer-header": {
     "title": "flex-layout drawer header",
     "children": [
       "flex-layout.col#mega-menu-go-back-btn",

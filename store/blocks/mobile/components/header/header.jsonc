@@ -8,14 +8,15 @@
   "header-row#mobile__header--row": {
     "title": "mobile__header--row",
     "children": [
-      "drawer#mega-nenú",
+      "drawer#mobile__header--menu",
       "logo#mobile__header--logo",
       "header-spacer",
 
-      "search-bar#mobile__header",
-      "minicart.v2",
-      "login#mobile"
+      "search-bar#mobile__header--searchbar",
+      "minicart.v2#mobile__header--minicart",
+      "login#mobile__header--login"
     ]
   }
+
 }
 

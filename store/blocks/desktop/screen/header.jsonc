@@ -2,10 +2,10 @@
   "header-layout.desktop#desktop__header--container" : {
     "title": "header desktop",
     "children": [
-      "header-row#header__row--desktop"
+      "header-row#desktop__header--row"
     ]
   },
-  "header-row#header__row--desktop": {
+  "header-row#desktop__header--row": {
     "title": "header row desktop",
     "children":[
       "logo#desktop__header--logo",
@@ -15,9 +15,9 @@
       "header-spacer",
 
       "link#desktop__header--link-tiktok",
-      "search-bar#desktop__header",
-      "minicart.v2",
-      "login#desktop"
+      "search-bar#desktop__header--searchbar",
+      "minicart.v2#desktop__header--minicart",
+      "login#desktop__header--login"
     ]
   }
 }

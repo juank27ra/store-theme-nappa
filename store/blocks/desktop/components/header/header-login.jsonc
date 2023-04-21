@@ -1,6 +1,6 @@
 {
-  "login#desktop": {
-    "title": "login mobile container",
+  "login#desktop__header--login": {
+    "title": "login desktop container",
     "props": {
       "blockClass": "login desktop",
       "emailAndPasswordTitle": "LOG-IN",
@@ -9,7 +9,13 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "hideIconLabel": true
+      "hideIconLabel": true,
+      "IconProfile": "icon-profile#desktop__profile--icon"
+    }
+  },
+  "icon-profile#desktop__profile--icon":{
+    "props": {
+      "size":40
     }
   }
 }
