@@ -1,0 +1,69 @@
+{
+  "vtex.menu@2.x:submenu#menu__accesorios": {
+    "title": "submenu container accesorios categoriaDos",
+    "children": [
+      "menu#billeteras",
+      "menu#riñoneras",
+      "menu#mas_accesorios",
+      "link#ver__todo"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // "menu#billeteras": {
+  //   "title": "submenu accesorios SubcategoriaDos billeteras",
+  //   "props": {
+  //     "id": "menu billeteras accesorios subcategoriaDos",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "tagTile": "menu billeteras",
+  //       "text": "Billeteras"
+  //     }
+  //   }
+  // },
+  "menu#riñoneras": {
+    "title": "submenu accesorios SubcategoriaDos riñoneras",
+    "props": {
+      "id": "menu riñoneras accesorios subcategoriaDos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu riñoneras",
+        "text": "Riñoneras"
+      }
+    }
+  },
+  // "menu#mas_accesorios": {
+  //   "title": "submenu accesorios SubcategoriaDos manos-libres",
+  //   "props": {
+  //     "id": "menu mas_accesorios accesorios subcategoriaDos",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "tagTile": "menu mas_accesorios",
+  //       "text": "Mas Accesorios"
+  //     }
+  //   }
+  // },
+
+
+  "vtex.menu@2.x:submenu#menu__credito": {
+    "title": "submenu container credito categoriaDos",
+    "children": [
+      "link#Beneficios",
+      "link#PagaTuCredito",
+      "link#SolicitaTuCrédito"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

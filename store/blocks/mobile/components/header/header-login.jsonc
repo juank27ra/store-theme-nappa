@@ -1,0 +1,14 @@
+{
+  "login#mobile": {
+    "title": "login mobile container",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      // "size": 20,
+      "showIconProfile": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "header-layout.desktop#desktop__header--container" : {
+    "title": "header desktop",
+    "children": [
+      "header-row#header__row--desktop"
+    ]
+  },
+  "header-row#header__row--desktop": {
+    "title": "header row desktop",
+    "children":[
+      "logo#desktop__header--logo",
+      "menu#desktop__header--menu-categoriaUno",
+      "menu#desktop__header--menu-categoriaDos",
+      "link#desktop__header--link-rebajas",
+      "header-spacer",
+
+      "link#desktop__header--link-tiktok",
+      "search-bar#desktop__header",
+      "minicart.v2",
+      "login#desktop"
+    ]
+  }
+}
+
+
+
+
+
