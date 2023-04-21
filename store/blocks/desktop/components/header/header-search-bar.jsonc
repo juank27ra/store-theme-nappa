@@ -1,5 +1,5 @@
 {
-  "search-bar#desktop__header": {
+  "search-bar#desktop__header--searchbar": {
     "title": "Search-bar de desktop",
     "props": {
       "autocompleteAlignment": "right",
@@ -9,7 +9,10 @@
       "maxWidth": "10%",
       "hidden": true,
       "placeholder": "¿ QUE ESTAS BUSCANDO?",
-      "hideTitles": true
-    }
+      "hideTitles": true,
+      "productLayout": "vertical",      //VERTICAL
+      "openAutocompleteOnFocus": true
+    },
+    "blocks": ["autocomplete-result-list.v2"]
   }
 }

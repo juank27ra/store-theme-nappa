@@ -1,5 +1,5 @@
 {
-  "login#mobile": {
+  "login#mobile__header--login": {
     "title": "login mobile container",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
@@ -7,7 +7,6 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      // "size": 20,
       "showIconProfile": true
     }
   }

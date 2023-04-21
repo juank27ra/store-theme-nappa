@@ -1,0 +1,19 @@
+{
+  "minicart.v2#desktop__header--minicart": {
+    "title": "desktop minicart ",
+    "props": {
+      "blockClass": "desktop__header--minicart",
+      "variation": "drawer",
+      "openOnHover": true,
+      "quantityDisplay": "not-empty",
+      "itemCountMode": "distinct",
+      "MinicartIcon": "icon-cart#desktop__minicart--icon"
+    }
+  },
+  "icon-cart#desktop__minicart--icon": {
+    "title": "desktop props icon minicart ",
+    "props": {
+      "size": 24
+    }
+  }
+}

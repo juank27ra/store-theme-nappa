@@ -55,6 +55,7 @@
   "menu-item#header__menu--container-categoriaDos": {
     "title": "desktop menu container categoriaDos",
     "props": {
+      "blockClass": "header__menu--container-categoriaDos",
       "id": "menu-container-categoriaDos",
       "type": "custom",
       "itemProps": {

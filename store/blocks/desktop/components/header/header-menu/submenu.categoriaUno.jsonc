@@ -64,7 +64,6 @@
   },
 
 
-
   "vtex.menu@2.x:submenu#categoriaUno__accesorios": {
     "title": "submenu container accesorios categoriaUno",
     "children": [
