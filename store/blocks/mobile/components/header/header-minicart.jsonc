@@ -1,6 +1,6 @@
 {
   "minicart.v2#mobile__header--minicart": {
-    "title": "minicart mobile",
+    "title": "mobile minicart ",
     "props": {
       "blockClass": "minicart.v2#mobile__header--minicart",
       "variation": "drawer",

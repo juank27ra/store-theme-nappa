@@ -12,11 +12,31 @@
       "logo#mobile__header--logo",
       "header-spacer",
 
-      "search-bar#mobile__header--searchbar",
+      "modal-trigger#mobile__modal--searchbar",
       "minicart.v2#mobile__header--minicart",
       "login#mobile__header--login"
     ]
+  },
+  "modal-trigger#mobile__modal--searchbar": {
+    "title": "mobile modal ",
+    "children": [
+      "icon#mobile__icon--searchbar",
+      "modal-layout#mobile__modal--searchbar"
+    ]
+  },
+  "icon#mobile__icon--searchbar": {
+    "title": "icon seacrch",
+    "props": {
+      "blockClass": "mobile__icon--searchbar",
+      "id": "hpa-search",
+      "size": 40
+    }
+  },
+  "modal-layout#mobile__modal--searchbar": {
+    "title": "mobile modal-layout",
+    "children": [
+      "search-bar#mobile__header--searchbar"
+    ]
   }
-
 }
 
