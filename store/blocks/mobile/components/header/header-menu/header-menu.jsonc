@@ -19,16 +19,17 @@
   "flex-layout.row#header__container--drawer-header": {
     "title": "flex-layout drawer header",
     "children": [
-      "flex-layout.col#mega-menu-go-back-btn",
+      // "flex-layout.col#mega-menu-go-back-btn",
       "flex-layout.col#spacer",
-      "flex-layout.col#drawer-close-button"
+      "flex-layout.col#drawer-close-button",
+      "logo#mobile__header--logo-megamenu"
     ],
     "props": {
-      "blockClass": "drawer-header",
+      "blockClass": "header__container--drawer-header",
       "preventHorizontalStretch": false,
       "preventVerticalStretch": false,
       "preserveLayoutOnMobile": false,
-      "fullWidth": true
+      "isfullWidth": true
     }
   },
   "flex-layout.col#drawer-close-button": {
@@ -36,22 +37,33 @@
     "children": ["drawer-close-button"],
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "right"
+      "horizontalAlign": "left"
     }
   },
-  "flex-layout.col#mega-menu-go-back-btn": {
-    "title": "flex-layout drawer btn back",
-    "children": ["mega-menu-go-back-btn"],
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "left",
-      "paddingLeft": 4
-    }
-  },
+  // "flex-layout.col#mega-menu-go-back-btn": {
+  //   "title": "flex-layout drawer btn back",
+  //   "children": ["mega-menu-go-back-btn"],
+  //   "props": {
+  //     "verticalAlign": "middle",
+  //     "horizontalAlign": "left",
+  //     "paddingLeft": 4
+  //   }
+  // },
   "flex-layout.col#spacer": {
     "title": "flex-layout spacer",
     "props": {
-      "paddingLeft": 4
+      // "paddingRigth": 8
+    }
+  },
+  "logo#mobile__header--logo-megamenu": {
+    "title": "logo en mobile megamenu",
+    "props": {
+      "blockClass": "mobile__header--logo-megamenu",
+      "url": "assets/img/Home/header/Logo-nappa.png",
+      "href": "/",
+      "mobileWidth": 85,
+      "mobileHeight": 70,
+      "verticalAlign": "middle"
     }
   }
 }

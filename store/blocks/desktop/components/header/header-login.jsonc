@@ -2,7 +2,7 @@
   "login#desktop__header--login": {
     "title": "login desktop container",
     "props": {
-      "blockClass": "login desktop",
+      "blockClass": "desktop__header--login",
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
@@ -10,12 +10,10 @@
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
       "hideIconLabel": true,
-      "IconProfile": "icon-profile#desktop__profile--icon"
-    }
-  },
-  "icon-profile#desktop__profile--icon":{
-    "props": {
-      "size":40
+      "cssClass": "desktop__login--icon",
+      "activeClassName": "desktop__login--icon-active",
+      "mutedClassName": "desktop__login--icon-disabled",
+      "logInButtonBehavior": "popover"
     }
   }
 }

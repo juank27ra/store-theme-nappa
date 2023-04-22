@@ -1,0 +1,16 @@
+.logoImage--mobile__header--logo {
+  width: 410;
+  height: 220;
+}
+.logoContainer--mobile__header--logo{
+  width: 410;
+  height: 220;
+}
+.logoImage--mobile__header--logo-megamenu {
+  width: 210;
+  height: 80;
+}
+/* .logolink--mobile__header--logo-megamenu {
+flex-direction: row;
+flex-grow: unset;
+} */

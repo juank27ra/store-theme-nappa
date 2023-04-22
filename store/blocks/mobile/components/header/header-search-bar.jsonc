@@ -2,14 +2,14 @@
   "search-bar#mobile__header--searchbar": {
     "title": "Search-bar de mobile",
     "props": {
+      "blockClass": "mobile__header--searchbar",
       "displayMode": "search-button",
       "hasIconLeft": true,
       "inputType": "search",
-      "maxWidth": "10%",
-      // "hidden": true,
-      "size": 160,
+      // "maxWidth": "100%",
       "placeholder": "¿ QUE ESTAS BUSCANDO?",
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": true,
+      "isFullWidth": true
     },
     "blocks": ["autocomplete-result-list.v2"]
   }
