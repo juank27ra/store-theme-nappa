@@ -1,0 +1,96 @@
+{
+  "menu#desktop__header--menu-categoriaUno": {
+    "title": "desktop menu container categoriaUno",
+    "children": [
+      "menu-item#header__menu--container-categoriaUno"
+    ]
+  },
+  "menu-item#header__menu--container-categoriaUno": {
+    "title": "desktop menu container categoriaUno",
+    "props": {
+      "blockClass": "header__menu--container-categoriaUno",
+      "id": "menu-container-categoriaUno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title categoriaUno",
+        "text": "MUJER"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menu__container--menuitem-categoriaUno"]
+  },
+  "vtex.menu@2.x:submenu#menu__container--menuitem-categoriaUno": {
+    "title": "desktop menuitem categoriaUno",
+    "children": [
+      "menu#container__submenu--menu-categoriaUno"
+    ]
+  },
+  "menu#container__submenu--menu-categoriaUno": {
+    "title": "submenu categoriaUno ",
+    "children": [
+      "menu-item#submenu__menu--menuitem-losde100pre-categoriaUno",
+      "menu-item#submenu__menu--menuitem-morrales-categoriaUno",
+      "menu-item#submenu__menu--menuitem-bolsos-categoriaUno",
+      "menu-item#submenu__menu--menuitem-manoslibres-categoriaUno",
+      "menu-item#submenu__menu--menuitem-accesorios-categoriaUno",
+      "menu-item#submenu__menu--menuitem-zapatos-categoriaUno",
+
+      "menu-item#submenu__menu--menuitem-credito-categoriaUno",
+      "menu-item#submenu__menu--menuitem-vertodo-categoriaUno",
+      "menu-item#submenu__menu--menuitem-Rebajasmujer-categoriaUno"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container__submenu--menu-categoriaUno"
+    }
+  },
+  "menu#desktop__header--menu-categoriaDos": {
+    "title": "desktop menu container categoriaDos",
+    "children": [
+      "menu-item#header__menu--container-categoriaDos"
+    ]
+  },
+  "menu-item#header__menu--container-categoriaDos": {
+    "title": "desktop menu container categoriaDos",
+    "props": {
+      "blockClass": "header__menu--container-categoriaDos",
+      "id": "menu-container-categoriaDos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title Hombre",
+        "text": "HOMBRE"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menu__container--menuitem-categoriaDos"]
+  },
+  "vtex.menu@2.x:submenu#menu__container--menuitem-categoriaDos": {
+    "title": "desktop submenu categoriaDos",
+    "children": [
+      "menu#menu#container__submenu--menu-categoriaDos"
+    ]
+  },
+  "menu#menu#container__submenu--menu-categoriaDos": {
+    "title": "desktop menu items categoriaDos",
+    "children":[
+      "menu-item#submenu__menu--menuitem-losde100pre-categoriaDos",
+      "menu-item#submenu__menu--menuitem-morrales-categoriaDos",
+      "menu-item#submenu__menu--menuitem-manoslibres-categoriaDos",
+      "menu-item#submenu__menu--menuitem-accesorios-categoriaDos",
+      "menu-item#submenu__menu--menuitem-credito-categoriaDos",
+      "menu-item#submenu__menu--menuitem-vertodo-categoriaDos",
+      "menu-item#submenu__menu--menuitem-Rebajashombre-categoriaDos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container__submenu--menu-categoriaDos"
+    }
+  }
+}
+
+
+

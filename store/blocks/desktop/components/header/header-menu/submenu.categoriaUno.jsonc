@@ -1,0 +1,161 @@
+{
+  "vtex.menu@2.x:submenu#categoriaUno__bolsos": {
+    "title": "submenu container bolsos categoriaUno",
+    "children": [
+      "menu#shopping",
+      "menu#baguette",
+      "menu#manos_libres",
+      "link#ver__todo"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#shopping": {
+    "title": "submenu bolsos SubcategoriaUno shopping",
+    "props": {
+      "id": "menu shopping bolsos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu shopping",
+        "text": "Shopping"
+      }
+    }
+  },
+  "menu#baguette": {
+    "title": "submenu bolsos SubcategoriaUno baguette",
+    "props": {
+      "id": "menu baguette bolsos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu baguette",
+        "text": "Baguette"
+      }
+    }
+  },
+  "menu#manos_libres": {
+    "title": "submenu bolsos SubcategoriaUno manos-libres",
+    "props": {
+      "id": "menu manos libres bolsos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu manos libres",
+        "text": "Manos libres"
+      }
+    }
+  },
+  "link#ver__todo": {
+    "title": "submenu bolsos SubcategoriaUno ver todo",
+    "props": {
+      "blockClass": "submenu__link--bolsos-vertodo",
+      "href": "/",
+      "label": "Ver todo >>",
+      "displayMode": "link"
+    }
+  },
+
+
+  "vtex.menu@2.x:submenu#categoriaUno__accesorios": {
+    "title": "submenu container accesorios categoriaUno",
+    "children": [
+      "menu#billeteras",
+      "menu#cosmetiqueras",
+      "menu#mas_accesorios",
+      "link#ver__todo"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#billeteras": {
+    "title": "submenu accesorios SubcategoriaUno billeteras",
+    "props": {
+      "id": "menu accesorios billeteras ",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu billeteras",
+        "text": "Billeteras"
+      }
+    }
+  },
+  "menu#cosmetiqueras": {
+    "title": "submenu accesorios SubcategoriaUno cosmetiqueras",
+    "props": {
+      "id": "menu cosmetiqueras ACCESORIOS",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu cosmetiqueras",
+        "text": "Cosmetiqueras"
+      }
+    }
+  },
+  "menu#mas_accesorios": {
+    "title": "submenu accesorios SubcategoriaUno manos-libres",
+    "props": {
+      "id": "menu mas_accesorios accesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu mas_accesorios",
+        "text": "Mas Accesorios"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:submenu#categoriaUno__credito": {
+    "title": "submenu container credito categoriaUno",
+    "children": [
+      "link#Beneficios",
+      "link#PagaTuCredito",
+      "link#SolicitaTuCrédito"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "link#Beneficios": {
+    "title": "Link submenu credito categoriaUno",
+    "props": {
+        "blockClass": "",
+        "href": "/",
+        "label": "Beneficios",
+        "displayMode": "link"
+    }
+  },
+  "link#PagaTuCredito": {
+    "title": "Link submenu credito categoriaUno",
+    "props": {
+        "blockClass": "",
+        "href": "/",
+        "label": "Paga tu crédito",
+        "displayMode": "link"
+    }
+  },
+  "link#SolicitaTuCrédito": {
+    "title": "Link submenu credito categoriaUno",
+    "props": {
+        "blockClass": "",
+        "href": "/",
+        "label": "Solicita tu crédito",
+        "displayMode": "link"
+    }
+  }
+}

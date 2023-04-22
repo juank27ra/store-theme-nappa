@@ -1,0 +1,16 @@
+.drawerHeader{
+  flex: auto;
+}
+
+.menuIcon {
+  height: 30;
+  width: 30;
+}
+
+.claseIcon {
+  margin-left: 10px;
+}
+
+.opened {
+  max-width: 100%;
+}

@@ -1,0 +1,14 @@
+{
+  "logo#mobile__header--logo":{
+    "title": "logo en mobile",
+    "props": {
+      "blockClass": "mobile__header--logo",
+      "url": "assets/img/Home/header/Logo-nappa.png",
+      "width": 210,
+      "height": 110,
+      "href": "/",
+      "mobileWidth": 210,
+      "mobileHeight": 120
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "rich-text#desktop__menu--Mujeres": {
+    "title": "title header mujeres",
+    "props":{
+        "text": "## MUJERES",
+        "font": "heading-2"
+    }
+  },
+  "rich-text#desktop__menu--Hombres": {
+    "title": "title header hombres ",
+    "props":{
+        "text": "## HOMBRES",
+        "font": "heading-2"
+    }
+  }
+}
