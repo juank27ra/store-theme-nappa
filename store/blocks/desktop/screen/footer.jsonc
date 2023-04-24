@@ -1,0 +1,196 @@
+{
+  "footer-layout.desktop": {
+    "title": "desktop footer",
+    "children": [
+      "flex-layout.row#desktop__footer--container"
+      // "disclosure-layout-group#footer__menu--group"
+    ]
+  },
+  "flex-layout.row#desktop__footer--container": {
+    "title": " flex container",
+    "children": [
+      "flex-layout.col#desktop__footer--container-col1",
+      "flex-layout.col#desktop__footer--container-col2"
+    ]
+  },
+  "flex-layout.col#desktop__footer--container-col1": {
+    "title": "col policies",
+    "children": [
+      "menu#policies"
+    ]
+  },
+  "flex-layout.col#desktop__footer--container-col2": {
+    "title": "col about-us",
+    "children": [
+      "flex-layout.row#1",
+      "flex-layout.row#2",
+      "flex-layout.row#3"
+
+
+
+    ]
+  },
+  "flex-layout.row#1": {
+  "title": "",
+  "children": [
+    "menu#about-us"
+  ]
+  },
+  "flex-layout.row#2": {
+  "title": "",
+  "children": [
+    "social-networks"
+  ]
+  },
+  "flex-layout.row#3": {
+  "title": "",
+  "children": [
+    "accepted-payment-methods"
+  ]
+  },
+  "social-networks": {
+    "title": "social networks",
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://m.facebook.com/nappa.com.co",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/nappa.col/",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://m.youtube.com/channel/UCPBjSO-0Pe3olTRUS3tl1Fg",
+          "name": "Youtube"
+        }
+      ]
+    }
+  },
+  "accepted-payment-methods": {
+    "title": "payment methods",
+    "props": {
+      "paymentMethods": [
+        "mastercard",
+        "visa",
+        "diners club"
+      ]
+    }
+  },
+  "disclosure-layout-group#footer__menu--group": {
+    "title": "disclosure group",
+    "children": [
+      "disclosure-layout#policies",
+      "disclosure-layout#about-us"
+      // "disclosure-layout#departments"
+    ]
+  },
+  "disclosure-layout#policies": {
+    "title": "disclosure policies",
+    "children": ["disclosure-trigger#policies", "disclosure-content#policies"]
+  },
+  "disclosure-trigger#policies": {
+    "title": "disclosure policies trigger",
+    "children": ["rich-text#policies"]
+  },
+  "rich-text#policies": {
+    "title": "richtex policies trigger",
+    "props": {
+      "text": "Politicas de la tienda"
+    }
+  },
+  "disclosure-content#policies":{
+    "title": "disclosure policies content",
+    "children": ["menu#policies"]
+  },
+  "menu#policies": {
+    "title": "disclosure menu content",
+    "children": [
+      "menu-item#terms-and-conds",
+      "menu-item#privacy-policies"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#terms-and-conds": {
+    "title": "menu term and cond",
+    "props": {
+      "id": "menu-terms-and-conds",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "terminos y condiciones",
+        "text": "terminos y condiciones"
+      }
+    }
+  },
+  "menu-item#privacy-policies": {
+    "title": "menu privacy policies",
+    "props": {
+      "id": "menu-privacy-policies",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "politicas de privacidad",
+        "text": "politicas de privacidad"
+      }
+    }
+  },
+  "disclosure-layout#about-us": {
+    "title": "disclosure about-us",
+    "children": ["disclosure-trigger#about-us", "disclosure-content#about-us"]
+  },
+  "disclosure-trigger#about-us": {
+    "title": "disclosure about-us trigger",
+    "children": ["rich-text#about-us"]
+  },
+  "rich-text#about-us": {
+    "title": "richtex about-us trigger",
+    "props": {
+      "text": "Politicas de la tienda"
+    }
+  },
+  "disclosure-content#about-us":{
+    "title": "disclosure about-us content",
+    "children": ["menu#about-us"]
+  },
+  "menu#about-us": {
+    "title": "disclosure menu content",
+    "children": [
+      "menu-item#terms-and-conds",
+      "menu-item#our-shops"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#about-us": {
+    "title": "menu about-us",
+    "props": {
+      "id": "menu-about-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Acerca de nosotros",
+        "text": "Acerca de nosotros"
+      }
+    }
+  },
+  "menu-item#our-shops": {
+    "title": "menu our-shops",
+    "props": {
+      "id": "menu-our-shops",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Nuestras tiendas",
+        "text": "Nuestras tiendas"
+      }
+    }
+  }
+}
