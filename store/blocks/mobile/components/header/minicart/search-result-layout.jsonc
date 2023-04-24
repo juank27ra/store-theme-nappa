@@ -1,0 +1,39 @@
+{
+  "search-result-layout.mobile#mobile__home--search": {
+    "title": "mobile search result ",
+    "children": [
+      "flex-layout.row#mobile__home--results-row"
+    ]
+  },
+  "flex-layout.row#mobile__home--results-row": {
+    "title": "search result ",
+    "children": [
+      "flex-layout.col#mobile__home--results-col"
+    ]
+  },
+  "flex-layout.col#mobile__home--results-col": {
+    "title": "search result ",
+    "children": [
+      "search-content#mobile__search--content-col"
+    ]
+  },
+  "search-content#mobile__search--content-col": {
+    "title": "container search and not-foun",
+    "blocks": [ "gallery#mobile__minicart--content", "not-found"]
+  },
+  "gallery#mobile__minicart--content": {
+    "title": "mobile gallery  search",
+    "blocks": ["product-summary.shelf#mobile__minicart"]
+  },
+  "product-summary.shelf#mobile__minicart": {
+    "title": "mobile product summary shelf",
+    "children": [
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ]
+  }
+}

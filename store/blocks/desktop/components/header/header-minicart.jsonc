@@ -1,6 +1,7 @@
 {
   "minicart.v2#desktop__header--minicart": {
     "title": "desktop minicart ",
+    "children": ["minicart-base-content"],
     "props": {
       "blockClass": "desktop__header--minicart",
       "variation": "drawer",
