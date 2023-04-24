@@ -1,0 +1,20 @@
+{
+  "minicart.v2#mobile__header--minicart": {
+    "title": "mobile minicart ",
+    "children": ["minicart-base-content"],
+    "props": {
+      "blockClass": "minicart.v2#mobile__header--minicart",
+      "variation": "drawer",
+      "openOnHover": true,
+      "quantityDisplay": "not-empty",
+      "itemCountMode": "distinct",
+      "MinicartIcon": "icon-cart#mobile__minicart--icon"
+    }
+  },
+  "icon-cart#mobile__minicart--icon": {
+    "title": "mobile props icon minicart ",
+    "props": {
+      "size": 44
+    }
+  }
+}
