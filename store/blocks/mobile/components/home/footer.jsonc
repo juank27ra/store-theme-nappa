@@ -1,0 +1,455 @@
+{
+  "footer-layout.mobile": {
+    "title": "mobile footer",
+    "children": [
+      "flex-layout.row#mobile__footer--container"
+    ]
+  },
+  "flex-layout.row#mobile__footer--container": {
+    "title": " flex container footer",
+    "children": [
+      "flex-layout.col#mobile__container"
+      // "flex-layout.col#mobile__footer--container-col2"
+    ]
+  },
+  "flex-layout.col#mobile__container": {
+    "title": "Col mobile container footer",
+    "children": [
+      "flex-layout.row#mobile__footer--container-categoryOne",
+      "flex-layout.row#mobile__footer--container-categoryTwo",
+      "flex-layout.row#mobile__footer--container-categoryThree"
+    ]
+  },
+  "flex-layout.row#mobile__footer--container-categoryOne": {
+    "title": "footer col left suscriber ",
+    "children": [
+      "rich-text#mobile__subscriber"
+    ]
+  },
+  "rich-text#mobile__subscriber": {
+    "title": "richtex subscriber",
+    "props": {
+      "text": "Suscríbete a nuestra Newslatter",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#mobile__footer--container-categoryTwo": {
+    "title": "mobile menu us container",
+    "children": [
+      "menu#mobile__nosotros"
+    ]
+  },
+  "menu#mobile__nosotros": {
+    "title": "menu us departamentsOne",
+    "children": [
+      "menu-item#departamentsOne__container--nosotros",
+      "menu-item#departamentsThree__container--linksRapidos",
+      "menu-item#departamentsTwo__container--servicioCliente"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile__nosotros"
+    }
+  },
+  "menu-item#departamentsOne__container--nosotros": {
+    "title": "departmentOne container us",
+    "props": {
+      "blockClass": "departamentsOne__container--nosotros",
+      "id": "departmentOne-container-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title us",
+        "text": "NOSOTROS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu__container--departmentOne"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu__container--departmentOne": {
+    "title": "categoryOne block us",
+    "children": [
+      "menu#container__categoryOne"
+    ]
+  },
+  "menu#container__categoryOne": {
+    "title": "categoryOne submenu container",
+    "children": [
+      "menu-item#quienes__somos--subcategoryOne",
+      "menu-item#programa__de--fidelización-subcategoryOne",
+      "menu-item#crédito__leathers--Lovers-subcategoryOne",
+      "menu-item#crece__con--nosotros-subcategoryOne"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container__submenu--departmentOne"
+    }
+  },
+  // "menu-item#quienes__somos--subcategoryOne": {
+  //   "title": "subcategoryOne about us",
+  //   "props": {
+  //     "blockClass": "quienes__somos--subcategoryOne",
+  //     "id": "subcategoryOne-about-us",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "size": 16,
+  //       "tagTitle": "Big tTitle about us",
+  //       "text": "Quienes Somos"
+  //     }
+  //   }
+  // },
+  // "menu-item#programa__de--fidelización-subcategoryOne": {
+  //   "title": "subcategoryOne fidelazation program",
+  //   "props": {
+  //     "blockClass": "programa__de--fidelización-subcategoryOne",
+  //     "id": "subcategoryOne-fidelazation-program",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "size": 16,
+  //       "tagTitle": "Big title fidelazation-program",
+  //       "text": "Programa Fidelizacion"
+  //     }
+  //   }
+  // },
+  // "menu-item#crédito__leathers--Lovers-subcategoryOne": {
+  //   "title": "subcategoryOne credit leathers lovers",
+  //   "props": {
+  //     "blockClass": "crédito__leathers--Lovers-subcategoryOne",
+  //     "id": "subcategoryOne-credit-leathers-lovers",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "size": 16,
+  //       "tagTitle": "Big Title credit leathers lovers",
+  //       "text": "Crédito Leathers Lovers"
+  //     }
+  //   }
+  // },
+  // "menu-item#crece__con--nosotros-subcategoryOne": {
+  //   "title": "subcategoryOne grow with us",
+  //   "props": {
+  //     "blockClass": "crece__con--nosotros-subcategoryOne",
+  //     "id": "subcategoryOne-grow-with-us",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "size": 16,
+  //       "tagTitle": "Big Title grow with us",
+  //       "text": "Crece con Nosotros"
+  //     }
+  //   }
+  // },
+  // "menu-item#departamentsTwo__container--servicioCliente": {
+  //   "title": "departmetTwo customer service",
+  //   "props": {
+  //     "blockClass": "departamentsTwo__container--servicioCliente",
+  //     "id": "departmetTwo-customer-service",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "tagTile": "Big Title customer service",
+  //       "text": "SERVICIO AL CLIENTE"
+  //     }
+  //   },
+  //   "blocks": [
+  //     "vtex.menu@2.x:submenu.accordion#menu__container--footer2"
+  //   ]
+  // },
+  "vtex.menu@2.x:submenu.accordion#menu__container--footer2": {
+    "title": " categoryTwo block customer service",
+    "children": [
+      "menu#container__submenu--menu-footer2"
+    ]
+  },
+  "menu#container__submenu--menu-footer2": {
+    "title": " categoryTwo menu container",
+    "children": [
+      "menu-item#contáctenos__subcategoryTwo",
+      "menu-item#metodos__tiempos--entrega-subcategoryTwo",
+      "menu-item#terminos__condiciones--subcategoryTwo"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container__submenu--menu-footer2"
+    }
+  },
+  // "menu-item#contáctenos__subcategoryTwo": {
+  //   "title": "subcategoryTwo contact",
+  //   "props": {
+  //     "blockClass": "contáctenos__subcategoryTwo",
+  //     "id": "subcategoryTwo-contact",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "size": 16,
+  //       "tagTitle": "Big Title subcategoryTwo contact us",
+  //       "text": "Contacto / PQRs"
+  //     }
+  //   }
+  // },
+  // "menu-item#metodos__tiempos--entrega-subcategoryTwo": {
+  //   "title": "subcategoryTwo methods and times",
+  //   "props": {
+  //     "blockClass": "metodos__tiempos--entrega-subcategoryTwo",
+  //     "id": "subcategoryTwo-methods-and-times",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "size": 12,
+  //       "tagTitle": "Big Title methods and times",
+  //       "text": "Guía de tallas"
+  //     }
+  //   }
+  // },
+  // "menu-item#terminos__condiciones--subcategoryTwo": {
+  //   "title": "subcategoryTwo T&C",
+  //   "props": {
+  //     "blockClass": "terminos__condiciones--subcategoryTwo",
+  //     "id": "subcategoryTwo-T&C",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "size": 16,
+  //       "tagTitle": "Big Title subcategoryTwo T&C",
+  //       "text": "Términos y Condiciones"
+  //     }
+  //   }
+  // },
+  "menu-item#departamentsThree__container--linksRapidos": {
+    "title": "departmentThree container quick links",
+    "props": {
+      "blockClass": "departamentsThree__container--linksRapidos",
+      "id": "departmentThree-container-quick links",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title departmentThree quick links",
+        "text": "LINKS RAPIDOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu__container--linksRapidos"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu__container--linksRapidos": {
+    "title": "categoryThree block quick links",
+    "children": [
+      "menu#container__submenu--menu-footer3"
+    ]
+  },
+  // "menu#container__submenu--menu-footer3": {
+  //   "title": "subcategoryThree submenu container ",
+  //   "children": [
+  //     "menu-item#como__comprar--subcategoryThree",
+  //     "menu-item#preguntas__frecuentes--subcategoryThree",
+  //     "menu-item#nuestras__politicas--subcategoryThree",
+  //     "menu-item#paga__tu--credito--subcategoryThree"
+  //   ],
+  //   "props": {
+  //     "orientation": "vertical",
+  //     "blockClass": "container__submenu--menu-footer3"
+  //   }
+  // },
+  // "menu-item#como__comprar--subcategoryThree": {
+  //   "title": "subcategoryThree how to buy",
+  //   "props": {
+  //     "blockClass": "como__comprar--subcategoryThree",
+  //     "id": "subcategoryThree-how-to-buy",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "tagTile": "Big Title how to buy",
+  //       "text": "¿Cómo comprar?"
+  //     }
+  //   }
+  // },
+  // "menu-item#preguntas__frecuentes--subcategoryThree": {
+  //   "title": "subcategoryThree frequent questions",
+  //   "props": {
+  //     "blockClass": "preguntas__frecuentes--subcategoryThree",
+  //     "id": "subcategoryThree-frequent-questions",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "tagTile": "Big Title frequent questions",
+  //       "text": "preguntas Frecuentes"
+  //     }
+  //   }
+  // },
+  // "menu-item#nuestras__politicas--subcategoryThree": {
+  //   "title": "subcategoryThree our policies",
+  //   "props": {
+  //     "blockClass": "nuestras__politicas--subcategoryThree",
+  //     "id": "subcategoryThree-our-policies ",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "tagTile": "Big Title our policies",
+  //       "text": "Nuestras Políticas"
+  //     }
+  //   }
+  // },
+  // "menu-item#paga__tu--credito--subcategoryThree": {
+  //   "title": "subcategoryThree pay your credit",
+  //   "props": {
+  //     "blockClass": "paga__tu--credito--subcategoryThree",
+  //     "id": "subcategoryThree-pay-your-credit",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "tagTile": "Big Title pay your credit",
+  //       "text": "Paga tu crédito"
+  //     }
+  //   }
+  // },
+  "flex-layout.row#mobile__footer--container-categoryThree": {
+    "title": "mobile container c",
+    "children": [
+      "flex-layout.col#mobile__container--categoryThree"
+    ]
+  },
+  "flex-layout.col#mobile__container--categoryThree": {
+    "title": "payments networks col",
+    "children": [
+      "flex-layout.row#mobile__networks",
+      "flex-layout.row#mobile__container--payments-stores",
+      "flex-layout.row#industry__and--commerce",
+      "flex-layout.row#industry__and--commerce--text"
+    ],
+    "props": {
+      "blockClass": "payments__netwoks--stores"
+    }
+  },
+  "flex-layout.row#mobile__networks": {
+    "title": "title row networks",
+    "children": [
+      "social-networks#mobile__networks"
+    ],
+    "props": {
+      "blockClass": "mobile__networks"
+    }
+  },
+  "social-networks#mobile__networks": {
+    "title": "social networks",
+    "props": {
+      "blockClass": "mobile__networks",
+      "socialNetworks": [
+        {
+          "url": "https://m.facebook.com/nappa.com.co",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/nappa.col/",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://m.youtube.com/channel/UCPBjSO-0Pe3olTRUS3tl1Fg",
+          "name": "Youtube"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#mobile__container--payments-stores": {
+    "title": "container payments and stores",
+    "children": [
+      "flex-layout.col#mobile__methods--payments",
+      "flex-layout.col#stores"
+    ],
+    "props": {
+      "blockClass": "mobile__container--payments-stores"
+    }
+  },
+  "flex-layout.col#mobile__methods--payments": {
+    "title": "title col payments",
+    "children": [
+      // "accepted-payment-methods",
+      "rich-text#mobile__methods--payments"
+    ]
+  },
+  "rich-text#mobile__methods--payments": {
+    "title": "text payments",
+    "props": {
+      "text": "Medios de pago",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mobile__methods--payments"
+    }
+  },
+  "flex-layout.col#stores": {
+    "title": "tile col stores",
+    "children": [
+      "rich-text#mobile__btn--stores"
+    ]
+  },
+  "rich-text#mobile__btn--stores": {
+    "title": "btn stores",
+    "props": {
+      "text": "Tiendas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mobile__btn--stores"
+    }
+  },
+
+  "flex-layout.row#industry__and--commerce": {
+    "title": "row industry and commerce",
+    "children": [
+      "image#mobile__industry&commerce"
+    ]
+  },
+  "image#mobile__industry&commerce": {
+    "title": "image of industry and commerce",
+    "props": {
+      "src": "assets/img/Home/footer/footer I&C.png",
+      "title": "industry and commerce",
+      "blockClass": "mobile__industry&commerce"
+    }
+  },
+  "flex-layout.row#industry__and--commerce--text": {
+    "title": "text content industry and commerce",
+    "children": [
+      "rich-text#mobile__text--industry&commerce"
+    ]
+  },
+  "rich-text#mobile__text--industry&commerce": {
+    "title": "text industry and commerce",
+    "props": {
+      "text": "SOMOS UNA MARCA DE CUEROS VÉLEZ SAS TODOS LOS DERECHOS RESERVADOS. NOTIFICACIONES JUDICIALES: CL. 29 # 52-115 MEDELLÍN-COLOMBIA | SERVICIOALCLIENTE@CUEROSVELEZ.COM | +604 355 5100 | +574 355 5100 | NIT 800191700-8",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mobile__text--industry&commerce"
+    }
+  }
+}
