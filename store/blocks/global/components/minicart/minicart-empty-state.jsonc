@@ -26,11 +26,16 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
+  },
+  "minicart-product-list#example": {
+    "title": "minicart product-list#minicart",
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "title": "product list minicart content",
+    "blocks": [
+      "product-list-content-desktop",
+      "product-list-content-mobile"
+    ]
   }
-  // "icon-cart#minicart__empty--icon": {
-  //   "title": "icon-cart enpty",
-  //   "props": {
-  //     "size": 100
-  //   }
-  // },
 }

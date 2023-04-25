@@ -1,0 +1,15 @@
+{
+
+  "search-result-layout.desktop#department": {
+    "title": "",
+    "children": [
+      "rich-text#desktop__department"
+    ]
+  },
+  "rich-text#desktop__department": {
+    "title": "",
+    "props": {
+      "text": "desktop search"
+    }
+  }
+}
