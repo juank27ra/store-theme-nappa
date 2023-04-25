@@ -23,17 +23,6 @@
   },
   "gallery#desktop__minicart--content": {
     "title": "desktop gallery  search",
-    "blocks": ["product-summary.shelf#desktop__minicart"]
-  },
-  "product-summary.shelf#desktop__minicart": {
-    "title": "desktop product summary shelf",
-    "children": [
-      "product-summary-name",
-      "product-summary-description",
-      "product-summary-image",
-      "product-summary-price",
-      "product-summary-sku-selector",
-      "product-summary-buy-button"
-    ]
+    "blocks": ["product-summary.shelf"]
   }
 }

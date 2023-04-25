@@ -11,6 +11,12 @@
   "flex-layout.row#minicart__footer": {
     "title": "flex row minicart footer",
     "children": [
+      "flex-layout.col#minicart__footer"
+    ]
+  },
+  "flex-layout.col#minicart__footer": {
+    "title": "miicart col footer",
+    "children": [
       "minicart-summary",
       "minicart-checkout-button"
     ]
