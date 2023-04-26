@@ -1,71 +1,16 @@
 {
-  "store.search#department": {
+  "store.search#global__department": {
     "title": "store department",
     "blocks": [
-      "search-result-layout#department"
+      "search-result-layout#global__department--blocks"
     ]
   },
-  "search-result-layout#department": {
+  "search-result-layout#global__department--blocks": {
     "title": "store search content department",
     "blocks": [
-      "search-result-layout.desktop#department",
-      "search-result-layout.mobile#department",
+      "search-result-layout.desktop#desktop__department",
+      "search-result-layout.mobile#mobile__department--blocks",
       "search-not-found-layout"
     ]
-  },
-  "search-result-layout.desktop#department": {
-    "title": "desktop department search",
-    "children": [
-      "flex-layout.row#department__breadcrumb"
-    ]
-  },
-  "flex-layout.row#department__breadcrumb": {
-    "title": "desktop department search",
-    "children": [
-      "flex-layout.col#department__breadcrumb"
-    ]
-  },
-  "flex-layout.col#department__breadcrumb": {
-    "title": "col department__breadcrumb",
-    "children": [
-      "breadcrumb.search"
-    ]
-  },
-  "search-result-layout.mobile#department": {
-    "title": "",
-    "children": [
-      "flex-layout.row#department__breadcrumb",
-      "flex-layout.row#department__result"
-    ]
-  },
-  "flex-layout.row#department__result": {
-    "title": "deparmet result",
-    "children": [
-      "gallery-layout-switcher",
-      "search-content"
-    ]
-  },
-  "gallery-layout-switcher": {
-    "title": "",
-    "children": [
-      "gallery-layout-option#grid__one-columns",
-      "gallery-layout-option#grid__two-columns"
-    ]
-  },
-  "gallery-layout-option#grid__one-columns":{
-    "title":"gallery option one column",
-    "props": {
-      "name": "grid one columns",
-      "blockClass": "grid__one-columns"
-
-    }
-  },
-  "gallery-layout-option#grid__two-columns":{
-    "title":"gallery option two column",
-    "props": {
-      "name": "grid two columns",
-      "blockClass": "grid__two-columns"
-
-    }
   }
 }

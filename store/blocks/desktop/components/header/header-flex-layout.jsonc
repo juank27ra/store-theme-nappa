@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#desktop__header--row-menu": {
+    "title": "row menu content",
+    "children": [
+      "menu#desktop__departments--menu"
+    ]
+  },
+  "menu#desktop__departments--menu": {
+    "title": "departments menu container",
+    "children": [
+      "menu#desktop__header--menu-departmentOne",
+      "menu#desktop__header--menu-departmentTwo",
+      "menu#desktop__header--menu-departmentThree"
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "desktop__departments--menu"
+    }
+  },
+  "menu#desktop__header--menu-departmentThree": {
+    "title": "desktop menu container departmentThree",
+    "children": [
+      "menu-item#header__menu--container-departmentThree"
+    ]
+  },
+  "menu-item#header__menu--container-departmentThree": {
+    "title": "desktop menu container departmentThree",
+    "props": {
+      "blockClass": "header__menu--container-departmentThree",
+      "id": "menu-container-departmentThree",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title sales",
+        "text": "REBAJAS"
+      }
+    }
+  },
+  "flex-layout.row#desktop__header--row-tiktok": {
+    "title": "row menu tiktok",
+    "children": [
+      "menu#desktop__departments--tiktok"
+    ]
+  },
+  "menu#desktop__departments--tiktok": {
+    "title": "departments tiktok",
+    "children": [
+      "menu#desktop__menu--container-tiktok"
+    ],
+    "props": {
+      "blockClass": "desktop__departments--tiktok"
+    }
+  },
+  "menu#desktop__menu--container-tiktok":{
+    "title": "desktop menu tiktok",
+    "children": [
+      "menu-item#desktop__menu--tiktok"
+    ]
+  },
+  "menu-item#desktop__menu--tiktok": {
+    "title": "desktop menu tiktok",
+    "props": {
+      "blockClass": "desktop__menu--tiktok",
+      "id": "menu-tiktok",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.tiktok.com/@nappa.colombia",
+        "noFollow": true,
+        "tagTile": "Big Title tiktok",
+        "text": "TIKTOK"
+      }
+    }
+  }
+}

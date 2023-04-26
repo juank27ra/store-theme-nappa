@@ -1,0 +1,24 @@
+{
+  "modal-trigger#desktop__modal--search-bar": {
+    "title": "desktop modal search-bar",
+    "children": [
+      "icon#desktop__search--icon",
+      "modal-layout#desktop__modal--layout-search"
+    ]
+  },
+  "icon#desktop__search--icon": {
+    "title": "icon search-bar",
+    "props": {
+      "blockClass": "desktop__search--icon",
+      "id": "hpa-search",
+      "size": 24,
+      "fullScreen": true
+    }
+  },
+  "modal-layout#desktop__modal--layout-search": {
+    "title": "modal layout search",
+    "children": [
+      "search-bar#desktop__header--searchbar"
+    ]
+  }
+}

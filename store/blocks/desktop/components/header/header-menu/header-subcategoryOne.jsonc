@@ -1,0 +1,197 @@
+{
+  "vtex.menu@2.x:submenu#sub__subcategoryOne--handbags": {
+    "title": "submenu container handbags subcategoryOne",
+    "children": [
+      "menu#menu__subcategoryOne--handbags"
+    ]
+  },
+  "menu#menu__subcategoryOne--handbags": {
+    "title": "submenu container handbags subcategoryOne",
+    "children": [
+      "menu-item#shopping",
+      "menu-item#baguette",
+      "menu-item#free__hands",
+      "menu-item#see__all"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__subcategoryOne--handbags"
+    }
+  },
+  "menu-item#shopping": {
+    "title": "submenu handbags SubcategoryOne shopping",
+    "props": {
+      "id": "menu-item shopping handbags",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item shopping",
+        "text": "Shopping"
+      }
+    }
+  },
+  "menu-item#baguette": {
+    "title": "submenu handbags SubcategoryOne baguette",
+    "props": {
+      "id": "menu-item baguette handbags",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item baguette",
+        "text": "Baguette"
+      }
+    }
+  },
+  "menu-item#free__hands": {
+    "title": "submenu handbags SubcategoryOne free hands",
+    "props": {
+      "blockClass": "free__hands",
+      "id": "menu-item free hands handbags",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item free hands",
+        "text": "Manos libres"
+      }
+    }
+  },
+  "menu-item#see__all": {
+    "title": "subsubmenu handbags SubcategoryOne see all",
+    "props": {
+      "blockClass": "see__all",
+      "id": "menu-item see__all handbags",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item free hands",
+        "text": "Ver todo >>"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#sub__subcategoryOne--accessories": {
+    "title": "menu accessories subcategoryOne",
+    "children": [
+      "menu#menu__subcategoryOne--accesories"
+    ]
+  },
+  "menu#menu__subcategoryOne--accesories": {
+    "title": "submenu container accesories subcategoryOne",
+    "children": [
+      "menu-item#wallets",
+      "menu-item#cosmetic__bags",
+      "menu-item#more__accessories",
+      "menu-item#see__all"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#wallets": {
+    "title": "submenu accessories SubcategoryOne wallets",
+    "props": {
+      "id": "menu-item accessories wallets ",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item wallets",
+        "text": "Billeteras"
+      }
+    }
+  },
+  "menu-item#cosmetic__bags": {
+    "title": "submenu accessories SubcategoryOne cosmetic bags",
+    "props": {
+      "id": "menu-item-cosmetic-bags-accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item cosmetic bags",
+        "text": "Cosmetiqueras"
+      }
+    }
+  },
+  "menu-item#more__accessories": {
+    "title": "submenu accessories SubcategoryOne",
+    "props": {
+      "id": "menu-item-more-accessories-SubcategoryOne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item more accessories",
+        "text": "Mas Accesorios"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:submenu#sub__subcategoryOne--credit": {
+    "title": "submenu container credits categoryOne",
+    "children": [
+      "menu-item#benefits",
+      "menu-item#pay__your--credit",
+      "menu-item#Request__your--Credit"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#benefits": {
+    "title": "Link submenu benefits categoryOne",
+    "props": {
+        "blockClass": "benefits",
+        "id": "menu-more-benefits-subcategoryTwo",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTile": "menu benefits",
+          "text": "Beneficios"
+        }
+    }
+  },
+  "menu-item#pay__your--credit": {
+    "title": "Link submenu pay your credit categoryOne",
+    "props": {
+        "blockClass": "pay__your--credit",
+        "id": "menu-pay-your-credits-subcategoryTwo",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTile": "menu pay your credit",
+          "text": "Paga tu crédito"
+        }
+    }
+  },
+  "menu-item#Request__your--Credit": {
+    "title": "Link submenu request your credit categoryOne",
+    "props": {
+        "blockClass": "Request__your--Credit",
+        "id": "menu-request-your-credits-subcategoryTwo",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTile": "menu request your credit",
+          "text": "Solicita tu crédito"
+        }
+    }
+  }
+}

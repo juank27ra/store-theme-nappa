@@ -1,24 +1,24 @@
 {
   "search-result-layout.desktop#desktop__home--search": {
-    "title": "desktop search result ",
+    "title": "desktop search result content",
     "children": [
       "flex-layout.row#desktop__home--results-row"
     ]
   },
   "flex-layout.row#desktop__home--results-row": {
-    "title": "search result ",
+    "title": "row search result ",
     "children": [
       "flex-layout.col#desktop__home--results-col"
     ]
   },
   "flex-layout.col#desktop__home--results-col": {
-    "title": "search result ",
+    "title": "col search result ",
     "children": [
       "search-content#desktop__search--content-col"
     ]
   },
   "search-content#desktop__search--content-col": {
-    "title": "container search and not-foun",
+    "title": "desktop container search and not-foun",
     "blocks": [ "gallery#desktop__minicart--content", "not-found"]
   },
   "gallery#desktop__minicart--content": {

@@ -1,5 +1,42 @@
 {
   "product-list-content-desktop": {
-    "title": ""
+    "title": "product list desktop",
+    "children": [
+      "flex-layout.row#desktop__ minicart--row"
+    ]
+  },
+  "flex-layout.row#desktop__ minicart--row": {
+    "title": "product list desktop row",
+    "children": [
+      "flex-layout.col#desktop__minicart--col-image",
+      "flex-layout.col#desktop__minicart--col-info",
+      "flex-layout.col#desktop__minicart--col-remuve"
+    ]
+  },
+  "flex-layout.col#desktop__minicart--col-image":{
+    "title": "minicart col image",
+    "children": [
+      "product-list-image"
+    ]
+  },
+  "flex-layout.col#desktop__minicart--col-info":{
+    "title": "minicart col info",
+    "children": [
+      "vtex.product-list:product-name",
+      "quantity-selector#minicart",
+      "price"
+    ]
+  },
+  "quantity-selector#minicart": {
+    "title": "quantity selector",
+    "props": {
+      "mode": "stepper"
+    }
+  },
+  "flex-layout.col#desktop__minicart--col-remuve": {
+    "title": "minicar col remuve",
+    "children": [
+      "remove-button"
+    ]
   }
 }

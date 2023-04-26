@@ -6,7 +6,7 @@
     ]
   },
   "flex-layout.row#desktop__footer--container": {
-    "title": " flex container footer",
+    "title": "flex container footer",
     "children": [
       "flex-layout.col#desktop__footer--container-col1",
       "flex-layout.col#desktop__footer--container-col2"
@@ -41,9 +41,9 @@
   },
 
   "flex-layout.row#desktop__departaments--footer": {
-  "title": "menu us container",
-  "children": [
-    "menu#desktop__nosotros"
+    "title": "menu us container",
+    "children": [
+      "menu#desktop__nosotros"
     ]
   },
   "menu#desktop__nosotros": {
@@ -414,7 +414,7 @@
   "image#desktop__industry--commerce": {
     "title": "image of industry and commerce",
     "props": {
-      "src": "assets/img/Home/footer/footer I&C.png",
+      "src": "assets/img/Home/footer/footer__T&C.png",
       "title": "industry and commerce",
       "blockClass": "desktop__industry--comerce"
     }

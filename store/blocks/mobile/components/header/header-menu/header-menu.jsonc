@@ -59,7 +59,7 @@
     "title": "logo en mobile megamenu",
     "props": {
       "blockClass": "mobile__header--logo-megamenu",
-      "url": "assets/img/Home/header/Logo-nappa.png",
+      "url": "assets/img/Home/header/header__logo-marca.png",
       "href": "/",
       "mobileWidth": 85,
       "mobileHeight": 70,

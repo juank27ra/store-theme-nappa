@@ -25,11 +25,12 @@
     ]
   },
   "icon#mobile__icon--searchbar": {
-    "title": "icon seacrch",
+    "title": "icon search-bar",
     "props": {
       "blockClass": "mobile__icon--searchbar",
       "id": "hpa-search",
-      "size": 40
+      "size": 40,
+      "fullScreen": true
     }
   },
   "modal-layout#mobile__modal--searchbar": {

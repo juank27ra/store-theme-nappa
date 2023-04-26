@@ -1,14 +1,14 @@
 
 {
   "header": {
-    "title": "Header",
+    "title": "Header global container",
     "blocks": [
         "header-layout.desktop#desktop__header--container",
         "header-layout.mobile#mobile__header--container"
     ]
   },
   "header.full": {
-    "title": "Header",
+    "title": "Header full container",
     "blocks": [
       "header-layout.desktop#desktop__header--container",
       "header-layout.mobile#mobile__header--container"

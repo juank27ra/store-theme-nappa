@@ -1,5 +1,6 @@
 {
   "footer": {
+    "title": "footer global content",
     "blocks": [
       "footer-layout.desktop",
       "footer-layout.mobile"

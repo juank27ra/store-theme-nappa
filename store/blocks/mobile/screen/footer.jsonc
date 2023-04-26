@@ -171,12 +171,12 @@
   //     "vtex.menu@2.x:submenu.accordion#menu__container--footer2"
   //   ]
   // },
-  "vtex.menu@2.x:submenu.accordion#menu__container--footer2": {
-    "title": " categoryTwo block customer service",
-    "children": [
-      "menu#container__submenu--menu-footer2"
-    ]
-  },
+  // "vtex.menu@2.x:submenu.accordion#menu__container--footer2": {
+  //   "title": " categoryTwo block customer service",
+  //   "children": [
+  //     "menu#container__submenu--menu-footer2"
+  //   ]
+  // },
   "menu#container__submenu--menu-footer2": {
     "title": " categoryTwo menu container",
     "children": [
@@ -256,7 +256,7 @@
     ]
   },
   "vtex.menu@2.x:submenu.accordion#menu__container--linksRapidos": {
-    "title": "categoryThree block quick links",
+    "title": "categoryThree submenu block quick links",
     "children": [
       "menu#container__submenu--menu-footer3"
     ]
@@ -343,28 +343,28 @@
   "flex-layout.col#mobile__container--categoryThree": {
     "title": "payments networks col",
     "children": [
-      "flex-layout.row#mobile__networks",
+      "flex-layout.row#mobile__social--networks",
       "flex-layout.row#mobile__container--payments-stores",
-      "flex-layout.row#industry__and--commerce",
-      "flex-layout.row#industry__and--commerce--text"
+      "flex-layout.row#mobile__industry--commerce",
+      "flex-layout.row#mobile__industry--commerce--text"
     ],
     "props": {
-      "blockClass": "payments__netwoks--stores"
+      "blockClass": "mobile__container--categoryThree"
     }
   },
-  "flex-layout.row#mobile__networks": {
+  "flex-layout.row#mobile__social--networks": {
     "title": "title row networks",
     "children": [
-      "social-networks#mobile__networks"
+      "social-networks#mobile__networks--container"
     ],
     "props": {
-      "blockClass": "mobile__networks"
+      "blockClass": "mobile__social--networks"
     }
   },
-  "social-networks#mobile__networks": {
-    "title": "social networks",
+  "social-networks#mobile__networks--container": {
+    "title": "social networks container",
     "props": {
-      "blockClass": "mobile__networks",
+      "blockClass": "mobile__networks--container",
       "socialNetworks": [
         {
           "url": "https://m.facebook.com/nappa.com.co",
@@ -399,7 +399,7 @@
     ]
   },
   "rich-text#mobile__methods--payments": {
-    "title": "text payments",
+    "title": "text mobile payments",
     "props": {
       "text": "Medios de pago",
       "textAlignment": "CENTER",
@@ -423,7 +423,7 @@
     }
   },
 
-  "flex-layout.row#industry__and--commerce": {
+  "flex-layout.row#mobile__industry--commerce": {
     "title": "row industry and commerce",
     "children": [
       "image#mobile__industry&commerce"
@@ -432,12 +432,12 @@
   "image#mobile__industry&commerce": {
     "title": "image of industry and commerce",
     "props": {
-      "src": "assets/img/Home/footer/footer I&C.png",
+      "src": "assets/img/Home/footer/footer__T&C.png",
       "title": "industry and commerce",
       "blockClass": "mobile__industry&commerce"
     }
   },
-  "flex-layout.row#industry__and--commerce--text": {
+  "flex-layout.row#mobile__industry--commerce--text": {
     "title": "text content industry and commerce",
     "children": [
       "rich-text#mobile__text--industry&commerce"

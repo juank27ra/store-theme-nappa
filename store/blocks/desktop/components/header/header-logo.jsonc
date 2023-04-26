@@ -3,7 +3,7 @@
     "title": "desktopo logo",
     "props": {
       "blockClass": "desktop__header--logo",
-      "url": "assets/img/Home/header/Logo-nappa.png",
+      "url": "assets/img/Home/header/header__logo-marca.png",
       "width": 210,
       "height": 110,
       "href": "/",

@@ -1,30 +1,30 @@
 {
-  "store.search": {
-    "title": "",
+  "store.search#store__search": {
+    "title": "store search",
     "blocks": [
       "search-result-layout"
     ]
   },
   "store.search#category": {
-    "title": "",
+    "title": "store search category",
     "blocks": [
       "search-result-layout"
     ]
   },
   "store.search#subcategory": {
-    "title": "",
+    "title": "store search subcategory",
     "blocks": [
       "search-result-layout"
     ]
   },
   "store.search#brand": {
-    "title": "",
+    "title": "store search brand",
     "blocks": [
       "search-result-layout"
     ]
   },
   "search-result-layout": {
-    "title": "",
+    "title": "search container",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -32,25 +32,25 @@
     ]
   },
   "search-result-layout.desktop": {
-    "title": "",
+    "title": "search desktop",
     "children": [
       "rich-text#desktop-response"
     ]
   },
   "search-result-layout.mobile": {
-    "title": "",
+    "title": "search mobile",
     "children": [
-      "rich-text#desktop-response"
+      "rich-text#mobile-response"
     ]
   },
   "rich-text#desktop-response": {
-    "title": "",
+    "title": "text search desktop",
     "props": {
       "text": "desktop search"
     }
   },
   "rich-text#mobile-response": {
-    "title": "",
+    "title": "text search mobile",
     "props": {
       "text": "mobile search"
     }
