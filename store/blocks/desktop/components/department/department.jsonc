@@ -1,15 +1,20 @@
 {
-
-  "search-result-layout.desktop#department": {
-    "title": "",
+  "search-result-layout.desktop#desktop__department": {
+    "title": "desktop department blocks",
     "children": [
-      "rich-text#desktop__department"
+      "flex-layout.row#desktop__department--breadcrumb"
     ]
   },
-  "rich-text#desktop__department": {
-    "title": "",
-    "props": {
-      "text": "desktop search"
-    }
+  "flex-layout.row#desktop__department--breadcrumb": {
+    "title": "desktop row department",
+    "children": [
+      "flex-layout.col#desktop__department--breadcrumb"
+    ]
+  },
+  "flex-layout.col#desktop__department--breadcrumb": {
+    "title": "col department breadcrumb",
+    "children": [
+      "breadcrumb.search"
+    ]
   }
 }

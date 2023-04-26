@@ -1,0 +1,50 @@
+{
+  "search-result-layout.mobile#mobile__department--blocks": {
+    "title": "mobile departmets blocks",
+    "children": [
+      "flex-layout.row#mobile__department--breadcrumb",
+      "flex-layout.row#mobile__department--result"
+    ]
+  },
+  "flex-layout.row#mobile__department--breadcrumb": {
+    "title": "mobile row department breadcrum",
+    "children": [
+      "flex-layout.col#mobile__department--breadcrumb"
+    ]
+  },
+  "flex-layout.col#mobile__department--breadcrumb": {
+    "title": "mobile col department breadcrumb",
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "flex-layout.row#mobile__department--result": {
+    "title": "row department container",
+    "children": [
+      "gallery-layout-switcher#mobile",
+      "search-content"
+    ]
+  },
+  "gallery-layout-switcher#mobile": {
+    "title": "gallery switcher mobile",
+    "children": [
+      "gallery-layout-option#switcher__column--one",
+      "gallery-layout-option#switcher__column--two"
+    ]
+  },
+  "gallery-layout-option#switcher__column--one":{
+    "title":"gallery switcher column one",
+    "props": {
+      "name": "gallery column one",
+      "blockClass": "switcher__column--one"
+    }
+  },
+  "gallery-layout-option#switcher__column--two":{
+    "title":"gallery switcher column two",
+    "props": {
+      "name": "gallery column twor",
+      "blockClass": "switcher__column--two"
+
+    }
+  }
+}

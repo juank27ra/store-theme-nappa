@@ -1,6 +1,6 @@
 {
   "search-result-layout.customQuery#home__search" : {
-    "title": "search result",
+    "title": "search result customQuery blocks",
     "props": {
       "querySchema": {
         "skusfilter": "ALL",

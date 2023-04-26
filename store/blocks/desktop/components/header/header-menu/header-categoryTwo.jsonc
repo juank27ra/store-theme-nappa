@@ -1,0 +1,109 @@
+{
+  "menu-item#the__usual--subcategoryTwo": {
+    "title": "menu-item the usual subcategoryTwo",
+    "props": {
+      "blockClass": "the__usual--subcategoryTwo",
+      "id": "menuitem-the-usual-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title the__usual",
+        "text": "LOS DE 100PRE"
+      }
+    }
+  },
+  "menu-item#backpacks__subcategoryTwo": {
+    "title": "menu-item  backpacks subcategoryTwo",
+    "props": {
+      "blockClass": "backpacks__subcategoryTwo",
+      "id": "menuitem-backpacks-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title backpacks",
+        "text": "MORRALES"
+      }
+    }
+  },
+  "menu-item#free__hands--subcategoryTwo": {
+    "title": "menu-item free-hands subcategoryTwo",
+    "props": {
+      "blockClass": "free__hands--subcategoryTwo",
+      "id": "menuitem-free-hands-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title free-hands",
+        "text": "MANOS LIBRES"
+      }
+    }
+  },
+  "menu-item#accessories__subcategoryTwo": {
+    "title": "menuitem accessories subcategoryTwo",
+    "props": {
+      "blockClass": "accessories__subcategoryTwo",
+      "id": "menuitem-accessories-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title accessories",
+        "text": "ACCESORIOS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#sub__subcategoryTwo--accessories"]
+  },
+  "menu-item#credit__subcategoryTwo": {
+    "title": "menuitem credit subcategoryTwo",
+    "props": {
+      "blockClass": "credit__subcategoryTwo",
+      "id": "menuitem-credit-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title credit",
+        "text": "CRÉDITO"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#sub__subcategoryTwo--credit"]
+  },
+  "menu-item#see__all--men-subcategoryTwo": {
+    "title": "menu-item see all men subcategoryTwo",
+    "props": {
+      "blockClass": "see__all--men-subcategoryTwo",
+      "id": "menuitem-see-all-men-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title see all men",
+        "text": "VER TODO HOMBRE"
+      }
+    }
+  },
+  "menu-item#men__sales--subcategoryTwo": {
+    "title": "menu-item men sales subcategoryTwo",
+    "props": {
+      "blockClass": "men__sales--subcategoryTwo",
+      "id": "menuitem-men-sales-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title men sales",
+        "text": "REBAJAS HOMBRE"
+      }
+    }
+  }
+}

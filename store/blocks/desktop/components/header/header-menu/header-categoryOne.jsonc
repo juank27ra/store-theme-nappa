@@ -1,0 +1,151 @@
+{
+  "menu-item#the__usual--subcategoryOne": {
+      "title": "menu-item the usual subcategoryOne",
+      "props": {
+        "blockClass": "the__usual--subcategoryOne",
+        "id": "menuitems-the-usual-subcategoryOne",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "size": 16,
+          "tagTile": "Big Title the usual",
+          "text": "LOS DE 100PRE"
+        }
+      }
+  },
+  "menu-item#backpacks__subcategoryOne":{
+    "title": "menu-item backpacks subcategoryOne",
+    "props": {
+      "blockClass": "backpacks__subcategoryOne",
+      "id": "menuitems-backpacks-subcategoryOne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "size": 16,
+        "tagTile": "Big Title backpacks",
+        "text": "MORRALES"
+      }
+    }
+  },
+  "menu-item#handbags__subcategoryOne": {
+    "title": "menu-item handbags subcategoryOne",
+    "props": {
+      "blockClass": "handbags__subcategoryOne",
+      "id": "menuitems-handbags-subcategoryOne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "size": 16,
+        "tagTile": "Big Title handbags",
+        "text": "BOLSOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#sub__subcategoryOne--handbags"
+    ]
+  },
+  "menu-item#free__hands--subcategoryOne": {
+    "title": "menu-item free-hands subcategoryOne",
+    "props": {
+      "blockClass": "free__hands--subcategoryOne",
+      "id": "menu-items-free-hands-subcategoryOne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "size": 16,
+        "tagTile": "Big Title free-hands",
+        "text": "MANOS LIBRES"
+      }
+    }
+  },
+  "menu-item#accessories__subcategoryOne": {
+    "title": "menu-item accessories subcategoryOne",
+    "props": {
+      "blockClass": "accessories__subcategoryOne",
+      "id": "menu-item-accessories-subcategoryOne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title accessories",
+        "text": "ACCESORIOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#sub__subcategoryOne--accessories"
+    ]
+  },
+
+  "menu-item#shoes__subcategoryOne": {
+    "title": "menu-item shoes subcategoryOne",
+    "props": {
+      "blockClass": "shoes__subcategoryOne",
+      "id": "menuitem-shoes-subcategoryOne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title shoes",
+        "text": "ZAPATOS"
+      }
+    }
+  },
+  "menu-item#credit__subcategoryOne": {
+    "title": "menu-item credit subcategoryOne",
+    "props": {
+      "blockClass": "credit__subcategoryOne",
+      "id": "menu-item-credit-subcategoryOne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title credit",
+        "text": "CRÉDITO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#sub__subcategoryOne--credit"
+    ]
+  },
+  "menu-item#see__all--women-subcategoryOne": {
+    "title": "menu-item see all women subcategoryOne",
+    "props": {
+      "blockClass": "see__all--women-subcategoryOne",
+      "id": "menuitem-see-all-women-subcategoryOne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title see all women",
+        "text": "VER TODO MUJER"
+      }
+    }
+  },
+  "menu-item#women__sales--subcategoryOne": {
+    "title": "menu-item women sales subcategoryOne",
+    "props": {
+      "blockClass": "women__sales--subcategoryOne",
+      "id": "menuitem-women-sales-subcategoryOne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title women sales",
+        "text": "REBAJAS MUJER"
+      }
+    }
+  }
+}

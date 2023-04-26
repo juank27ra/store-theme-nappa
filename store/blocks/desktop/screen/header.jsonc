@@ -9,13 +9,12 @@
     "title": "header row desktop",
     "children":[
       "logo#desktop__header--logo",
-      "menu#desktop__header--menu-categoriaUno",
-      "menu#desktop__header--menu-categoriaDos",
-      "link#desktop__header--link-rebajas",
+      "flex-layout.row#desktop__header--row-menu",
       "header-spacer",
 
-      "link#desktop__header--link-tiktok",
-      "search-bar#desktop__header--searchbar",
+      "flex-layout.row#desktop__header--row-tiktok",
+      // "menu#desktop__departments--tiktok",
+      "modal-trigger#desktop__modal--search-bar",
       "minicart.v2#desktop__header--minicart",
       "login#desktop__header--login"
     ]

@@ -1,0 +1,81 @@
+{
+  "vtex.menu@2.x:submenu#sub__subcategoryTwo--accessories": {
+    "title": "submenu container accesorios categoryTwo",
+    "children": [
+      "menu-item#wallets",
+      "menu-item#fanny__packs",
+      "menu-item#more__accessories",
+      "menu-item#see__all"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#wallets": {
+    "title": "submenu accessories subcategoryTwo wallets",
+    "props": {
+      "id": "menu-item accessories wallets ",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item wallets",
+        "text": "Billeteras"
+      }
+    }
+  },
+  "menu-item#fanny__packs": {
+    "title": "submenu accessories SubcategoryTwo fanny packs",
+    "props": {
+      "id": "menu-item-fanny-packs-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item fanny packs",
+        "text": "Riñoneras"
+      }
+    }
+  },
+  "menu-item#more__accessories": {
+    "title": "submenu accessories subcategoryTwo",
+    "props": {
+      "id": "menu-item-more-accessories-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item more accessories",
+        "text": "Mas Accesorios"
+      }
+    }
+  },
+  "menu-item#see__all": {
+    "title": "submenu see all subcategoryTwo",
+    "props": {
+      "id": "menu-item-more-see-all-subcategoryTwo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "menu-item see all",
+        "text": "Ver todo >>"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#sub__subcategoryTwo--credit": {
+    "title": "submenu container credits categoryTwo",
+    "children": [
+      "menu-item#benefits",
+      "menu-item#pay__your--credit",
+      "menu-item#Request__your--Credit"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}
