@@ -1,16 +1,21 @@
 .logoImage--mobile__header--logo {
-  width: 410;
+  height     : 14vw;
+  color      : black;
+  margin-top : 24px;
+  width      : 280px;
+  margin-left: -14px;
+}
+
+.logoContainer--mobile__header--logo {
+  width : 410;
   height: 220;
 }
-.logoContainer--mobile__header--logo{
-  width: 410;
-  height: 220;
-}
+
 .logoImage--mobile__header--logo-megamenu {
-  width: 210;
+  width : 210;
   height: 80;
 }
-/* .logolink--mobile__header--logo-megamenu {
-flex-direction: row;
-flex-grow: unset;
-} */
+
+.logoImage--mobile__header--logo-megamenu {
+  margin-left: -23vw;
+}

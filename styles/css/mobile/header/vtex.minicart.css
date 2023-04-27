@@ -1,0 +1,13 @@
+.minicartQuantityBadgeDefault {
+  background-color   : black;
+  z-index            : 9;
+  /* left            : -14px;
+  font-weight        : 600;
+  font-size          : 10px; */
+  width              : 11px;
+  height             : 11px;
+}
+
+.minicartWrapperContainer {
+  margin-left: -10px;
+}

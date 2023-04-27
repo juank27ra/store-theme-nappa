@@ -1,3 +1,7 @@
 .minicartQuantityBadge--desktop__header--minicart {
   background-color: black;
 }
+
+.minicartIconContainer--desktop__header--minicart {
+  margin-top: 4px;
+}

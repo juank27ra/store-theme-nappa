@@ -12,10 +12,19 @@
   "flex-layout.row#desktop__icon--search": {
     "title": "desktop__row--icon-search",
     "children": [
-      "icon#desktop__search--icon"
+      "flex-layout.col#desktop__icon--search-col"
     ],
     "props": {
       "blockClass": "desktop__icon--search"
+    }
+  },
+  "flex-layout.col#desktop__icon--search-col": {
+    "title": "icon search col",
+    "children": [
+      "icon#desktop__search--icon"
+    ],
+    "props": {
+      "blockClass": "desktop__icon--search-col"
     }
   },
   "icon#desktop__search--icon": {

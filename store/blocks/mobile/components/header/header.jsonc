@@ -3,7 +3,10 @@
     "title": "mobile header container",
     "children": [
       "header-row#mobile__header--row"
-    ]
+    ],
+    "props": {
+      "blockClass": "mobile__header--container"
+    }
   },
   "header-row#mobile__header--row": {
     "title": "mobile__header--row",
@@ -11,18 +14,23 @@
       "drawer#mobile__header--menu",
       "logo#mobile__header--logo",
       "header-spacer",
-
-      "modal-trigger#mobile__modal--searchbar",
+      "modal-trigger#mobile__modal--container-searchbar",
       "minicart.v2#mobile__header--minicart",
       "login#mobile__header--login"
-    ]
+    ],
+    "props": {
+      "blockClass": "mobile__header--row"
+    }
   },
-  "modal-trigger#mobile__modal--searchbar": {
+  "modal-trigger#mobile__modal--container-searchbar": {
     "title": "mobile modal ",
     "children": [
       "flex-layout.row#mobile__icon--search",
       "modal-layout#mobile__modal--searchbar"
-    ]
+    ],
+    "props": {
+      "blockClass": "mobile__modal--container-searchbar"
+    }
   },
     "flex-layout.row#mobile__icon--search": {
     "title": "mobile__row--icon-search",
@@ -46,7 +54,10 @@
     "title": "mobile modal-layout",
     "children": [
       "search-bar#mobile__header--searchbar"
-    ]
+    ],
+    "props": {
+      "blockClass": "mobile__modal--searchbar"
+    }
   }
 }
 

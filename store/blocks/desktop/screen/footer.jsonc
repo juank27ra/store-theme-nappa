@@ -38,9 +38,9 @@
     "title": "footer col rigth",
     "children": [
       "flex-layout.row#desktop__departaments--footer",
-      "flex-layout.row#payments__netwoks--stores",
-      "flex-layout.row#industry__and--commerce",
-      "flex-layout.row#industry__and--commerce--text"
+      "flex-layout.row#desktop__payments--netwoks-stores",
+      "flex-layout.row#desktop__industry--commerce",
+      "flex-layout.row#desktop__industry--commerce--text"
     ],
     "props": {
       "blockClass": "desktop__footer--container-col2"
@@ -50,27 +50,27 @@
   "flex-layout.row#desktop__departaments--footer": {
     "title": "menu us container",
     "children": [
-      "menu#desktop__nosotros"
+      "menu#desktop__us"
     ],
     "props": {
       "blockClass": "desktop__departaments--footer"
     }
   },
-  "menu#desktop__nosotros": {
+  "menu#desktop__us": {
     "title": "menu us departamentsOne",
     "children": [
-      "menu-item#departamentsOne__container--nosotros",
-      "menu-item#departamentsTwo__container--servicioCliente",
-      "menu-item#departamentsThree__container--linksRapidos"
+      "menu-item#desktop__departamentOne--container-us",
+      "menu-item#desktop__departamentTwo--container-costumer-service",
+      "menu-item#desktop__departamentThree--container-quick-links"
     ],
     "props": {
-      "blockClass": "desktop__nosotros"
+      "blockClass": "desktop__us"
     }
   },
-  "menu-item#departamentsOne__container--nosotros": {
+  "menu-item#desktop__departamentOne--container-us": {
     "title": "departmentOne container us",
     "props": {
-      "blockClass": "departamentsOne__container--nosotros",
+      "blockClass": "desktop__departamentOne--container-us",
       "id": "departmentOne-container-us",
       "type": "custom",
       "itemProps": {
@@ -86,29 +86,29 @@
   "vtex.menu@2.x:submenu.accordion#menu__container--departmentOne": {
     "title": "categoryOne block us",
     "children": [
-      "menu#container__categoryOne"
+      "menu#desktop__container--categoryOne"
     ],
     "props": {
       "blockClass": "menu__container--departmentOne"
     }
   },
-  "menu#container__categoryOne": {
+  "menu#desktop__container--categoryOne": {
     "title": "categoryOne submenu container",
     "children": [
-      "menu-item#quienes__somos--subcategoryOne",
-      "menu-item#programa__de--fidelización-subcategoryOne",
-      "menu-item#crédito__leathers--Lovers-subcategoryOne",
-      "menu-item#crece__con--nosotros-subcategoryOne"
+      "menu-item#desktop__subcategoryOne--about-us",
+      "menu-item#desktop__subcategoryOne--fidelazation-program",
+      "menu-item#desktop__subcategoryOne--credit-leathers-Lovers",
+      "menu-item#desktop__subcategoryOne--grow-with-us"
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "container__submenu--departmentOne"
+      "blockClass": "desktop__container--categoryOne"
     }
   },
-  "menu-item#quienes__somos--subcategoryOne": {
+  "menu-item#desktop__subcategoryOne--about-us": {
       "title": "subcategoryOne about us",
       "props": {
-        "blockClass": "quienes__somos--subcategoryOne",
+        "blockClass": "desktop__subcategoryOne--about-us",
         "id": "subcategoryOne-about-us",
         "type": "custom",
         "itemProps": {
@@ -121,10 +121,10 @@
         }
       }
   },
-  "menu-item#programa__de--fidelización-subcategoryOne": {
+  "menu-item#desktop__subcategoryOne--fidelazation-program": {
     "title": "subcategoryOne fidelazation program",
     "props": {
-      "blockClass": "programa__de--fidelización-subcategoryOne",
+      "blockClass": "desktop__subcategoryOne--fidelazation-program",
       "id": "subcategoryOne-fidelazation-program",
       "type": "custom",
       "itemProps": {
@@ -137,10 +137,10 @@
       }
     }
   },
-  "menu-item#crédito__leathers--Lovers-subcategoryOne": {
+  "menu-item#desktop__subcategoryOne--credit-leathers-Lovers": {
     "title": "subcategoryOne credit leathers lovers",
     "props": {
-      "blockClass": "crédito__leathers--Lovers-subcategoryOne",
+      "blockClass": "desktop__subcategoryOne--credit-leathers-Lovers",
       "id": "subcategoryOne-credit-leathers-lovers",
       "type": "custom",
       "itemProps": {
@@ -153,10 +153,10 @@
       }
     }
   },
-  "menu-item#crece__con--nosotros-subcategoryOne": {
+  "menu-item#desktop__subcategoryOne--grow-with-us": {
     "title": "subcategoryOne grow with us",
     "props": {
-      "blockClass": "crece__con--nosotros-subcategoryOne",
+      "blockClass": "desktop__subcategoryOne--grow-with-us",
       "id": "subcategoryOne-grow-with-us",
       "type": "custom",
       "itemProps": {
@@ -170,10 +170,10 @@
     }
   },
 
-  "menu-item#departamentsTwo__container--servicioCliente": {
+  "menu-item#desktop__departamentTwo--container-costumer-service": {
     "title": "departmetTwo customer service",
     "props": {
-      "blockClass": "departamentsTwo__container--servicioCliente",
+      "blockClass": "desktop__departamentTwo--container-costumer-service",
       "id": "departmetTwo-customer-service",
       "type": "custom",
       "itemProps": {
@@ -189,28 +189,28 @@
   "vtex.menu@2.x:submenu.accordion#menu__container--footer2": {
     "title": " categoryTwo block customer service",
     "children": [
-      "menu#container__submenu--menu-footer2"
+      "menu#desktop__container--submenu-footer2"
     ],
     "props": {
       "blockClass": "menu__container--footer2"
     }
   },
-  "menu#container__submenu--menu-footer2": {
+  "menu#desktop__container--submenu-footer2": {
     "title": " categoryTwo menu container",
     "children": [
-      "menu-item#contáctenos__subcategoryTwo",
-      "menu-item#metodos__tiempos--entrega-subcategoryTwo",
-      "menu-item#terminos__condiciones--subcategoryTwo"
+      "menu-item#desktop__contact--us-subcategoryTwo",
+      "menu-item#desktop__time--methods-subcategoryTwo",
+      "menu-item#desktop__terms--Conditions-subcategoryTwo"
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "container__submenu--menu-footer2"
+      "blockClass": "desktop__container--submenu-footer2"
     }
   },
-  "menu-item#contáctenos__subcategoryTwo": {
+  "menu-item#desktop__contact--us-subcategoryTwo": {
     "title": "subcategoryTwo contact",
     "props": {
-      "blockClass": "contáctenos__subcategoryTwo",
+      "blockClass": "desktop__contact--us-subcategoryTwo",
       "id": "subcategoryTwo-contact",
       "type": "custom",
       "itemProps": {
@@ -223,10 +223,10 @@
       }
     }
   },
-  "menu-item#metodos__tiempos--entrega-subcategoryTwo": {
+  "menu-item#desktop__time--methods-subcategoryTwo": {
     "title": "subcategoryTwo methods and times",
     "props": {
-      "blockClass": "metodos__tiempos--entrega-subcategoryTwo",
+      "blockClass": "desktop__time--methods-subcategoryTwo",
       "id": "subcategoryTwo-methods-and-times",
       "type": "custom",
       "itemProps": {
@@ -239,10 +239,10 @@
       }
     }
   },
-  "menu-item#terminos__condiciones--subcategoryTwo": {
+  "menu-item#desktop__terms--Conditions-subcategoryTwo": {
     "title": "subcategoryTwo T&C",
     "props": {
-      "blockClass": "terminos__condiciones--subcategoryTwo",
+      "blockClass": "desktop__terms--Conditions-subcategoryTwo",
       "id": "subcategoryTwo-T&C",
       "type": "custom",
       "itemProps": {
@@ -256,10 +256,10 @@
     }
   },
 
-  "menu-item#departamentsThree__container--linksRapidos": {
+  "menu-item#desktop__departamentThree--container-quick-links": {
     "title": "departmentThree container quick links",
     "props": {
-      "blockClass": "departamentsThree__container--linksRapidos",
+      "blockClass": "desktop__departamentThree--container-quick-links",
       "id": "departmentThree-container-quick links",
       "type": "custom",
       "itemProps": {
@@ -270,34 +270,34 @@
         "text": "LINKS RAPIDOS"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#menu__container--linksRapidos"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#desktop__menu--container-quicklinks"]
   },
-  "vtex.menu@2.x:submenu.accordion#menu__container--linksRapidos": {
+  "vtex.menu@2.x:submenu.accordion#desktop__menu--container-quicklinks": {
     "title": "categoryThree block quick links",
     "children": [
-      "menu#container__submenu--menu-footer3"
+      "menu#desktop__container--submenu-footer3"
     ],
     "props": {
-      "blockClass": "menu__container--linksRapidos"
+      "blockClass": "desktop__menu--container-quicklinks"
     }
   },
-  "menu#container__submenu--menu-footer3": {
+  "menu#desktop__container--submenu-footer3": {
     "title": "subcategoryThree submenu container ",
     "children": [
-      "menu-item#como__comprar--subcategoryThree",
-      "menu-item#preguntas__frecuentes--subcategoryThree",
-      "menu-item#nuestras__politicas--subcategoryThree",
-      "menu-item#paga__tu--credito--subcategoryThree"
+      "menu-item#desktop__how--buy-subcategoryThree",
+      "menu-item#desktop__frequent--questions-subcategoryThree",
+      "menu-item#desktop__our--policies-subcategoryThree",
+      "menu-item#desktop__pay--credit-subcategoryThree"
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "container__submenu--menu-footer3"
+      "blockClass": "desktop__container--submenu-footer3"
     }
   },
-  "menu-item#como__comprar--subcategoryThree": {
+  "menu-item#desktop__how--buy-subcategoryThree": {
     "title": "subcategoryThree how to buy",
     "props": {
-      "blockClass": "como__comprar--subcategoryThree",
+      "blockClass": "desktop__how--buy-subcategoryThree",
       "id": "subcategoryThree-how-to-buy",
       "type": "custom",
       "itemProps": {
@@ -309,10 +309,10 @@
       }
     }
   },
-  "menu-item#preguntas__frecuentes--subcategoryThree": {
+  "menu-item#desktop__frequent--questions-subcategoryThree": {
     "title": "subcategoryThree frequent questions",
     "props": {
-      "blockClass": "preguntas__frecuentes--subcategoryThree",
+      "blockClass": "desktop__frequent--questions-subcategoryThree",
       "id": "subcategoryThree-frequent-questions",
       "type": "custom",
       "itemProps": {
@@ -324,10 +324,10 @@
       }
     }
   },
-  "menu-item#nuestras__politicas--subcategoryThree": {
+  "menu-item#desktop__our--policies-subcategoryThree": {
     "title": "subcategoryThree our policies",
     "props": {
-      "blockClass": "nuestras__politicas--subcategoryThree",
+      "blockClass": "desktop__our--policies-subcategoryThree",
       "id": "subcategoryThree-our-policies ",
       "type": "custom",
       "itemProps": {
@@ -339,10 +339,10 @@
       }
     }
   },
-  "menu-item#paga__tu--credito--subcategoryThree": {
+  "menu-item#desktop__pay--credit-subcategoryThree": {
     "title": "subcategoryThree pay your credit",
     "props": {
-      "blockClass": "paga__tu--credito--subcategoryThree",
+      "blockClass": "desktop__pay--credit-subcategoryThree",
       "id": "subcategoryThree-pay-your-credit",
       "type": "custom",
       "itemProps": {
@@ -355,49 +355,49 @@
     }
   },
 
-  "flex-layout.row#payments__netwoks--stores": {
+  "flex-layout.row#desktop__payments--netwoks-stores": {
     "title": "payments networks row",
     "children": [
-      "flex-layout.col#desktop__methods--payments",
-      "flex-layout.col#desktop__networks",
-      "flex-layout.col#desktop__stores"
+      "flex-layout.col#desktop__row--methods-payments",
+      "flex-layout.col#desktop__row--networks",
+      "flex-layout.col#desktop__row--stores"
     ],
     "props": {
-      "blockClass": "payments__netwoks--stores"
+      "blockClass": "desktop__payments--netwoks-stores"
     }
   },
-  "flex-layout.col#desktop__methods--payments": {
+  "flex-layout.col#desktop__row--methods-payments": {
     "title": "title col payments",
     "children": [
       // "accepted-payment-methods",
-      "rich-text#desktop__methods--payments"
+      "rich-text#desktop__col--methods-payments"
     ],
     "props": {
-      "blockClass": "desktop__methods--payments"
+      "blockClass": "desktop__row--methods-payments"
     }
   },
-  "rich-text#desktop__methods--payments": {
+  "rich-text#desktop__col--methods-payments": {
     "title": "text payments",
     "props": {
       "text": "Medios de pago",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "desktop__methods--payments"
+      "blockClass": "desktop__col--methods-payments"
     }
   },
-  "flex-layout.col#desktop__networks": {
+  "flex-layout.col#desktop__row--networks": {
     "title": "title col networks",
     "children": [
-      "social-networks#desktop__networks"
+      "social-networks#desktop__col--networks"
     ],
     "props": {
-      "blockClass": "desktop__networks"
+      "blockClass": "desktop__row--networks"
     }
   },
-  "social-networks#desktop__networks": {
+  "social-networks#desktop__col--networks": {
     "title": "social networks",
     "props": {
-      "blockClass": "desktop__networks",
+      "blockClass": "desktop__col--networks",
       "socialNetworks": [
         {
           "url": "https://m.facebook.com/nappa.com.co",
@@ -414,46 +414,49 @@
       ]
     }
   },
-  "flex-layout.col#desktop__stores": {
+  "flex-layout.col#desktop__row--stores": {
     "title": "tile col stores",
     "children": [
-      "rich-text#desktop__btn--stores"
+      "rich-text#desktop__btn--col-stores"
     ],
     "props": {
-      "blockClass": "desktop__stores"
+      "blockClass": "desktop__row--stores"
     }
   },
-  "rich-text#desktop__btn--stores": {
+  "rich-text#desktop__btn--col-stores": {
     "title": "btn stores",
     "props": {
       "text": "Tiendas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "desktop__btn--stores"
+      "blockClass": "desktop__btn--col-stores"
     }
   },
 
-  "flex-layout.row#industry__and--commerce": {
+  "flex-layout.row#desktop__industry--commerce": {
     "title": "row industry and commerce",
     "children": [
-      "image#desktop__industry--commerce"
+      "image#desktop__image--industry-commerce"
     ],
     "props": {
-      "blockClass": "industry__and--commerce"
+      "blockClass": "desktop__industry--commerce"
     }
   },
-  "image#desktop__industry--commerce": {
+  "image#desktop__image--industry-commerce": {
     "title": "image of industry and commerce",
     "props": {
       "src": "assets/img/Home/footer/footer__T&C.png",
       "title": "industry and commerce",
-      "blockClass": "desktop__industry--comerce"
+      "blockClass": "desktop__image--industry-commerce"
     }
   },
 
-  "flex-layout.row#industry__and--commerce--text": {
+  "flex-layout.row#desktop__industry--commerce--text": {
     "title": "text content industry and commerce",
-    "children": ["rich-text#desktop__text--industry&commerce"]
+    "children": ["rich-text#desktop__text--industry&commerce"],
+    "props": {
+      "blockClass": "desktop__industry--commerce--text"
+    }
   },
   "rich-text#desktop__text--industry&commerce": {
     "title": "text industry and commerce",

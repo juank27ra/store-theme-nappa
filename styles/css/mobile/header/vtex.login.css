@@ -1,9 +1,16 @@
 .profileIcon {
   height: 48px;
-  width: 24px;
+  width : 24px;
 
 }
+
 .container {
-  height: 48px;
-  width: 48px;
+  height     : 48px;
+  width      : 48px;
+  margin-left: -10px;
+}
+
+.profileIcon--mobile__header--login {
+  height: 40px;
+  width : 42px;
 }

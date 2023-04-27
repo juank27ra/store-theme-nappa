@@ -14,7 +14,8 @@
   "icon-cart#mobile__minicart--icon": {
     "title": "mobile props icon minicart ",
     "props": {
-      "size": 44
+      "size": 44,
+      "blockClass": "mobile__minicart--icon"
     }
   }
 }

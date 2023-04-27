@@ -7,3 +7,11 @@
 .flexColChild--desktop__header--col-search {
   cursor: pointer;
 }
+
+.flexColChild--desktop__header--col-search {
+  margin-top: 12px;
+}
+
+.flexColChild--desktop__header--col-login:hover {
+  background-color: white;
+}

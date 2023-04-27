@@ -3,6 +3,7 @@
   font-family: 'Poppins-Regular';
   font-weight: 500;
   color      : black;
+  margin-left: -0.8vw;
 }
 
 .styledLinkContent--header__menu--container-departmentOne:hover {
@@ -119,6 +120,7 @@
 
 .styledLinkContent--women__sales--subcategoryOne,
 .styledLinkContent--men__sales--subcategoryTwo {
+  font-weight: 600;
   font-size  : larger;
   color      : #5677af;
   font-family: 'Poppins-Regular';
@@ -156,5 +158,14 @@
 .styledLinkContent--see__all--men-subcategoryTwo:hover,
 .styledLinkContent--women__sales--subcategoryOne:hover,
 .styledLinkContent--men__sales--subcategoryTwo:hover {
-  font-weight: bold;
+  font-family: 'Poppins-Bold';
+}
+
+.styledLinkContent--desktop__menu--tiktok {
+  margin-top: 22px;
+}
+
+.flexRowContent--desktop__header--row-icons {
+  align-items: center;
+  gap        : 4px;
 }

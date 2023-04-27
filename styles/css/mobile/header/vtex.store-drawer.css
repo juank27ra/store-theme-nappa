@@ -1,16 +1,25 @@
-.drawerHeader{
+.drawerHeader {
   flex: auto;
 }
 
 .menuIcon {
-  height: 30;
-  width: 30;
+  width     : 44px;
+  height    : 34px;
+  margin-top: 10px;
+  color     : black;
 }
 
 .claseIcon {
-  margin-left: 10px;
+  margin-left: -25vw;
+  height     : 26px;
 }
 
 .opened {
-  max-width: 100%;
+  width    : 70rem;
+  max-width: 100;
+
+}
+
+.closeIconButton {
+  margin-left: -7rem;
 }

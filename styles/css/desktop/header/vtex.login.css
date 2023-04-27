@@ -9,3 +9,7 @@
   height: 48px;
   width : 48px;
 }
+
+.profileIcon--desktop__header--login {
+  margin-left: -16px;
+}

@@ -2,19 +2,26 @@
   "drawer#mobile__header--menu": {
     "title": "drawer mega menu",
     "children": ["mega-menu#mobile__header--container"],
-    "blocks": ["drawer-header#mobile__header--container"]
+    "blocks": ["drawer-header#mobile__header--container-block"],
+    "props": {
+      "blockClass": "mobile__header--menu"
+    }
   },
   "mega-menu#mobile__header--container": {
     "title": "departments",
     "props": {
+      "blockClass": "mobile__header--container",
       "defaultDepartmentActive": "MUJER",
       "orientation": "horizontal",
       "openOnly": "horizontal"
     }
   },
-  "drawer-header#mobile__header--container": {
+  "drawer-header#mobile__header--container-block": {
     "title": "drawer header mega menu",
-    "children": ["flex-layout.row#header__container--drawer-header"]
+    "children": ["flex-layout.row#header__container--drawer-header"],
+    "props": {
+      "blockClass": "mobile__header--container-block"
+    }
   },
   "flex-layout.row#header__container--drawer-header": {
     "title": "flex-layout drawer header",
@@ -36,6 +43,7 @@
     "title": "flex-layout drawer btn close",
     "children": ["drawer-close-button"],
     "props": {
+      "blockClass": "drawer-close-butto",
       "verticalAlign": "middle",
       "horizontalAlign": "left"
     }

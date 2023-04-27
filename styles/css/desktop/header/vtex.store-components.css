@@ -3,3 +3,9 @@
   width     : 10.5vw;
   margin-top: 10px;
 }
+
+.searchBarContainer {
+  background: transparent;
+  border    : none;
+  width     : 25vw;
+}
