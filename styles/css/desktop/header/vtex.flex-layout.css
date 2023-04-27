@@ -1,0 +1,9 @@
+.flexRowContent--desktop__header--row-icons {
+  gap        : 0.5px;
+  display    : flex;
+  align-items: center;
+}
+
+.flexColChild--desktop__header--col-search {
+  cursor: pointer;
+}

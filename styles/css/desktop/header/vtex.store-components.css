@@ -1,6 +1,5 @@
-.container {
+.logoImage--desktop__header--logo {
+  height    : 85px;
+  width     : 10.5vw;
   margin-top: 10px;
-}
-.logoImage {
-  margin-top: 14px;
 }

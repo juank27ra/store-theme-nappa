@@ -8,12 +8,14 @@
       "menu-item#see__all"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "sub__subcategoryTwo--accessories"
     }
   },
   "menu-item#wallets": {
     "title": "submenu accessories subcategoryTwo wallets",
     "props": {
+      "blockClass": "wallets",
       "id": "menu-item accessories wallets ",
       "type": "custom",
       "itemProps": {
@@ -28,6 +30,7 @@
   "menu-item#fanny__packs": {
     "title": "submenu accessories SubcategoryTwo fanny packs",
     "props": {
+      "blockClass": "fanny__packs",
       "id": "menu-item-fanny-packs-subcategoryTwo",
       "type": "custom",
       "itemProps": {
@@ -42,6 +45,7 @@
   "menu-item#more__accessories": {
     "title": "submenu accessories subcategoryTwo",
     "props": {
+      "blockClass": "more__accessories",
       "id": "menu-item-more-accessories-subcategoryTwo",
       "type": "custom",
       "itemProps": {
@@ -56,6 +60,7 @@
   "menu-item#see__all": {
     "title": "submenu see all subcategoryTwo",
     "props": {
+      "blockClass": "see__all",
       "id": "menu-item-more-see-all-subcategoryTwo",
       "type": "custom",
       "itemProps": {
@@ -72,10 +77,11 @@
     "children": [
       "menu-item#benefits",
       "menu-item#pay__your--credit",
-      "menu-item#Request__your--Credit"
+      "menu-item#request__your--Credit"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "sub__subcategoryTwo--credit"
     }
   }
 }

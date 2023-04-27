@@ -3,7 +3,10 @@
     "title": "product list desktop",
     "children": [
       "flex-layout.row#desktop__ minicart--row"
-    ]
+    ],
+    "props": {
+      "blockClass": ""
+    }
   },
   "flex-layout.row#desktop__ minicart--row": {
     "title": "product list desktop row",
@@ -11,25 +14,35 @@
       "flex-layout.col#desktop__minicart--col-image",
       "flex-layout.col#desktop__minicart--col-info",
       "flex-layout.col#desktop__minicart--col-remuve"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__ minicart--row"
+    }
   },
   "flex-layout.col#desktop__minicart--col-image":{
     "title": "minicart col image",
     "children": [
       "product-list-image"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__minicart--col-image"
+    }
   },
   "flex-layout.col#desktop__minicart--col-info":{
     "title": "minicart col info",
     "children": [
       "vtex.product-list:product-name",
-      "quantity-selector#minicart",
+      "quantity-selector#minicart__quantity--selector",
       "price"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__minicart--col-info"
+    }
   },
-  "quantity-selector#minicart": {
+  "quantity-selector#minicart__quantity--selector": {
     "title": "quantity selector",
     "props": {
+      "blockClass": "minicart__quantity--selector",
       "mode": "stepper"
     }
   },
@@ -37,6 +50,9 @@
     "title": "minicar col remuve",
     "children": [
       "remove-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__minicart--col-remuve"
+    }
   }
 }

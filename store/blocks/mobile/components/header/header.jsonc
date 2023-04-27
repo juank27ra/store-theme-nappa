@@ -20,9 +20,18 @@
   "modal-trigger#mobile__modal--searchbar": {
     "title": "mobile modal ",
     "children": [
-      "icon#mobile__icon--searchbar",
+      "flex-layout.row#mobile__icon--search",
       "modal-layout#mobile__modal--searchbar"
     ]
+  },
+    "flex-layout.row#mobile__icon--search": {
+    "title": "mobile__row--icon-search",
+    "children": [
+      "icon#mobile__icon--searchbar"
+    ],
+    "props": {
+      "blockClass": "mobile__icon--search"
+    }
   },
   "icon#mobile__icon--searchbar": {
     "title": "icon search-bar",

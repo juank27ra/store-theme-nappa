@@ -10,17 +10,24 @@
     "children": [
       "flex-layout.col#desktop__footer--container-col1",
       "flex-layout.col#desktop__footer--container-col2"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__footer--container"
+    }
   },
   "flex-layout.col#desktop__footer--container-col1": {
     "title": "footer col left suscriber ",
     "children": [
       "rich-text#desktop__subscriber"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__footer--container-col1"
+    }
   },
   "rich-text#desktop__subscriber": {
     "title": "richtex subscriber",
     "props": {
+      "blockClass": "desktop__subscriber",
       "text": "Suscríbete a nuestra Newslatter",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -44,7 +51,10 @@
     "title": "menu us container",
     "children": [
       "menu#desktop__nosotros"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__departaments--footer"
+    }
   },
   "menu#desktop__nosotros": {
     "title": "menu us departamentsOne",
@@ -52,7 +62,10 @@
       "menu-item#departamentsOne__container--nosotros",
       "menu-item#departamentsTwo__container--servicioCliente",
       "menu-item#departamentsThree__container--linksRapidos"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__nosotros"
+    }
   },
   "menu-item#departamentsOne__container--nosotros": {
     "title": "departmentOne container us",
@@ -74,7 +87,10 @@
     "title": "categoryOne block us",
     "children": [
       "menu#container__categoryOne"
-    ]
+    ],
+    "props": {
+      "blockClass": "menu__container--departmentOne"
+    }
   },
   "menu#container__categoryOne": {
     "title": "categoryOne submenu container",
@@ -174,7 +190,10 @@
     "title": " categoryTwo block customer service",
     "children": [
       "menu#container__submenu--menu-footer2"
-    ]
+    ],
+    "props": {
+      "blockClass": "menu__container--footer2"
+    }
   },
   "menu#container__submenu--menu-footer2": {
     "title": " categoryTwo menu container",
@@ -257,7 +276,10 @@
     "title": "categoryThree block quick links",
     "children": [
       "menu#container__submenu--menu-footer3"
-    ]
+    ],
+    "props": {
+      "blockClass": "menu__container--linksRapidos"
+    }
   },
   "menu#container__submenu--menu-footer3": {
     "title": "subcategoryThree submenu container ",
@@ -336,7 +358,7 @@
   "flex-layout.row#payments__netwoks--stores": {
     "title": "payments networks row",
     "children": [
-      "flex-layout.col#methods__payments",
+      "flex-layout.col#desktop__methods--payments",
       "flex-layout.col#desktop__networks",
       "flex-layout.col#desktop__stores"
     ],
@@ -344,12 +366,15 @@
       "blockClass": "payments__netwoks--stores"
     }
   },
-  "flex-layout.col#methods__payments": {
+  "flex-layout.col#desktop__methods--payments": {
     "title": "title col payments",
     "children": [
       // "accepted-payment-methods",
       "rich-text#desktop__methods--payments"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__methods--payments"
+    }
   },
   "rich-text#desktop__methods--payments": {
     "title": "text payments",
@@ -393,7 +418,10 @@
     "title": "tile col stores",
     "children": [
       "rich-text#desktop__btn--stores"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__stores"
+    }
   },
   "rich-text#desktop__btn--stores": {
     "title": "btn stores",
@@ -409,7 +437,10 @@
     "title": "row industry and commerce",
     "children": [
       "image#desktop__industry--commerce"
-    ]
+    ],
+    "props": {
+      "blockClass": "industry__and--commerce"
+    }
   },
   "image#desktop__industry--commerce": {
     "title": "image of industry and commerce",

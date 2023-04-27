@@ -2,6 +2,7 @@
   "search-bar#desktop__header--searchbar": {
     "title": "Search-bar de desktop",
     "props": {
+      "blockClass": "desktop__header--searchbar",
       "autocompleteAlignment": "right",
       "displayMode": "clear-button",
       "hasIconLeft": true,

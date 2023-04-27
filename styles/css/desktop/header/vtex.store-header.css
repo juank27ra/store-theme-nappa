@@ -1,0 +1,14 @@
+.headerRowContainer {
+  height: 100px;
+}
+
+.headerRowContentContainer {
+  margin-left : 16px;
+  position    : relative;
+  max-width   : -webkit-fill-available;
+  margin-right: 2rem;
+}
+
+.headerRowContainer:hover {
+  background-color: #fff;
+}

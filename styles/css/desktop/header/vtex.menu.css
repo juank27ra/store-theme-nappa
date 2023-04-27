@@ -1,0 +1,160 @@
+.styledLinkContent--header__menu--container-departmentOne {
+  font-size  : larger;
+  font-family: 'Poppins-Regular';
+  font-weight: 500;
+  color      : black;
+}
+
+.styledLinkContent--header__menu--container-departmentOne:hover {
+  Border-bottom: 2px #5677af solid;
+}
+
+.styledLinkContent--header__menu--container-departmentTwo {
+  font-size  : larger;
+  font-family: 'Poppins-Regular';
+  font-weight: 500;
+  color      : black;
+}
+
+.styledLinkContent--header__menu--container-departmentTwo:hover {
+  Border-bottom: 2px #5677af solid;
+}
+
+.styledLinkContent--menu__sales {
+  font-size  : larger;
+  font-family: 'Poppins-Bold';
+  color      : black;
+  font-weight: 900;
+}
+
+.styledLinkContent--menu__sales:hover {
+  Border-bottom: 2px #5677af solid;
+}
+
+.styledLinkContainer--header__menu--container-departmentOne {
+  margin-left: -3px;
+}
+
+.submenuWrapper {
+  width: 120px;
+}
+
+.menuContainer--desktop__departments--menu {
+  gap: 30px
+}
+
+.submenuWrapper--menu__container--categoryOne {
+  background: #fff;
+  width     : 620px;
+  height    : 100vh;
+  transform : translateX(-280px);
+}
+
+.submenu--menu__container--categoryOne {
+  margin-left    : 50px;
+  padding        : 50px 0 0 0;
+  justify-content: start;
+}
+
+.submenuWrapper--menu__container--categoryTwo {
+  background: #fff;
+  width     : 610px;
+  height    : 100vh;
+  transform : translateX(-390px);
+}
+
+.submenu--menu__container--categoryTwo {
+  margin-left    : 50px;
+  padding        : 50px 0 0 0;
+  justify-content: start;
+}
+
+
+
+.styledLinkContent--item-menu {
+  font-family: 'Poppins-Regular'
+}
+
+.styledLinkContent--backpacks__subcategoryOne,
+.styledLinkContent--handbags__subcategoryOne,
+.styledLinkContent--free__hands--subcategoryOne,
+.styledLinkContent--accessories__subcategoryOne {
+  font-size  : larger;
+  font-family: 'Poppins-Regular';
+  color      : black;
+}
+
+.styledLinkContent--accessories__subcategoryTwo,
+.styledLinkContent--shoes__subcategoryOne {
+  font-size  : larger;
+  padding    : 0 0 25px 0;
+  font-family: 'Poppins-Regular';
+  color      : black;
+}
+
+.styledLinkContent--the__usual--subcategoryOne,
+.styledLinkContent--desktop__menu--tiktok,
+.styledLinkContent--the__usual--subcategoryTwo,
+.styledLinkContent--credit__subcategoryTwo,
+.styledLinkContent--credit__subcategoryOne {
+  font-size  : larger;
+  padding    : 0 0 20px 0;
+  font-family: 'Poppins-Regular';
+  color      : black;
+}
+
+.styledLinkContent--see__all--women-subcategoryOne,
+.styledLinkContent--backpacks__subcategoryTwo,
+.styledLinkContent--free__hands--subcategoryTwo {
+  font-size  : larger;
+  font-family: 'Poppins-Regular';
+  color      : black;
+}
+
+.styledLinkContent--see__all--men-subcategoryTwo {
+  font-size  : larger;
+  font-family: 'Poppins-Regular';
+  color      : black;
+}
+
+.styledLinkContent--women__sales--subcategoryOne,
+.styledLinkContent--men__sales--subcategoryTwo {
+  font-size  : larger;
+  color      : #5677af;
+  font-family: 'Poppins-Regular';
+
+}
+
+.submenuWrapper--sub__subcategoryOne--handbags,
+.submenuWrapper--sub__subcategoryOne--accessories {
+  translate : 200px;
+  margin-top: -1.9vw;
+  border    : none;
+}
+
+.submenuWrapper--sub__subcategoryTwo--credit,
+.submenuWrapper--sub__subcategoryTwo--accessories,
+.submenuWrapper--sub__subcategoryOne--credit {
+  translate : 200px;
+  margin-top: -3.2vw;
+  border    : none;
+}
+
+.styledLinkContent--backpacks__subcategoryOne:hover,
+.styledLinkContent--handbags__subcategoryOne:hover,
+.styledLinkContent--free__hands--subcategoryOne:hover,
+.styledLinkContent--accessories__subcategoryOne:hover,
+.styledLinkContent--accessories__subcategoryTwo:hover,
+.styledLinkContent--shoes__subcategoryOne:hover,
+.styledLinkContent--the__usual--subcategoryOne:hover,
+.styledLinkContent--the__usual--subcategoryTwo:hover,
+.styledLinkContent--credit__subcategoryTwo:hover,
+.styledLinkContent--credit__subcategoryOne:hover,
+.styledLinkContent--see__all--women-subcategoryOne:hover,
+.styledLinkContent--backpacks__subcategoryTwo:hover,
+.styledLinkContent--free__hands--subcategoryTwo:hover,
+.styledLinkContent--see__all--men-subcategoryTwo:hover,
+.styledLinkContent--women__sales--subcategoryOne:hover,
+.styledLinkContent--men__sales--subcategoryTwo:hover {
+  font-weight: bold;
+}
