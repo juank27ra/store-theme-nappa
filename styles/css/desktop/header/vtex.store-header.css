@@ -7,8 +7,17 @@
   position    : relative;
   max-width   : -webkit-fill-available;
   margin-right: 2rem;
+  margin-top: -10px;
 }
 
-.headerRowContainer:hover {
-  background-color: #fff;
+.headerRow--desktop__header--row {
+  background-color: transparent;
+  color: white;
+}
+.headerRow--desktop__header--row:hover {
+  /* background-color: #fff; */
+  color: black;
+}
+.headerRowBackground--desktop__header--row {
+  background-color: transparent;
 }

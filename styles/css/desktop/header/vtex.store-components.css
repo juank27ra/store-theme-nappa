@@ -12,6 +12,19 @@
 
 .searchBarInnerContainer--desktop__header--searchbar {
   border-bottom: 1px solid;
-  margin-bottom: 10px;
-  position     : static;
+  position     : relative;
+}
+
+
+
+.vtex-store-components-3-x-autoCompleteOuterContainer--desktop__header--searchbar .input  {
+background-color: transparent !important;
+}
+
+
+.autoCompleteOuterContainer--desktop__header--searchbar .suffix {
+  background-color: transparent !important;
+}
+.autoCompleteOuterContainer--desktop__header--searchbar .vtex__icon-search {
+  color: black !important;
 }

@@ -1,6 +1,20 @@
 {
-  "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+  "responsive-layout.desktop#desktop__contentainer-banner":{
+    "title": "desktop banner container",
+    "children": [
+      "flex-layout.row#desktop__content-banner"
+    ]
+  },
+  "flex-layout.row#desktop__content-banner": {
+    "title": "desktop row content baner",
+    "children": [
+      "flex-layout.col#desktop__row--banner1",
+      "flex-layout.col#desktop__row--banner2",
+      "flex-layout.col#desktop__row--banner3",
+      "flex-layout.col#desktop__row--banner4"
+    ],
+    "props": {
+      "blockClass": "desktop__content-banner"
+    }
   }
 }

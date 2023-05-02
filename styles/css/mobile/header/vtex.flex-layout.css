@@ -5,7 +5,7 @@
 .flexRowContent--mobile__icons--content {
   display    : flex;
   align-items: center;
-  gap        : 5px;
+  /* gap        : 5px; */
 }
 
 .flexRowContent--mobile__logo--menu-content {
@@ -15,4 +15,11 @@
 
 .flexColChild--drawer-close-button {
   margin-left: -7vw;
+}
+
+.flexRowContent--mobile__icon--search {
+  margin-left: 30px;
+}
+.minicartContainer--mobile__header--minicart {
+  margin-left: 20px;
 }

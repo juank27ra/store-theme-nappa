@@ -1,8 +1,9 @@
 .styledLinkContent--header__menu--container-departmentOne {
-  font-size  : larger;
+  font-size  : 0.9vw;
   font-family: 'Poppins-Regular';
   font-weight: 500;
-  color      : black;
+  /* color      : white; */
+  color      : #000;
   margin-left: -0.8vw;
 }
 
@@ -11,11 +12,16 @@
 }
 
 .styledLinkContent--header__menu--container-departmentTwo {
-  font-size  : larger;
+  font-size  : 0.9vw;
   font-family: 'Poppins-Regular';
   font-weight: 500;
-  color      : black;
-}
+  /* color      : white */
+  color      : #000}
+
+/* .styledLinkContent--header__menu--container-departmentOne:hover,
+.styledLinkContent--header__menu--container-departmentTwo:hover {
+  color: #000;
+} */
 
 .styledLinkContent--header__menu--container-departmentTwo:hover {
   Border-bottom: 2px #5677af solid;
@@ -235,4 +241,8 @@
   translate : 80px;
   margin-top: -2vw;
   border    : none;
+}
+
+.vtex-menu-2-x-styledLinkContent--header__menu--container-departmentOne {
+  color: white;
 }

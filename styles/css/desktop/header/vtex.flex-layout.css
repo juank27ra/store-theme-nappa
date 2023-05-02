@@ -46,3 +46,9 @@
 .flexCol--desktop__footer--container-col2 {
   border-left: 3px solid black;
 }
+.flexRowContent--desktop__content-banner {
+  display: flex;
+  flex-direction: row;
+  padding: 4vh 4vw 4vh 8vw;
+}
+

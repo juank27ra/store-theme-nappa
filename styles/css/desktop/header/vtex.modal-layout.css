@@ -11,3 +11,7 @@
 .desktop__modal--layout-search {
   margin: 0rem;
 }
+.paper--desktop__modal--layout-search {
+  background-color: transparent;
+  margin: 0;
+}

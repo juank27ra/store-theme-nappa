@@ -2,15 +2,21 @@
   "header-layout.desktop#desktop__header--container" : {
     "title": "header desktop",
     "children": [
-      "sticky-layout"
+      "sticky-layout#desktop__header--sticky"
     ],
     "props": {
       "blockClass": "desktop__header--container"
     }
   },
-  "sticky-layout": {
-    "title": "stiky header",
-    "children": ["header-row#desktop__header--row"]
+  "sticky-layout#desktop__header--sticky": {
+    "title": "stiky header desktop",
+    "children": ["header-row#desktop__header--row"],
+    "props": {
+      "blockClass": "desktop__header--sticky"
+      // "marginTop": 4,
+      // "marginBottom": 7,
+      // "paddingBottom": 2
+    }
   },
   "header-row#desktop__header--row": {
     "title": "header row desktop",

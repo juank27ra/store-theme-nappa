@@ -2,10 +2,20 @@
   "header-layout.mobile#mobile__header--container" : {
     "title": "mobile header container",
     "children": [
-      "header-row#mobile__header--row"
+      "sticky-layout#mobile__header--sticky"
     ],
     "props": {
       "blockClass": "mobile__header--container"
+    }
+  },
+  "sticky-layout#mobile__header--sticky": {
+    "title": "stiky header mobile",
+    "children": ["header-row#mobile__header--row"],
+    "props": {
+      "blockClass": "mobile__header--sticky",
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingBottom": 2
     }
   },
   "header-row#mobile__header--row": {
@@ -50,7 +60,7 @@
   "flex-layout.row#mobile__icons--content": {
     "title": "mobile row contents icon",
     "children": [
-      "modal-trigger#mobile__modal--container-searchbar",
+      "disclosure-layout#mobile__disclosure--container-searchbar",
       "minicart.v2#mobile__header--minicart",
       "login#mobile__header--login"
     ],
@@ -58,41 +68,46 @@
       "blockClass": "mobile__icons--content"
     }
   },
-  "modal-trigger#mobile__modal--container-searchbar": {
+
+
+
+
+  "disclosure-layout#mobile__disclosure--container-searchbar": {
     "title": "mobile modal ",
     "children": [
-      "flex-layout.row#mobile__icon--search",
-      "modal-layout#mobile__modal--searchbar"
+      "disclosure-trigger#mobile__disclosure--icon-search",
+      "disclosure-content#mobile__disclosure--searchbar"
     ],
     "props": {
-      "blockClass": "mobile__modal--container-searchbar"
+      "blockClass": "mobile__disclosure--container-searchbar"
     }
   },
-    "flex-layout.row#mobile__icon--search": {
+    "disclosure-trigger#mobile__disclosure--icon-search": {
     "title": "mobile__row--icon-search",
     "children": [
-      "icon#mobile__icon--searchbar"
+      "icon#mobile__disclosure--icon-searchbar"
     ],
     "props": {
-      "blockClass": "mobile__icon--search"
+      "blockClass": "mobile__disclosure--icon-search"
     }
   },
-  "icon#mobile__icon--searchbar": {
+  "icon#mobile__disclosure--icon-searchbar": {
     "title": "icon search-bar",
     "props": {
-      "blockClass": "mobile__icon--searchbar",
+      "blockClass": "mobile__disclosure--icon-searchbar",
       "id": "hpa-search",
       "size": 40,
       "fullScreen": true
     }
   },
-  "modal-layout#mobile__modal--searchbar": {
+  "disclosure-content#mobile__disclosure--searchbar": {
     "title": "mobile modal-layout",
     "children": [
       "search-bar#mobile__header--searchbar"
     ],
     "props": {
-      "blockClass": "mobile__modal--searchbar"
+      "blockClass": "mobile__disclosure--searchbar"
+      // "initialVisibility": "hidden"
     }
   }
 }
