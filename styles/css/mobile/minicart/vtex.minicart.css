@@ -1,4 +1,13 @@
-/* Example Mobile:
-.minicartTitle {
-    display: none;
-} */
+.minicartQuantityBadgeDefault {
+  width           : 12px;
+  height          : 12px;
+  background-color: #000;
+  z-index         : 9;
+  font-size       : 10px;
+  font-weight     : 600;
+}
+
+.minicartQuantityBadge--mobile__header--minicart {
+  top : -9px;
+  left: -1.4rem;
+}

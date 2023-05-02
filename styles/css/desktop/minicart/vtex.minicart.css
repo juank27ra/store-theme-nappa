@@ -1,4 +1,12 @@
-/* Example desktop:
-.minicartTitle {
-    display: none;
-} */
+.minicartIconContainer--desktop__header--minicart {
+  margin-top: 4px;
+}
+
+.minicartQuantityBadge--desktop__header--minicart {
+  width           : 12px;
+  height          : 12px;
+  background-color: #000;
+  z-index         : 9;
+  font-size       : 10px;
+  font-weight     : 600;
+}

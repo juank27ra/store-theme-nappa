@@ -1,11 +1,11 @@
 .socialNetworksContainer--mobile__networks {
-  display: flex;
+  display        : flex;
   justify-content: center;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom  : 10px;
+  margin-top     : 10px;
 }
+
 .socialNetworkWrapper--mobile__networks {
   margin-top: 20px;
   border-top: 2px solid black;
 }
-

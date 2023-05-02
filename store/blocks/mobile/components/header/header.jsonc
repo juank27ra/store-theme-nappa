@@ -11,15 +11,51 @@
   "header-row#mobile__header--row": {
     "title": "mobile__header--row",
     "children": [
-      "drawer#mobile__header--menu",
-      "logo#mobile__header--logo",
+      "flex-layout.row#mobile__logo--menu-content",
       "header-spacer",
+      "flex-layout.row#mobile__icons--content"
+    ],
+    "props": {
+      "blockClass": "mobile__header--row"
+    }
+  },
+  "flex-layout.row#mobile__logo--menu-content": {
+    "title": "mobile container logo-menu",
+    "children": [
+      "flex-layout.col#mobile__col--menu",
+      "flex-layout.col#mobile__col--logo"
+    ],
+    "props": {
+      "blockClass": "mobile__logo--menu-content"
+    }
+  },
+  "flex-layout.col#mobile__col--menu": {
+    "title": " mobile col menu",
+    "children": [
+      "drawer#mobile__header--menu"
+    ],
+    "props": {
+      "blockClass": "mobile__col--menu"
+    }
+  },
+  "flex-layout.col#mobile__col--logo": {
+    "title": " mobile col logo",
+    "children": [
+      "logo#mobile__header--logo"
+    ],
+    "props": {
+      "blockClass": "mobile__col--logo"
+    }
+  },
+  "flex-layout.row#mobile__icons--content": {
+    "title": "mobile row contents icon",
+    "children": [
       "modal-trigger#mobile__modal--container-searchbar",
       "minicart.v2#mobile__header--minicart",
       "login#mobile__header--login"
     ],
     "props": {
-      "blockClass": "mobile__header--row"
+      "blockClass": "mobile__icons--content"
     }
   },
   "modal-trigger#mobile__modal--container-searchbar": {

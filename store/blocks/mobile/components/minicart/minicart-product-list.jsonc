@@ -28,18 +28,18 @@
   "flex-layout.col#mobile__minicart--col-info":{
     "title": "minicart col info",
     "children": [
-      "vtex.product-list:product-name",
-      "quantity-selector#mobile__minicart",
+      // "vtex.product-list:product-name",
+      "quantity-selector#mobile__minicart--quantity-selector",
       "price"
     ],
     "props": {
       "blockClass": "mobile__minicart--col-info"
     }
   },
-  "quantity-selector#mobile__minicart": {
+  "quantity-selector#mobile__minicart--quantity-selector": {
     "title": "quantity selector",
     "props": {
-      "blockClass": "mobile__minicart",
+      "blockClass": "mobile__minicart--quantity-selector",
       "mode": "stepper"
     }
   },

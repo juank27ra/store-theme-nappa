@@ -2,12 +2,40 @@
   "store.home": {
     "title": "Store home",
     "blocks": [
-      "responsive-layout.desktop#home__section-1",
-      // "responsive-layout.tablet#home__section-1",
-      // "responsive-layout.phone#home__section-1",
-      // "responsive-layout.mobile#phone__and__tablet",
+      // "responsive-layout.desktop#home__section-1",
       // "flex-layout.row#home__section--global",
+      "slider-layout#global__home--slider-layout",
       "search-result-layout.customQuery#global__home--search-blocks"
     ]
+    // "children": [
+    //   "newsletter-form#global__subscriber"
+    // ]
   }
+  // "newsletter-form#global__subscriber": {
+  //   "title": "Newslatter global",
+  //   "children": [
+  //     "newsletter-input-email#input__newslater",
+  //     "newsletter-checkbox-confirmation#checkbox",
+  //     "newsletter-submit#btn__newscriber--submit"
+  //   ]
+  // },
+  // "newsletter-input-email#input__newslater" : {
+  //   "title": "imput subcriber",
+  //   "props": {
+  //     "blockClass": "btn__newscriber--submit"
+  //   }
+  // },
+  // "newsletter-checkbox-confirmation#checkbox" : {
+  //   "title": "checkbox confirmation",
+  //   "props": {
+  //     "text": "He leído la Política de Tratamiento de Datos Personales y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos.",
+  //     "blockClass": "checkbox"
+  //   }
+  // },
+  // "newsletter-submit#btn__newscriber--submit" : {
+  //   "title": "btn subscriber",
+  //   "props": {
+  //     "blockClass": "btn__newscriber--submit"
+  //   }
+  // }
 }

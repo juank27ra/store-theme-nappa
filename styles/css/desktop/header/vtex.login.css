@@ -1,15 +1,12 @@
-.profileIcon {
-  height      : 24px;
-  width       : 28px;
-  margin-right: 16px;
-  margin-top  : 5px;
-}
-
-.container {
-  height: 48px;
-  width : 48px;
+.container:hover {
+  background-color: transparent;
 }
 
 .profileIcon--desktop__header--login {
-  margin-left: -16px;
+  margin-left  : 2px;
+  margin-bottom: 6px;
+}
+
+.profileIcon--desktop__header--login:hover {
+  background-color: transparent;
 }

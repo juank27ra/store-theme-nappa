@@ -52,7 +52,7 @@
 }
 
 .submenu--menu__container--categoryOne {
-  margin-left    : 50px;
+  margin-left    : 55px;
   padding        : 50px 0 0 0;
   justify-content: start;
 }
@@ -65,7 +65,7 @@
 }
 
 .submenu--menu__container--categoryTwo {
-  margin-left    : 50px;
+  margin-left    : 70px;
   padding        : 50px 0 0 0;
   justify-content: start;
 }
@@ -94,7 +94,6 @@
 }
 
 .styledLinkContent--the__usual--subcategoryOne,
-.styledLinkContent--desktop__menu--tiktok,
 .styledLinkContent--the__usual--subcategoryTwo,
 .styledLinkContent--credit__subcategoryTwo,
 .styledLinkContent--credit__subcategoryOne {
@@ -127,19 +126,32 @@
 
 }
 
-.submenuWrapper--sub__subcategoryOne--handbags,
+.submenuWrapper--sub__subcategoryOne--handbags {
+  translate : 100px;
+  margin-top: -1.4vw;
+  border    : none;
+}
+
 .submenuWrapper--sub__subcategoryOne--accessories {
-  translate : 200px;
-  margin-top: -1.9vw;
+  translate : 70px;
+  margin-top: -1.4vw;
   border    : none;
 }
 
 .submenuWrapper--sub__subcategoryTwo--credit,
 .submenuWrapper--sub__subcategoryTwo--accessories,
 .submenuWrapper--sub__subcategoryOne--credit {
-  translate : 200px;
-  margin-top: -3.2vw;
+  translate : 100px;
+  margin-top: -1.9vw;
   border    : none;
+}
+
+.styledLinkContent--desktop__menu--tiktok {
+  margin-right: 10px;
+  font-size   : larger;
+  padding     : 0 0 20px 0;
+  font-family : 'Poppins-Regular';
+  color       : black;
 }
 
 .styledLinkContent--backpacks__subcategoryOne:hover,
@@ -168,4 +180,59 @@
 .flexRowContent--desktop__header--row-icons {
   align-items: center;
   gap        : 4px;
+}
+
+.menuItem--credit__subcategoryTwo,
+.menuItem--accessories__subcategoryTwo,
+.menuItem--accessories__subcategoryOne,
+.menuItem--handbags__subcategoryOne,
+.menuItem--credit__subcategoryOne {
+  display       : flex;
+  max-width     : 11vw;
+  flex-direction: row;
+  align-items   : center;
+}
+
+.menuItem--credit__subcategoryTwo:hover::after,
+.menuItem--credit__subcategoryOne:hover::after {
+  height          : 1px;
+  width           : 100%;
+  content         : "-";
+  margin-left     : 10px;
+  margin-bottom   : 20px;
+  color           : transparent;
+  background-color: #000;
+}
+
+.menuItem--handbags__subcategoryOne:hover::after {
+  height          : 1px;
+  width           : 100%;
+  content         : "-";
+  margin-left     : 10px;
+  color           : transparent;
+  background-color: #000;
+}
+
+.menuItem--accessories__subcategoryOne:hover::after {
+  height          : 1px;
+  width           : 100%;
+  content         : "-";
+  color           : transparent;
+  background-color: #000;
+}
+
+.menuItem--accessories__subcategoryTwo:hover::after {
+  margin-bottom   : 4vh;
+  height          : 1px;
+  width           : 100%;
+  content         : "-";
+  margin-left     : 10px;
+  color           : transparent;
+  background-color: #000;
+}
+
+.submenuWrapper--sub__subcategoryTwo--accessories {
+  translate : 80px;
+  margin-top: -2vw;
+  border    : none;
 }

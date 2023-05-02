@@ -99,7 +99,7 @@
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "container__submenu--subcategoryTwoo"
+      "blockClass": "container__submenu--subcategoryTwo"
     }
   }
 }

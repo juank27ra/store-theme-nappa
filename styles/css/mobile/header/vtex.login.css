@@ -13,4 +13,5 @@
 .profileIcon--mobile__header--login {
   height: 40px;
   width : 42px;
+  margin: 0 0 0 10px;
 }

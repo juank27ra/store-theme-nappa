@@ -1,0 +1,30 @@
+.minicartTitle::before {
+  content    : "BOLSA DE COMPRAS";
+  visibility : visible;
+  font-size  : 17px;
+  margin-top : 10px;
+  margin-left: 4vw;
+}
+
+.minicartTitle {
+  visibility : hidden;
+  transform  : translateY(-13vh);
+  margin-left: -3vw;
+
+}
+
+.closeIconContainer {
+  display        : flex;
+  justify-content: flex-end;
+  Border-bottom  : 1px solid #3f3f40;
+}
+
+.closeIcon {
+  border-radius: 50%;
+  color        : gray;
+  font-size    : 400px;
+  border       : gray solid 3px;
+  background   : transparent;
+  width        : 18px;
+  height       : 18px;
+}

@@ -2,11 +2,15 @@
   "header-layout.desktop#desktop__header--container" : {
     "title": "header desktop",
     "children": [
-      "header-row#desktop__header--row"
+      "sticky-layout"
     ],
     "props": {
       "blockClass": "desktop__header--container"
     }
+  },
+  "sticky-layout": {
+    "title": "stiky header",
+    "children": ["header-row#desktop__header--row"]
   },
   "header-row#desktop__header--row": {
     "title": "header row desktop",

@@ -18,21 +18,93 @@
   "flex-layout.col#desktop__footer--container-col1": {
     "title": "footer col left suscriber ",
     "children": [
-      "rich-text#desktop__subscriber"
-    ],
+       "newsletter-form#global__subscriber"
+    ]
+  },
+   "newsletter-form#global__subscriber": {
+      "title": "",
+      "children": [
+      "newsletter-input-email#input__newslater",
+      "newsletter-checkbox-confirmation#checkbox",
+      "newsletter-submit#btn__newscriber--submit"
+      ]
+   },
+  "newsletter-input-email#input__newslater" : {
+    "title": "imput subcriber",
     "props": {
-      "blockClass": "desktop__footer--container-col1"
+      "blockClass": "btn__newscriber--submit"
     }
   },
-  "rich-text#desktop__subscriber": {
-    "title": "richtex subscriber",
+  "newsletter-checkbox-confirmation#checkbox" : {
+    "title": "checkbox confirmation",
     "props": {
-      "blockClass": "desktop__subscriber",
-      "text": "Suscríbete a nuestra Newslatter",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "text": "He leído la Política de Tratamiento de Datos Personales y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos.",
+      "blockClass": "checkbox"
     }
   },
+  "newsletter-submit#btn__newscriber--submit" : {
+    "title": "btn subscriber",
+    "props": {
+      "blockClass": "btn__newscriber--submit"
+    }
+  },
+
+  // subscriber
+
+
+  // "flex-layout.col#desktop__footer--container-col1": {
+  //   "title": "footer col left suscriber ",
+  //   "children": [
+  //     "rich-text#desktop__subscriber",
+  //     "flex-layout.row#desktop__footer--subscriber-text",
+  //     "flex-layout.row#desktop__footer--subscriber-btn"
+  //   ],
+  //   "props": {
+  //     "blockClass": "desktop__footer--container-col1"
+  //   }
+  // },
+  // "rich-text#desktop__subscriber": {
+  //   "title": "richtex subscriber",
+  //   "props": {
+  //     "blockClass": "desktop__subscriber",
+  //     "text": "Suscríbete a nuestra Newslatter",
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER"
+  //   }
+  // },
+  // "flex-layout.row#desktop__footer--subscriber-text": {
+  //   "title": "Politica de tratamiento de datos text",
+  //   "children": [
+  //     "rich-text#desktop__row--text-subscribe"
+  //   ],
+  //   "props": {
+  //     "blockClass": "desktop__footer--subscriber-text"
+  //   }
+  // },
+  // "rich-text#desktop__row--text-subscribe": {
+  //   "title": "text subscribe",
+  //   "props": {
+  //     "blockClass": "desktop__row--text-subscribe",
+  //     "text": "He leído la Política de Tratamiento de Datos Personales y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos."
+  //   }
+  // },
+  // "flex-layout.row#desktop__footer--subscriber-btn": {
+  //   "title": "row subsbcriber btn",
+  //   "children": ["link#desktop__footer-button-subscribe"],
+  //   "props": {
+  //     "blockClass": "desktop__footer--subscriber-btn"
+  //   }
+  // },
+  // "link#desktop__footer-button-subscribe": {
+  //   "title": "link button subcribe",
+  //   "props": {
+  //     "blockClass": "desktop__footer-button-subscribe",
+  //     "href": "/",
+  //     "label": "Subscribirse",
+  //     "displayMode": "button"
+  //   }
+  // },
+
 
   "flex-layout.col#desktop__footer--container-col2": {
     "title": "footer col rigth",
@@ -370,20 +442,32 @@
     "title": "title col payments",
     "children": [
       // "accepted-payment-methods",
-      "rich-text#desktop__col--methods-payments"
+      "modal-trigger#desktop__mehothods--payments"
     ],
     "props": {
       "blockClass": "desktop__row--methods-payments"
     }
   },
-  "rich-text#desktop__col--methods-payments": {
+  "modal-trigger#desktop__mehothods--payments": {
+    "title": "deskto modal payments",
+    "children": [
+      "link#desktop__col--methods-payments",
+      "modal-layout#desktop__modal--payments"
+    ]
+  },
+  "link#desktop__col--methods-payments": {
     "title": "text payments",
+    "children": [],
     "props": {
-      "text": "Medios de pago",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "href": "/",
+      "label": "Medios de pago",
+      "displayMode": "button",
       "blockClass": "desktop__col--methods-payments"
     }
+  },
+  "modal-layout#desktop__modal--payments": {
+    "title": "",
+    "children": []
   },
   "flex-layout.col#desktop__row--networks": {
     "title": "title col networks",
@@ -417,18 +501,18 @@
   "flex-layout.col#desktop__row--stores": {
     "title": "tile col stores",
     "children": [
-      "rich-text#desktop__btn--col-stores"
+      "link#desktop__btn--col-stores"
     ],
     "props": {
       "blockClass": "desktop__row--stores"
     }
   },
-  "rich-text#desktop__btn--col-stores": {
+  "link#desktop__btn--col-stores": {
     "title": "btn stores",
     "props": {
-      "text": "Tiendas",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "href": "/",
+      "label": "TIENDAS",
+      "displayMode": "button",
       "blockClass": "desktop__btn--col-stores"
     }
   },

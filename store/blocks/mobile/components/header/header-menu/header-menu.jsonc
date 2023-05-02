@@ -43,7 +43,7 @@
     "title": "flex-layout drawer btn close",
     "children": ["drawer-close-button"],
     "props": {
-      "blockClass": "drawer-close-butto",
+      "blockClass": "drawer-close-button",
       "verticalAlign": "middle",
       "horizontalAlign": "left"
     }

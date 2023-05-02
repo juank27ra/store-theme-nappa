@@ -1,5 +1,4 @@
-
 .socialNetworksContainer--desktop__networks {
-  display: flex;
+  display        : flex;
   justify-content: center;
 }

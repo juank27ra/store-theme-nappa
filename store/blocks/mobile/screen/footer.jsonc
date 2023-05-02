@@ -57,7 +57,7 @@
     "children": [
       "menu-item#mobile__departamentsOne--container-us",
       "menu-item#mobile__departamentsThree--quick-links",
-      "menu-item#mobile__departamentsTwo--container-servicioCliente"
+      "menu-item#mobile__departamentsTwo--container-costumer-service"
     ],
     "props": {
       "orientation": "vertical",
@@ -94,20 +94,20 @@
   "menu#mobile__container--categoryOne": {
     "title": "categoryOne submenu container",
     "children": [
-      "menu-item#mobile__about--us-subcategoryOne",
-      "menu-item#mobile__subcategoryOne--fidelazation-program",
-      "menu-item#mobile__subcategoryOne--credit-leathers-Lovers",
-      "menu-item#mobile__subcategoryOne--grow-with-us"
+      "menu-item#about__us--subcategoryOne",
+      "menu-item#fidelazation__program--subcategoryOne",
+      "menu-item#credit__leathers--Lovers-subcategoryOne",
+      "menu-item#grow__with--us-subcategoryOne"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass": "mobile__container--categoryOne"
     }
   },
-  "menu-item#mobile__about--us-subcategoryOne": {
+  "menu-item#about__us--subcategoryOne": {
     "title": "subcategoryOne about us",
     "props": {
-      "blockClass": "mobile__about--us-subcategoryOne",
+      "blockClass": "about__us--subcategoryOne",
       "id": "subcategoryOne-about-us",
       "type": "custom",
       "itemProps": {
@@ -120,10 +120,10 @@
       }
     }
   },
-  "menu-item#mobile__subcategoryOne--fidelazation-program": {
+  "menu-item#fidelazation__program--subcategoryOne": {
     "title": "subcategoryOne fidelazation program",
     "props": {
-      "blockClass": "mobile__subcategoryOne--fidelazation-program",
+      "blockClass": "fidelazation__program--subcategoryOne",
       "id": "subcategoryOne-fidelazation-program",
       "type": "custom",
       "itemProps": {
@@ -136,10 +136,10 @@
       }
     }
   },
-  "menu-item#mobile__subcategoryOne--credit-leathers-Lovers": {
+  "menu-item#credit__leathers--Lovers-subcategoryOne": {
     "title": "subcategoryOne credit leathers lovers",
     "props": {
-      "blockClass": "mobile__subcategoryOne--credit-leathers-Lovers",
+      "blockClass": "credit__leathers--Lovers-subcategoryOne",
       "id": "subcategoryOne-credit-leathers-lovers",
       "type": "custom",
       "itemProps": {
@@ -152,10 +152,10 @@
       }
     }
   },
-  "menu-item#mobile__subcategoryOne--grow-with-us": {
+  "menu-item#grow__with--us-subcategoryOne": {
     "title": "subcategoryOne grow with us",
     "props": {
-      "blockClass": "mobile__subcategoryOne--grow-with-us",
+      "blockClass": "grow__with--us-subcategoryOne",
       "id": "subcategoryOne-grow-with-us",
       "type": "custom",
       "itemProps": {
@@ -168,10 +168,10 @@
       }
     }
   },
-  "menu-item#mobile__departamentsTwo--container-servicioCliente": {
+  "menu-item#mobile__departamentsTwo--container-costumer-service": {
     "title": "departmetTwo customer service",
     "props": {
-      "blockClass": "mobile__departamentsTwo--container-servicioCliente",
+      "blockClass": "mobile__departamentsTwo--container-costumer-service",
       "id": "departmetTwo-customer-service",
       "type": "custom",
       "itemProps": {

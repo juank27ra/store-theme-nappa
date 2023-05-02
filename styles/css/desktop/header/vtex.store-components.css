@@ -7,5 +7,11 @@
 .searchBarContainer {
   background: transparent;
   border    : none;
-  width     : 25vw;
+  width     : 22vw;
+}
+
+.searchBarInnerContainer--desktop__header--searchbar {
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  position     : static;
 }

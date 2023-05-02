@@ -1,3 +1,18 @@
 .flexRowContent {
   cursor: pointer;
 }
+
+.flexRowContent--mobile__icons--content {
+  display    : flex;
+  align-items: center;
+  gap        : 5px;
+}
+
+.flexRowContent--mobile__logo--menu-content {
+  display    : flex;
+  align-items: center;
+}
+
+.flexColChild--drawer-close-button {
+  margin-left: -7vw;
+}

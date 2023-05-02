@@ -1,9 +1,9 @@
 {
   "minicart.v2#mobile__header--minicart": {
     "title": "mobile minicart ",
-    "children": ["minicart-base-content"],
+    "children": ["minicart-base-content#mobile__minicart--base-content"],
     "props": {
-      "blockClass": "minicart.v2#mobile__header--minicart",
+      "blockClass": "mobile__header--minicart",
       "variation": "drawer",
       "openOnHover": true,
       "quantityDisplay": "not-empty",

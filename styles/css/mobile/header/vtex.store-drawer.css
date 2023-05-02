@@ -1,25 +1,4 @@
-.drawerHeader {
-  flex: auto;
-}
-
-.menuIcon {
-  width     : 44px;
-  height    : 34px;
-  margin-top: 10px;
-  color     : black;
-}
-
-.claseIcon {
-  margin-left: -25vw;
-  height     : 26px;
-}
-
-.opened {
-  width    : 70rem;
-  max-width: 100;
-
-}
-
-.closeIconButton {
-  margin-left: -7rem;
+.menuIcon--mobile__header--menu {
+  height: 36px !important;
+  width : 36px !important;
 }

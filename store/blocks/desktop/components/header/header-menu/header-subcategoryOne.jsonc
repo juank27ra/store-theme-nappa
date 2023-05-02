@@ -148,8 +148,21 @@
       }
     }
   },
-
-
+  "vtex.menu@2.x:submenu#sub__subcategoryOne--spacer": {
+    "title": "submenu spacer",
+    "children": [
+      "rich-text#spacer"
+    ],
+    "props": {
+      "blockClass": "sub__subcategoryOne--spacer"
+    }
+  },
+  "rich-text#spacer": {
+    "title": "rich text spacer",
+    "props": {
+      "blockClass": "spacer"
+    }
+  },
   "vtex.menu@2.x:submenu#sub__subcategoryOne--credit": {
     "title": "submenu container credits categoryOne",
     "children": [
