@@ -2,8 +2,9 @@
   content    : "BOLSA DE COMPRAS";
   visibility : visible;
   font-size  : 17px;
-  margin-top : 10px;
+  margin-top: 4.5vh;
   margin-left: 4vw;
+  position: absolute;
 }
 
 .minicartTitle {
@@ -27,4 +28,25 @@
   background   : transparent;
   width        : 18px;
   height       : 18px;
+}
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button ){
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 13px;
+  border-radius: initial;
+  font-family: "Poppins";
+}
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label){
+  visibility: hidden;
+  font-weight: 700;
+
+}
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label)::before{
+  visibility: visible;
+  content: "IR A PAGAR";
+  padding-right: 32px;
+  position: relative;
+  font-size: 16px;
+  margin-left: 10px;
 }

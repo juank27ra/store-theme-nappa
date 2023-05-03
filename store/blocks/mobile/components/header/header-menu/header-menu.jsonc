@@ -29,7 +29,7 @@
       // "flex-layout.col#mega-menu-go-back-btn",
       "flex-layout.col#spacer",
       "flex-layout.col#drawer-close-button",
-      "logo#mobile__header--logo-megamenu"
+      "icon#mobile__header--logo-megamenu"
     ],
     "props": {
       "blockClass": "header__container--drawer-header",
@@ -63,15 +63,13 @@
       // "paddingRigth": 8
     }
   },
-  "logo#mobile__header--logo-megamenu": {
+  "icon#mobile__header--logo-megamenu": {
     "title": "logo en mobile megamenu",
     "props": {
       "blockClass": "mobile__header--logo-megamenu",
-      "url": "assets/img/Home/header/header__logo-marca.png",
-      "href": "/",
-      "mobileWidth": 85,
-      "mobileHeight": 70,
-      "verticalAlign": "middle"
+      "id": "hpa-logo",
+      "size": 32,
+      "href": "/"
     }
   }
 }

@@ -1,8 +1,8 @@
-.logoImage--desktop__header--logo {
+/* .logoImage--desktop__header--logo {
   height    : 85px;
   width     : 10.5vw;
   margin-top: 10px;
-}
+} */
 
 .searchBarContainer {
   background: transparent;
@@ -16,15 +16,19 @@
 }
 
 
-
-.vtex-store-components-3-x-autoCompleteOuterContainer--desktop__header--searchbar .input  {
-background-color: transparent !important;
+.autoCompleteOuterContainer--desktop__header--searchbar :global(.vtex-styleguide-9-x-input) {
+  background-color: transparent;
 }
 
-
-.autoCompleteOuterContainer--desktop__header--searchbar .suffix {
-  background-color: transparent !important;
+.autoCompleteOuterContainer--desktop__header--searchbar :global(.vtex-input-prefix__group) {
+  border: none;
 }
-.autoCompleteOuterContainer--desktop__header--searchbar .vtex__icon-search {
-  color: black !important;
+
+.autoCompleteOuterContainer--desktop__header--searchbar :global(.vtex-input__suffix) {
+  background-color: transparent;
+  display         : none;
+}
+
+.autoCompleteOuterContainer--desktop__header--searchbar :global(.vtex__icon-search) {
+  color: black;
 }

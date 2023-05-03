@@ -1,38 +1,46 @@
 {
-  "flex-layout.col#desktop__row--banner1": {
-    "title": "desktop col container banner",
+  "slider-layout#home__slider--seccion-one": {
+    "title": "desktop home sliderOne container",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "home__slider--seccion-one",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
     "children": [
-      "rich-text#desktop__col--free-hands"
+      "image#desktop__home--sliderOne-one",
+      "video#desktop__home--sliderOne-two",
+      "video#desktop__home--sliderOne-three"
+    ]
+  },
+  "flex-layout.row#home__image--seccion-two": {
+    "title": "home image seccion two",
+    "children": [
+      "image#home__image--seccion-two"
     ],
     "props": {
-      "blockClass": "desktop__row--banner"
+      "blockClass": "home__image--seccion-two"
     }
   },
-  "flex-layout.col#desktop__row--banner2": {
-    "title": "desktop col container banner1",
+  "flex-layout.row#home__text--seccion-three": {
+    "title": "desktop row content baner",
     "children": [
-      "rich-text#desktop__col--handbags"
+      "flex-layout.col#desktop__row--text-one",
+      "flex-layout.col#desktop__row--text-two",
+      "flex-layout.col#desktop__row--text-three",
+      "flex-layout.col#desktop__row--text-four"
     ],
     "props": {
-      "blockClass": "desktop__row--banner2"
-    }
-  },
-  "flex-layout.col#desktop__row--banner3": {
-    "title": "desktop col container banner",
-    "children": [
-      "rich-text#desktop__col--accesories"
-    ],
-    "props": {
-      "blockClass": "desktop__row--banner3"
-    }
-  },
-  "flex-layout.col#desktop__row--banner4": {
-    "title": "desktop col container banner",
-    "children": [
-      "rich-text#desktop__col--backpacks"
-    ],
-    "props": {
-      "blockClass": "desktop__row--banner4"
+      "blockClass": "home__text--seccion-three"
     }
   }
+
 }

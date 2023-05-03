@@ -1,0 +1,38 @@
+{
+  "flex-layout.col#desktop__row--text-one": {
+    "title": "desktop col  text one",
+    "children": [
+      "rich-text#desktop__col--free-hands"
+    ],
+    "props": {
+      "blockClass": "desktop__row--text-one"
+    }
+  },
+  "flex-layout.col#desktop__row--text-two": {
+    "title": "desktop col  text two",
+    "children": [
+      "rich-text#desktop__col--handbags"
+    ],
+    "props": {
+      "blockClass": "desktop__row--text-two"
+    }
+  },
+  "flex-layout.col#desktop__row--text-three": {
+    "title": "desktop col text three",
+    "children": [
+      "rich-text#desktop__col--accesories"
+    ],
+    "props": {
+      "blockClass": "desktop__row--text-three"
+    }
+  },
+  "flex-layout.col#desktop__row--text-four": {
+    "title": "desktop col  banner",
+    "children": [
+      "rich-text#desktop__col--backpacks"
+    ],
+    "props": {
+      "blockClass": "desktop__row--text-four"
+    }
+  }
+}

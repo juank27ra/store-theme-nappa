@@ -21,7 +21,8 @@
   "header-row#desktop__header--row": {
     "title": "header row desktop",
     "children":[
-      "logo#desktop__header--logo",
+
+      "flex-layout.row#desktop__header--row-logo",
       "flex-layout.row#desktop__header--row-menu",
       "flex-layout.row#desktop__header--row-sales",
       "header-spacer",
@@ -31,6 +32,15 @@
     ],
     "props": {
       "blockClass": "desktop__header--row"
+    }
+  },
+  "flex-layout.row#desktop__header--row-logo": {
+    "title": "flex row header logo",
+    "children": [
+      "icon#desktop__header--logo"
+    ],
+    "props": {
+      "blockClass": "desktop__header--row-logo"
     }
   },
   "flex-layout.row#desktop__header--row-icons": {

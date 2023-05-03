@@ -1,3 +1,4 @@
-/* .sliderTrackContainer--home__slider {
-  margin-top: -103px;
-} */
+.sliderLayoutContainer--home__slider--seccion-one {
+  top: -100px;
+  position: relative;
+}

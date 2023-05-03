@@ -34,7 +34,8 @@
     "title": "checkout button",
     "props": {
       // "icon": "iconCart",
-      "text": "IR A PAGAR",
+      "finishShoppingButtonLink": "/checkout/#/orderform",
+      // "text": "IR A PAGAR",
       "blockClass": "minicart-checkout-button"
     }
   }

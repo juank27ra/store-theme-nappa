@@ -10,3 +10,10 @@
 .profileIcon--desktop__header--login:hover {
   background-color: transparent;
 }
+
+.profileIcon--desktop__header--login {
+  width: 1.2vw;
+}
+/* .profileIcon--desktop__header--login  :first-child {
+  width: 1.2vw;
+} */

@@ -21,3 +21,6 @@
 .headerRowBackground--desktop__header--row {
   background-color: transparent;
 }
+.headerRowBackground--desktop__header--row:hover {
+  background-color: white;
+}

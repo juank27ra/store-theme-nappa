@@ -19,23 +19,23 @@
     "props": {
       "blockClass": "desktop__minicart--footer-row"
     }
+  },
+  "flex-layout.col#minicart__footer--col": {
+    "title": "col minicart summary and checkout",
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button"
+    ],
+    "props": {
+      "blockClass": "minicart__footer--col"
+    }
+  },
+  "minicart-checkout-button": {
+    "title": "checkout button",
+    "props": {
+      // "icon": "iconCart",
+      "text": "IR A PAGAR",
+      "blockClass": "minicart-checkout-button"
+    }
   }
-  // "flex-layout.col#minicart__footer--col": {
-  //   "title": "col minicart summary and checkout",
-  //   "children": [
-  //     "minicart-summary",
-  //     "minicart-checkout-button"
-  //   ],
-  //   "props": {
-  //     "blockClass": "minicart__footer--col"
-  //   }
-  // },
-  // "minicart-checkout-button": {
-  //   "title": "checkout button",
-  //   "props": {
-  //     // "icon": "iconCart",
-  //     "text": "IR A PAGAR",
-  //     "blockClass": "minicart-checkout-button"
-  //   }
-  // }
 }

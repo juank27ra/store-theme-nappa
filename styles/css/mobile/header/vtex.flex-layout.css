@@ -10,6 +10,7 @@
 
 .flexRowContent--mobile__logo--menu-content {
   display    : flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -22,4 +23,11 @@
 }
 .minicartContainer--mobile__header--minicart {
   margin-left: 20px;
+}
+.flexColChild--mobile__col--logo {
+  margin: 17px 0 0 -60px;
+  font-size: 0.9vw;
+}
+.flexRowContent--mobile__icons--content:hover :global(.vtex-button ) {
+  background-color: transparent;
 }

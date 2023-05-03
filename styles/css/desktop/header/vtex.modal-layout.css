@@ -1,7 +1,7 @@
 .container--desktop__modal--layout-search {
+  position: relative;
   background : transparent;
-  margin-top : -13.1vw;
-  margin-left: 55vw;
+  margin-left: 60vw;
 }
 
 .backdropContainer--desktop__modal--layout-search {

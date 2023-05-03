@@ -4,7 +4,7 @@
   font-weight: 500;
   /* color      : white; */
   color      : #000;
-  margin-left: -0.8vw;
+  margin-left: 1.5vw;
 }
 
 .styledLinkContent--header__menu--container-departmentOne:hover {
@@ -16,19 +16,15 @@
   font-family: 'Poppins-Regular';
   font-weight: 500;
   /* color      : white */
-  color      : #000}
-
-/* .styledLinkContent--header__menu--container-departmentOne:hover,
-.styledLinkContent--header__menu--container-departmentTwo:hover {
-  color: #000;
-} */
+  color      : #000
+}
 
 .styledLinkContent--header__menu--container-departmentTwo:hover {
   Border-bottom: 2px #5677af solid;
 }
 
 .styledLinkContent--menu__sales {
-  font-size  : larger;
+  font-size  : 0.9vw;
   font-family: 'Poppins-Bold';
   color      : black;
   font-weight: 900;
@@ -54,7 +50,7 @@
   background: #fff;
   width     : 620px;
   height    : 100vh;
-  transform : translateX(-280px);
+  transform : translateX(-250px);
 }
 
 .submenu--menu__container--categoryOne {
@@ -154,7 +150,7 @@
 
 .styledLinkContent--desktop__menu--tiktok {
   margin-right: 10px;
-  font-size   : larger;
+  font-size   : 0.9vw;
   padding     : 0 0 20px 0;
   font-family : 'Poppins-Regular';
   color       : black;
@@ -243,6 +239,3 @@
   border    : none;
 }
 
-.vtex-menu-2-x-styledLinkContent--header__menu--container-departmentOne {
-  color: white;
-}

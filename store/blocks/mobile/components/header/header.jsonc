@@ -51,7 +51,7 @@
   "flex-layout.col#mobile__col--logo": {
     "title": " mobile col logo",
     "children": [
-      "logo#mobile__header--logo"
+      "icon#mobile__header--logo"
     ],
     "props": {
       "blockClass": "mobile__col--logo"
@@ -88,7 +88,8 @@
       "icon#mobile__disclosure--icon-searchbar"
     ],
     "props": {
-      "blockClass": "mobile__disclosure--icon-search"
+      "blockClass": "mobile__disclosure--icon-search",
+      "initialVisibility": "visible"
     }
   },
   "icon#mobile__disclosure--icon-searchbar": {

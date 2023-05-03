@@ -46,6 +46,7 @@
   "flex-layout.col#desktop__minicart--col-remuve": {
     "title": "minicar col remuve",
     "children": [
+      // "minicarIcon.v2",
       "remove-button"
     ],
     "props": {
