@@ -1,0 +1,8 @@
+.goBackContainer--drawer__back--button-megamenu  {
+  margin-top: -5.5vw !important;
+
+}
+.goBackButton--drawer__back--button-megamenu {
+  transform: translateX(6vw) !important;
+  margin-left: 2.5vw;
+}

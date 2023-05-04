@@ -3,7 +3,7 @@
     "title": "Store home",
     "blocks": [
       "responsive-layout.desktop#desktop__home",
-      // "responsive-layout.mobile#mobile__home",
+      "responsive-layout.mobile#mobile__home",
       "search-result-layout.customQuery#global__home--search-blocks"
     ],
     "props": {

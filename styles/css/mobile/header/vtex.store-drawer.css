@@ -8,13 +8,23 @@
 }
 
 
-.flexCol--mobile__col--logo{
+.flexCol--mobile__col--logo {
   width: 70%;
 }
-.flexCol--mobile__col--menu  {
+
+.flexCol--mobile__col--menu {
   width: 30%;
 }
 
 .menuIcon--mobile__header--menu {
   color: black;
+}
+
+.drawer--mobile__header--menu {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.closeIconButton--drawer__close--button-megamenu {
+  margin-bottom: 8vw;
 }

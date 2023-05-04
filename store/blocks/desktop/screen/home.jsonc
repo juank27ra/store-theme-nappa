@@ -4,7 +4,8 @@
     "children": [
       "slider-layout#home__slider--seccion-one",
       "flex-layout.row#home__image--seccion-two",
-      "flex-layout.row#home__text--seccion-three"
+      "flex-layout.row#home__text--seccion-three",
+      "flex-layout.row#home__images--seccion-four"
       // "flex-layout.row#desktop__image"
     ], "props": {
       "blockClass": "desktop__home"

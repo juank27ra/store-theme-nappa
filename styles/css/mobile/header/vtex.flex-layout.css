@@ -5,13 +5,12 @@
 .flexRowContent--mobile__icons--content {
   display    : flex;
   align-items: center;
-  /* gap        : 5px; */
 }
 
 .flexRowContent--mobile__logo--menu-content {
-  display    : flex;
+  display       : flex;
   flex-direction: row;
-  align-items: center;
+  align-items   : center;
 }
 
 .flexColChild--drawer-close-button {
@@ -21,13 +20,37 @@
 .flexRowContent--mobile__icon--search {
   margin-left: 30px;
 }
+
 .minicartContainer--mobile__header--minicart {
   margin-left: 20px;
 }
+
 .flexColChild--mobile__col--logo {
-  margin: 17px 0 0 -60px;
+  margin   : 17px 0 0 -60px;
   font-size: 0.9vw;
 }
-.flexRowContent--mobile__icons--content:hover :global(.vtex-button ) {
+
+.flexRowContent--mobile__icons--content:hover :global(.vtex-button) {
   background-color: transparent;
+}
+
+/* .flexRowContent--header__container--drawer-header :first-child {
+  margin-left: 1vw;
+} */
+.flexRowContent--header__container--drawer-header :nth-child(4n) {
+  width : 20vw;
+  height: 40vh;
+}
+
+.flexRowContent--header__container--drawer-header :nth-child(3n) {
+  margin    : 0 0 0 -40px;
+  margin-top: -8vw;
+}
+
+.flexColChild--mobile__col--logo :first-child {
+  width: 36vw;
+}
+
+.flexCol--mobile__col--menu {
+  width: 15vw;
 }

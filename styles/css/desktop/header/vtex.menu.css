@@ -8,7 +8,7 @@
 }
 
 .styledLinkContent--header__menu--container-departmentOne:hover {
-  Border-bottom: 2px #5677af solid;
+  Border-bottom: 2px #ce00d4 solid;
 }
 
 .styledLinkContent--header__menu--container-departmentTwo {
@@ -20,7 +20,7 @@
 }
 
 .styledLinkContent--header__menu--container-departmentTwo:hover {
-  Border-bottom: 2px #5677af solid;
+  Border-bottom: 2px #ce00d4 solid;
 }
 
 .styledLinkContent--menu__sales {
@@ -31,7 +31,7 @@
 }
 
 .styledLinkContent--menu__sales:hover {
-  Border-bottom: 2px #5677af solid;
+  Border-bottom: 2px #ce00d4 solid;
 }
 
 .styledLinkContainer--header__menu--container-departmentOne {
@@ -123,7 +123,7 @@
 .styledLinkContent--men__sales--subcategoryTwo {
   font-weight: 600;
   font-size  : larger;
-  color      : #5677af;
+  color      : #ce00d4;
   font-family: 'Poppins-Regular';
 
 }

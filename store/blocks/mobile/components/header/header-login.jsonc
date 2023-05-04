@@ -3,9 +3,9 @@
     "title": "login mobile container",
     "props": {
       "blockClass": "mobile__header--login",
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
+      "emailAndPasswordTitle": "Entrar con e-mail y contraseña",
+      "accessCodeTitle": "Recibir código de acceso por e-mail",
+      "emailPlaceholder": "Ej.: ejemplo@mail.com",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,

@@ -34,5 +34,41 @@
     "props": {
       "blockClass": "desktop__row--text-four"
     }
+  },
+  "flex-layout.col#home__row--col-one": {
+    "title": "home  image col one",
+    "children": [
+      "slider-layout#home__col--slider-one"
+    ],
+    "props": {
+      "blockClass": "home__row--col-one"
+    }
+  },
+  "flex-layout.col#home__row--col-two": {
+    "title": "home  image col two",
+    "children": [
+      "slider-layout#home__col--slider-two"
+    ],
+    "props": {
+      "blockClass": "home__row--col-two"
+    }
+  },
+  "slider-layout#home__col--slider-one": {
+    "title": "slider col one",
+    "children": [
+      "image#desktop__home--sliderOne-one"
+    ],
+    "props": {
+      "blockClass": "home__col--slider-one"
+    }
+  },
+  "slider-layout#home__col--slider-two": {
+    "title": "slider col two",
+    "children": [
+      "image#desktop__home--sliderOne-one"
+    ],
+    "props": {
+      "blockClass": "home__col--slider-two"
+    }
   }
 }

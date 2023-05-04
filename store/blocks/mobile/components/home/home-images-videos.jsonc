@@ -1,0 +1,9 @@
+{
+  "image#home__image--seccion-two": {
+    "title": "sliderTwo",
+    "props": {
+      "src": "assets/img/Home/mobile__image--seccion-two.png",
+      "blockClass": "home__image--seccion-two"
+    }
+  }
+}

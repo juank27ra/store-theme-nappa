@@ -31,7 +31,7 @@
     }
   },
   "flex-layout.row#home__text--seccion-three": {
-    "title": "desktop row content baner",
+    "title": "home row seccion three",
     "children": [
       "flex-layout.col#desktop__row--text-one",
       "flex-layout.col#desktop__row--text-two",
@@ -41,6 +41,15 @@
     "props": {
       "blockClass": "home__text--seccion-three"
     }
+  },
+  "flex-layout.row#home__images--seccion-four": {
+    "title": "home row seccion four",
+    "children": [
+      "flex-layout.col#home__row--col-one",
+      "flex-layout.col#home__row--col-two"
+    ],
+    "props": {
+      "blockClass": "home__images--seccion-four"
+    }
   }
-
 }

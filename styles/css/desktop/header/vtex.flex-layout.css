@@ -42,10 +42,11 @@
 .flexCol--desktop__footer--container-col2 {
   border-left: 3px solid black;
 }
+
 .flexRowContent--desktop__content-banner {
-  display: flex;
+  display       : flex;
   flex-direction: row;
-  padding: 4vh 4vw 4vh 8vw;
+  padding       : 4vh 4vw 4vh 8vw;
 }
 
 .flexRowContent--desktop__header--row-logo {
@@ -56,6 +57,20 @@
 .flexColChild--desktop__header--col-minicart :global(.vtex-button):hover {
   background-color: transparent;
 }
+
 .flexColChild--desktop__header--col-login :global(.vtex-button):hover {
   background-color: transparent;
+}
+
+.flexRowContent--home__text--seccion-three {
+  margin: 4vh 0 4vh 0;
+}
+
+.flexColChild--desktop__icon--search-col :first-child {
+  width : 1.3vw;
+  height: 1.8vw;
+  margin-right: -1vw
+}
+.flexRowContent--desktop__header--row-logo {
+  width: 10.5vw;
 }
