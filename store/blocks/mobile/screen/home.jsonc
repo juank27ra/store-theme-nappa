@@ -3,7 +3,7 @@
     "title": "mobile home",
     "children": [
         "slider-layout#home__slider--one",
-        "flex-layout.row#home__image--seccion-two"
+        "flex-layout.row#mobile__home--seccion-two"
       ],
       "props": {
         "blockClass": "mobile__home"

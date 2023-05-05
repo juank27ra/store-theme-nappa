@@ -26,11 +26,11 @@
       "blockClass": "desktop__home--sliderOne-three"
     }
   },
-  "image#home__image--seccion-two": {
+  "image#desktop__home--image-seccion-two": {
     "title": "sliderTwo",
     "props": {
       "src": "assets/img/Home/home__sliderTwo--one.png",
-      "blockClass": "home__image--seccion-two"
+      "blockClass": "desktop__home--image-seccion-two"
     }
   }
 

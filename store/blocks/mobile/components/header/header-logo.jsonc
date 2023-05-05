@@ -4,7 +4,7 @@
     "props": {
       "blockClass": "mobile__header--logo",
       "title": "logo",
-      "id": "hpa-logo",
+      "id": "bnd-logo",
       "size": 280,
       "width": "11.5vw",
       "height": "7.9vw",

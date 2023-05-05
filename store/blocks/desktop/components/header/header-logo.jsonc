@@ -4,7 +4,7 @@
     "props": {
       "blockClass": "desktop__header--logo",
       "title": "logo",
-      "id": "hpa-logo",
+      "id": "bnd-logo",
       "size": 180,
       "width": "14.5vw",
       "height": "9.9vw",

@@ -28,7 +28,10 @@
   },
   "search-content#mobile__search--content-col": {
     "title": "container search and not-foun",
-    "blocks": [ "gallery#mobile__minicart--content", "not-found"],
+    "blocks": [
+      "gallery#mobile__minicart--content",
+      "not-found"
+    ],
     "props": {
       "blockClass": "mobile__search--content-col"
     }

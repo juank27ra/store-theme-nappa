@@ -176,7 +176,7 @@
     }
   },
   "menu-item#benefits": {
-    "title": "Link submenu benefits categoryOne",
+    "title": " submenu benefits categoryOne",
     "props": {
         "blockClass": "benefits",
         "id": "menu-more-benefits-subcategoryTwo",
@@ -191,7 +191,7 @@
     }
   },
   "menu-item#pay__your--credit": {
-    "title": "Link submenu pay your credit categoryOne",
+    "title": " submenu pay your credit categoryOne",
     "props": {
         "blockClass": "pay__your--credit",
         "id": "menu-pay-your-credits-subcategoryTwo",
@@ -206,7 +206,7 @@
     }
   },
   "menu-item#request__your--Credit": {
-    "title": "Link submenu request your credit categoryOne",
+    "title": " submenu request your credit categoryOne",
     "props": {
         "blockClass": "request__your--Credit",
         "id": "menu-request-your-credits-subcategoryTwo",

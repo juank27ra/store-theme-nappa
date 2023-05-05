@@ -1,3 +1,8 @@
 .paragraph {
   margin: 0px;
 }
+.container--global__minicart--emty-text :global(.vtex-rich-text-0-x-paragraph--global__minicart--emty-text) {
+  height: 40px;
+  margin: 20px 0 0 0;
+  font-size: 18px;
+}

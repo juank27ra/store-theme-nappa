@@ -8,6 +8,7 @@
 }
 
 .flexRowContent--mobile__logo--menu-content {
+  width         : 33%;
   display       : flex;
   flex-direction: row;
   align-items   : center;
@@ -26,7 +27,7 @@
 }
 
 .flexColChild--mobile__col--logo {
-  margin   : 17px 0 0 -60px;
+  margin   : 17px 0 0 0;
   font-size: 0.9vw;
 }
 
@@ -34,9 +35,6 @@
   background-color: transparent;
 }
 
-/* .flexRowContent--header__container--drawer-header :first-child {
-  margin-left: 1vw;
-} */
 .flexRowContent--header__container--drawer-header :nth-child(4n) {
   width : 20vw;
   height: 40vh;
@@ -53,4 +51,12 @@
 
 .flexCol--mobile__col--menu {
   width: 15vw;
+}
+
+.flexRow--mobile__logo--menu-content {
+  width: 33%;
+}
+
+.flexRow--mobile__icons--content {
+  width: 33%;
 }

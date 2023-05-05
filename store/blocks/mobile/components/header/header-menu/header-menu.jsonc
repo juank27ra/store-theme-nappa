@@ -72,7 +72,7 @@
     "title": "logo en mobile megamenu",
     "props": {
       "blockClass": "mobile__header--logo-megamenu",
-      "id": "hpa-logo",
+      "id": "bnd-logo",
       "size": 240,
       // "heigth": 15,
       "href": "/"

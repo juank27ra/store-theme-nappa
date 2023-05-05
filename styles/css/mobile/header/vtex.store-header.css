@@ -2,3 +2,6 @@
   background-color: transparent;
 }
 
+.headerSpacer--mobile__header {
+  width: 33%;
+}

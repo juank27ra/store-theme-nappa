@@ -12,8 +12,28 @@
 }
 
 .profileIcon--desktop__header--login {
-  width: 1.4vw !important;
+  width : 1.4vw !important;
+  height: 1.4vw;
 }
+
 /* .profileIcon--desktop__header--login  :first-child {
   width: 1.2vw;
 } */
+
+.portalWrapper--desktop__header--login .sendButton :global(.vtex-button) {
+  background : rgb(80, 80, 80);
+  border: 1px solid #DED140;
+  font-weight: 500;
+}
+.portalWrapper--desktop__header--login .sendButton :global(.vtex-button):active {
+  background : #DED140
+}
+
+.portalWrapper--desktop__header--login .content--loginOptions :global(.vtex-button) {
+  background: #EEF3F7;
+  color     : black;
+}
+
+.portalWrapper .vtex-login-2-x-box {
+  right: -90px;
+}

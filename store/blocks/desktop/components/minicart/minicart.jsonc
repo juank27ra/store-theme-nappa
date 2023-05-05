@@ -8,7 +8,8 @@
       "openOnHover": true,
       "quantityDisplay": "not-empty",
       "itemCountMode": "distinct",
-      "MinicartIcon": "icon-cart#desktop__minicart--icon"
+      "MinicartIcon": "icon-cart#desktop__minicart--icon",
+      "maxDrawerWidth": 330
     }
   },
   "icon-cart#desktop__minicart--icon": {

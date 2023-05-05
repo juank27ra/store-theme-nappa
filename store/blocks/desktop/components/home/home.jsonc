@@ -21,13 +21,13 @@
       "video#desktop__home--sliderOne-three"
     ]
   },
-  "flex-layout.row#home__image--seccion-two": {
-    "title": "home image seccion two",
+  "flex-layout.row#desktop__home--seccion-two": {
+    "title": "desktop image seccion two",
     "children": [
-      "image#home__image--seccion-two"
+      "image#desktop__home--image-seccion-two"
     ],
     "props": {
-      "blockClass": "home__image--seccion-two"
+      "blockClass": "desktop__home--seccion-two"
     }
   },
   "flex-layout.row#home__text--seccion-three": {

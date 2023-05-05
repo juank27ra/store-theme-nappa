@@ -74,3 +74,6 @@
 .flexRowContent--desktop__header--row-logo {
   width: 10.5vw;
 }
+.flexColChild--minicart__footer--col {
+  margin-bottom: 4px;
+}

@@ -20,9 +20,8 @@
   "flex-layout.col#global__minicart--empty-col": {
     "title": "col minicar enpty ",
     "children": [
-      // "icon-cart#minicart__empty--icon",
-      "rich-text#global__minicart--emty-text"
-    //  "buton#seguir comprando"
+      "rich-text#global__minicart--emty-text",
+      "link#minicart__empty--button"
     ],
     "props": {
       "blockClass": "global__minicart--empty-col"
@@ -35,6 +34,15 @@
       "text": "Tu carrito está vacío",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
+    }
+  },
+  "link#minicart__empty--button": {
+    "title": "global minicart empty button seguir comprando",
+    "props": {
+      "blockClass": "minicart__empty--button",
+      "href": "/",
+      "label": "Seguir Comprando",
+      "displayMode": "button"
     }
   }
 }

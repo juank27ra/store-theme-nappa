@@ -22,7 +22,7 @@
     "title": "mobile__header--row",
     "children": [
       "flex-layout.row#mobile__logo--menu-content",
-      "header-spacer",
+      "header-spacer#mobile__header",
       "flex-layout.row#mobile__icons--content"
     ],
     "props": {
@@ -55,6 +55,12 @@
     ],
     "props": {
       "blockClass": "mobile__col--logo"
+    }
+  },
+  "header-spacer#mobile__header": {
+    "title": "mobile spacer header",
+    "props": {
+      "blockClass": "mobile__header"
     }
   },
   "flex-layout.row#mobile__icons--content": {

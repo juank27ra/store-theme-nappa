@@ -1,17 +1,33 @@
 .minicartTitle::before {
-  content    : "BOLSA DE COMPRAS";
-  visibility : visible;
-  font-size  : 17px;
-  margin-top: 4.5vh;
-  margin-left: 4vw;
-  position: absolute;
+  visibility       : visible;
+  background-image : url("assets/img/Home/header/header__logo--minicart.png");
+  background-repeat: no-repeat;
+  background-size  : contain;
+  width            : 26px;
+  height           : 26px;
+  margin           : -8px 5px 0 18px;
+  display          : inline-block;
+  vertical-align   : middle;
+  content          : "";
+}
+
+.minicartTitle::after {
+  content   : "BOLSA DE COMPRAS";
+  visibility: visible;
+  font-size : 17px;
+  padding   : 10px 20px;
+  position  : absolute;
+  left      : 50px;
+  top       : -11px;
+  color     : #575651;
+  font-weight: 600;
 }
 
 .minicartTitle {
   visibility : hidden;
-  transform  : translateY(-13vh);
+  transform  : translateY(-40px);
   margin-left: -3vw;
-
+  font-size  : 17px;
 }
 
 .closeIconContainer {
@@ -29,24 +45,27 @@
   width        : 18px;
   height       : 18px;
 }
-.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button ){
+
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button) {
   background-color: black;
-  color: white;
-  border: none;
-  font-size: 13px;
-  border-radius: initial;
-  font-family: "Poppins";
+  color           : white;
+  border          : none;
+  font-size       : 13px;
+  border-radius   : initial;
+  font-family     : "Poppins";
 }
-.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label){
-  visibility: hidden;
+
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label) {
+  visibility : hidden;
   font-weight: 700;
 
 }
-.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label)::before{
-  visibility: visible;
-  content: "IR A PAGAR";
+
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label)::before {
+  visibility   : visible;
+  content      : "IR A PAGAR";
   padding-right: 32px;
-  position: relative;
-  font-size: 16px;
-  margin-left: 10px;
+  position     : relative;
+  font-size    : 16px;
+  margin-left  : 10px;
 }

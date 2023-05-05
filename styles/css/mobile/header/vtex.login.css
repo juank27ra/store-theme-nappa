@@ -15,18 +15,6 @@
   color     : white;
 }
 
-
-/* .formTitle::after {
-  display    : grid;
-  font-weight: 400;
-  min-width  : 10.125rem;
-  font-size  : 1rem;
-  margin     : 1vw 0 1vw 0;
-  visibility : visible;
-  content    : "Entrar con e-mail y contraseña";
-} */
-
-
 .inputContainerEmail :global(.vtex-styleguide-9-x-input),
 .inputContainerPassword :global( .vtex-styleguide-9-x-input) {
   color: gray;
@@ -51,5 +39,6 @@
   left: 4vw;
   top: 6vw;
   position: relative;
+  max-width: 250px;
 }
 
