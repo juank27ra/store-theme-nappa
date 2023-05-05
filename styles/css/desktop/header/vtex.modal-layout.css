@@ -1,0 +1,22 @@
+.container--desktop__modal--layout-search {
+  position: relative;
+  background : transparent;
+  margin-left: 60vw;
+}
+
+.backdropContainer--desktop__modal--layout-search {
+  position: relative;
+}
+
+.desktop__modal--layout-search {
+  margin: 0rem;
+}
+.paper--desktop__modal--layout-search {
+  background-color: transparent;
+  margin: 0;
+}
+/*
+.modal--desktop__modal--layout-search{
+  z-index: 1;
+  position: absolute;
+} */

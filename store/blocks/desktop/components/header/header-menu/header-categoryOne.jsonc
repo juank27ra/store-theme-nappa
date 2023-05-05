@@ -115,6 +115,7 @@
       }
     },
     "blocks": [
+      "vtex.menu@2.x:submenu#sub__subcategoryOne--spacer",
       "vtex.menu@2.x:submenu#sub__subcategoryOne--credit"
     ]
   },

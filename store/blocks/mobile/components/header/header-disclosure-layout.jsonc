@@ -1,0 +1,41 @@
+{
+  "disclosure-layout#mobile__disclosure--container-searchbar": {
+    "title": "mobile modal ",
+    "children": [
+      "disclosure-trigger#mobile__disclosure--icon-search",
+      "disclosure-content#mobile__disclosure--searchbar"
+    ],
+    "props": {
+      "blockClass": "mobile__disclosure--container-searchbar"
+    }
+  },
+    "disclosure-trigger#mobile__disclosure--icon-search": {
+    "title": "mobile__row--icon-search",
+    "children": [
+      "icon#mobile__disclosure--icon-searchbar"
+    ],
+    "props": {
+      "blockClass": "mobile__disclosure--icon-search",
+      "initialVisibility": "visible"
+    }
+  },
+  "icon#mobile__disclosure--icon-searchbar": {
+    "title": "icon search-bar",
+    "props": {
+      "blockClass": "mobile__disclosure--icon-searchbar",
+      "id": "hpa-search",
+      "size": 40,
+      "fullScreen": true
+    }
+  },
+  "disclosure-content#mobile__disclosure--searchbar": {
+    "title": "mobile modal-layout",
+    "children": [
+      "search-bar#mobile__header--searchbar"
+    ],
+    "props": {
+      "blockClass": "mobile__disclosure--searchbar"
+      // "initialVisibility": "hidden"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "minicart.v2#desktop__header--minicart": {
+    "title": "desktop minicart ",
+    "children": ["minicart-base-content#desktop__minicart--base-content"],
+    "props": {
+      "blockClass": "desktop__header--minicart",
+      "variation": "drawer",
+      "openOnHover": true,
+      "quantityDisplay": "not-empty",
+      "itemCountMode": "distinct",
+      "MinicartIcon": "icon-cart#desktop__minicart--icon",
+      "maxDrawerWidth": 330
+    }
+  },
+  "icon-cart#desktop__minicart--icon": {
+    "title": "desktop props icon minicart ",
+    "props": {
+      "size": 24,
+      "blockClass": "desktop__minicart--icon"
+    }
+  }
+}

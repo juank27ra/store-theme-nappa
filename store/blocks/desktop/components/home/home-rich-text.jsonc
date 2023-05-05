@@ -1,0 +1,38 @@
+{
+  "rich-text#desktop__col--free-hands": {
+    "title": "desktop rick-text free hands",
+    "props":{
+      "textColor": "Black",
+      "font": "t-heading-5",
+      "text": "**Manos libres** \nPara que viajes tranqui\n [VER](https://www.nappa.com.co/mujer/bolsos/manos-libres)",
+      "blockClass": "desktop__col--free-hands"
+    }
+  },
+  "rich-text#desktop__col--handbags": {
+    "title": "desktop rick-text handbags",
+    "props":{
+      "textColor": "Black",
+      "font": "t-heading-5",
+      "text": "**Bolsos** \nPara todo, para todas\n [VER](https://www.nappa.com.co/mujer/bolsos)",
+      "blockClass": "desktop__col--handbags"
+    }
+  },
+  "rich-text#desktop__col--accesories": {
+    "title": "desktop rick-text accesories",
+    "props":{
+      "textColor": "Black",
+      "font": "t-heading-5",
+      "text": "**Accesorios** \nPara elevar tu outfit\n [VER](https://www.nappa.com.co/mujer/accesorios)",
+      "blockClass": "desktop__col--accesories"
+    }
+  },
+  "rich-text#desktop__col--backpacks": {
+    "title": "desktop rick-text backpacks",
+    "props":{
+      "textColor": "Black",
+      "font": "t-heading-5",
+      "text": "**Morrales** \nQue todas necesitan\n [VER](https://www.nappa.com.co/mujer/bolsos/morrales)",
+      "blockClass": "desktop__col--backpacks"
+    }
+  }
+}

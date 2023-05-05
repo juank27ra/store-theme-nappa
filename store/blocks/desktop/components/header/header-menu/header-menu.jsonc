@@ -3,7 +3,10 @@
     "title": "desktop menu container departmentOne",
     "children": [
       "menu-item#header__menu--container-departmentOne"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__header--menu-departmentOne"
+    }
   },
   "menu-item#header__menu--container-departmentOne": {
     "title": "desktop menu container departmentOne",
@@ -14,7 +17,7 @@
       "itemProps": {
         "type": "external",
         "href": "/",
-        "noFollow": true,
+        "noFollow": false,
         "tagTile": "Big Title women",
         "text": "MUJER"
       }
@@ -25,7 +28,10 @@
     "title": "desktop submenu categoryOne",
     "children": [
       "menu#container__submenu--subcategoryOne"
-    ]
+    ],
+    "props": {
+      "blockClass": "menu__container--categoryOne"
+    }
   },
   "menu#container__submenu--subcategoryOne": {
     "title": "submenu subcategoryOne ",
@@ -43,14 +49,17 @@
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "container__submenu--menu-subcategoryOne"
+      "blockClass": "container__submenu--subcategoryOne"
     }
   },
   "menu#desktop__header--menu-departmentTwo": {
     "title": "desktop menu container departmentTwo",
     "children": [
       "menu-item#header__menu--container-departmentTwo"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__header--menu-departmentTwo"
+    }
   },
   "menu-item#header__menu--container-departmentTwo": {
     "title": "desktop menu container departmentTwo",
@@ -72,7 +81,10 @@
     "title": "desktop submenu categoryTwo",
     "children": [
       "menu#menu#container__submenu--subcategoryTwo"
-    ]
+    ],
+    "props": {
+      "blockClass": "menu__container--categoryTwo"
+    }
   },
   "menu#menu#container__submenu--subcategoryTwo": {
     "title": "desktop menu items subcategoryTwo",
@@ -87,7 +99,7 @@
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "container__submenu--menu-subcategoryTwo"
+      "blockClass": "container__submenu--subcategoryTwo"
     }
   }
 }

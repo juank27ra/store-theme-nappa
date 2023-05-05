@@ -1,9 +1,44 @@
-.profileIcon {
-  height: 48px;
-  width: 24px;
-
-}
 .container {
-  height: 48px;
-  width: 48px;
+  height     : 48px;
+  width      : 48px;
+  margin-left: -10px;
 }
+
+.profileIcon--mobile__header--login {
+  height: 40px;
+  width : 6vw;
+  margin: 0 0 0 10px;
+}
+
+.content--loginOptions :global(.vtex-button) {
+  background: black;
+  color     : white;
+}
+
+.inputContainerEmail :global(.vtex-styleguide-9-x-input),
+.inputContainerPassword :global( .vtex-styleguide-9-x-input) {
+  color: gray;
+}
+
+.formLinkContainer :global(.vtex-login-2-x-dontHaveAccount),
+.backButton :global(.vtex-button),
+.forgotPasswordLink {
+  color: gray;
+}
+
+.sendButton :global(.vtex-button) {
+  background : black;
+  border     : none;
+  font-weight: 500;
+}
+
+.tooltipContainer {
+  display: table;
+  visibility: visible;
+  background-color: transparent;
+  left: 4vw;
+  top: 6vw;
+  position: relative;
+  max-width: 250px;
+}
+

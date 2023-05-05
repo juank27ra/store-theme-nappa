@@ -1,0 +1,19 @@
+.flexCol--minicart__footer--col :global(.vtex-store-link-0-x-link--minicart__empty--button-keep-buying) {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  border: 1px solid #353535;
+  cursor: pointer;
+  margin: 0.5rem auto 0;
+  background-color: transparent;
+  color: #353535;
+  text-transform: capitalize;
+}
+
+.flexColChild--minicart__footer--col {
+  margin-bottom: 0.4vw;
+}
+
+.flexCol--minicart__footer--col :nth-child(3n) {
+margin-bottom: 4vw;
+}

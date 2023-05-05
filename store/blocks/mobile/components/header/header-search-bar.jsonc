@@ -4,7 +4,7 @@
     "props": {
       "blockClass": "mobile__header--searchbar",
       "displayMode": "search-button",
-      "hasIconLeft": true,
+      "hasIconLeft": false,
       "inputType": "search",
       // "maxWidth": "100%",
       "placeholder": "¿ QUE ESTAS BUSCANDO?",

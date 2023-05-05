@@ -3,17 +3,16 @@
     "title": "login desktop container",
     "props": {
       "blockClass": "desktop__header--login",
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
+      "emailAndPasswordTitle": "Entrar con e-mail y contraseña",
+      "accessCodeTitle": "Recibir código de acceso por e-mail",
+      "emailPlaceholder": "Ej.: ejemplo@mail.com",
+      "passwordPlaceholder": "Ingresa su contraseña",
+      "showPasswordVerificationIntoTooltip": false,
       "showIconProfile": true,
       "hideIconLabel": true,
       "cssClass": "desktop__login--icon",
       "activeClassName": "desktop__login--icon-active",
-      "mutedClassName": "desktop__login--icon-disabled",
-      "logInButtonBehavior": "popover"
+      "mutedClassName": "desktop__login--icon-disabled"
     }
   }
 }

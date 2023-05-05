@@ -3,24 +3,28 @@
     "title": "submenu container handbags subcategoryOne",
     "children": [
       "menu#menu__subcategoryOne--handbags"
-    ]
+    ],
+    "props": {
+      "blockClass": "sub__subcategoryOne--handbags"
+    }
   },
   "menu#menu__subcategoryOne--handbags": {
     "title": "submenu container handbags subcategoryOne",
     "children": [
-      "menu-item#shopping",
-      "menu-item#baguette",
-      "menu-item#free__hands",
-      "menu-item#see__all"
+      "menu-item#subcategoryOne__shopping",
+      "menu-item#subcategoryOne__baguette",
+      "menu-item#subcategoryOne__free--hands",
+      "menu-item#subcategoryOne__see--all"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass": "menu__subcategoryOne--handbags"
     }
   },
-  "menu-item#shopping": {
+  "menu-item#subcategoryOne__shopping": {
     "title": "submenu handbags SubcategoryOne shopping",
     "props": {
+      "blockClass": "subcategoryOne__shopping",
       "id": "menu-item shopping handbags",
       "type": "custom",
       "itemProps": {
@@ -32,9 +36,10 @@
       }
     }
   },
-  "menu-item#baguette": {
+  "menu-item#subcategoryOne__baguette": {
     "title": "submenu handbags SubcategoryOne baguette",
     "props": {
+      "blockClass": "subcategoryOne__baguette",
       "id": "menu-item baguette handbags",
       "type": "custom",
       "itemProps": {
@@ -46,10 +51,10 @@
       }
     }
   },
-  "menu-item#free__hands": {
+  "menu-item#subcategoryOne__free--hands": {
     "title": "submenu handbags SubcategoryOne free hands",
     "props": {
-      "blockClass": "free__hands",
+      "blockClass": "subcategoryOne__free--hands",
       "id": "menu-item free hands handbags",
       "type": "custom",
       "itemProps": {
@@ -61,10 +66,10 @@
       }
     }
   },
-  "menu-item#see__all": {
+  "menu-item#subcategoryOne__see--all": {
     "title": "subsubmenu handbags SubcategoryOne see all",
     "props": {
-      "blockClass": "see__all",
+      "blockClass": "subcategoryOne__see--all",
       "id": "menu-item see__all handbags",
       "type": "custom",
       "itemProps": {
@@ -79,25 +84,30 @@
   "vtex.menu@2.x:submenu#sub__subcategoryOne--accessories": {
     "title": "menu accessories subcategoryOne",
     "children": [
-      "menu#menu__subcategoryOne--accesories"
-    ]
-  },
-  "menu#menu__subcategoryOne--accesories": {
-    "title": "submenu container accesories subcategoryOne",
-    "children": [
-      "menu-item#wallets",
-      "menu-item#cosmetic__bags",
-      "menu-item#more__accessories",
-      "menu-item#see__all"
+      "menu#menu__subcategoryOne--accessories"
     ],
     "props": {
-      "orientation": "vertical"
+      "blockClass": "sub__subcategoryOne--accessories"
     }
   },
-  "menu-item#wallets": {
+  "menu#menu__subcategoryOne--accessories": {
+    "title": "submenu container accessories subcategoryOne",
+    "children": [
+      "menu-item#menu__subcategoryOne--wallets",
+      "menu-item#menu__subcategoryOne--cosmetic-bags",
+      "menu-item#menu__subcategoryOne--more-accessories",
+      "menu-item#subcategoryOne__see--all"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__subcategoryOne--accessories"
+    }
+  },
+  "menu-item#menu__subcategoryOne--wallets": {
     "title": "submenu accessories SubcategoryOne wallets",
     "props": {
-      "id": "menu-item accessories wallets ",
+      "blockClass": "menu__subcategoryOne--wallets",
+      "id": "menu-item-accessories-wallets ",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -108,9 +118,10 @@
       }
     }
   },
-  "menu-item#cosmetic__bags": {
+  "menu-item#menu__subcategoryOne--cosmetic-bags": {
     "title": "submenu accessories SubcategoryOne cosmetic bags",
     "props": {
+      "blockClass": "menu__subcategoryOne--cosmetic-bags",
       "id": "menu-item-cosmetic-bags-accessories",
       "type": "custom",
       "itemProps": {
@@ -122,9 +133,10 @@
       }
     }
   },
-  "menu-item#more__accessories": {
+  "menu-item#menu__subcategoryOne--more-accessories": {
     "title": "submenu accessories SubcategoryOne",
     "props": {
+      "blockClass": "menu__subcategoryOne--more-accessories",
       "id": "menu-item-more-accessories-SubcategoryOne",
       "type": "custom",
       "itemProps": {
@@ -136,21 +148,35 @@
       }
     }
   },
-
-
+  "vtex.menu@2.x:submenu#sub__subcategoryOne--spacer": {
+    "title": "submenu spacer",
+    "children": [
+      "rich-text#spacer"
+    ],
+    "props": {
+      "blockClass": "sub__subcategoryOne--spacer"
+    }
+  },
+  "rich-text#spacer": {
+    "title": "rich text spacer",
+    "props": {
+      "blockClass": "spacer"
+    }
+  },
   "vtex.menu@2.x:submenu#sub__subcategoryOne--credit": {
     "title": "submenu container credits categoryOne",
     "children": [
       "menu-item#benefits",
       "menu-item#pay__your--credit",
-      "menu-item#Request__your--Credit"
+      "menu-item#request__your--Credit"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "sub__subcategoryOne--credit"
     }
   },
   "menu-item#benefits": {
-    "title": "Link submenu benefits categoryOne",
+    "title": " submenu benefits categoryOne",
     "props": {
         "blockClass": "benefits",
         "id": "menu-more-benefits-subcategoryTwo",
@@ -165,7 +191,7 @@
     }
   },
   "menu-item#pay__your--credit": {
-    "title": "Link submenu pay your credit categoryOne",
+    "title": " submenu pay your credit categoryOne",
     "props": {
         "blockClass": "pay__your--credit",
         "id": "menu-pay-your-credits-subcategoryTwo",
@@ -179,10 +205,10 @@
         }
     }
   },
-  "menu-item#Request__your--Credit": {
-    "title": "Link submenu request your credit categoryOne",
+  "menu-item#request__your--Credit": {
+    "title": " submenu request your credit categoryOne",
     "props": {
-        "blockClass": "Request__your--Credit",
+        "blockClass": "request__your--Credit",
         "id": "menu-request-your-credits-subcategoryTwo",
         "type": "custom",
         "itemProps": {

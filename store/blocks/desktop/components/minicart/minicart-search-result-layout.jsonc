@@ -3,26 +3,41 @@
     "title": "desktop search result content",
     "children": [
       "flex-layout.row#desktop__home--results-row"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__home--search"
+    }
   },
   "flex-layout.row#desktop__home--results-row": {
     "title": "row search result ",
     "children": [
       "flex-layout.col#desktop__home--results-col"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__home--results-row"
+    }
   },
   "flex-layout.col#desktop__home--results-col": {
     "title": "col search result ",
     "children": [
       "search-content#desktop__search--content-col"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__home--results-co"
+    }
   },
   "search-content#desktop__search--content-col": {
     "title": "desktop container search and not-foun",
-    "blocks": [ "gallery#desktop__minicart--content", "not-found"]
+    "blocks": [ "gallery#desktop__minicart--content", "not-found"],
+    "props": {
+      "blockClass": "desktop__search--content-col"
+    }
   },
   "gallery#desktop__minicart--content": {
     "title": "desktop gallery  search",
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "desktop__minicart--content"
+    }
   }
 }
