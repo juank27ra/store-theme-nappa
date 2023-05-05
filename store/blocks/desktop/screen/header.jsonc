@@ -2,23 +2,84 @@
   "header-layout.desktop#desktop__header--container" : {
     "title": "header desktop",
     "children": [
-      "header-row#desktop__header--row"
-    ]
+      "sticky-layout#desktop__header--sticky"
+    ],
+    "props": {
+      "blockClass": "desktop__header--container"
+    }
+  },
+  "sticky-layout#desktop__header--sticky": {
+    "title": "stiky header desktop",
+    "children": ["header-row#desktop__header--row"],
+    "props": {
+      "blockClass": "desktop__header--sticky"
+      // "marginTop": 4,
+      // "marginBottom": 7,
+      // "paddingBottom": 2
+    }
   },
   "header-row#desktop__header--row": {
     "title": "header row desktop",
     "children":[
-      "logo#desktop__header--logo",
-      "menu#desktop__header--menu-categoriaUno",
-      "menu#desktop__header--menu-categoriaDos",
-      "link#desktop__header--link-rebajas",
+
+      "flex-layout.row#desktop__header--row-logo",
+      "flex-layout.row#desktop__header--row-menu",
+      "flex-layout.row#desktop__header--row-sales",
       "header-spacer",
 
-      "link#desktop__header--link-tiktok",
-      "search-bar#desktop__header--searchbar",
-      "minicart.v2#desktop__header--minicart",
+      "flex-layout.row#desktop__header--row-tiktok",
+      "flex-layout.row#desktop__header--row-icons"
+    ],
+    "props": {
+      "blockClass": "desktop__header--row"
+    }
+  },
+  "flex-layout.row#desktop__header--row-logo": {
+    "title": "flex row header logo",
+    "children": [
+      "icon#desktop__header--logo"
+    ],
+    "props": {
+      "blockClass": "desktop__header--row-logo"
+    }
+  },
+  "flex-layout.row#desktop__header--row-icons": {
+    "title": "desktop row container icons",
+    "children": [
+      "flex-layout.col#desktop__header--col-search",
+      "flex-layout.col#desktop__header--col-minicart",
+      "flex-layout.col#desktop__header--col-login"
+    ],
+    "props": {
+      "blockClass": "desktop__header--row-icons"
+    }
+  },
+  "flex-layout.col#desktop__header--col-search": {
+    "title": "header col icon search",
+    "children": [
+      "modal-trigger#desktop__modal--search-bar"
+    ],
+    "props": {
+      "blockClass": "desktop__header--col-search"
+    }
+  },
+  "flex-layout.col#desktop__header--col-minicart": {
+    "title": "header col icon minicart",
+    "children": [
+      "minicart.v2#desktop__header--minicart"
+    ],
+    "props": {
+      "blockClass": "desktop__header--col-minicart"
+    }
+  },
+  "flex-layout.col#desktop__header--col-login": {
+    "title": "header col icon login",
+    "children": [
       "login#desktop__header--login"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__header--col-login"
+    }
   }
 }
 

@@ -1,19 +1,55 @@
 {
-  "flex-layout.row#home__section-1": {
-    "title": "DESKTOP Row with text",
+  "slider-layout#home__slider--seccion-one": {
+    "title": "desktop home sliderOne container",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "home__slider--seccion-one",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
     "children": [
-      "rich-text#section-1"
+      "image#desktop__home--sliderOne-one",
+      "video#desktop__home--sliderOne-two",
+      "video#desktop__home--sliderOne-three"
     ]
   },
-
-  "rich-text#section-1": {
-    "title": "Text Favorites at desktop",
+  "flex-layout.row#desktop__home--seccion-two": {
+    "title": "desktop image seccion two",
+    "children": [
+      "image#desktop__home--image-seccion-two"
+    ],
     "props": {
-      "blockClass": "",
-      "text": "Favoritos en DESKTOP",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "blockClass": "desktop__home--seccion-two"
+    }
+  },
+  "flex-layout.row#home__text--seccion-three": {
+    "title": "home row seccion three",
+    "children": [
+      "flex-layout.col#desktop__row--text-one",
+      "flex-layout.col#desktop__row--text-two",
+      "flex-layout.col#desktop__row--text-three",
+      "flex-layout.col#desktop__row--text-four"
+    ],
+    "props": {
+      "blockClass": "home__text--seccion-three"
+    }
+  },
+  "flex-layout.row#home__images--seccion-four": {
+    "title": "home row seccion four",
+    "children": [
+      "flex-layout.col#home__row--col-one",
+      "flex-layout.col#home__row--col-two"
+    ],
+    "props": {
+      "blockClass": "home__images--seccion-four"
     }
   }
 }

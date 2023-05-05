@@ -2,15 +2,15 @@
   "search-bar#desktop__header--searchbar": {
     "title": "Search-bar de desktop",
     "props": {
+      "blockClass": "desktop__header--searchbar",
       "autocompleteAlignment": "right",
-      "displayMode": "search-button",
+      "displayMode": "clear-button",
       "hasIconLeft": true,
       "inputType": "search",
-      "maxWidth": "10%",
       "hidden": true,
       "placeholder": "¿ QUE ESTAS BUSCANDO?",
       "hideTitles": true,
-      "productLayout": "vertical",      //VERTICAL
+      "productLayout": "vertical",
       "openAutocompleteOnFocus": true
     },
     "blocks": ["autocomplete-result-list.v2"]

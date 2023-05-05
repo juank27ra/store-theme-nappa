@@ -1,93 +1,105 @@
 {
-  "menu#desktop__header--menu-categoriaUno": {
-    "title": "desktop menu container categoriaUno",
+  "menu#desktop__header--menu-departmentOne": {
+    "title": "desktop menu container departmentOne",
     "children": [
-      "menu-item#header__menu--container-categoriaUno"
-    ]
-  },
-  "menu-item#header__menu--container-categoriaUno": {
-    "title": "desktop menu container categoriaUno",
+      "menu-item#header__menu--container-departmentOne"
+    ],
     "props": {
-      "blockClass": "header__menu--container-categoriaUno",
-      "id": "menu-container-categoriaUno",
+      "blockClass": "desktop__header--menu-departmentOne"
+    }
+  },
+  "menu-item#header__menu--container-departmentOne": {
+    "title": "desktop menu container departmentOne",
+    "props": {
+      "blockClass": "header__menu--container-departmentOne",
+      "id": "menu-container-departmentOne",
       "type": "custom",
       "itemProps": {
         "type": "external",
         "href": "/",
-        "noFollow": true,
-        "tagTile": "Big Title categoriaUno",
+        "noFollow": false,
+        "tagTile": "Big Title women",
         "text": "MUJER"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#menu__container--menuitem-categoriaUno"]
+    "blocks": ["vtex.menu@2.x:submenu#menu__container--categoryOne"]
   },
-  "vtex.menu@2.x:submenu#menu__container--menuitem-categoriaUno": {
-    "title": "desktop menuitem categoriaUno",
+  "vtex.menu@2.x:submenu#menu__container--categoryOne": {
+    "title": "desktop submenu categoryOne",
     "children": [
-      "menu#container__submenu--menu-categoriaUno"
-    ]
+      "menu#container__submenu--subcategoryOne"
+    ],
+    "props": {
+      "blockClass": "menu__container--categoryOne"
+    }
   },
-  "menu#container__submenu--menu-categoriaUno": {
-    "title": "submenu categoriaUno ",
+  "menu#container__submenu--subcategoryOne": {
+    "title": "submenu subcategoryOne ",
     "children": [
-      "menu-item#submenu__menu--menuitem-losde100pre-categoriaUno",
-      "menu-item#submenu__menu--menuitem-morrales-categoriaUno",
-      "menu-item#submenu__menu--menuitem-bolsos-categoriaUno",
-      "menu-item#submenu__menu--menuitem-manoslibres-categoriaUno",
-      "menu-item#submenu__menu--menuitem-accesorios-categoriaUno",
-      "menu-item#submenu__menu--menuitem-zapatos-categoriaUno",
+      "menu-item#the__usual--subcategoryOne",
+      "menu-item#backpacks__subcategoryOne",
+      "menu-item#handbags__subcategoryOne",
+      "menu-item#free__hands--subcategoryOne",
+      "menu-item#accessories__subcategoryOne",
+      "menu-item#shoes__subcategoryOne",
 
-      "menu-item#submenu__menu--menuitem-credito-categoriaUno",
-      "menu-item#submenu__menu--menuitem-vertodo-categoriaUno",
-      "menu-item#submenu__menu--menuitem-Rebajasmujer-categoriaUno"
+      "menu-item#credit__subcategoryOne",
+      "menu-item#see__all--women-subcategoryOne",
+      "menu-item#women__sales--subcategoryOne"
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "container__submenu--menu-categoriaUno"
+      "blockClass": "container__submenu--subcategoryOne"
     }
   },
-  "menu#desktop__header--menu-categoriaDos": {
-    "title": "desktop menu container categoriaDos",
+  "menu#desktop__header--menu-departmentTwo": {
+    "title": "desktop menu container departmentTwo",
     "children": [
-      "menu-item#header__menu--container-categoriaDos"
-    ]
-  },
-  "menu-item#header__menu--container-categoriaDos": {
-    "title": "desktop menu container categoriaDos",
+      "menu-item#header__menu--container-departmentTwo"
+    ],
     "props": {
-      "blockClass": "header__menu--container-categoriaDos",
-      "id": "menu-container-categoriaDos",
+      "blockClass": "desktop__header--menu-departmentTwo"
+    }
+  },
+  "menu-item#header__menu--container-departmentTwo": {
+    "title": "desktop menu container departmentTwo",
+    "props": {
+      "blockClass": "header__menu--container-departmentTwo",
+      "id": "menu-container-departmentTwo",
       "type": "custom",
       "itemProps": {
         "type": "external",
         "href": "/",
         "noFollow": true,
-        "tagTile": "Big Title Hombre",
+        "tagTile": "Big Title men",
         "text": "HOMBRE"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#menu__container--menuitem-categoriaDos"]
+    "blocks": ["vtex.menu@2.x:submenu#menu__container--categoryTwo"]
   },
-  "vtex.menu@2.x:submenu#menu__container--menuitem-categoriaDos": {
-    "title": "desktop submenu categoriaDos",
+  "vtex.menu@2.x:submenu#menu__container--categoryTwo": {
+    "title": "desktop submenu categoryTwo",
     "children": [
-      "menu#menu#container__submenu--menu-categoriaDos"
-    ]
+      "menu#menu#container__submenu--subcategoryTwo"
+    ],
+    "props": {
+      "blockClass": "menu__container--categoryTwo"
+    }
   },
-  "menu#menu#container__submenu--menu-categoriaDos": {
-    "title": "desktop menu items categoriaDos",
+  "menu#menu#container__submenu--subcategoryTwo": {
+    "title": "desktop menu items subcategoryTwo",
     "children":[
-      "menu-item#submenu__menu--menuitem-losde100pre-categoriaDos",
-      "menu-item#submenu__menu--menuitem-morrales-categoriaDos",
-      "menu-item#submenu__menu--menuitem-manoslibres-categoriaDos",
-      "menu-item#submenu__menu--menuitem-accesorios-categoriaDos",
-      "menu-item#submenu__menu--menuitem-credito-categoriaDos",
-      "menu-item#submenu__menu--menuitem-vertodo-categoriaDos",
-      "menu-item#submenu__menu--menuitem-Rebajashombre-categoriaDos"
+      "menu-item#the__usual--subcategoryTwo",
+      "menu-item#backpacks__subcategoryTwo",
+      "menu-item#free__hands--subcategoryTwo",
+      "menu-item#accessories__subcategoryTwo",
+      "menu-item#credit__subcategoryTwo",
+      "menu-item#see__all--men-subcategoryTwo",
+      "menu-item#men__sales--subcategoryTwo"
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "container__submenu--menu-categoriaDos"
+      "blockClass": "container__submenu--subcategoryTwo"
     }
   }
 }

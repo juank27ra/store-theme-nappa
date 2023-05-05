@@ -1,0 +1,105 @@
+{
+  "flex-layout.row#desktop__header--row-menu": {
+    "title": "row menu content",
+    "children": [
+      "menu#desktop__departments--menu"
+    ],
+    "props": {
+      "blockClass": "desktop__header--row-menu"
+    }
+  },
+  "menu#desktop__departments--menu": {
+    "title": "departments menu container",
+    "children": [
+      "menu#desktop__header--menu-departmentOne",
+      "menu#desktop__header--menu-departmentTwo"
+
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "desktop__departments--menu"
+    }
+  },
+  "flex-layout.row#desktop__header--row-sales":{
+    "title": "row menu sales",
+    "children": ["menu#desktop__department--sales"],
+    "props": {
+      "blockClass": "desktop__header--row-sales"
+    }
+  },
+  "menu#desktop__department--sales": {
+    "title": "desktop menu container department-sales",
+    "children": [
+      "menu#header__container-department-sales"
+    ],
+    "props": {
+      "blockClass": "desktop__department--sales"
+    }
+  },
+  "menu#header__container-department-sales": {
+    "title": "header department sales ",
+    "children": [
+      "menu-item#menu__sales"
+    ],
+    "props":{
+      "blockClass": "header__container-department-sales"
+    }
+  },
+  "menu-item#menu__sales": {
+    "title": " menu sales ",
+    "props": {
+      "blockClass": "menu__sales",
+      "id": "menu-sales",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTile": "Big Title sales",
+        "text": "REBAJAS"
+      }
+    }
+  },
+  "flex-layout.row#desktop__header--row-tiktok": {
+    "title": "row menu tiktok",
+    "children": [
+      "menu#desktop__departments--tiktok"
+    ],
+    "props": {
+      "blockClass": "desktop__header--row-tiktok"
+    }
+  },
+  "menu#desktop__departments--tiktok": {
+    "title": "departments tiktok",
+    "children": [
+      "menu#desktop__menu--container-tiktok"
+    ],
+    "props": {
+      "blockClass": "desktop__departments--tiktok"
+    }
+  },
+  "menu#desktop__menu--container-tiktok":{
+    "title": "desktop menu tiktok",
+    "children": [
+      "menu-item#desktop__menu--tiktok"
+    ],
+    "props": {
+      "blockClass": "desktop__menu--container-tiktok"
+    }
+  },
+  "menu-item#desktop__menu--tiktok": {
+    "title": "desktop menu tiktok",
+    "props": {
+      "blockClass": "desktop__menu--tiktok",
+      "id": "menu-tiktok",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.tiktok.com/@nappa.colombia",
+        "noFollow": true,
+        "tagTile": "Big Title tiktok",
+        "text": "TIKTOK"
+      }
+    }
+  }
+}

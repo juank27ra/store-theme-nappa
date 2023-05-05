@@ -1,16 +1,30 @@
-.drawerHeader{
-  flex: auto;
+.menuIcon--mobile__header--menu {
+  height: 4vw !important;
+  width : 4vw !important;
 }
 
-.menuIcon {
-  height: 30;
-  width: 30;
+.flexRowContent--mobile__logo--menu-content :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 30%;
 }
 
-.claseIcon {
-  margin-left: 10px;
+
+.flexCol--mobile__col--logo {
+  width: 70%;
 }
 
-.opened {
-  max-width: 100%;
+.flexCol--mobile__col--menu {
+  width: 30%;
+}
+
+.menuIcon--mobile__header--menu {
+  color: black;
+}
+
+.drawer--mobile__header--menu {
+  width: 100% ;
+  max-width: 100% ;
+}
+
+.closeIconButton--drawer__close--button-megamenu {
+  margin-bottom: 8vw;
 }

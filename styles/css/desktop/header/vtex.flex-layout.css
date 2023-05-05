@@ -1,0 +1,79 @@
+.flexRowContent--desktop__header--row-icons {
+  gap        : 0.5px;
+  display    : flex;
+  align-items: center;
+}
+
+.flexColChild--desktop__header--col-search {
+  cursor: pointer;
+}
+
+.flexColChild--desktop__header--col-search {
+  margin-top: 12px;
+}
+
+.flexCol--desktop__header--col-minicart {
+  position     : relative;
+  margin-left  : 6px;
+  margin-bottom: 12px;
+  margin-right : -30px;
+}
+
+.flexCol--desktop__header--col-search {
+  margin-bottom: 18px;
+  margin-right : -1px;
+}
+
+.flexRowContent--desktop__industry--commerce {
+  height: 3rem;
+  width : 11rem;
+}
+
+.flexRow--desktop__industry--commerce {
+  display        : flex;
+  justify-content: center;
+}
+
+.flexColChild--desktop__footer--container-col2 {
+  display        : flex;
+  justify-content: center;
+}
+
+.flexCol--desktop__footer--container-col2 {
+  border-left: 3px solid black;
+}
+
+.flexRowContent--desktop__content-banner {
+  display       : flex;
+  flex-direction: row;
+  padding       : 4vh 4vw 4vh 8vw;
+}
+
+.flexRowContent--desktop__header--row-logo {
+  font-size: 0.9vw;
+  margin   : 12px 0 0 12px;
+}
+
+.flexColChild--desktop__header--col-minicart :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+.flexColChild--desktop__header--col-login :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+.flexRowContent--home__text--seccion-three {
+  margin: 4vh 0 4vh 0;
+}
+
+.flexColChild--desktop__icon--search-col :first-child {
+  width : 1.3vw;
+  height: 1.8vw;
+  margin-right: -1vw
+}
+.flexRowContent--desktop__header--row-logo {
+  width: 10.5vw;
+}
+.flexColChild--minicart__footer--col {
+  margin-bottom: 4px;
+}

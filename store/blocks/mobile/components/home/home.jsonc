@@ -1,29 +1,33 @@
 {
-  "responsive-layout.mobile#phone__and__tablet": {
-    "title": "Responsive Mobile",
-    "children": ["flex-layout.row#mobile__home"]
-  },
-
-  "flex-layout.row#mobile__home": {
-    "title": "Mobile Row with text",
+  "slider-layout#home__slider--one": {
+    "title": "home slider one",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "home__slider--seccion-one",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
     "children": [
-      "rich-text#hello-vtex"
+      "image#mobile__home--sliderOne-one",
+      "video#desktop__home--sliderOne-two",
+      "video#desktop__home--sliderOne-three"
+    ]
+  },
+  "flex-layout.row#mobile__home--seccion-two": {
+    "title": "mobile home image seccion two",
+    "children": [
+      "image#mobile__home--image-seccion-two"
     ],
     "props": {
-      "marginTop": 10,
-      "border": ["top", "bottom"],
-      "borderWidth": 1,
-      "borderColor": "danger"
-    }
-  },
-
-  "rich-text#hello-vtex": {
-    "title": "Text of MOBILE",
-    "props": {
-      "text": "Éxisto en Tablet y Phone -->> VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "blockClass": "mobile__home--seccion-two"
     }
   }
 }

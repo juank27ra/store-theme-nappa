@@ -1,0 +1,17 @@
+{
+  "search-result-layout.customQuery#global__home--search-blocks" : {
+    "title": "search result customQuery blocks",
+    "props": {
+      "blockClass": "global__home--search-blocks",
+      "querySchema": {
+        "skusfilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#desktop__home--search",
+      "search-result-layout.mobile#mobile__home--search",
+      "search-not-found-layout"
+    ]
+  }
+}
