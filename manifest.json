@@ -54,7 +54,8 @@
     "vtex.disclosure-layout": "1.x",
     "vtex.product-list": "0.x",
     "vtex.store-newsletter": "1.x",
-    "vtex.store-video": "1.x"
+    "vtex.store-video": "1.x",
+    "vtex.product-gifts": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"

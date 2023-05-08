@@ -1,0 +1,122 @@
+{
+  "flex-layout.col#desktop__container--pl-content": {
+    "title": "content container pl desktop",
+    "children": [
+      "flex-layout.row#desktop__subcontainer--pl-minicart",
+      "flex-layout.row#desktop__minicart--pl-message"       //?
+    ],
+    "props": {
+      "blockClass": "desktop__container--pl-content",
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#desktop__subcontainer--pl-minicart": {
+    "title": "subcontainer pl minicart",
+    "children": [
+      "flex-layout.col#subcontainer__pl--minicart-description",
+      "flex-layout.col#subcontainer__pl--minicart-quantity",
+      "flex-layout.row#subcontainer__pl--minicart-price-remove"
+    ],
+    "props": {
+      "blockClass": "desktop__subcontainer--pl-minicart",
+      "preserveLayoutOnMobile": "true",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#subcontainer__pl--minicart-description": {
+    "title": "description pl minicart",
+    "props": {
+      "blockClass": "subcontainer__pl--minicart-description"
+    }
+  },
+  "flex-layout.col#subcontainer__pl--minicart-quantity": {
+    "title": "quantity pl minicart",
+    "children": [
+      "flex-layout.row#subcontainer__pl--minicart-quantity-selector",
+      "flex-layout.row#subcontainer__pl--minicart-unit-price"
+    ],
+    "props": {
+      "blockClass": "subcontainer__pl--minicart-quantity",
+      "marginLeft": "8"
+    }
+  },
+  "flex-layout.row#subcontainer__pl--minicart-price-remove": {
+    "title": " price-button list pl minicart",
+    "children": [
+      "flex-layout.col#subcontainer__row--pl-price",
+      "flex-layout.col#subcontainer__row--pl-remuve-button"
+    ],
+    "props": {
+      "blockClass": "container__pl--minicart-price-remove",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#subcontainer__pl--minicart-quantity-selector": {
+    "title": "quantity selector pl minicart",
+    "children": ["quantity-selector"],
+    "props": {
+      "blockClass": "subcontainer__pl--minicart-quantity-selector",
+      "preventHorizontalStretch": "true"
+    }
+  },
+  "flex-layout.row#subcontainer__pl--minicart-unit-price": {
+    "title": "unit-price pl minicart container",
+    "children": ["unit-price#subcontainer__minicart--unity-price"],
+    "props": {
+      "blockClass": "subcontainer__pl--minicart-unit-price",
+      "marginTop": "3",
+      "preventHorizontalStretch": "true"
+    }
+  },
+  "unit-price#subcontainer__minicart--unity-price": {
+    "title": "unit-price pl minicart",
+    "props": {
+      "blockClass": "subcontainer__minicart--unity-price",
+      "unitPriceType": "price",
+      "unitPriceDisplay": "default",
+      "textAlign": "center"
+    }
+  },
+  "flex-layout.col#subcontainer__row--pl-price": {
+    "title": "price pl minicart container",
+    "children": ["price#col__pl--price"],
+    "props": {
+      "blockClass": "subcontainer__row--pl-price",
+      "marginLeft": "6",
+      "preventHorizontalStretch": "true",
+      "verticalAlign": "middle"
+    }
+  },
+  "price#col__pl--price": {
+    "title": "price pl minicart",
+    "props": {
+      "blockClass": "col__pl--price",
+      "showListPrice": "",
+      "textAlign": "right"
+    }
+  },
+  "flex-layout.col#subcontainer__row--pl-remuve-button": {
+    "title": "remuve button minicart pl",
+    "children": ["remove-button"],
+    "props": {
+      "blockClass": "subcontainer__row--pl-remuve-button",
+      "marginLeft": "6",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#desktop__minicart--pl-message": {
+    "title": "container minicart message",
+    "children": ["message#desktop__minicart--message"],
+    "props": {
+      "blockClass": "desktop__minicart--message",
+      "marginTop": "4"
+    }
+  },
+  "message#desktop__minicart--message": {
+    "title": "message minicart",
+    "props": {
+      "blockClass": "desktop__minicart--message",
+      "layout": "cols"
+    }
+  }
+}

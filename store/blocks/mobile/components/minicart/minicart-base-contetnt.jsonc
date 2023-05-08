@@ -3,7 +3,7 @@
     "title": "mobile minicart base content",
     "blocks": ["minicart-empty-state#global__minicart--empty-state"],
     "children": [
-      "minicart-product-list",    //#mobile__minicart--product-list",
+      "minicart-product-list",
       "flex-layout.row#mobile__minicart--footer-row"
     ],
     "props": {

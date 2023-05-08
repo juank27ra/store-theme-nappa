@@ -1,0 +1,4 @@
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+

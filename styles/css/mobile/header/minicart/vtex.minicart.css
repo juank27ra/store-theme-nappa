@@ -20,10 +20,22 @@
   transform: translate3d(0%, 0px, 0px);
 }
 
-/* .drawer--mobile__header--minicart :global(.vtex-minicart-2-x-drawerContent--mobile__header--minicart) {
+.drawer--mobile__header--minicart :global(.vtex-minicart-2-x-drawerContent--mobile__header--minicart) {
+  width         : 85%;
+  max-width     : 328px;
+  min-width     : 280px;
+  pointer-events: auto;
+  transform     : translate3d(0%, 0px, 0px);
+}
+
+.minicartIconContainer--mobile__header--minicart :first-child {
+  width: 5vw;
+}
+/* .drawer--mobile__header--minicart:first-child {
   width         : 85%;
   max-width     : 328px;
   min-width     : 280px;
   pointer-events: auto;
   transform     : translate3d(0%, 0px, 0px);
 } */
+

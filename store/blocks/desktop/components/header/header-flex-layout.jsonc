@@ -60,13 +60,13 @@
       }
     }
   },
-  "flex-layout.row#desktop__header--row-tiktok": {
-    "title": "row menu tiktok",
+  "flex-layout.col#desktop__header--col-tiktok": {
+    "title": "col menu tiktok",
     "children": [
       "menu#desktop__departments--tiktok"
     ],
     "props": {
-      "blockClass": "desktop__header--row-tiktok"
+      "blockClass": "desktop__header--col-tiktok"
     }
   },
   "menu#desktop__departments--tiktok": {

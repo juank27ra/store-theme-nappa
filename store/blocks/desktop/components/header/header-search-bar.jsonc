@@ -7,12 +7,14 @@
       "displayMode": "clear-button",
       "hasIconLeft": true,
       "inputType": "search",
-      "hidden": true,
+      // "hidden": true,
       "placeholder": "¿ QUE ESTAS BUSCANDO?",
       "hideTitles": true,
       "productLayout": "vertical",
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": true,
+      "maxSuggestedProducts": 3
     },
     "blocks": ["autocomplete-result-list.v2"]
   }
+
 }

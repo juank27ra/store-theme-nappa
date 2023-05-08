@@ -17,8 +17,8 @@
     },
     "children": [
       "image#desktop__home--sliderOne-one",
-      "video#desktop__home--sliderOne-two",
-      "video#desktop__home--sliderOne-three"
+      "image#desktop__home--sliderOne-two",
+      "image#desktop__home--sliderOne-three"
     ]
   },
   "flex-layout.row#desktop__home--seccion-two": {

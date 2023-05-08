@@ -1,23 +1,20 @@
-/* .logoImage--desktop__header--logo {
-  height    : 85px;
-  width     : 10.5vw;
-  margin-top: 10px;
-} */
-
 .searchBarContainer {
   background: transparent;
   border    : none;
-  width     : 22vw;
+  /* width     : 22vw; */
 }
-
 .searchBarInnerContainer--desktop__header--searchbar {
   border-bottom: 1px solid;
-  position     : relative;
+  width: 15vw;
+  margin-left: -17vw;
+  margin-top: -20px;
 }
-
 
 .autoCompleteOuterContainer--desktop__header--searchbar :global(.vtex-styleguide-9-x-input) {
   background-color: transparent;
+  font-size: 15px;
+  margin-top: 20px;
+  color: black;
 }
 
 .autoCompleteOuterContainer--desktop__header--searchbar :global(.vtex-input-prefix__group) {
@@ -31,4 +28,15 @@
 
 .autoCompleteOuterContainer--desktop__header--searchbar :global(.vtex__icon-search) {
   color: black;
+}
+
+.portalWrapper--desktop__header--searchbar :global(.vtex-search-2-x-biggy-autocomplete){
+  margin: 8px 0 0 -300px;
+  width: 66vw;
+  /* scroll-behavior: auto; */
+}
+.portalWrapper--desktop__header--searchbar :global( .vtex-button){
+background-color: black;
+font-size: 14px;
+border: none;
 }

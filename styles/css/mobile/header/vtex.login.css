@@ -1,13 +1,13 @@
-.container {
+/* .container {
   height     : 48px;
   width      : 48px;
   margin-left: -10px;
-}
+} */
 
 .profileIcon--mobile__header--login {
-  height: 40px;
-  width : 6vw;
-  margin: 0 0 0 10px;
+  height: 5vw;
+  width : 5vw;
+  margin-bottom: 6px;
 }
 
 .content--loginOptions :global(.vtex-button) {
@@ -42,3 +42,19 @@
   max-width: 250px;
 }
 
+.portalWrapper--mobile__header--login :global(.vtex-login-2-x-button) {
+  color: gray;
+}
+
+.portalWrapper--mobile__header--login :global(.vtex-button__label) {
+  color: gray;
+}
+
+.portalWrapper--mobile__header--login :global(.vtex-login-2-x-optionsListItem .vtex-button__label) {
+  font-size: 15px;
+  color: white;
+}
+
+.portalWrapper--mobile__header--login :global(.vtex-login-2-x-sendButton .vtex-button__label) {
+  color: white ;
+}

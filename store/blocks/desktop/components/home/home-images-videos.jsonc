@@ -6,23 +6,21 @@
       "blockClass": "desktop__home--sliderOne-one"
     }
   },
-  "video#desktop__home--sliderOne-two" : {
-    "title": "SliderOne video",
+  "image#desktop__home--sliderOne-two" : {
+    "title": "SliderOne image two",
     "props": {
-      "src": "assets/img/Home/desktop__home--slider-video1.mp4",
-      "loop": false,
-      "autoPlay": true,
-      "muted": false,
+      "src": "assets/img/Home/home__sliderOne--two.gif",
+      "maxHeight": 420,
+      "maxWidth": "100%",
       "blockClass": "desktop__home--sliderOne-two"
     }
   },
-  "video#desktop__home--sliderOne-three" : {
-    "title": "SliderOne video",
+  "image#desktop__home--sliderOne-three" : {
+    "title": "SliderOne image three",
     "props": {
-      "src": "assets/img/Home/desktop__home--slider-video2.mp4",
-      "loop": false,
-      "autoPlay": true,
-      "muted": false,
+      "src": "assets/img/Home/home__sliderOne--three.gif",
+      "maxHeight": 420,
+      "maxWidth": "100%",
       "blockClass": "desktop__home--sliderOne-three"
     }
   },

@@ -8,3 +8,11 @@
   letter-spacing: 1.5px;
   line-height   : 1.5;
 }
+
+.paragraph--header__slider--buy-credit,
+.paragraph--header__slider--free-shipping,
+.paragraph--header__slider--sales {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}

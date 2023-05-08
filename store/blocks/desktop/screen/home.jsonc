@@ -7,7 +7,8 @@
       "flex-layout.row#home__text--seccion-three",
       "flex-layout.row#home__images--seccion-four"
       // "flex-layout.row#desktop__image"
-    ], "props": {
+    ],
+    "props": {
       "blockClass": "desktop__home"
     }
   }

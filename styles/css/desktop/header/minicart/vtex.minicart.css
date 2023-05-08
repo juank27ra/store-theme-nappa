@@ -13,10 +13,8 @@
 
 .drawer--desktop__header--minicart {
   width    : 85% ;
-  max-width: 328px;
+  max-width: 328px !important;
   min-width: 280px;
-  overflow: scroll;
-  /* transform: translate3d(0%, 0px, 0px); */
 }
 
 /* .overlay--desktop__header--minicart--visible,
@@ -26,4 +24,8 @@
 
 .minicartTitle--desktop__minicart--base-content {
   margin-left: -30px;
+}
+.minicartContentContainer--desktop__minicart--base-content :global(.vtex-minicart-2-x-minicartProductListContainer) {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }

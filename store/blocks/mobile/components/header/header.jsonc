@@ -2,7 +2,8 @@
   "header-layout.mobile#mobile__header--container" : {
     "title": "mobile header container",
     "children": [
-      "sticky-layout#mobile__header--sticky"
+      "sticky-layout#mobile__header--sticky",
+      "header-row#desktop__header--bottom"
     ],
     "props": {
       "blockClass": "mobile__header--container"

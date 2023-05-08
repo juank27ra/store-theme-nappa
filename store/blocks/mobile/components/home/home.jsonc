@@ -16,9 +16,7 @@
       }
     },
     "children": [
-      "image#mobile__home--sliderOne-one",
-      "video#desktop__home--sliderOne-two",
-      "video#desktop__home--sliderOne-three"
+      "image#mobile__home--sliderOne-one"
     ]
   },
   "flex-layout.row#mobile__home--seccion-two": {

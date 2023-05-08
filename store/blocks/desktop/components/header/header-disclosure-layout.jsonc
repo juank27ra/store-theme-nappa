@@ -1,0 +1,54 @@
+{
+  "disclosure-layout-group#desktop__disclosure--container-searchbar": {
+    "title": "desktop modal ",
+    "children": [
+      "disclosure-layout#desktop__disclosure--search-bar"
+    ],
+    "props": {
+      // "initialVisibility": "hidden",
+      // "animated": true,
+      "blockClass": "desktop__disclosure--container-searchbar"
+    }
+  },
+  "disclosure-layout#desktop__disclosure--search-bar": {
+    "title": "desktop disclosure layout container",
+    "children": [
+      "disclosure-trigger#desktop__disclosure--icon-search",
+      "disclosure-content#desktop__disclosure--searchbar"
+    ],
+    "props": {
+      // "initialVisibility": "hidden",
+      // "animated": true,
+      "blockClass": "desktop__disclosure--search-bar"
+    }
+  },
+  "disclosure-trigger#desktop__disclosure--icon-search": {
+    "title": "desktop__row--icon-search",
+    "children": [
+      "icon#desktop__disclosure--icon-searchbar"
+    ],
+    "props": {
+      "blockClass": "desktop__disclosure--icon-search"
+    }
+  },
+  "icon#desktop__disclosure--icon-searchbar": {
+    "title": "icon search-bar",
+    "props": {
+      "blockClass": "desktop__disclosure--icon-searchbar",
+      "id": "hpa-search",
+      "size": 40,
+      "fullScreen": true
+    }
+  },
+  "disclosure-content#desktop__disclosure--searchbar": {
+    "title": "desktop modal-layout",
+    "children": [
+      "search-bar#desktop__header--searchbar"
+    ],
+    "props": {
+      // "initialVisibility": "hidden",
+      // "animated": true,
+      "blockClass": "desktop__disclosure--searchbar"
+    }
+  }
+}

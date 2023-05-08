@@ -16,8 +16,7 @@
       }
     },
     "children": [
-      "image#mobile__home--sliderOne-one",
-      "video#mobile__home--sliderOne-two"
+      "image#mobile__home--sliderOne-one"
     ]
   },
   "image#mobile__home--sliderOne-one" : {
@@ -25,16 +24,6 @@
     "props": {
       "src": "assets/img/Home/mobile__sliderOne--one.jpg",
       "blockClass": "mobile__home--sliderOne-one"
-    }
-  },
-  "video#mobile__home--sliderOne-two" : {
-    "title": "SliderOne video",
-    "props": {
-      "src": "assets/img/Home/desktop__home--slider-video1.mp4",
-      "loop": false,
-      "autoPlay": true,
-      "muted": false,
-      "blockClass": "mobile__home--sliderOne-two"
     }
   },
   "slider-layout#mobile__home--slider-layoutTwo": {

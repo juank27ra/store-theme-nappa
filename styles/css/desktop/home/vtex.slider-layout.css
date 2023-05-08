@@ -1,0 +1,27 @@
+.sliderLayoutContainer--home__slider--seccion-one {
+  top: -100px;
+  position: relative;
+}
+
+.sliderTrackContainer--home__col--slider-one {
+  padding: 0 4vw 0 4vw;
+  /* height: 100vw; */
+}
+
+.sliderLayoutContainer--desktop__header--slider-tex {
+  height: 30px !important;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  background-color: #ce00d4;
+}
+
+.sliderTrackContainer--home__slider--seccion-one {
+  top: -100px;
+  position: relative;
+}
+
+.flexRow--desktop__home--seccion-two :first-child {
+  margin: 0;
+}

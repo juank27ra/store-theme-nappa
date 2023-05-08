@@ -8,6 +8,7 @@
   background-color: transparent;
   color: #353535;
   text-transform: capitalize;
+  border-radius: 0%;
 }
 
 .flexColChild--minicart__footer--col {
