@@ -3,7 +3,7 @@
 }
 
 .profileIcon--desktop__header--login {
-  margin-left  : -10px;
+  margin-right: -10px;
   margin-bottom: 6px;
   width : 1.2vw;
   height: 1.2vw;
@@ -14,14 +14,8 @@
   background-color: transparent;
 }
 
-
-
-/* .profileIcon--desktop__header--login  :first-child {
-  width: 1.2vw;
-} */
 .portalWrapper--desktop__header--login :global(.vtex-login-2-x-backButton .vtex-button):hover {
   background-color: transparent ;
-
 }
 
 .portalWrapper--desktop__header--login :global(.vtex-login-2-x-sendButton .vtex-button__label) {

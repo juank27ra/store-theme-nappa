@@ -1,0 +1,35 @@
+{
+  "image#mobile__home--sliderOne-one": {
+    "title": "sliderTwo",
+    "props": {
+      "src": "assets/img/mobile/mobile__sliderOne--one.jpg",
+      "blockClass": "mobile__home--sliderOne-one"
+    }
+  },
+  "image#mobile__home--sliderOne-two" : {
+    "title": "SliderOne image two",
+    "props": {
+      "src": "assets/img/mobile/mobile__sliderOne--two.gif",
+      // "maxHeight": "94%",
+      // "maxWidth": "100%",
+      "blockClass": "mobile__home--sliderOne-two"
+    }
+  },
+  "image#mobile__home--sliderOne-three" : {
+    "title": "SliderOne image three",
+    "props": {
+      "src": "assets/img/mobile/mobile__sliderOne--three.gif",
+      // "maxHeight": "94%",
+      // "maxWidth": "100%",
+      "blockClass": "mobile__home--sliderOne-three"
+    }
+  },
+  "image#mobile__home--image-seccion-two": {
+    "title": "sliderTwo",
+    "props": {
+      "src": "assets/img/mobile/mobile__image--seccion-two.png",
+      "blockClass": "mobile__home--image-seccion-two"
+    }
+  }
+}
+

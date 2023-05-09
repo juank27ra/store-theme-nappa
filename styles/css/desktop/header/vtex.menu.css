@@ -155,6 +155,7 @@
   padding     : 0 0 20px 0;
   font-family : 'Poppins-Regular';
   color       : black;
+  transform: translateX(-20px);
 }
 
 .styledLinkContent--backpacks__subcategoryOne:hover,
@@ -174,10 +175,6 @@
 .styledLinkContent--women__sales--subcategoryOne:hover,
 .styledLinkContent--men__sales--subcategoryTwo:hover {
   font-family: 'Poppins-Bold';
-}
-
-.styledLinkContent--desktop__menu--tiktok {
-  margin-top: 22px;
 }
 
 .flexRowContent--desktop__header--row-icons {

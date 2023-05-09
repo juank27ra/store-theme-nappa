@@ -2,8 +2,9 @@
   "responsive-layout.mobile#mobile__home": {
     "title": "mobile home",
     "children": [
-        "slider-layout#home__slider--one",
-        "flex-layout.row#mobile__home--seccion-two"
+        "slider-layout#mobile__home--seccion-one",
+        "flex-layout.row#mobile__home--seccion-two",
+        "flex-layout.row#mobile__home--seccion-three"   //new-coleccion
       ],
       "props": {
         "blockClass": "mobile__home"

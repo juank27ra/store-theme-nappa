@@ -5,12 +5,16 @@
   z-index         : 9;
   font-size       : 10px;
   font-weight     : 600;
-  top             : -12px;
-  left            : -0.8rem;
+  top             : -10px;
+  left            : -10rem;
 }
 
 .openIconContainer--mobile__header--minicart {
   padding: 0;
+}
+
+.openIconContainer--mobile__header--minicart :first-child{
+  width: 28px;
 }
 
 .drawerContent--mobile__header--minicart {
@@ -29,13 +33,9 @@
 }
 
 .minicartIconContainer--mobile__header--minicart :first-child {
-  width: 5vw;
+  width: 4vw;
 }
-/* .drawer--mobile__header--minicart:first-child {
-  width         : 85%;
-  max-width     : 328px;
-  min-width     : 280px;
-  pointer-events: auto;
-  transform     : translate3d(0%, 0px, 0px);
-} */
 
+.minicartWrapperContainer--mobile__header--minicart {
+  margin-left: 14px;
+}

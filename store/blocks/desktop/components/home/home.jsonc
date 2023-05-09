@@ -18,7 +18,8 @@
     "children": [
       "image#desktop__home--sliderOne-one",
       "image#desktop__home--sliderOne-two",
-      "image#desktop__home--sliderOne-three"
+      "image#desktop__home--sliderOne-three",
+      "video#desktop__home--sliderOne-four"
     ]
   },
   "flex-layout.row#desktop__home--seccion-two": {

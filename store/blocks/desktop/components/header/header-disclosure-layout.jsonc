@@ -5,8 +5,6 @@
       "disclosure-layout#desktop__disclosure--search-bar"
     ],
     "props": {
-      // "initialVisibility": "hidden",
-      // "animated": true,
       "blockClass": "desktop__disclosure--container-searchbar"
     }
   },
@@ -17,8 +15,7 @@
       "disclosure-content#desktop__disclosure--searchbar"
     ],
     "props": {
-      // "initialVisibility": "hidden",
-      // "animated": true,
+      "maxVisible": "one",    //
       "blockClass": "desktop__disclosure--search-bar"
     }
   },
@@ -31,24 +28,83 @@
       "blockClass": "desktop__disclosure--icon-search"
     }
   },
+  // "menu#dektop__disclosure--menu": {
+  //   "title": "disclosure trigger menu content",
+  //   // "children": [
+  //   //   "menu-item#disclosure__menu--menu-item"
+  //   // ],
+  //   "props": {
+  //     "orientation": "horizontal",
+  //     "blockClass": "dektop__disclosure--menu",
+  //     "id": "menu-item-disclosure",
+  //     "type": "custom",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": false,
+  //       "tagTitle": "Shop",
+  //       "text": "Shop"
+  //     },
+  //     "iconProps": {
+  //       "id": "hpa-search",
+  //       "size": 40,
+  //       "viewBox": "0 0 16 16",
+  //       "activeClassName": "rebel-pink",
+  //       "mutedClassName": "c-action-primary"
+  //     },
+  //     "iconToTheRight": true
+  //   }
+  // },
+  // "menu-item#disclosure__menu--menu-item": {
+  //   "title": "menu item content icon search bar",
+  //   "props": {
+  //     "blockClass": "disclosure__menu--menu-item",
+  //     "id": "menu-item-content-icon-search-bar",
+  //     "highlight": false,
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "size": 16
+  //     },
+  //     "iconProps": {
+  //       "id": "hpa-search",
+  //       "size": 40,
+  //       "viewBox": "0 0 16 16",
+  //       "activeClassName": "rebel-pink",
+  //       "mutedClassName": "c-action-primary"
+  //     },
+  //     "iconToTheRight": true
+  //   }
+  // },
   "icon#desktop__disclosure--icon-searchbar": {
     "title": "icon search-bar",
     "props": {
       "blockClass": "desktop__disclosure--icon-searchbar",
       "id": "hpa-search",
-      "size": 40,
-      "fullScreen": true
+      "size": 40
     }
   },
   "disclosure-content#desktop__disclosure--searchbar": {
     "title": "desktop modal-layout",
     "children": [
+      // "flex-layout.row#searchbar"
       "search-bar#desktop__header--searchbar"
     ],
     "props": {
-      // "initialVisibility": "hidden",
-      // "animated": true,
+      // "orientation": "left",
       "blockClass": "desktop__disclosure--searchbar"
+    }
+  },
+  "flex-layout.row#searchbar": {
+    "title": "flex searchbar",
+    "children": [
+      "search-bar#desktop__header--searchbar"
+    ],
+    "props": {
+      "blockClass": "searchbar "
     }
   }
 }

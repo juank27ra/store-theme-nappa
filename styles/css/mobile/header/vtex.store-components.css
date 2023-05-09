@@ -22,31 +22,3 @@
   padding  : 4vw 7vw 0;
 }
 
-
-.autoCompleteOuterContainer--mobile__header--searchbar :global(.vtex-styleguide-9-x-input) {
-  background-color: transparent;
-  border-bottom   : black solid 1px;
-}
-
-.autoCompleteOuterContainer--mobile__header--searchbar :global(.vtex-input-prefix__group) {
-  border: none;
-}
-
-.autoCompleteOuterContainer--mobile__header--searchbar :global(.vtex__icon-clear) {
-  display: none;
-  border : none;
-}
-
-.autoCompleteOuterContainer--mobile__header--searchbar :global(.vtex-input__suffix):first-child {
-  border: none;
-}
-
-.autoCompleteOuterContainer--mobile__header--searchbar :global(.vtex__icon-search) {
-  color: black;
-}
-
-.searchBarInnerContainer--mobile__header--searchbar {
-  width : 95vw;
-  margin: 200px 0 0 -65vw;
-  border: none;
-}

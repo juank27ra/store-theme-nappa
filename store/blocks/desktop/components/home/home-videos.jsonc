@@ -1,0 +1,12 @@
+{
+  "video#desktop__home--sliderOne-four" : {
+    "title": "SliderOne video",
+    "props": {
+      "src": "assets/img/Home/desktop__home--slider-video1.mp4",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "blockClass": "desktop__home--sliderOne-four"
+    }
+  }
+}

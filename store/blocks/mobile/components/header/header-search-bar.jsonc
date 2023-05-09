@@ -9,7 +9,8 @@
       // "maxWidth": "100%",
       "placeholder": "¿ QUE ESTAS BUSCANDO?",
       "openAutocompleteOnFocus": true,
-      "isFullWidth": true
+      "isFullWidth": true,
+      "maxSuggestedProducts": 3
     },
     "blocks": ["autocomplete-result-list.v2"]
   }

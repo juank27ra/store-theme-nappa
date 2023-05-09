@@ -4,20 +4,7 @@
 }
 
 .trigger--desktop__disclosure--icon-search :first-child {
-  width: 1.2vw;
-  margin-left: 28px;
-  /* margin-top: 5px; */
-
+  width      : 1.2vw;
+  margin-left: 23px;
+  margin-top : 4px;
 }
-
-/* .content--desktop__disclosure--searchbar {
-  position: absolute;
-} */
-
-/* .trigger--desktop__disclosure--icon-search :global(){
-  margin-left: 10px;
-  .vtex-flex-layout-0-x-flexCol--desktop__header--col-tiktok{
-    margin-right: auto;
-    transition: margin-right 0.5s ease-out;
-  }
-} */

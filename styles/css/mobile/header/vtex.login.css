@@ -1,12 +1,7 @@
-/* .container {
-  height     : 48px;
-  width      : 48px;
-  margin-left: -10px;
-} */
 
 .profileIcon--mobile__header--login {
-  height: 5vw;
-  width : 5vw;
+  height: 4vw;
+  width : 4vw;
   margin-bottom: 6px;
 }
 
