@@ -1,8 +1,9 @@
 
 .profileIcon--mobile__header--login {
-  height: 4vw;
-  width : 4vw;
-  margin-bottom: 6px;
+  height: 5vw;
+  width : 5vw;
+  margin-bottom: 8px;
+  margin-left: -2vw !important;
 }
 
 .content--loginOptions :global(.vtex-button) {

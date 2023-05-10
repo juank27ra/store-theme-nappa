@@ -5,8 +5,11 @@
       "slider-layout#home__slider--seccion-one",
       "flex-layout.row#desktop__home--seccion-two",
       "flex-layout.row#home__text--seccion-three",
-      "flex-layout.row#home__images--seccion-four"
-      // "flex-layout.row#desktop__image"
+      "flex-layout.row#home__images--seccion-four",
+      "slider-layout#desktop__home--seccion-five",
+      "flex-layout.row#desktop__home--seccion-six",
+      "flex-layout.row#desktop__home--seccion-sevent",
+      "slider-layout#desktop__home--seccion-eight"
     ],
     "props": {
       "blockClass": "desktop__home"

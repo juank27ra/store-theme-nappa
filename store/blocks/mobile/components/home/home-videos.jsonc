@@ -2,11 +2,35 @@
   "video#mobile__home--sliderOne-four" : {
     "title": "SliderOne video",
     "props": {
-      "src": "assets/img/mobile/mobile__sliderOne--four.mp4",
-      "loop": false,
+      // "src": "assets/img/mobile/mobile__sliderOne--four.mp4",
+      "loop": true,
       "autoPlay": true,
       "muted": false,
       "blockClass": "mobile__home--sliderOne-four"
+    }
+  },
+  "video#mobile__home--seccionFour-two": {
+    "title": "seccionFour-two",
+    "props": {
+      // "src": "assets/img/mobile/mobile__sliderTwo--seccionfour.mp4",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "width": "100%",
+      "height": "600px",
+      "blockClass": "mobile__home--seccionFour-two"
+    }
+  },
+  "video#mobile__home--seccion-six": {
+    "title": "seccionSix video",
+    "props": {
+      "src": "https://www.youtube.com/watch?v=Yx9MvVUgKVY&list=TLGGJE779hitNSkxMDA1MjAyMw",
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "blockClass": "mobile__home--seccion-six"
     }
   }
 }

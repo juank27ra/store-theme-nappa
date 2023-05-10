@@ -4,7 +4,11 @@
     "children": [
         "slider-layout#mobile__home--seccion-one",
         "flex-layout.row#mobile__home--seccion-two",
-        "flex-layout.row#mobile__home--seccion-three"   //new-coleccion
+        "flex-layout.row#mobile__home--seccion-three",   //new-coleccion
+        "slider-layout#mobile__home--seccion-four",
+        "flex-layout.row#mobile__home--seccion-five",
+        "flex-layout.row#mobile__home--seccion-six"
+        // "slider-layout#mobile__home--seccion-sevent"
       ],
       "props": {
         "blockClass": "mobile__home"

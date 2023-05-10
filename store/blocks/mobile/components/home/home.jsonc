@@ -41,5 +41,68 @@
     "props" : {
       "blockClass": "mobile__home--seccion-three"
     }
+  },
+  "slider-layout#mobile__home--seccion-four": {
+    "title": "mobile home seccion four",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "mobile__home--seccion-four",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#mobile__home--seccionFour-one",
+      "video#mobile__home--seccionFour-two"
+    ]
+  },
+  "flex-layout.row#mobile__home--seccion-five": {
+    "title": "mobile home rich text seccion five",
+    "children": [
+      "rich-text#mobile__home--seccion-five"
+    ],
+    "props": {
+      "blockClass": "mobile__home--seccion-five"
+    }
+  },
+  "flex-layout.row#mobile__home--seccion-six": {
+    "title": "mobile home row seccion six",
+    "children": [
+      "video#mobile__home--seccion-six"
+    ],
+    "props": {
+      "blockClass": "mobile__home--seccion-six"
+    }
+  },
+  "slider-layout#mobile__home--seccion-sevent": {
+    "title": "mobile home seccion sevent",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "mobile__home--seccion-one",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#mobile__home--seccionSevent-one",
+      "image#mobile__home--seccionSevent-two",
+      "image#mobile__home--seccionSevent-three",
+      "image#mobile__home--seccionSevent-four",
+      "image#mobile__home--seccionSevent-five"
+    ]
   }
 }

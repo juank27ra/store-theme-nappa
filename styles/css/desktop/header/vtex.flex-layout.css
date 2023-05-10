@@ -1,5 +1,5 @@
 .flexRowContent--desktop__header--row-icons {
-  /* gap        : 0.5px; */
+
   display    : flex;
   align-items: center;
 }
@@ -84,6 +84,6 @@
   display: none;
 }
 
-/* .flexRow--desktop__header--row-icons :global(.vtex-store-components-3-x-container) {
-  width: 210px;
-} */
+.menuContainerNav--desktop__menu--container-tiktok {
+  margin-right: 45px;
+}

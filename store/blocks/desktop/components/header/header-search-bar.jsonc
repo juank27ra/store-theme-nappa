@@ -9,8 +9,8 @@
       "inputType": "search",
       // "hidden": true,
       "placeholder": "¿ QUE ESTAS BUSCANDO?",
-      // "hideTitles": true,
-      // "productLayout": "horizontal",
+      "hideTitles": true,
+      "productLayout": "horizontal",
       "openAutocompleteOnFocus": true,
       "maxSuggestedProducts": 3
     },

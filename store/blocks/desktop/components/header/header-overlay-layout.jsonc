@@ -1,0 +1,43 @@
+{
+  "overlay-trigger#desktop__overlay--search-bar": {
+    "title": "desktop overlay trigger content ",
+    "children": [
+      "icon#desktop__overlay--icon-searchbar",
+      "overlay-layout#desktop__overlay--layout-content"
+    ],
+    "props": {
+      "blockClass": "desktop__overlay--search-bar"
+    }
+  },
+  "icon#desktop__overlay--icon-searchbar": {
+    "title": "icon search-bar",
+    "props": {
+      "blockClass": "desktop__overlay--icon-searchbar",
+      "id": "hpa-search",
+      "size": 30
+    }
+  },
+  "overlay-layout#desktop__overlay--layout-content": {
+    "title": "desktop overlay layout content ",
+    "children": [
+      // "flex-layout.row#searchbar"
+      "search-bar#desktop__header--searchbar"
+    ],
+    "props": {
+      "blockClass": "desktop__overlay--layout-content",
+      "placement": "left",
+      "scrollBehavior": "default",
+      "backdrop": "none"
+      // "offsets": "skidding"
+    }
+  }
+  // "flex-layout.row#searchbar": {
+  //   "title": "flex searchbar",
+  //   "children": [
+  //     "search-bar#desktop__header--searchbar"
+  //   ],
+  //   "props": {
+  //     "blockClass": "searchbar "
+  //   }
+  // }
+}

@@ -53,7 +53,7 @@
   "flex-layout.row#desktop__header--row-icons": {
     "title": "desktop row container icons",
     "children": [
-      "flex-layout.col#desktop__header--col-tiktok",
+      "menu#desktop__menu--container-tiktok",
       "flex-layout.col#desktop__header--col-search",
       "flex-layout.col#desktop__header--col-minicart",
       "flex-layout.col#desktop__header--col-login"
@@ -74,9 +74,7 @@
   "flex-layout.row#desktop__header--row-search": {
     "title": "header row icon search",
     "children": [
-      // "overlay-trigger#desktop__overlay--search-bar"
-      // "disclosure-layout-group#desktop__disclosure--container-searchbar"
-      "disclosure-layout#desktop__disclosure--search-bar"
+      "overlay-trigger#desktop__overlay--search-bar"
     ],
     "props": {
       "blockClass": "desktop__header--row-search"

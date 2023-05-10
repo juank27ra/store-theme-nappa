@@ -1,6 +1,32 @@
 .heading--mobile__section--three {
-  font-weight: 700;
-  color: black;
-  font-size: 2.5vw;
+  font-weight   : 700;
+  color         : black;
+  font-size     : 2.5vw;
   letter-spacing: .1vw;
 }
+
+
+/* .heading--mobile__home--seccion-five {
+  font-size     : 5vw;
+  padding-top   : 10vw;
+  letter-spacing: .01vw;
+} */
+
+/* paragraph--mobile__home--seccion-five {
+  font-size     : 2.5vw;
+  margin-top    : 1vw;
+  letter-spacing: .085vw;
+  padding       : 0 12vw;
+  line-height   : 2.5vw;
+} */
+
+.container--mobile__home--seccion-five {
+  padding-bottom: 10.5vw !important;
+}
+
+/* .wrapper--mobile__home--seccion-five {
+  color         : black;
+  font-size     : 5vw;
+  padding-top   : 10vw;
+  letter-spacing: .01vw;
+} */

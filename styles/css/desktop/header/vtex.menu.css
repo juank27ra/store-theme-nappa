@@ -67,12 +67,10 @@
 }
 
 .submenu--menu__container--categoryTwo {
-  margin-left    : 70px;
+  margin-left    : 50px;
   padding        : 50px 0 0 0;
   justify-content: start;
 }
-
-
 
 .styledLinkContent--item-menu {
   font-family: 'Poppins-Regular'
@@ -155,7 +153,7 @@
   padding     : 0 0 20px 0;
   font-family : 'Poppins-Regular';
   color       : black;
-  transform: translateX(-20px);
+  transform: translate(-18px);
 }
 
 .styledLinkContent--backpacks__subcategoryOne:hover,
@@ -175,6 +173,10 @@
 .styledLinkContent--women__sales--subcategoryOne:hover,
 .styledLinkContent--men__sales--subcategoryTwo:hover {
   font-family: 'Poppins-Bold';
+}
+
+.styledLinkContent--desktop__menu--tiktok {
+  margin-top: 22px;
 }
 
 .flexRowContent--desktop__header--row-icons {
@@ -235,4 +237,31 @@
   translate : 80px;
   margin-top: -2vw;
   border    : none;
+}
+
+.styledLinkContent--the__usual--subcategoryOne::after,
+.styledLinkContent--the__usual--subcategoryTwo::after {
+  visibility: visible;
+  content: "INFALTABLES";
+  height: 8px;
+  font-size: 8px;
+  padding: 2px 6px;
+  margin-left: 15px;
+  margin-top: 3px;
+  border-radius: 3px;
+  background-color: #ce00d4;
+}
+
+
+.styledLinkContent--shoes__subcategoryTwo::after,
+.styledLinkContent--shoes__subcategoryOne::after{
+  visibility: visible;
+  content: "FLY UP";
+  height: 8px;
+  font-size: 8px;
+  padding: 2px 6px;
+  margin-left: 15px;
+  margin-top: 3px;
+  border-radius: 3px;
+  background-color: #ce00d4;
 }

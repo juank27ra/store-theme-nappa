@@ -1,5 +1,5 @@
 .flexRow--home__images--seccion-four {
-  background-image   : url(assets/img/Home/home__slider--seccion-four-bg.jpg);
+  background-image   : url("assets/img/desktop/home__slider--seccion-four-bg.jpg");
   height             : 500px;
   background-position: center;
   background-repeat  : no-repeat;
@@ -18,8 +18,7 @@
   margin-top: -130px;
 }
 
-.flexCol--desktop__row--text-two,
-.flexCol--desktop__row--text-one {
+.flexCol--desktop__row--text-two {
   padding-left: 3vw;
 }
 
@@ -28,5 +27,5 @@
 }
 
 .desktop__row--text-four {
-  padding-left: vw;
+  padding-left: 4vw;
 }
