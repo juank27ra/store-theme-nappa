@@ -34,7 +34,7 @@
       "flex-layout.row#desktop__header--row-menu",
       "flex-layout.row#desktop__header--row-sales",
       "header-spacer",
-
+      "menu#desktop__menu--container-tiktok",
       "flex-layout.row#desktop__header--row-icons"
     ],
     "props": {
@@ -53,7 +53,7 @@
   "flex-layout.row#desktop__header--row-icons": {
     "title": "desktop row container icons",
     "children": [
-      "menu#desktop__menu--container-tiktok",
+
       "flex-layout.col#desktop__header--col-search",
       "flex-layout.col#desktop__header--col-minicart",
       "flex-layout.col#desktop__header--col-login"
@@ -63,9 +63,11 @@
     }
   },
   "flex-layout.col#desktop__header--col-search": {
-    "title": "header col icon search",
+    "title": "header col search",
     "children": [
       "flex-layout.row#desktop__header--row-search"
+      // "overlay-trigger#desktop__overlay--search-bar"
+      // "disclosure-layout-group#desktop__disclosure--container-searchbar"
     ],
     "props": {
       "blockClass": "desktop__header--col-search"

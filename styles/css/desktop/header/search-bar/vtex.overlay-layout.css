@@ -1,3 +1,8 @@
 .backdrop--desktop__overlay--layout-content {
   opacity: 0;
 }
+
+.trigger--desktop__overlay--search-bar :first-child {
+  width : 1.2vw;
+  height: 1.2vw;
+}
