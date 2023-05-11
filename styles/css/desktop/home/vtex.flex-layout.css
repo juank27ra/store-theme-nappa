@@ -1,5 +1,31 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRow--home__images--seccion-four {
+  background-image   : url("assets/img/desktop/home__slider--seccion-four-bg.jpg");
+  height             : 500px;
+  background-position: center;
+  background-repeat  : no-repeat;
+  background-size    : cover;
+}
+
+.flexRow--desktop__home--seccion-two :global(.vtex-store-components-3-x-container) {
+  width    : 100%;
+  height   : 100%;
+  padding  : 0;
+  margin   : 0;
+  max-width: none;
+}
+
+.flexRow--desktop__home--seccion-two {
+  margin-top: -130px;
+}
+
+.flexCol--desktop__row--text-two {
+  padding-left: 3vw;
+}
+
+.flexCol--desktop__row--text-three {
+  padding-left: 5vw;
+}
+
+.desktop__row--text-four {
+  padding-left: 4vw;
+}

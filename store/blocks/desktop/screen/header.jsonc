@@ -2,7 +2,8 @@
   "header-layout.desktop#desktop__header--container" : {
     "title": "header desktop",
     "children": [
-      "sticky-layout#desktop__header--sticky"
+      "sticky-layout#desktop__header--sticky",
+      "header-row#desktop__header--bottom"
     ],
     "props": {
       "blockClass": "desktop__header--container"
@@ -13,9 +14,16 @@
     "children": ["header-row#desktop__header--row"],
     "props": {
       "blockClass": "desktop__header--sticky"
-      // "marginTop": 4,
-      // "marginBottom": 7,
-      // "paddingBottom": 2
+    }
+  },
+  "header-row#desktop__header--bottom": {
+    "title": "header row bottom ",
+    "children": [
+      "slider-layout#desktop__header--slider-text"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "desktop__header--bottom "
     }
   },
   "header-row#desktop__header--row": {
@@ -27,7 +35,6 @@
       "flex-layout.row#desktop__header--row-sales",
       "header-spacer",
 
-      "flex-layout.row#desktop__header--row-tiktok",
       "flex-layout.row#desktop__header--row-icons"
     ],
     "props": {
@@ -46,6 +53,7 @@
   "flex-layout.row#desktop__header--row-icons": {
     "title": "desktop row container icons",
     "children": [
+      "menu#desktop__menu--container-tiktok",
       "flex-layout.col#desktop__header--col-search",
       "flex-layout.col#desktop__header--col-minicart",
       "flex-layout.col#desktop__header--col-login"
@@ -57,10 +65,19 @@
   "flex-layout.col#desktop__header--col-search": {
     "title": "header col icon search",
     "children": [
-      "modal-trigger#desktop__modal--search-bar"
+      "flex-layout.row#desktop__header--row-search"
     ],
     "props": {
       "blockClass": "desktop__header--col-search"
+    }
+  },
+  "flex-layout.row#desktop__header--row-search": {
+    "title": "header row icon search",
+    "children": [
+      "overlay-trigger#desktop__overlay--search-bar"
+    ],
+    "props": {
+      "blockClass": "desktop__header--row-search"
     }
   },
   "flex-layout.col#desktop__header--col-minicart": {

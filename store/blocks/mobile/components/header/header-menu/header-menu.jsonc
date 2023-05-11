@@ -73,8 +73,9 @@
     "props": {
       "blockClass": "mobile__header--logo-megamenu",
       "id": "bnd-logo",
-      "size": 240,
-      // "heigth": 15,
+      "size": 280,
+      // "width": "14.5vw",
+      // "height": "10.9vw",
       "href": "/"
     }
   }

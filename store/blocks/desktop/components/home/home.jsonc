@@ -17,8 +17,9 @@
     },
     "children": [
       "image#desktop__home--sliderOne-one",
-      "video#desktop__home--sliderOne-two",
-      "video#desktop__home--sliderOne-three"
+      "image#desktop__home--sliderOne-two",
+      "image#desktop__home--sliderOne-three",
+      "video#desktop__home--sliderOne-four"
     ]
   },
   "flex-layout.row#desktop__home--seccion-two": {
@@ -51,5 +52,68 @@
     "props": {
       "blockClass": "home__images--seccion-four"
     }
+  },
+  "slider-layout#desktop__home--seccion-five": {
+    "title": "desktop home seccion five",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "desktop__home--seccion-five",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#desktop__home--seccionFive-one",
+      "video#desktop__home--seccionFive-two"
+    ]
+  },
+  "flex-layout.row#desktop__home--seccion-six":{
+    "title": "desktop home rich text seccion six",
+    "children": [
+      "rich-text#desktop__home--seccion-six"
+    ],
+    "props": {
+      "blockClass": "desktop__home--seccion-six"
+    }
+  },
+  "flex-layout.row#desktop__home--seccion-sevent": {
+    "title": "desktop home row seccion sevent",
+    "children": [
+      "video#desktop__home--seccion-sevent"
+    ],
+    "props": {
+      "blockClass": "desktop__home--seccion-sevent"
+    }
+  },
+  "slider-layout#desktop__home--seccion-eight": {
+    "title": "desktop home sliderEight container",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "desktop__home--seccion-eight",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#desktop__home--sliderEight-one",
+      "image#desktop__home--sliderEight-two",
+      "image#desktop__home--sliderEight-three",
+      "image#desktop__home--sliderEight-four",
+      "image#desktop__home--sliderEight-five"
+    ]
   }
 }

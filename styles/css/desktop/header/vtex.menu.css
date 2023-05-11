@@ -1,10 +1,10 @@
 .styledLinkContent--header__menu--container-departmentOne {
-  font-size  : 0.9vw;
-  font-family: 'Poppins-Regular';
-  font-weight: 500;
+  font-size     : 0.9vw;
+  font-family   : 'Poppins-Regular';
+  font-weight   : 500;
   /* color      : white; */
-  color      : #000;
-  margin-left: 1.5vw;
+  color         : #000;
+  margin-left   : 1.5vw;
 }
 
 .styledLinkContent--header__menu--container-departmentOne:hover {
@@ -12,11 +12,11 @@
 }
 
 .styledLinkContent--header__menu--container-departmentTwo {
-  font-size  : 0.9vw;
-  font-family: 'Poppins-Regular';
-  font-weight: 500;
+  font-size     : 0.9vw;
+  font-family   : 'Poppins-Regular';
+  font-weight   : 500;
   /* color      : white */
-  color      : #000
+  color         : #000
 }
 
 .styledLinkContent--header__menu--container-departmentTwo:hover {
@@ -54,7 +54,7 @@
 }
 
 .submenu--menu__container--categoryOne {
-  margin-left    : 55px;
+  margin-left    : 45px;
   padding        : 50px 0 0 0;
   justify-content: start;
 }
@@ -67,12 +67,10 @@
 }
 
 .submenu--menu__container--categoryTwo {
-  margin-left    : 70px;
+  margin-left    : 50px;
   padding        : 50px 0 0 0;
   justify-content: start;
 }
-
-
 
 .styledLinkContent--item-menu {
   font-family: 'Poppins-Regular'
@@ -149,11 +147,13 @@
 }
 
 .styledLinkContent--desktop__menu--tiktok {
-  margin-right: 10px;
+  margin-right: -35px;
+  margin-top  : 14px !important;
   font-size   : 0.9vw;
   padding     : 0 0 20px 0;
   font-family : 'Poppins-Regular';
   color       : black;
+  transform: translate(-18px);
 }
 
 .styledLinkContent--backpacks__subcategoryOne:hover,
@@ -239,3 +239,29 @@
   border    : none;
 }
 
+.styledLinkContent--the__usual--subcategoryOne::after,
+.styledLinkContent--the__usual--subcategoryTwo::after {
+  visibility: visible;
+  content: "INFALTABLES";
+  height: 8px;
+  font-size: 8px;
+  padding: 2px 6px;
+  margin-left: 15px;
+  margin-top: 3px;
+  border-radius: 3px;
+  background-color: #ce00d4;
+}
+
+
+.styledLinkContent--shoes__subcategoryTwo::after,
+.styledLinkContent--shoes__subcategoryOne::after{
+  visibility: visible;
+  content: "FLY UP";
+  height: 8px;
+  font-size: 8px;
+  padding: 2px 6px;
+  margin-left: 15px;
+  margin-top: 3px;
+  border-radius: 3px;
+  background-color: #ce00d4;
+}

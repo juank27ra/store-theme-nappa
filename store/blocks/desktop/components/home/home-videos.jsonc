@@ -1,0 +1,34 @@
+{
+  "video#desktop__home--sliderOne-four" : {
+    "title": "home seccion one video",
+    "props": {
+      "src": "assets/img/desktop/desktop__home--slider-video1.mp4",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "blockClass": "desktop__home--sliderOne-four"
+    }
+  },
+  "video#desktop__home--seccionFive-two": {
+    "title": "home seccion five video",
+    "props": {
+      "src": "assets/img/desktop/desktop__home--seccionFive-video.mp4",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "blockClass": "desktop__home--seccionFive-two"
+    }
+  },
+  "video#desktop__home--seccion-sevent": {
+    "title": "home seccion sevent video",
+    "props": {
+      "src": "https://www.youtube.com/watch?v=Yx9MvVUgKVY&list=TLGGJE779hitNSkxMDA1MjAyMw&t=79s",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "width": "100%",
+      "height": "600px",
+      "blockClass": "desktop__home--seccion-sevent"
+    }
+  }
+}

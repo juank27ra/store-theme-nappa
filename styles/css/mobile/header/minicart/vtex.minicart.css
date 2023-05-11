@@ -1,0 +1,46 @@
+.minicartQuantityBadge--mobile__header--minicart {
+  width           : 12px;
+  height          : 12px;
+  background-color: #000;
+  z-index         : 9;
+  font-size       : 10px;
+  font-weight     : 600;
+  top             : -10px;
+  left            : -10px;
+}
+
+.openIconContainer--mobile__header--minicart {
+  padding: 0;
+}
+
+.minicartContainer--mobile__header--minicart{
+  width: 33px;
+}
+
+.openIconContainer--mobile__header--minicart :first-child{
+  width: 28px;
+  margin-left: -1.1vw;
+}
+
+.drawerContent--mobile__header--minicart {
+  max-width: 328px;
+  min-width: 280px;
+  transform: translate3d(0%, 0px, 0px);
+}
+
+.drawer--mobile__header--minicart :global(.vtex-minicart-2-x-drawerContent--mobile__header--minicart) {
+  width         : 85%;
+  max-width     : 328px;
+  min-width     : 280px;
+  pointer-events: auto;
+  transform     : translate3d(0%, 0px, 0px);
+}
+
+.minicartIconContainer--mobile__header--minicart :first-child {
+  width: 5vw;
+  margin-top: -5px;
+}
+
+.minicartWrapperContainer--mobile__header--minicart {
+  margin-left: 38px;
+}
