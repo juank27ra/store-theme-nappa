@@ -1,9 +1,11 @@
 .flexRow--home__images--seccion-four {
-  background-image   : url("assets/img/desktop/home__slider--seccion-four-bg.jpg");
-  height             : 500px;
+  background-image   : url("assets/img/desktop/desktop__seccionFour-background.jpg");
+  height             : 100%;
+  width              : 100%;
   background-position: center;
   background-repeat  : no-repeat;
   background-size    : cover;
+  padding-top        : 7.5vw;
 }
 
 .flexRow--desktop__home--seccion-two :global(.vtex-store-components-3-x-container) {
@@ -29,3 +31,10 @@
 .desktop__row--text-four {
   padding-left: 4vw;
 }
+
+/* .flexRowContent--home__col--container :first-child{
+  width: 67% ;
+}
+.flexRowContent--home__col--container :nth-child(2n){
+  width: 33% ;
+} */

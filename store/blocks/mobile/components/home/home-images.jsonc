@@ -31,6 +31,29 @@
       "blockClass": "mobile__home--image-seccion-two"
     }
   },
+  "image#mobile__home--seccionThree-one": {
+    "title": "seccionThree image one",
+    "props": {
+      // "maxHeight": "720px",
+      // "width": "100%",
+      "src": "assets/img/mobile/mobile__seccionThree-one.jpg",
+      "blockClass": "mobile__home--seccionThree-one"
+    }
+  },
+  "image#mobile__home--seccionThree-two": {
+    "title": "seccionThree image two",
+    "props": {
+      "src": "assets/img/mobile/mobile__seccionThree-two.jpg",
+      "blockClass": "mobile__home--seccionThree-two"
+    }
+  },
+  "image#mobile__home--seccionThree-three": {
+    "title": "seccionThree image three",
+    "props": {
+      "src": "assets/img/mobile/mobile__seccionThree-two.jpg",
+      "blockClass": "mobile__home--seccionThree-three"
+    }
+  },
   "image#mobile__home--seccionFour-one": {
     "title": "seccionFour image two",
     "props": {

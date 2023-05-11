@@ -1,4 +1,11 @@
 .sliderTrackContainer--mobile__home--seccion-one {
   position: relative;
-  top: -232px;
+  top     : -232px;
 }
+
+.sliderLayoutContainer--seccion__three--notArrows {
+  margin-bottom : 4vw;
+  margin-top    : 0;
+  padding-bottom: 0 !important;
+}
+
