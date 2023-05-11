@@ -23,6 +23,11 @@
 
 .searchBarInnerContainer--mobile__header--searchbar {
   width : 95vw;
-  margin: 200px 0 0 -65vw;
+  margin: 200px 0 0 -72vw;
   border: none;
+}
+
+.searchBarInnerContainer--mobile__header--searchbar :global(.vtex-input__suffix){
+  background-color: transparent;
+  /* margin-right: 9vw; */
 }

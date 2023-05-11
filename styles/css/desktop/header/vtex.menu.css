@@ -147,7 +147,7 @@
 }
 
 .styledLinkContent--desktop__menu--tiktok {
-  margin-right: -35px;
+  /* margin-right: -35px; */
   margin-top  : 14px !important;
   font-size   : 0.9vw;
   padding     : 0 0 20px 0;
@@ -264,4 +264,9 @@
   margin-top: 3px;
   border-radius: 3px;
   background-color: #ce00d4;
+}
+
+
+.styledLinkContainer--desktop__menu--tiktok {
+  margin-left: -4vw;
 }
