@@ -1,0 +1,10 @@
+{
+  "flex-layout.col#desktop__minicart--pl-image": {
+    "title": "minicart col image",
+    "children": ["product-list-image"],
+    "props": {
+      "marginRight": "6",
+      "blockClass": "desktop__minicart--pl-image"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "rich-text#mobile__section--three": {
+    "title": "rich-text mobile seccion three",
+    "props": {
+      "blockClass": "mobile__section--three",
+      "text": "#### NUEVA COLECCIÓN",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#mobile__home--seccion-five": {
+    "title": "rich-text mobile seccion five",
+    "props": {
+      "blockClass": "mobile__home--seccion-five",
+      "text": "# DESFILE DE COLECCION \nCreamos una colección de bolsos y morrales inspirados en los colores de temporada con la funcionalidad y comodidad de siempre. ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

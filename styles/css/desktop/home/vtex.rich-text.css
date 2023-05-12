@@ -1,0 +1,21 @@
+.wrapper--desktop__home--seccion-five {
+  padding-bottom: 5.5vw;
+  padding-top   : 3.5vw;
+  letter-spacing: .13vw;
+}
+
+.heading--desktop__home--seccion-five {
+  font-size: 2vw;
+  color    : black;
+}
+
+.container--desktop__col--backpacks {
+  padding-left: 9vw;
+}
+
+.link--desktop__col--backpacks,
+.link--desktop__col--accesories,
+.link--desktop__col--handbags,
+.link--desktop__col--free-hands {
+  color: black;
+}

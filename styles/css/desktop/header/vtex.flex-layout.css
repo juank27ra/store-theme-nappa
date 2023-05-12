@@ -1,5 +1,5 @@
 .flexRowContent--desktop__header--row-icons {
-  gap        : 0.5px;
+
   display    : flex;
   align-items: center;
 }
@@ -16,7 +16,7 @@
   position     : relative;
   margin-left  : 6px;
   margin-bottom: 12px;
-  margin-right : -30px;
+  margin-right : -15px;
 }
 
 .flexCol--desktop__header--col-search {
@@ -67,13 +67,23 @@
 }
 
 .flexColChild--desktop__icon--search-col :first-child {
-  width : 1.3vw;
-  height: 1.8vw;
+  width       : 1.3vw;
+  height      : 1.8vw;
   margin-right: -1vw
 }
+
 .flexRowContent--desktop__header--row-logo {
   width: 10.5vw;
 }
+
 .flexColChild--minicart__footer--col {
   margin-bottom: 4px;
+}
+
+.flexColChild--minicart__footer--col :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+.menuContainerNav--desktop__menu--container-tiktok {
+  margin-right: 45px;
 }

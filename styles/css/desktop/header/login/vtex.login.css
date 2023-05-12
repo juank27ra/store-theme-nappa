@@ -1,0 +1,73 @@
+.container:hover {
+  background-color: transparent;
+}
+
+.profileIcon--desktop__header--login {
+  margin-right: -10px;
+  margin-bottom: 6px;
+  width : 1.2vw;
+  height: 1.2vw;
+}
+
+
+.profileIcon--desktop__header--login:hover {
+  background-color: transparent;
+}
+
+.portalWrapper--desktop__header--login :global(.vtex-login-2-x-backButton .vtex-button):hover {
+  background-color: transparent ;
+}
+
+.portalWrapper--desktop__header--login :global(.vtex-login-2-x-sendButton .vtex-button__label) {
+  color: white ;
+}
+.portalWrapper--desktop__header--login :global(.vtex-login-2-x-sendButton .vtex-button):hover {
+  background-color:#DED140 ;
+  color: white;
+}
+.portalWrapper--desktop__header--login :global(.vtex-login-2-x-sendButton .vtex-button__label):hover {
+  color: white;
+}
+
+.portalWrapper--desktop__header--login .sendButton :global(.vtex-button) {
+  background : rgb(80, 80, 80);
+  border     : 1px solid #DED140;
+  font-weight: 500;
+}
+
+.portalWrapper--desktop__header--login .sendButton :global(.vtex-button):hover,
+.portalWrapper--desktop__header--login .sendButton :global(.vtex-button):active {
+  background: #DED140
+}
+
+.portalWrapper--desktop__header--login .content--loginOptions :global(.vtex-button) {
+  background: #EEF3F7;
+  color     : black;
+}
+
+.portalWrapper .vtex-login-2-x-box {
+  right: -90px;
+}
+
+.portalWrapper--desktop__header--login :global(.vtex-login-2-x-button) {
+  color: gray;
+}
+
+.portalWrapper--desktop__header--login :global(.vtex-button__label) {
+  color: gray;
+}
+
+.portalWrapper--desktop__header--login :global(.vtex-login-2-x-button):hover {
+  color: #DED140;
+}
+
+.portalWrapper--desktop__header--login :global(.vtex-login-2-x-accountOptions .vtex-button):hover {
+  background-color: transparent !important;
+}
+
+.portalWrapper--desktop__header--login :global(.vtex-login-2-x-loginOptionsContainer .vtex-button__label) {
+  color      : black;
+  font-size  : 15px;
+  font-weight: 600;
+}
+

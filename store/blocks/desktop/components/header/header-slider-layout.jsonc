@@ -1,0 +1,52 @@
+{
+  "slider-layout#desktop__header--slider-text": {
+    "title": "header slider text",
+    "props": {
+      "blockClass": "desktop__header--slider-tex",
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 5000
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      }
+    },
+    "children": [
+      "rich-text#header__slider--sales",
+      "rich-text#header__slider--free-shipping",
+      "rich-text#header__slider--buy-credit"
+    ]
+  },
+  "rich-text#header__slider--sales": {
+    "title": "slider text sales",
+    "props": {
+      "text": "REBAJAS",
+      "textPostionEnum": "center",
+      "textAlignmentEnum": "center",
+      "blockClass": "header__slider--sales"
+    }
+  },
+  "rich-text#header__slider--free-shipping": {
+    "title": "slider text discount",
+    "props": {
+      "text": "ENVÍO GRATIS POR COMPRAS SUPERIORES A $159.000",
+      "textPostionEnum": "center",
+      "textAlignmentEnum": "center",
+      "blockClass": "header__slider--free-shipping"
+    }
+  },
+  "rich-text#header__slider--buy-credit": {
+    "title": "slider text free shipping",
+    "props": {
+      "text": "COMPRA A CRÉDITO NUESTROS PRODUCTOS",
+      "textPostionEnum": "center",
+      "textAlignmentEnum": "center",
+      "blockClass": "header__slider--buy-credit"
+    }
+  }
+}

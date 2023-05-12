@@ -17,18 +17,8 @@
 }
 
 .headerRowContentContainer--mobile__header--row {
-  position: relative;
+  position : relative;
   max-width: -webkit-fill-available;
-  padding: 4vw 7vw 0;
+  padding  : 4vw 7vw 0;
 }
 
-.autoCompleteOuterContainer--mobile__header--searchbar :global(.vtex-input__suffix) {
-  display: none;
-}
-.autoCompleteOuterContainer--mobile__header--searchbar :global(.vtex-styleguide-9-x-input) {
- background-color: transparent;
- border-bottom: gray solid 1px;
-}
-.autoCompleteOuterContainer--mobile__header--searchbar :global(.vtex-input-prefix__group) {
-border: none;
-}
