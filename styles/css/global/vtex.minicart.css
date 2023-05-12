@@ -1,25 +1,25 @@
 .minicartTitle::before {
   visibility       : visible;
+  content          : "";
   background-image : url("assets/img/Home/header/header__logo--minicart.png");
   background-repeat: no-repeat;
   background-size  : contain;
+  vertical-align   : middle;
   width            : 26px;
   height           : 26px;
   margin           : -8px 5px 0 18px;
   display          : inline-block;
-  vertical-align   : middle;
-  content          : "";
 }
 
 .minicartTitle::after {
-  content   : "BOLSA DE COMPRAS";
-  visibility: visible;
-  font-size : 17px;
-  padding   : 10px 20px;
-  position  : absolute;
-  left      : 50px;
-  top       : -11px;
-  color     : #575651;
+  content    : "BOLSA DE COMPRAS";
+  visibility : visible;
+  font-size  : 18px;
+  padding    : 10px 20px;
+  position   : absolute;
+  left       : 50px;
+  top        : -11px;
+  color      : #575651;
   font-weight: 600;
 }
 
@@ -33,7 +33,8 @@
 .closeIconContainer {
   display        : flex;
   justify-content: flex-end;
-  Border-bottom  : 1px solid #3f3f40;
+  Border-bottom  : 1px solid #ccc;;
+  stroke-width: 2;
 }
 
 .closeIcon {
@@ -62,10 +63,22 @@
 }
 
 .minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label)::before {
-  visibility   : visible;
-  content      : "IR A PAGAR";
-  padding-right: 32px;
-  position     : relative;
-  font-size    : 16px;
-  margin-left  : 10px;
+  visibility       : visible;
+  content          : "";
+  background-image : url("assets/img/Home/header/header__minicar--footer-checkout.png");
+  background-repeat: no-repeat;
+  background-size  : contain;
+  vertical-align   : middle;
+  width            : 26px;
+  height           : 26px;
+  margin-left      : -10px;
+}
+
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button__label)::after {
+  visibility : visible;
+  content    : "IR A PAGAR";
+  position   : relative;
+  font-size  : 18px;
+  margin-left: -100px;
+
 }

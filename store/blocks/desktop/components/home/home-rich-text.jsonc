@@ -34,5 +34,14 @@
       "text": "**Morrales** \nQue todas necesitan\n [VER](https://www.nappa.com.co/mujer/bolsos/morrales)",
       "blockClass": "desktop__col--backpacks"
     }
+  },
+  "rich-text#desktop__home--seccion-six": {
+    "title": "rich-text desktop seccion five",
+    "props": {
+      "blockClass": "desktop__home--seccion-five",
+      "text": "# DESFILE DE COLECCION \n**Creamos una colección de bolsos y morrales inspirados en los colores de temporada con la funcionalidad y comodidad de siempre.** ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   }
 }

@@ -1,0 +1,78 @@
+{
+  "image#desktop__home--sliderOne-one" : {
+    "title": "sliderOne image ",
+    "props": {
+      "src": "assets/img/desktop/home__slider--one.jpg",
+      "blockClass": "desktop__home--sliderOne-one"
+    }
+  },
+  "image#desktop__home--sliderOne-two" : {
+    "title": "SliderOne image two",
+    "props": {
+      "src": "assets/img/desktop/home__sliderOne--two.gif",
+      "maxHeight": "94%",
+      "maxWidth": "100%",
+      "blockClass": "desktop__home--sliderOne-two"
+    }
+  },
+  "image#desktop__home--sliderOne-three" : {
+    "title": "SliderOne image three",
+    "props": {
+      "src": "assets/img/desktop/home__sliderOne--three.gif",
+      "maxHeight": "94%",
+      "maxWidth": "100%",
+      "blockClass": "desktop__home--sliderOne-three"
+    }
+  },
+  "image#desktop__home--image-seccion-two": {
+    "title": "sliderTwo",
+    "props": {
+      "src": "assets/img/desktop/home__sliderTwo--one.png",
+      "maxHeight": "94%",
+      "maxWidth": "100%",
+      "blockClass": "desktop__home--image-seccion-two"
+    }
+  },
+  "image#desktop__home--seccionFive-one": {
+    "title": "seccionFive image two",
+    "props": {
+      "src": "assets/img/desktop/desktop__home--seccionFive-image.jpg",
+      "blockClass": "desktop__home--seccionFive-on"
+    }
+  },
+  "image#desktop__home--sliderEight-one": {
+    "title": "seccionEight image two",
+    "props": {
+      "src": "assets/img/desktop/desktop__header--seccionEight-one.jpg",
+      "blockClass": "desktop__home--seccionEight-one"
+    }
+  },
+  "image#desktop__home--sliderEight-two": {
+    "title": "seccionEight image two",
+    "props": {
+      "src": "assets/img/desktop/desktop__header--seccionEight-two.jpg",
+      "blockClass": "desktop__home--seccionEight-one"
+    }
+  },
+  "image#desktop__home--sliderEight-three": {
+    "title": "seccionEight image two",
+    "props": {
+      "src": "assets/img/desktop/desktop__header--seccionEight-three.jpg",
+      "blockClass": "desktop__home--seccionEight-one"
+    }
+  },
+  "image#desktop__home--sliderEight-four": {
+    "title": "seccionEight image two",
+    "props": {
+      "src": "assets/img/desktop/desktop__header--seccionEight-four.jpg",
+      "blockClass": "desktop__home--seccionEight-one"
+    }
+  },
+  "image#desktop__home--sliderEight-five": {
+    "title": "seccionEight image two",
+    "props": {
+      "src": "assets/img/desktop/desktop__header--seccionEight-five.jpg",
+      "blockClass": "desktop__home--seccionEight-one"
+    }
+  }
+}

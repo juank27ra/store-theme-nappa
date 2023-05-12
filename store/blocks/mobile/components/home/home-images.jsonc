@@ -1,0 +1,77 @@
+{
+  "image#mobile__home--sliderOne-one": {
+    "title": "SliderOne image one",
+    "props": {
+      "src": "assets/img/mobile/mobile__sliderOne--one.jpg",
+      "blockClass": "mobile__home--sliderOne-one"
+    }
+  },
+  "image#mobile__home--sliderOne-two" : {
+    "title": "SliderOne image two",
+    "props": {
+      "src": "assets/img/mobile/mobile__sliderOne--two.gif",
+      // "maxHeight": "94%",
+      // "maxWidth": "100%",
+      "blockClass": "mobile__home--sliderOne-two"
+    }
+  },
+  "image#mobile__home--sliderOne-three" : {
+    "title": "SliderOne image three",
+    "props": {
+      "src": "assets/img/mobile/mobile__sliderOne--three.gif",
+      // "maxHeight": "94%",
+      // "maxWidth": "100%",
+      "blockClass": "mobile__home--sliderOne-three"
+    }
+  },
+  "image#mobile__home--image-seccion-two": {
+    "title": "seccionTwo image",
+    "props": {
+      "src": "assets/img/mobile/mobile__image--seccion-two.png",
+      "blockClass": "mobile__home--image-seccion-two"
+    }
+  },
+  "image#mobile__home--seccionFour-one": {
+    "title": "seccionFour image two",
+    "props": {
+      "src": "assets/img/mobile/mobile__sliderOne--seccionFour.jpg",
+      "blockClass": "mobile__home--seccionFour-one"
+    }
+  },
+  "image#mobile__home--seccionSevent-one": {
+    "title": "seccionSevent slider image one",
+    "props": {
+      "src": "assets/img/mobile/mobile__seccionSevent--one.jpg",
+      "blockClass": "mobile__home--seccionSevent-one"
+    }
+  },
+  "image#mobile__home--seccionSevent-two": {
+    "title": "seccionSevent slider image two",
+    "props": {
+      "src": "assets/img/mobile/mobile__seccionSevent--two.jpg",
+      "blockClass": "mobile__home--seccionSevent-two"
+    }
+  },
+  "image#mobile__home--seccionSevent-three": {
+    "title": "seccionSevent slider image three",
+    "props": {
+      "src": "assets/img/mobile/mobile__seccionSevent--three.jpg",
+      "blockClass": "mobile__home--seccionSevent-three"
+    }
+  },
+  "image#mobile__home--seccionSevent-four": {
+    "title": "seccionSevent slider image four",
+    "props": {
+      "src": "assets/img/mobile/mobile__seccionSevent--four.jpg",
+      "blockClass": "mobile__home--seccionSevent-four"
+    }
+  },
+  "image#mobile__home--seccionSevent-five": {
+    "title": "seccionSevent slider image five",
+    "props": {
+      "src": "assets/img/mobile/mobile__seccionSevent--five.jpg",
+      "blockClass": "mobile__home--seccionSevent-five"
+    }
+  }
+}
+

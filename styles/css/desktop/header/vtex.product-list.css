@@ -1,0 +1,41 @@
+.availabilityMessageContainer {
+  display: none;
+}
+
+.productListUnavailableItemsMessage {
+  display: none;
+}
+
+.productPrice {
+  color: red;
+}
+
+.quantityDropdownContainer :global(.vtex-dropdown__container) {
+  height: 1.8rem;
+}
+
+.quantityDropdownContainer :global(.vtex-dropdown__arrow) {
+  color: grey;
+}
+
+.productPriceContainer :global(.vtex-product-list-0-x-productPriceCurrency) {
+  display: none;
+}
+
+.productPriceContainer :global(.vtex-product-list-0-x-productPrice) {
+  margin-top: -25px;
+  font-size : 14px;
+  color     : #e34f32
+}
+
+.unitPriceContainer {
+  margin-top   : -5px;
+  margin-bottom: 10px;
+}
+
+.removeButton {
+  position: relative;
+  right   : -8px;
+  outline : none;
+}
+

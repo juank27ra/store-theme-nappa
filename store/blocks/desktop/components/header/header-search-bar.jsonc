@@ -5,14 +5,16 @@
       "blockClass": "desktop__header--searchbar",
       "autocompleteAlignment": "right",
       "displayMode": "clear-button",
-      "hasIconLeft": true,
+      "hasIconLeft": false,
       "inputType": "search",
-      "hidden": true,
+      // "hidden": true,
       "placeholder": "¿ QUE ESTAS BUSCANDO?",
       "hideTitles": true,
-      "productLayout": "vertical",
-      "openAutocompleteOnFocus": true
+      "productLayout": "horizontal",
+      "openAutocompleteOnFocus": true,
+      "maxSuggestedProducts": 3
     },
     "blocks": ["autocomplete-result-list.v2"]
   }
+
 }

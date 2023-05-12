@@ -1,0 +1,19 @@
+.flexColChild--minicart__footer--col {
+  margin-bottom: 4px;
+}
+
+.flexColChild--minicart__footer--col :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+.flexColChild--mobile__header--col-minicart :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+
+.flexCol--mobile__header--col-minicart {
+  position     : relative;
+  margin-left  : 6px;
+  margin-bottom: 12px;
+  margin-right : -30px;
+}
