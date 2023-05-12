@@ -2,12 +2,51 @@
   "product-summary.shelf#desktop__home--summary-shelf-container": {
     "title": "desktop product summary shelf",
     "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-price"
+      "flex-layout.col#product__summary--image",
+      "flex-layout.col#product__summary--content"
     ],
     "props": {
       "blockClass": "desktop__home--summary-shelf-container"
+    }
+  },
+  "flex-layout.col#product__summary--image": {
+    "title": "product summary image",
+    "children": [
+      "product-summary-image#desktop__home--vitrine--image"
+    ],
+    "props": {
+      "blockClass": "product__summary--image"
+    }
+  },
+  "flex-layout.col#product__summary--content": {
+    "title": "product summary content bottom",
+    "children": [
+      "product-summary-name#desktop__home--vitrine--name",
+      "product-summary-price#desktop__home--vitrine--price"
+    ],
+    "props": {
+      "blockClass": "product__summary--content"
+    }
+  },
+  "product-summary-image#desktop__home--vitrine--image": {
+    "title": "desktop vitrine image",
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 500,
+      "blockClass": "desktop__home--vitrine--image"
+    }
+  },
+  "product-summary-name#desktop__home--vitrine--name": {
+    "title": "desktop vitrine name",
+    "props": {
+      "blockClass": "desktop__home--vitrine--name"
+    }
+  },
+  "product-summary-price#desktop__home--vitrine--price": {
+    "title": "desktop vitrine price",
+    "props": {
+      "blockClass": "desktop__home--vitrine--price"
     }
   }
 }

@@ -35,6 +35,16 @@
       "blockClass": "desktop__col--backpacks"
     }
   },
+  "rich-text#desktop__sectionfour--text": {
+    "title": "rich-text desktop seccion four",
+    "props": {
+      "blockClass": "desktop__sectionfour--text",
+      "text": "## **NUEVA COLECCIÓN**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "marginTop": 10
+    }
+  },
   "rich-text#desktop__home--seccion-six": {
     "title": "rich-text desktop seccion five",
     "props": {

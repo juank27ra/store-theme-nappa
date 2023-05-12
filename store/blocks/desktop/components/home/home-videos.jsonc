@@ -1,12 +1,12 @@
 {
-  "video#desktop__home--sliderOne-four" : {
+  "video#desktop__home--sliderOne-five" : {
     "title": "home seccion one video",
     "props": {
-      "src": "assets/img/desktop/desktop__home--slider-video1.mp4",
+      "src": "assets/img/desktop/home__seccionOne--five.mp4",
       "loop": true,
       "autoPlay": true,
       "muted": false,
-      "blockClass": "desktop__home--sliderOne-four"
+      "blockClass": "desktop__home--sliderOne-five"
     }
   },
   "video#desktop__home--seccionFive-two": {

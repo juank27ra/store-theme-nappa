@@ -34,6 +34,10 @@
   right         : 0;
 }
 
-/* .sliderLayoutContainer--seccion__three--arrows {
+.sliderLayoutContainer--seccion__three--arrows {
   max-width: 100%;
-} */
+}
+.flexRowContent--home__row--seccion-three-content {
+  display: flex;
+  align-items: center;
+}

@@ -1,6 +1,6 @@
 {
   "slider-layout#seccion__three--notArrows": {
-    "title": "header slider text",
+    "title": "header slider notArrows",
     "props": {
       "blockClass": "seccion__three--notArrows",
       "infinite": true,

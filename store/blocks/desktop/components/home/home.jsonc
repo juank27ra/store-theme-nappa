@@ -19,7 +19,8 @@
       "image#desktop__home--sliderOne-one",
       "image#desktop__home--sliderOne-two",
       "image#desktop__home--sliderOne-three",
-      "video#desktop__home--sliderOne-four"
+      "image#desktop__home--sliderOne-four",
+      "video#desktop__home--sliderOne-five"
     ]
   },
   "flex-layout.row#desktop__home--seccion-two": {
@@ -43,43 +44,20 @@
       "blockClass": "home__text--seccion-three"
     }
   },
-
-
-
-
-
+//four
   "flex-layout.row#home__images--seccion-four": {
     "title": "home row seccion four",
     "children": [
-      "flex-layout.col#home__row--one"
-      // "flex-layout.col#home__row--col-two"
+      "slider-layout#home__col--slider-one",
+      "list-context.product-list#desktop__home--product-summary"
+      // "flex-layout.col#home__col--one",
+      // "flex-layout.col#home__col--two"
     ],
     "props": {
       "blockClass": "home__images--seccion-four"
     }
   },
-  "flex-layout.col#home__row--one": {
-    "title": "home col seccion four",
-    "children": [
-      "flex-layout.row#home__col--container"
-    ],
-    "props": {
-      "blockClass": "home__row--one"
-    }
-  },
-  "flex-layout.row#home__col--container": {
-    "title": "home row seccion four",
-    "children": [
-      "flex-layout.col#home__col--one",
-      "flex-layout.col#home__col--two"
-    ],
-    "props": {
-      "blockClass": "home__col--container"
-    }
-  },
-
-
-
+//five
   "slider-layout#desktop__home--seccion-five": {
     "title": "desktop home seccion five",
     "props": {
@@ -101,6 +79,7 @@
       "video#desktop__home--seccionFive-two"
     ]
   },
+  //six
   "flex-layout.row#desktop__home--seccion-six":{
     "title": "desktop home rich text seccion six",
     "children": [
@@ -110,6 +89,7 @@
       "blockClass": "desktop__home--seccion-six"
     }
   },
+  //sevent
   "flex-layout.row#desktop__home--seccion-sevent": {
     "title": "desktop home row seccion sevent",
     "children": [
@@ -119,6 +99,7 @@
       "blockClass": "desktop__home--seccion-sevent"
     }
   },
+  //eight
   "slider-layout#desktop__home--seccion-eight": {
     "title": "desktop home sliderEight container",
     "props": {

@@ -5,7 +5,8 @@
       "blockClass": "mobile__section--three",
       "text": "## **NUEVA COLECCIÓN**",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "marginTop": 10
     }
   },
   "rich-text#mobile__home--seccion-five": {

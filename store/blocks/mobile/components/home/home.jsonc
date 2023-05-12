@@ -31,6 +31,7 @@
       "blockClass": "mobile__home--seccion-two"
     }
   },
+  //seccion three
   "flex-layout.row#mobile__home--seccion-three": {
     "title": "mobile home seccion three new collection",
     "children": [
@@ -43,25 +44,24 @@
   "flex-layout.col#home__row--seccion-three": {
     "title": "mobile home seccion three new collection",
     "children": [
-      // "flex-layout.row#home__row--seccion-three-content",
-      "slider-layout#seccion__three--notArrows",
+      "flex-layout.row#home__row--seccion-three-content",
       "list-context.product-list#desktop__home--product-summary"
     ],
     "props" : {
       "blockClass": "home__row--seccion-three"
     }
   },
-  // "flex-layout.row#home__row--seccion-three-content": {
-  //   "title": "mobile home seccion three new collection",
-  //   "children": [
-  //     "rich-text#mobile__section--three",
-  //     "slider-layout#seccion__three--arrows"
-
-  //   ],
-  //   "props" : {
-  //     "blockClass": "home__row--seccion-three-content"
-  //   }
-  // },
+  "flex-layout.row#home__row--seccion-three-content": {
+    "title": "mobile home seccion three new collection",
+    "children": [
+      "rich-text#mobile__section--three",
+      "slider-layout#seccion__three--notArrows"
+    ],
+    "props" : {
+      "blockClass": "home__row--seccion-three-content"
+    }
+  },
+  // seccion four
   "slider-layout#mobile__home--seccion-four": {
     "title": "mobile home seccion four",
     "props": {
@@ -112,6 +112,7 @@
       "blockClass": "mobile__home--seccion-sevent",
       "showPaginationDots": "never",
       "infinite": true,
+      "fullWidth": true,
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true

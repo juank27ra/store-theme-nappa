@@ -2,7 +2,7 @@
   "video#mobile__home--sliderOne-four" : {
     "title": "SliderOne video",
     "props": {
-      // "src": "assets/img/mobile/mobile__sliderOne--four.mp4",
+      "src": "assets/img/mobile/mobile__sliderOne--four.mp4",
       "loop": true,
       "autoPlay": true,
       "muted": false,
@@ -12,7 +12,7 @@
   "video#mobile__home--seccionFour-two": {
     "title": "seccionFour-two",
     "props": {
-      // "src": "assets/img/mobile/mobile__sliderTwo--seccionfour.mp4",
+      "src": "assets/img/mobile/mobile__sliderTwo--seccionfour.mp4",
       "loop": true,
       "autoPlay": true,
       "muted": false,

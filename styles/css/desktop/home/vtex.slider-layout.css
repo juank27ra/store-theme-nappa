@@ -20,3 +20,19 @@
   width      : 87%;
   margin-left: 7vw
 }
+
+.sliderTrackContainer--desktop__home--slider-product-summary {
+  margin-top: 20px;
+}
+
+/* .sliderLayoutContainer--desktop__home--slider-product-summary {
+  width: 33%;
+} */
+
+.caretIcon--desktop__home--slider-product-summary {
+  margin-left: 50px;
+}
+
+.caretIcon--desktop__home--slider-product-summary {
+  margin-right: 50px;
+}
