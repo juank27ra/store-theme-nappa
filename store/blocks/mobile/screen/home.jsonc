@@ -7,8 +7,9 @@
         "flex-layout.row#mobile__home--seccion-three",   //new-coleccion
         "slider-layout#mobile__home--seccion-four",
         "flex-layout.row#mobile__home--seccion-five",
-        "flex-layout.row#mobile__home--seccion-six"
-        // "slider-layout#mobile__home--seccion-sevent"
+        "video#mobile__home--seccion-six",
+        "slider-layout#mobile__home--seccion-sevent",
+        "link#mobile__home--link-seccion-eight"
       ],
       "props": {
         "blockClass": "mobile__home"

@@ -19,3 +19,10 @@
 .link--desktop__col--free-hands {
   color: black;
 }
+
+.strong--desktop__home--seccion-five {
+  font-weight   : 600;
+  font-size     : 1vw;
+  margin-top    : 0.5vw;
+  letter-spacing: .085vw;
+}

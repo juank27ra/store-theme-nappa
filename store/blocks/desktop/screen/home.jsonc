@@ -9,7 +9,8 @@
       "slider-layout#desktop__home--seccion-five",
       "flex-layout.row#desktop__home--seccion-six",
       "flex-layout.row#desktop__home--seccion-sevent",
-      "slider-layout#desktop__home--seccion-eight"
+      "slider-layout#desktop__home--seccion-eight",
+      "link#desktop__home--link-seccion-nine"
     ],
     "props": {
       "blockClass": "desktop__home"

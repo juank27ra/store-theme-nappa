@@ -1,0 +1,25 @@
+{
+  "slider-layout#seccion__three--notArrows": {
+    "title": "header slider notArrows",
+    "props": {
+      "blockClass": "seccion__three--notArrows",
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 5000
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      }
+    },
+    "children": [
+      "image#mobile__home--seccionThree-one",
+      "image#mobile__home--seccionThree-two",
+      "image#mobile__home--seccionThree-three"
+    ]
+  }
+}

@@ -1,9 +1,11 @@
 .flexRow--home__images--seccion-four {
-  background-image   : url("assets/img/desktop/home__slider--seccion-four-bg.jpg");
-  height             : 500px;
+  background-image   : url("assets/img/desktop/desktop__seccionFour-background.jpg");
+  height             : 100%;
+  width              : 100%;
   background-position: center;
   background-repeat  : no-repeat;
   background-size    : cover;
+  padding-top        : 7.5vw;
 }
 
 .flexRow--desktop__home--seccion-two :global(.vtex-store-components-3-x-container) {
@@ -28,4 +30,25 @@
 
 .desktop__row--text-four {
   padding-left: 4vw;
+}
+
+.clearLink--desktop__home--summary-shelf-container {
+  margin-top: 20px;
+}
+
+.flexRow--home__images--seccion-four :global(.vtex-store-components-3-x-container){
+  padding: 0;
+  margin: 0;
+  max-width: none;
+}
+
+.flexRowContent--home__images--seccion-four .stretchChildrenWidth:first-child{
+  width: 67% !important;
+}
+.flexRowContent--home__images--seccion-four .stretchChildrenWidth:nth-child(2n){
+  width: 33% !important;
+}
+
+.flexRowContent--home__images--seccion-four {
+  padding-bottom: 7vw;
 }

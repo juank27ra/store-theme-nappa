@@ -31,17 +31,37 @@
       "blockClass": "mobile__home--seccion-two"
     }
   },
+  //seccion three
   "flex-layout.row#mobile__home--seccion-three": {
     "title": "mobile home seccion three new collection",
     "children": [
-      "rich-text#mobile__section--three"
-      // "slider-layout#seccion__three--notArrows",
-      // "slider-layout#seccion__three--arrows"
+      "flex-layout.col#home__row--seccion-three"
     ],
     "props" : {
       "blockClass": "mobile__home--seccion-three"
     }
   },
+  "flex-layout.col#home__row--seccion-three": {
+    "title": "mobile home seccion three new collection",
+    "children": [
+      "flex-layout.row#home__row--seccion-three-content",
+      "list-context.product-list#desktop__home--product-summary"
+    ],
+    "props" : {
+      "blockClass": "home__row--seccion-three"
+    }
+  },
+  "flex-layout.row#home__row--seccion-three-content": {
+    "title": "mobile home seccion three new collection",
+    "children": [
+      "rich-text#mobile__section--three",
+      "slider-layout#seccion__three--notArrows"
+    ],
+    "props" : {
+      "blockClass": "home__row--seccion-three-content"
+    }
+  },
+  // seccion four
   "slider-layout#mobile__home--seccion-four": {
     "title": "mobile home seccion four",
     "props": {
@@ -89,9 +109,10 @@
         "tablet": 1,
         "mobile": 1
       },
-      "blockClass": "mobile__home--seccion-one",
+      "blockClass": "mobile__home--seccion-sevent",
       "showPaginationDots": "never",
       "infinite": true,
+      "fullWidth": true,
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
@@ -104,5 +125,16 @@
       "image#mobile__home--seccionSevent-four",
       "image#mobile__home--seccionSevent-five"
     ]
+  },
+  "link#mobile__home--link-seccion-eight": {
+    "title": "mobile home seccion eight",
+    "children": [
+      "video#mobile__home--seccion-eight"
+    ],
+    "props": {
+      "blockClass": "mobile__home--link-seccion-eight",
+      "href": "https://www.tiktok.com/@nappa.colombia",
+      "label": ""
+    }
   }
 }

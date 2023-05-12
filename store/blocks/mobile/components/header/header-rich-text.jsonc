@@ -1,0 +1,11 @@
+{
+  "rich-text#header__slider--buy-credit-date": {
+    "title": "slider text free shipping",
+    "props": {
+      "text": "Compra a Crédito Nuestros Productos del 10 al 14 de Mayo y comienza a pagar en Julio",
+      "textPostionEnum": "center",
+      "textAlignmentEnum": "center",
+      "blockClass": "header__slider--buy-credit-date"
+    }
+  }
+}
