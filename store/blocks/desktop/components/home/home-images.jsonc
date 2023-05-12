@@ -1,16 +1,19 @@
 {
+  // seccion-one
   "image#desktop__home--sliderOne-one" : {
     "title": "sliderOne image ",
     "props": {
-      "src": "assets/img/desktop/home__slider--one.jpg",
-      "blockClass": "desktop__home--sliderOne-one"
+      "src": "assets/img/desktop/home__seccionOne--one.gif",
+      "blockClass": "desktop__home--sliderOne-one",
+      "maxHeight": "100%",
+      "maxWidth": "100%"
     }
   },
   "image#desktop__home--sliderOne-two" : {
     "title": "SliderOne image two",
     "props": {
-      "src": "assets/img/desktop/home__sliderOne--two.gif",
-      "maxHeight": "94%",
+      "src": "assets/img/desktop/home__seccionOne--two.gif",
+      "maxHeight": "100%",
       "maxWidth": "100%",
       "blockClass": "desktop__home--sliderOne-two"
     }
@@ -18,12 +21,22 @@
   "image#desktop__home--sliderOne-three" : {
     "title": "SliderOne image three",
     "props": {
-      "src": "assets/img/desktop/home__sliderOne--three.gif",
-      "maxHeight": "94%",
+      "src": "assets/img/desktop/home__seccionOne-three.gif",
+      "maxHeight": "100%",
       "maxWidth": "100%",
       "blockClass": "desktop__home--sliderOne-three"
     }
   },
+  "image#desktop__home--sliderOne-four" : {
+    "title": "SliderOne image four",
+    "props": {
+      "src": "assets/img/desktop/home__seccionOne--four.gif",
+      "maxHeight": "100%",
+      "maxWidth": "100%",
+      "blockClass": "desktop__home--sliderOne-four"
+    }
+  },
+  // seccion-two
   "image#desktop__home--image-seccion-two": {
     "title": "sliderTwo",
     "props": {
@@ -33,6 +46,26 @@
       "blockClass": "desktop__home--image-seccion-two"
     }
   },
+  //seccion four
+  "image#desktop__home--seccionFour-one": {
+    "title": "desktop seccionFour image one",
+    "props": {
+      "src": "assets/img/desktop/desktop__seccionFour--one.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%",
+      "blockClass": "desktop__home--seccionFour-one"
+    }
+  },
+  "image#desktop__home--seccionFour-two": {
+    "title": "desktop seccionFour image two",
+    "props": {
+      "src": "assets/img/desktop/desktop__seccionFour--two.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%",
+      "blockClass": "desktop__home--seccionFour-two"
+    }
+  },
+//seccion five
   "image#desktop__home--seccionFive-one": {
     "title": "seccionFive image two",
     "props": {
@@ -40,6 +73,7 @@
       "blockClass": "desktop__home--seccionFive-on"
     }
   },
+  // seccion eight
   "image#desktop__home--sliderEight-one": {
     "title": "seccionEight image two",
     "props": {

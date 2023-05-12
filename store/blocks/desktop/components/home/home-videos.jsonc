@@ -1,12 +1,12 @@
 {
-  "video#desktop__home--sliderOne-four" : {
+  "video#desktop__home--sliderOne-five" : {
     "title": "home seccion one video",
     "props": {
-      "src": "assets/img/desktop/desktop__home--slider-video1.mp4",
+      "src": "assets/img/desktop/home__seccionOne--five.mp4",
       "loop": true,
       "autoPlay": true,
       "muted": false,
-      "blockClass": "desktop__home--sliderOne-four"
+      "blockClass": "desktop__home--sliderOne-five"
     }
   },
   "video#desktop__home--seccionFive-two": {
@@ -29,6 +29,18 @@
       "width": "100%",
       "height": "600px",
       "blockClass": "desktop__home--seccion-sevent"
+    }
+  },
+  "video#desktop__home--seccion-nine": {
+    "title": "seccion Nine video",
+    "props": {
+      "src": "assets/img/desktop/desktop__seccionNine--video.mp4",
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "blockClass": "desktop__home--seccion-nine"
     }
   }
 }

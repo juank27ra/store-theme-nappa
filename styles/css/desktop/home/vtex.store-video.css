@@ -1,5 +1,16 @@
 .videoElement--desktop__home--seccion-sevent {
-  width: 100%;
-  height: 40vw;
+  width  : 100%;
+  height : 41vw;
   padding: 0 1vw 7rem;
+}
+
+.videoContainer--desktop__home--seccion-nine {
+  width         : 100%;
+  height        : 100%;
+  padding-bottom: 7rem;
+  border        : transparent;
+}
+
+.videoElement--desktop__home--seccionFive-two {
+  border: none;
 }

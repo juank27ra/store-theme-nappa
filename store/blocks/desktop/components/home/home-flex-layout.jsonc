@@ -1,4 +1,5 @@
 {
+  //seccion three
   "flex-layout.col#desktop__row--text-one": {
     "title": "desktop col  text one",
     "children": [
@@ -35,40 +36,89 @@
       "blockClass": "desktop__row--text-four"
     }
   },
-  "flex-layout.col#home__row--col-one": {
-    "title": "home  image col one",
+  // seccion four
+  "flex-layout.col#home__col--one": {
+    "title": "home image col one",
     "children": [
-      "slider-layout#home__col--slider-one"
+      "slider-layout#home__col--slider-one",
+      "rich-text#desktop__sectionfour--text"
     ],
     "props": {
-      "blockClass": "home__row--col-one"
+      "blockClass": "home__col--one"
     }
   },
-  "flex-layout.col#home__row--col-two": {
+  // "flex-layout.row#home__col--one-slider": {
+  //   "title": "",
+  //   "children": [
+  //     "slider-layout#home__col--slider-one",
+  //     "rich-text#desktop__sectionfour--text"
+  //   ],
+  //   "props": {
+  //     "blockClass": ""
+  //   }
+  // },
+  "flex-layout.col#home__col--two": {
     "title": "home  image col two",
     "children": [
-      "slider-layout#home__col--slider-two"
+      "list-context.product-list#desktop__home--product-summary"
     ],
     "props": {
-      "blockClass": "home__row--col-two"
+      "blockClass": "home__col--two"
     }
   },
   "slider-layout#home__col--slider-one": {
     "title": "slider col one",
     "children": [
-      "image#desktop__home--sliderOne-one"
+      "image#desktop__home--seccionFour-one",
+      "image#desktop__home--seccionFour-two",
+      "image#desktop__home--seccionFour-two"
     ],
     "props": {
-      "blockClass": "home__col--slider-one"
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "home__col--slider-one",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "navigationStep": 1,
+      "infinite": true,
+      "fullWidth": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
     }
   },
-  "slider-layout#home__col--slider-two": {
-    "title": "slider col two",
+  "list-context.product-list#desktop__home--product-summary": {
+    "title": "desktop list context product list container",
+    "blocks": ["product-summary.shelf#desktop__home--summary-shelf-container"],
     "children": [
-      "image#desktop__home--sliderOne-one"
+      "slider-layout#desktop__home--slider-product-summary"
     ],
     "props": {
-      "blockClass": "home__col--slider-two"
+      "blockClass": "desktop__home--product-summary"
+    }
+  },
+  "slider-layout#desktop__home--slider-product-summary": {
+    "title": "desktop slider product summary",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "desktop__home--slider-product-summary",
+      "navigationStep": 1,
+      "showPaginationDots": "never",
+      "infinite": true,
+      "fullWidth": true,
+      "maxWidth": 200,
+      "autoplay": {
+        "timeout": 9000,
+        "stopOnHover": true
+      }
     }
   }
 }

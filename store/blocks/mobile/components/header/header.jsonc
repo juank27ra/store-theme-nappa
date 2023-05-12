@@ -3,7 +3,7 @@
     "title": "mobile header container",
     "children": [
       "sticky-layout#mobile__header--sticky",
-      "header-row#desktop__header--bottom"
+      "header-row#mobile__header--bottom"
     ],
     "props": {
       "blockClass": "mobile__header--container"
@@ -17,6 +17,16 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingBottom": 2
+    }
+  },
+  "header-row#mobile__header--bottom": {
+    "title": "header row bottom ",
+    "children": [
+      "slider-layout#mobile__header--slider-text"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "mobile__header--bottom "
     }
   },
   "header-row#mobile__header--row": {

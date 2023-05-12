@@ -17,3 +17,10 @@
   font-weight: 600;
 }
 
+.strong--desktop__col--accesories,
+.strong--desktop__col--backpacks,
+.strong--desktop__col--handbags,
+.strong--desktop__col--free-hands {
+  color: black;
+  font-weight: 700;
+}
