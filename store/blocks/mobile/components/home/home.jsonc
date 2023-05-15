@@ -19,7 +19,8 @@
       "image#mobile__home--sliderOne-one",
       "image#mobile__home--sliderOne-two",
       "image#mobile__home--sliderOne-three",
-      "video#mobile__home--sliderOne-four"
+      "image#mobile__home--sliderOne-four",
+      "video#mobile__home--sliderOne-five"
     ]
   },
   "flex-layout.row#mobile__home--seccion-two": {

@@ -27,6 +27,7 @@
       "blockClass": "desktop__row--text-three"
     }
   },
+  // seccion four
   "flex-layout.col#desktop__row--text-four": {
     "title": "desktop col  banner",
     "children": [
@@ -36,27 +37,16 @@
       "blockClass": "desktop__row--text-four"
     }
   },
-  // seccion four
-  "flex-layout.col#home__col--one": {
-    "title": "home image col one",
+  "flex-layout.col#home__col--one-slider": {
+    "title": "col one slider seccion four",
     "children": [
       "slider-layout#home__col--slider-one",
       "rich-text#desktop__sectionfour--text"
     ],
     "props": {
-      "blockClass": "home__col--one"
+      "blockClass": "home__col--one-slider"
     }
   },
-  // "flex-layout.row#home__col--one-slider": {
-  //   "title": "",
-  //   "children": [
-  //     "slider-layout#home__col--slider-one",
-  //     "rich-text#desktop__sectionfour--text"
-  //   ],
-  //   "props": {
-  //     "blockClass": ""
-  //   }
-  // },
   "flex-layout.col#home__col--two": {
     "title": "home  image col two",
     "children": [

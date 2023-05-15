@@ -4,7 +4,7 @@
 }
 
 .sliderLayoutContainer--home__col--slider-one {
-  padding  : 0 4vw 0 4vw;
+  padding  : 0 14vw;
 }
 
 .sliderTrackContainer--home__slider--seccion-one {
@@ -29,10 +29,10 @@
   width: 33%;
 } */
 
-.caretIcon--desktop__home--slider-product-summary {
-  margin-left: 50px;
+.sliderRightArrow--desktop__home--slider-product-summary {
+  right: 6.8vw;
 }
 
-.caretIcon--desktop__home--slider-product-summary {
-  margin-right: 50px;
+.sliderLeftArrow--desktop__home--slider-product-summary {
+  left: 6.2vw;
 }

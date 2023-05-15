@@ -48,10 +48,8 @@
   "flex-layout.row#home__images--seccion-four": {
     "title": "home row seccion four",
     "children": [
-      "slider-layout#home__col--slider-one",
-      "list-context.product-list#desktop__home--product-summary"
-      // "flex-layout.col#home__col--one",
-      // "flex-layout.col#home__col--two"
+      "flex-layout.col#home__col--one-slider",
+      "flex-layout.col#home__col--two"
     ],
     "props": {
       "blockClass": "home__images--seccion-four"
