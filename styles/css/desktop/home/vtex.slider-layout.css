@@ -4,7 +4,7 @@
 }
 
 .sliderLayoutContainer--home__col--slider-one {
-  padding  : 0 14vw;
+  padding: 0 14vw;
 }
 
 .sliderTrackContainer--home__slider--seccion-one {
@@ -24,10 +24,6 @@
 .sliderTrackContainer--desktop__home--slider-product-summary {
   margin-top: 20px;
 }
-
-/* .sliderLayoutContainer--desktop__home--slider-product-summary {
-  width: 33%;
-} */
 
 .sliderRightArrow--desktop__home--slider-product-summary {
   right: 6.8vw;

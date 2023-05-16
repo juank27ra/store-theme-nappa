@@ -62,3 +62,14 @@
 .flexColChild--home__col--two :global(.vtex-slider-layout-0-x-sliderLayoutContainer--desktop__home--slider-product-summary) {
   right: 13vw;
 }
+
+.flexRow--desktop__home--seccion-sevent :first-child {
+  max-width: none;
+  width: 100%;
+  padding-left  : 1.8vw ;
+  padding-right  : 2.6vw ;
+}
+
+.flexRow--desktop__home--seccion-six :first-child {
+  max-width: none;
+}
