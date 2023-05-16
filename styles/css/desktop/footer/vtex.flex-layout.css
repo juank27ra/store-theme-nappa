@@ -37,3 +37,16 @@
   height: 4vw !important;
 }
 
+.flexRowContent--desktop__industry--commerce--text :global(.vtex-rich-text-0-x-paragraph) {
+  color: white !important;
+  font-size: 9px !important;
+}
+
+.flexRow--desktop__industry--commerce--text {
+  width: 80%;
+}
+
+.flexRowContent--desktop__industry--commerce--text :global(.vtex-rich-text-0-x-link){
+  text-decoration: none;
+  color: white;
+}

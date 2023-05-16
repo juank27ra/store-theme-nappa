@@ -1,0 +1,20 @@
+
+.styledLinkContent--desktop__departamentThree--container-quick-links,
+.styledLinkContent--desktop__departamentTwo--container-costumer-service,
+.styledLinkContent--desktop__departamentOne--container-us {
+  color: white;
+}
+
+.accordionIcon--desktop__departamentOne--container-us {
+  color: white;
+  transform: translateX(-9vw);
+}
+.accordionIcon--desktop__departamentThree--container-quick-links{
+  color: white;
+  transform: translateX(-8vw);
+}
+
+.accordionIcon--desktop__departamentTwo--container-costumer-service{
+  color: white;
+  transform: translateX(-11vw);
+}

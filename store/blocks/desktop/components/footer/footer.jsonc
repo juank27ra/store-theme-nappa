@@ -23,13 +23,19 @@
   "newsletter-input-email#input__newslater" : {
     "title": "imput subcriber",
     "props": {
-      "blockClass": "input__newslater"
+      "blockClass": "input__newslater",
+      "placeholderText": "El parche empieza escribiendo tu correo",
+      "textAlignment": "CENTER"   //
     }
   },
   "newsletter-checkbox-confirmation#checkbox" : {
     "title": "checkbox confirmation",
     "props": {
-      "text": "He leído la Política de Tratamiento de Datos Personales y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos.",
+      "checkboxLabel": "He leído la Política de Tratamiento de Datos Personales y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos.",
+      "firstLabelLink": {
+        "url": "https://m.facebook.com/nappa.com.co",
+        "text": "Política de Tratamiento de Datos Personales"
+      },
       "blockClass": "checkbox"
     }
   },

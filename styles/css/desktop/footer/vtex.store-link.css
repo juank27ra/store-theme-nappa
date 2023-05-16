@@ -5,3 +5,21 @@
 .label--desktop__footer-button-subscribe {
   text-transform: initial;
 }
+
+.link--desktop__btn--col-stores,
+.link--desktop__col--methods-payments {
+  background-color: transparent !important;
+  border-color: white !important;
+}
+
+.link--desktop__col--methods-payments:hover,
+.link--desktop__btn--col-stores:hover {
+  background-color: transparent;
+  border-color: white;
+}
+.link--desktop__btn--col-stores:hover ::before {
+  content: "";
+  visibility: visible;
+  background-image: url("assets/img/Home/footer/footer__location--image.png");
+  background-size: cover;
+}
