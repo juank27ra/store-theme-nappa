@@ -1,0 +1,11 @@
+{
+    "rich-text#desktop__subscriber": {
+    "title": "rich-tex subscriber",
+    "props": {
+      "blockClass": "desktop__subscriber",
+      "text": "Suscríbete a nuestra **Newslatter**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

@@ -2,3 +2,13 @@
   display        : flex;
   justify-content: center;
 }
+
+.footerLayout {
+  background-color: black;
+  /* color: var(--text-color); */
+}
+
+/* :root{
+  --text-color: white;      // de orden local
+} */
+

@@ -465,7 +465,7 @@
   "image#mobile__row--industry&commerce": {
     "title": "image of industry and commerce",
     "props": {
-      "src": "assets/img/Home/footer/footer__T&C.png",
+      "src": "assets/img/Home/footer/footer__camara--comiercio.png",
       "title": "industry and commerce",
       "blockClass": "mobile__row--industry&commerce"
     }

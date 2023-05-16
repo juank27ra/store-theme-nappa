@@ -1,0 +1,17 @@
+.newsletterForm--global__subscriber {
+  margin-top: 2rem;
+}
+
+.emailInputContainer--input__newslater :global(.vtex-input-prefix__group) {
+  width     : 45%;
+  background: transparent;
+  margin    : auto;
+  border: none;
+  /* padding: 20px; */
+  letter-spacing: .5px;
+}
+
+.emailInputContainer--input__newslater :global(.vtex-styleguide-9-x-input) {
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
