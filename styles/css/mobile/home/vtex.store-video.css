@@ -6,3 +6,17 @@
 .videoElement--mobile__home--seccion-eight {
   padding-bottom: 7vw;
 }
+
+.videoContainer--mobile__home--seccion-eight {
+  width: 100%;
+  height: 100% !important;
+  border: none;
+}
+
+.videoContainer--mobile__home--seccionFour-two {
+  width: 100%;
+  height: 100% !important;
+}
+.videoContainer--mobile__home--sliderOne-five {
+  border: none;
+}

@@ -26,3 +26,17 @@
   margin-top    : 0.5vw;
   letter-spacing: .085vw;
 }
+
+.container--desktop__sectionfour--text {
+  padding: 0 14vw;
+  margin-top: 12px;
+}
+
+.link--desktop__sectionfour--text {
+  font-size: 27px;
+  margin-top: 2vw;
+  margin-bottom: 8vw;
+  letter-spacing: 2px;
+  color: black;
+  text-decoration: none;
+}

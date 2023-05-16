@@ -1,20 +1,21 @@
 .searchBarContainer {
-  background: transparent;
-  border    : none;
+  background   : transparent;
+  border       : none;
   /* width     : 22vw; */
 }
+
 .searchBarInnerContainer--desktop__header--searchbar {
   border-bottom: 1px solid;
-  width: 15vw;
-  margin-left: -17vw;
-  margin-top: -20px;
+  width        : 15vw;
+  margin-left  : -17vw;
+  margin-top   : -20px;
 }
 
 .autoCompleteOuterContainer--desktop__header--searchbar :global(.vtex-styleguide-9-x-input) {
   background-color: transparent;
-  font-size: 15px;
-  margin-top: 20px;
-  color: black;
+  font-size       : 15px;
+  margin-top      : 20px;
+  color           : black;
 }
 
 .autoCompleteOuterContainer--desktop__header--searchbar :global(.vtex-input-prefix__group) {
@@ -30,13 +31,14 @@
   color: black;
 }
 
-.portalWrapper--desktop__header--searchbar :global(.vtex-search-2-x-biggy-autocomplete){
-  margin: 8px 0 0 -300px;
-  width: 66vw;
+.portalWrapper--desktop__header--searchbar :global(.vtex-search-2-x-biggy-autocomplete) {
+  margin            : 8px 0 0 -300px;
+  width             : 66vw;
   /* scroll-behavior: auto; */
 }
-.portalWrapper--desktop__header--searchbar :global( .vtex-button){
-background-color: black;
-font-size: 14px;
-border: none;
+
+.portalWrapper--desktop__header--searchbar :global(.vtex-button) {
+  background-color: black;
+  font-size: 14px;
+  border   : none;
 }

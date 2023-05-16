@@ -7,7 +7,6 @@
   width: 30%;
 }
 
-
 .flexCol--mobile__col--logo {
   width: 70%;
 }
@@ -25,6 +24,22 @@
   max-width: 100% ;
 }
 
-.closeIconButton--drawer__close--button-megamenu {
+/* .closeIconButton--drawer__close--button-megamenu {
   margin-bottom: 8vw;
+} */
+
+.opened--mobile__header--menu {
+  width: 100% !important;
+  max-width: none !important;
 }
+
+
+.childrenContainer--mobile__header--menu {
+  padding: 8vw 7vw 9vw;
+}
+
+.drawerHeader--mobile__header--container-block {
+  padding: 0vw 7vw 0vw;
+}
+
+

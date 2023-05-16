@@ -1,9 +1,9 @@
-{
+  {
   "rich-text#mobile__section--three": {
     "title": "rich-text mobile seccion three",
     "props": {
       "blockClass": "mobile__section--three",
-      "text": "## **NUEVA COLECCIÓN**",
+      "text": "[**NUEVA COLECCIÓN**](#)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "marginTop": 10
