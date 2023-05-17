@@ -1,0 +1,136 @@
+{
+  "flex-layout.row#desktop__departaments--footer": {
+    "title": "menu us container",
+    "children": [
+      "menu#desktop__us"
+    ],
+    "props": {
+      "blockClass": "desktop__departaments--footer"
+    }
+  },
+  "flex-layout.row#desktop__payments--netwoks-stores": {
+    "title": "payments networks row",
+    "children": [
+      "flex-layout.col#desktop__row--methods-payments",
+      "flex-layout.col#desktop__row--SocialNetworks",
+      "flex-layout.col#desktop__row--stores"
+    ],
+    "props": {
+      "blockClass": "desktop__payments--netwoks-stores"
+    }
+  },
+  "flex-layout.col#desktop__row--methods-payments": {
+    "title": "title col payments",
+    "children": [
+      "modal-trigger#desktop__mehothods--payments"
+    ],
+    "props": {
+      "blockClass": "desktop__row--methods-payments"
+    }
+  },
+  "modal-trigger#desktop__mehothods--payments": {
+    "title": "deskto modal payments",
+    "children": [
+      "link#desktop__col--methods-payments",
+      "modal-layout#desktop__modal--payments"
+    ]
+  },
+  "link#desktop__col--methods-payments": {
+    "title": "text payments",
+    "props": {
+      // "href": "",
+      "label": "Medios de pago",
+      "displayMode": "button",
+      "blockClass": "desktop__col--methods-payments"
+    }
+  },
+  "modal-layout#desktop__modal--payments": {
+    "title": "modal content methods payments",
+    "children": [
+      "modal-header#footer__modal--header",
+      "image#methods__payments"
+    ],
+    "props": {
+      "blockClass": "desktop__modal--payments"
+    }
+  },
+  "image#methods__payments": {
+    "title": "image of methods payments",
+    "props": {
+      "src": "assets/img/Home/footer/footer__methods--payments.jpg",
+      "title": "methods paymentse",
+      "blockClass": "methods__payments"
+    }
+  },
+  "modal-header#footer__modal--header": {
+    "title": "modal event",
+    "props":{
+      "showCloseButton": true,
+      "blockClass": "footer__modal--header"
+    }
+  },
+  "flex-layout.col#desktop__row--SocialNetworks": {
+    "title": "title col networks",
+    "children": [
+      "flex-layout.row#row__social--Networks"
+    ],
+    "props": {
+      "blockClass": "desktop__row--networks"
+    }
+  },
+
+  "flex-layout.row#row__social--Networks": {
+    "title": "row social Networks ",
+    "children": [
+      "image#mobile__social--facebook",
+      "image#mobile__social--instagram",
+      "image#mobile__social--youtube"
+    ],
+    "props": {
+      "blockClass": "row__social--Networks"
+    }
+  },
+  "flex-layout.col#desktop__row--stores": {
+    "title": "tile col stores",
+    "children": [
+      "link#desktop__btn--col-stores"
+    ],
+    "props": {
+      "blockClass": "desktop__row--stores"
+    }
+  },
+  "link#desktop__btn--col-stores": {
+    "title": "btn stores",
+    "props": {
+      "href": "/",
+      "label": "TIENDAS",
+      "displayMode": "button",
+      "blockClass": "desktop__btn--col-stores"
+    }
+  },
+  "flex-layout.row#desktop__industry--commerce": {
+    "title": "row industry and commerce",
+    "children": [
+      "image#desktop__image--industry-commerce"
+    ],
+    "props": {
+      "blockClass": "desktop__industry--commerce"
+    }
+  },
+  "image#desktop__image--industry-commerce": {
+    "title": "image of industry and commerce",
+    "props": {
+      "src": "assets/img/Home/footer/footer__camara--comiercio.png",
+      "title": "industry and commerce",
+      "blockClass": "desktop__image--industry-commerce"
+    }
+  },
+
+  "flex-layout.row#desktop__industry--commerce--text": {
+    "title": "text content industry and commerce",
+    "children": ["rich-text#desktop__text--industry&commerce"],
+    "props": {
+      "blockClass": "desktop__industry--commerce--text"
+    }
+  }
+}

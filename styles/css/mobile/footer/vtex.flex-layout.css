@@ -1,0 +1,68 @@
+.flexCol--mobile__container--footer-col {
+  padding-top   : 8vw;
+  padding-bottom: 16vw;
+}
+
+.flexRowContent--mobile__footer--container-seccionThree {
+  display        : flex;
+  justify-content: center;
+  position       : relative;
+  align-items    : center;
+}
+
+.flexColChild--mobile__container--footer-col {
+  padding: 15px 30px;
+}
+
+.flexRowContent--mobile__footer--container-seccionTwo :global(.vtex-styleguide-9-x-hideDecorators) {
+  font-size: 10px;
+
+}
+
+.flexRowContent--mobile__footer--container-seccionTwo :global(.vtex-input-prefix__group) {
+  width: 70vw;
+}
+
+.flexRowContent--mobile__footer--container-seccionTwo :global(.vtex-checkbox__label) {
+  font-size: 10px;
+}
+
+.flexRow--mobile__footer--container-seccionThree {
+  /* height: 100%;
+  margin: auto;
+  width : 22vw; */
+
+  padding: 18px 3px;
+  height : 100%;
+  margin : auto;
+  width  : 19vw;
+}
+
+.flexRowContent--mobile__footer--container-seccionTwo :global(.vtex-button) {
+  min-height    : 1.5rem;
+  text-transform: none;
+  font-weight   : 700;
+  font-size     : 18px;
+  width         : 15vw;
+}
+
+.flexCol--mobile__container--footer-col :global(.vtex-flex-layout-0-x-flexColChild--mobile__container--footer-col) {
+  margin: auto;
+}
+
+.flexRowContent--mobile__footer--container-seccionFour :global(.vtex-store-link-0-x-link) {
+  width     : 40vw;
+  min-height: 1.5rem;
+}
+
+.flexRowContent--mobile__industry--commerce--text :global(.vtex-rich-text-0-x-paragraph) {
+  font-size: 10px;
+  width    : 71vw;
+}
+
+.flexRowContent--mobile__footer--container-seccionFour :global(.vtex-store-link-0-x-link)::before {
+  height: 14px;
+}
+.flexRowContent--mobile__footer--container-seccionFour :global(.vtex-store-link-0-x-label) {
+  font-size: 14px;
+}
