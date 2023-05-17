@@ -1,0 +1,40 @@
+{
+  "newsletter-form#global__subscriber": {
+    "title": "container newslatter",
+    "children": [
+    "newsletter-input-email#input__newslater",
+    "newsletter-checkbox-confirmation#checkbox",
+    "newsletter-submit#btn__newscriber--submit"
+    ],
+    "props": {
+      "blockClass": "global__subscriber"
+    }
+ },
+  "newsletter-input-email#input__newslater" : {
+    "title": "imput subcriber",
+    "props": {
+      "blockClass": "input__newslater",
+      "placeholderText": "El parche empieza escribiendo tu correo",
+      "textAlignment": "CENTER",   //
+      "textColor": "c-on-base"
+    }
+  },
+  "newsletter-checkbox-confirmation#checkbox" : {
+    "title": "checkbox confirmation",
+    "props": {
+      // "checkboxLabel": "He leído la  Política de Tratamiento de Datos Personales ** y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos.",
+      "checkboxLabel": "He leído la {firstLabelLink} y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos ",
+      "firstLabelLink": {
+        "url": "https://www.nappa.com.co/nuestras-politicas",
+        "text": "Política de Tratamiento de Datos Personales"
+      },
+      "blockClass": "checkbox"
+    }
+  },
+  "newsletter-submit#btn__newscriber--submit" : {
+    "title": "btn subscriber",
+    "props": {
+      "blockClass": "btn__newscriber--submit"
+    }
+  }
+}

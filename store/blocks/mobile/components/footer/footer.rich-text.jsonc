@@ -1,0 +1,20 @@
+{
+  "rich-text#mobile__subscriber": {
+    "title": "richtex subscriber",
+    "props": {
+      "blockClass": "mobile__subscriber",
+      "text": "Suscríbete a nuestra Newslatter",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#mobile__text--industry&commerce": {
+    "title": "text industry and commerce",
+    "props": {
+      "text": "SOMOS UNA MARCA DE CUEROS VÉLEZ SAS TODOS LOS DERECHOS RESERVADOS. NOTIFICACIONES JUDICIALES: CL. 29 # 52-115 MEDELLÍN-COLOMBIA | +574 355 5100 | NIT 800191700-8",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mobile__text--industry&commerce"
+    }
+  }
+}
