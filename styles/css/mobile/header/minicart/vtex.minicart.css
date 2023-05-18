@@ -5,8 +5,8 @@
   z-index         : 9;
   font-size       : 10px;
   font-weight     : 600;
-  top             : -10px;
-  left            : -10px;
+  top             : -15px;
+  left            : -20px;
 }
 
 .openIconContainer--mobile__header--minicart {
@@ -19,7 +19,7 @@
 
 .openIconContainer--mobile__header--minicart :first-child{
   width: 28px;
-  margin-left: -1.1vw;
+  margin-left: -1.8vw;
 }
 
 .drawerContent--mobile__header--minicart {

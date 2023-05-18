@@ -3,10 +3,10 @@
 }
 
 .headerRowContentContainer {
-  margin-left : 16px;
+  margin-left : 1vw;
   position    : relative;
   max-width   : -webkit-fill-available;
-  margin-right: 22px;
+  margin-right: 1vw;
   margin-top: -10px;
 }
 
@@ -24,3 +24,16 @@
 .headerRowBackground--desktop__header--row:hover {
   background-color: white;
 }
+
+
+
+/* @media screen and (max-width: 640px) {
+
+  .headerRowBackground--desktop__header--row:hover {
+    background-color: blue;
+  }
+
+  .headerRowBackground--desktop__header--row {
+    background-color: red;
+  }
+} */

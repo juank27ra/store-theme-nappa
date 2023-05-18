@@ -1,10 +1,11 @@
 .trigger--mobile__disclosure--icon-search {
   background: transparent;
   border    : none;
-  margin: -3px -20px 0 0;
-}
-.trigger--mobile__disclosure--icon-search :first-child {
-  width: 5vw;
-  margin-left: -4vw;
+  margin    : -3px -20px 0 0;
 }
 
+.trigger--mobile__disclosure--icon-search :first-child {
+  width      : 5vw;
+  margin-left: -13vw;
+  cursor     : pointer;
+}
