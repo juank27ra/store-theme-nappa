@@ -24,6 +24,7 @@
     "props": {
       "blockClass": "mobile__disclosure--icon-searchbar",
       "id": "hpa-search",
+      "color": "currentColor",
       "size": 40,
       "fullScreen": true
     }

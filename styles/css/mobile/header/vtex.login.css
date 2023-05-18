@@ -3,7 +3,7 @@
   height: 5vw;
   width : 5vw;
   margin-bottom: 8px;
-  margin-left: -2vw !important;
+  margin-left: -3vw !important;
 }
 
 .content--loginOptions :global(.vtex-button) {

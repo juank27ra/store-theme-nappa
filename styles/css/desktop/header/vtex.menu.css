@@ -1,37 +1,46 @@
+/* .submenuWrapper {
+  left       : 0;
+  position   : fixed;
+  margin-top : 2px;
+  padding-top: 3vw;
+} */
+
+
+
+
+
 .styledLinkContent--header__menu--container-departmentOne {
-  font-size     : 0.9vw;
-  font-family   : 'Poppins-Regular';
-  font-weight   : 500;
-  /* color      : white; */
-  color         : #000;
-  margin-left   : 1.5vw;
+  font-size  : 0.9vw;
+  font-family: 'Poppins-Regular';
+  font-weight: 500;
+  color      : var(--primary-color);
+  margin-left: 1.5vw;
 }
 
 .styledLinkContent--header__menu--container-departmentOne:hover {
-  Border-bottom: 2px #ce00d4 solid;
+  Border-bottom: 2px var(--primary-color-rgba) solid;
 }
 
 .styledLinkContent--header__menu--container-departmentTwo {
-  font-size     : 0.9vw;
-  font-family   : 'Poppins-Regular';
-  font-weight   : 500;
-  /* color      : white */
-  color         : #000
+  font-size  : 0.9vw;
+  font-family: 'Poppins-Regular';
+  font-weight: 500;
+  color      : var(--primary-color)
 }
 
 .styledLinkContent--header__menu--container-departmentTwo:hover {
-  Border-bottom: 2px #ce00d4 solid;
+  Border-bottom: 2px var(--primary-color-rgba) solid;
 }
 
 .styledLinkContent--menu__sales {
   font-size  : 0.9vw;
   font-family: 'Poppins-Bold';
-  color      : black;
+  color      :var(--primary-color);
   font-weight: 900;
 }
 
 .styledLinkContent--menu__sales:hover {
-  Border-bottom: 2px #ce00d4 solid;
+  Border-bottom: 2px var(--primary-color-rgba) solid;
 }
 
 .styledLinkContainer--header__menu--container-departmentOne {
@@ -48,28 +57,26 @@
 
 .submenuWrapper--menu__container--categoryOne {
   background: #fff;
-  width     : 620px;
+  width     : 33vw;
   height    : 100vh;
-  transform : translateX(-250px);
+  position  : fixed;
 }
 
 .submenu--menu__container--categoryOne {
-  margin-left    : 45px;
-  padding        : 50px 0 0 0;
-  justify-content: start;
+  padding        : 3vw 0 0 2vw;
+  justify-content: flex-start;
 }
 
 .submenuWrapper--menu__container--categoryTwo {
   background: #fff;
-  width     : 610px;
+  width     : 33vw;
   height    : 100vh;
-  transform : translateX(-390px);
+  position  : fixed;
 }
 
 .submenu--menu__container--categoryTwo {
-  margin-left    : 50px;
-  padding        : 50px 0 0 0;
-  justify-content: start;
+  padding        : 3vw 0 0 2vw;
+  justify-content: flex-start;
 }
 
 .styledLinkContent--item-menu {
@@ -80,14 +87,14 @@
 .styledLinkContent--handbags__subcategoryOne,
 .styledLinkContent--free__hands--subcategoryOne,
 .styledLinkContent--accessories__subcategoryOne {
-  font-size  : larger;
+  font-size  : 1vw;
   font-family: 'Poppins-Regular';
   color      : black;
 }
 
 .styledLinkContent--accessories__subcategoryTwo,
 .styledLinkContent--shoes__subcategoryOne {
-  font-size  : larger;
+  font-size  : 1vw;
   padding    : 0 0 25px 0;
   font-family: 'Poppins-Regular';
   color      : black;
@@ -97,31 +104,34 @@
 .styledLinkContent--the__usual--subcategoryTwo,
 .styledLinkContent--credit__subcategoryTwo,
 .styledLinkContent--credit__subcategoryOne {
-  font-size  : larger;
+  font-size  : 1vw;
   padding    : 0 0 20px 0;
   font-family: 'Poppins-Regular';
-  color      : black;
+  color      : var(--primary-color);
+  fill       : var(--primary-color);
 }
 
 .styledLinkContent--see__all--women-subcategoryOne,
 .styledLinkContent--backpacks__subcategoryTwo,
 .styledLinkContent--free__hands--subcategoryTwo {
-  font-size  : larger;
+  font-size  : 1vw;
   font-family: 'Poppins-Regular';
-  color      : black;
+  color      : var(--primary-color);
+  fill       : var(--primary-color);
 }
 
 .styledLinkContent--see__all--men-subcategoryTwo {
-  font-size  : larger;
+  font-size  : 1vw;
   font-family: 'Poppins-Regular';
-  color      : black;
+  color      : var(--primary-color);
+  fill       : var(--primary-color);
 }
 
 .styledLinkContent--women__sales--subcategoryOne,
 .styledLinkContent--men__sales--subcategoryTwo {
   font-weight: 600;
-  font-size  : larger;
-  color      : #ce00d4;
+  font-size  : 1vw;
+  color      : var(--primary-color-rgba) !important;
   font-family: 'Poppins-Regular';
 
 }
@@ -147,13 +157,11 @@
 }
 
 .styledLinkContent--desktop__menu--tiktok {
-  /* margin-right: -35px; */
-  margin-top  : 14px !important;
-  font-size   : 0.9vw;
-  padding     : 0 0 20px 0;
-  font-family : 'Poppins-Regular';
-  color       : black;
-  transform: translate(-18px);
+  margin-top : 14px;
+  font-size  : 0.9vw;
+  padding    : 0 0 20px 0;
+  font-family: 'Poppins-Regular';
+  color      : var(--primary-color);
 }
 
 .styledLinkContent--backpacks__subcategoryOne:hover,
@@ -173,10 +181,6 @@
 .styledLinkContent--women__sales--subcategoryOne:hover,
 .styledLinkContent--men__sales--subcategoryTwo:hover {
   font-family: 'Poppins-Bold';
-}
-
-.styledLinkContent--desktop__menu--tiktok {
-  margin-top: 22px;
 }
 
 .flexRowContent--desktop__header--row-icons {
@@ -241,32 +245,54 @@
 
 .styledLinkContent--the__usual--subcategoryOne::after,
 .styledLinkContent--the__usual--subcategoryTwo::after {
-  visibility: visible;
-  content: "INFALTABLES";
-  height: 8px;
-  font-size: 8px;
-  padding: 2px 6px;
-  margin-left: 15px;
-  margin-top: 3px;
-  border-radius: 3px;
-  background-color: #ce00d4;
+  visibility      : visible;
+  content         : "INFALTABLES";
+  height          : 8px;
+  font-size       : 8px;
+  padding         : 2px 6px;
+  margin-left     : 15px;
+  margin-top      : 3px;
+  border-radius   : 3px;
+  background-color: var(--primary-color-rgba);
 }
 
 
 .styledLinkContent--shoes__subcategoryTwo::after,
-.styledLinkContent--shoes__subcategoryOne::after{
-  visibility: visible;
-  content: "FLY UP";
-  height: 8px;
-  font-size: 8px;
-  padding: 2px 6px;
-  margin-left: 15px;
-  margin-top: 3px;
-  border-radius: 3px;
-  background-color: #ce00d4;
+.styledLinkContent--shoes__subcategoryOne::after {
+  visibility      : visible;
+  content         : "FLY UP";
+  height          : 8px;
+  font-size       : 8px;
+  padding         : 2px 6px;
+  margin-left     : 15px;
+  margin-top      : 3px;
+  border-radius   : 3px;
+  background-color: var(--primary-color-rgba);
 }
 
 
 .styledLinkContainer--desktop__menu--tiktok {
-  margin-left: -4vw;
+  margin-right: 0;
+}
+
+.styledLinkContent--request__your--Credit,
+.styledLinkContent--pay__your--credit,
+.styledLinkContent--benefits,
+.styledLinkContent--see__all,
+.styledLinkContent--more__accessories,
+.styledLinkContent--fanny__packs,
+.styledLinkContent--wallets,
+.styledLinkContent--subcategoryOne__see--all,
+.styledLinkContent--subcategoryOne__free--hands,
+.styledLinkContent--subcategoryOne__baguette,
+.styledLinkContent--subcategoryOne__shopping,
+.styledLinkContent--menu__subcategoryOne--wallets,
+.styledLinkContent--menu__subcategoryOne--cosmetic-bags,
+.styledLinkContent--menu__subcategoryOne--more-accessories,
+.styledLinkContent--subcategoryOne__see--all,
+.styledLinkContent--benefits,
+.styledLinkContent--pay__your--credit,
+.styledLinkContent--request__your--Credit {
+  font-size: 0.8vw;
+  color    : #3f3f40;
 }
