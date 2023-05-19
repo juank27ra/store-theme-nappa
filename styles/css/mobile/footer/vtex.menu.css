@@ -1,0 +1,22 @@
+.styledLink {
+  color: white;
+}
+
+.accordionIcon {
+  color: white;
+}
+
+.menuContainerNav--mobile__us {
+  padding-bottom: 3vw;
+  border-bottom: 2px solid white;
+}
+
+.menuContainerNav--mobile__us {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  .menuContainerNav--mobile__us {
+    display: initial;
+  }
+}

@@ -5,8 +5,8 @@
   z-index         : 9;
   font-size       : 10px;
   font-weight     : 600;
-  top             : -10px;
-  left            : -10px;
+  top             : -15px;
+  left            : -20px;
 }
 
 .openIconContainer--mobile__header--minicart {
@@ -19,7 +19,7 @@
 
 .openIconContainer--mobile__header--minicart :first-child{
   width: 28px;
-  margin-left: -1.1vw;
+  margin-left: -1.8vw;
 }
 
 .drawerContent--mobile__header--minicart {
@@ -29,7 +29,7 @@
 }
 
 .drawer--mobile__header--minicart :global(.vtex-minicart-2-x-drawerContent--mobile__header--minicart) {
-  width         : 85%;
+  /* width         : 85%; */
   max-width     : 328px;
   min-width     : 280px;
   pointer-events: auto;
@@ -39,8 +39,14 @@
 .minicartIconContainer--mobile__header--minicart :first-child {
   width: 5vw;
   margin-top: -5px;
+  color: var(--primary-color);
 }
 
 .minicartWrapperContainer--mobile__header--minicart {
   margin-left: 38px;
+}
+
+.drawer--mobile__header--minicart {
+  max-width: 328px !important;
+  width: 100% !important;
 }

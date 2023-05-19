@@ -1,0 +1,90 @@
+{
+  "flex-layout.col#mobile__container--footer-col": {
+    "title": "Col mobile container footer col",
+    "children": [
+      "flex-layout.row#mobile__footer--container-seccionOne",
+      "flex-layout.row#mobile__footer--container-seccionTwo",
+      "menu#mobile__us",
+      "flex-layout.row#mobile__footer--container-seccionThree",
+      "flex-layout.row#mobile__footer--container-seccionFour",
+      "flex-layout.row#desktop__industry--commerce",
+      "flex-layout.row#mobile__industry--commerce--text"
+    ],
+    "props": {
+      "blockClass": "mobile__container--footer-col"
+    }
+  },
+  "flex-layout.row#mobile__footer--container-seccionOne": {
+    "title": "footer col left susbcriber ",
+    "children": [
+      "rich-text#mobile__subscriber"
+    ],
+    "props": {
+      "blockClass": "mobile__footer--container-seccionOne"
+    }
+  },
+  "flex-layout.row#mobile__footer--container-seccionTwo": {
+    "title": "footer col suscriber ",
+    "children": [
+      "newsletter-form#global__subscriber"
+    ],
+    "props": {
+      "blockClass": "mobile__footer--container-seccionTwo"
+    }
+  },
+  "flex-layout.row#mobile__footer--container-seccionThree": {
+    "title": "footer btn suscriber ",
+    "children": [
+      "flex-layout.col#mobile__image--link-facebook",
+      "flex-layout.col#mobile__image--link-instagram",
+      "flex-layout.col#mobile__image--link-youtube"
+    ],
+    "props": {
+      "blockClass": "mobile__footer--container-seccionThree"
+    }
+  },
+  "flex-layout.col#mobile__image--link-facebook": {
+    "title": "social networks facebook",
+    "children": [
+      "image#mobile__social--facebook"
+    ],
+    "props": {
+      "blockClass": "mobile__image--link-facebook"
+    }
+  },
+  "flex-layout.col#mobile__image--link-instagram": {
+    "title": "social networks instagram",
+    "children": [
+      "image#mobile__social--instagram"
+    ],
+    "props": {
+      "blockClass": "mobile__image--link-instagram"
+    }
+  },
+  "flex-layout.col#mobile__image--link-youtube": {
+    "title": "social networks youtube",
+    "children": [
+      "image#mobile__social--youtube"
+    ],
+    "props": {
+      "blockClass": "mobile__image--link-youtube"
+    }
+  },
+  "flex-layout.row#mobile__footer--container-seccionFour": {
+    "title": "mobile seccionFour btn stores and methods payments",
+    "children": [
+      "flex-layout.col#desktop__row--methods-payments",
+      "flex-layout.col#desktop__row--stores"
+    ],
+    "props": {
+      "blockClass": "mobile__footer--container-seccionFour"
+    }
+  },
+  "flex-layout.row#mobile__industry--commerce--text": {
+    "title": "row text content industry and commerce",
+    "children": ["rich-text#mobile__text--industry&commerce"],
+    "props": {
+      "blockClass": "mobile__industry--commerce--text"
+    }
+  }
+}

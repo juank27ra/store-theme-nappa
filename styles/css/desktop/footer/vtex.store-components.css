@@ -1,7 +1,6 @@
-
-/* .logoImage--desktop__header--logo{
-  height: 90px;
-  width: 210px;
-  margin-top: 10px;
-} */
-
+.imageElement--mobile__social--youtube,
+.imageElement--mobile__social--instagram,
+.imageElement--mobile__social--facebook {
+  height: 2rem;
+  width : 2rem;
+}

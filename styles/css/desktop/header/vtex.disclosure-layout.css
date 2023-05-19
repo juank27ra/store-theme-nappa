@@ -8,3 +8,27 @@
   margin-left: 23px;
   margin-top : 4px;
 }
+
+.trigger--desktop__disclosure--icon-search :nth-child(2n) {
+  position   : fixed;
+  top        : 24px;
+  margin-left: 0.3vw;
+  height     : 1.2vw;
+  width      : 1.2vw;
+  color      : var(--primary-color);
+}
+
+.content--desktop__disclosure--searchbar :global(.vtex-store-components-3-x-searchBarContainer) {
+  margin-top: -26px;
+}
+
+.content--desktop__disclosure--searchbar {
+  margin-right: -15px;
+}
+
+/* @media screen and (max-width: 1680px) {
+  .trigger--desktop__disclosure--icon-search :nth-child(2n) {
+    top        : 29px;
+    margin-left: 22px;
+  }
+} */

@@ -5,3 +5,49 @@
 .label--desktop__footer-button-subscribe {
   text-transform: initial;
 }
+
+.link--desktop__btn--col-stores,
+.link--desktop__col--methods-payments {
+  background-color: transparent !important;
+  border-color    : white !important;
+  border: 0.5px solid white;
+}
+
+.link--desktop__col--methods-payments:hover,
+.link--desktop__btn--col-stores:hover {
+  background-color: transparent;
+  border-color    : white;
+}
+
+.link--desktop__btn--col-stores:hover::before {
+  content            : "";
+  visibility         : visible;
+  background-image   : url("assets/img/Home/footer/footer__location--image-white.png");
+  background-size    : 20px;
+  float              : left;
+  margin             : 0px 33px 0px;
+  width              : 35px;
+  height             : 22px;
+  background-position: center;
+  background-repeat  : no-repeat;
+
+}
+
+.label--desktop__btn--col-stores {
+  font-size  : 15px;
+  font-weight: 700;
+  color      : var(--primary-color-two);
+}
+
+.label--desktop__col--methods-payments {
+  font-size     : 12px;
+  font-weight   : 700;
+  text-transform: none;
+  color         : var(--primary-color-two);
+}
+
+.link--desktop__btn--col-stores,
+.link--desktop__col--methods-payments {
+  width  : 10rem;
+  padding: 7px 0;
+}

@@ -39,7 +39,7 @@
     "title": "rich-text desktop seccion four",
     "props": {
       "blockClass": "desktop__sectionfour--text",
-      "text": "## **NUEVA COLECCIÓN**",
+      "text": "[**NUEVA COLECCIÓN**](#)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "marginTop": 10

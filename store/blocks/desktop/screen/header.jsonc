@@ -53,8 +53,9 @@
   "flex-layout.row#desktop__header--row-icons": {
     "title": "desktop row container icons",
     "children": [
-
-      "flex-layout.col#desktop__header--col-search",
+      "disclosure-layout-group#desktop__disclosure--container-searchbar",
+      // "flex-layout.col#desktop__header--col-search",
+      // "overlay-trigger#desktop__overlay--search-bar",
       "flex-layout.col#desktop__header--col-minicart",
       "flex-layout.col#desktop__header--col-login"
     ],
@@ -62,26 +63,26 @@
       "blockClass": "desktop__header--row-icons"
     }
   },
-  "flex-layout.col#desktop__header--col-search": {
-    "title": "header col search",
-    "children": [
-      "flex-layout.row#desktop__header--row-search"
-      // "overlay-trigger#desktop__overlay--search-bar"
-      // "disclosure-layout-group#desktop__disclosure--container-searchbar"
-    ],
-    "props": {
-      "blockClass": "desktop__header--col-search"
-    }
-  },
-  "flex-layout.row#desktop__header--row-search": {
-    "title": "header row icon search",
-    "children": [
-      "overlay-trigger#desktop__overlay--search-bar"
-    ],
-    "props": {
-      "blockClass": "desktop__header--row-search"
-    }
-  },
+  // "flex-layout.col#desktop__header--col-search": {
+  //   "title": "header col search",
+  //   "children": [
+  //     "flex-layout.row#desktop__header--row-search"
+  //     // "overlay-trigger#desktop__overlay--search-bar"
+  //     // "disclosure-layout-group#desktop__disclosure--container-searchbar"
+  //   ],
+  //   "props": {
+  //     "blockClass": "desktop__header--col-search"
+  //   }
+  // },
+  // "flex-layout.row#desktop__header--row-search": {
+  //   "title": "header row icon search",
+  //   "children": [
+  //     "overlay-trigger#desktop__overlay--search-bar"
+  //   ],
+  //   "props": {
+  //     "blockClass": "desktop__header--row-search"
+  //   }
+  // },
   "flex-layout.col#desktop__header--col-minicart": {
     "title": "header col icon minicart",
     "children": [

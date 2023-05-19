@@ -20,26 +20,28 @@
   "overlay-layout#desktop__overlay--layout-content": {
     "title": "desktop overlay layout content ",
     "children": [
-      "flex-layout.row#searchbar"
+      "search-bar#desktop__header--searchbar"
+      // "flex-layout.row#searchbar"
     ],
     "props": {
       "blockClass": "desktop__overlay--layout-content",
-      "placement": "left",
+      "placement": "bottom",
       "scrollBehavior": "default",
       "backdrop": "none",
       "showArrow": true,
       "offsets": {
-        "skidding": 40
+        "skidding": 20,
+        "distance": 10
       }
     }
-  },
-  "flex-layout.row#searchbar": {
-    "title": "flex searchbar",
-    "children": [
-      "search-bar#desktop__header--searchbar"
-    ],
-    "props": {
-      "blockClass": "searchbar "
-    }
   }
+  // "flex-layout.row#searchbar": {
+  //   "title": "flex searchbar",
+  //   "children": [
+  //     "search-bar#desktop__header--searchbar"
+  //   ],
+  //   "props": {
+  //     "blockClass": "searchbar "
+  //   }
+  // }
 }

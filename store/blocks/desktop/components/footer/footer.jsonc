@@ -1,0 +1,24 @@
+{
+  "flex-layout.col#desktop__footer--container-col1": {
+    "title": "footer col left suscriber ",
+    "children": [
+      "rich-text#desktop__subscriber",
+      "newsletter-form#global__subscriber"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--container-col1"
+    }
+  },
+  "flex-layout.col#desktop__footer--container-col2": {
+    "title": "footer col rigth",
+    "children": [
+      "flex-layout.row#desktop__departaments--footer",
+      "flex-layout.row#desktop__payments--netwoks-stores",
+      "flex-layout.row#desktop__industry--commerce",
+      "flex-layout.row#desktop__industry--commerce--text"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--container-col2"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.closeIcon--footer__modal--header {
+  border-radius: 50%;
+  border       : 4px solid black;
+  font-weight  : 900;
+  height: 22px;
+  width: 22px;
+}
+
+.paper--desktop__modal--payments {
+  max-width: 81vw;
+  padding  : 0 10px 10px;
+}
+
+.closeButton--footer__modal--header {
+  stroke-width: 3;
+}

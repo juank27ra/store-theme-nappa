@@ -1,0 +1,38 @@
+{
+  "image#mobile__social--facebook": {
+    "title": "image facebook",
+    "props": {
+      "link": {
+        "url": "https://www.facebook.com/nappa.com.co",
+        "newTab": true,
+        "attributeNoFollow": true
+    },
+      "src": "assets/img/Home/footer/footer__socialNetwork--fecebook.png",
+      "blockClass": "mobile__social--facebook"
+    }
+  },
+  "image#mobile__social--instagram": {
+    "title": "image instagram",
+    "props": {
+      "link": {
+        "url": "https://www.instagram.com/nappa.col/",
+        "newTab": true,
+        "attributeNoFollow": true
+    },
+      "src": "assets/img/Home/footer/footer__socialNetwork--instagram.png",
+      "blockClass": "mobile__social--instagram"
+    }
+  },
+  "image#mobile__social--youtube": {
+    "title": "image youtube",
+    "props": {
+      "link": {
+        "url": "https://www.youtube.com/channel/UCPBjSO-0Pe3olTRUS3tl1Fg",
+        "newTab": true,
+        "attributeNoFollow": true
+    },
+      "src": "assets/img/Home/footer/footer__socialNetwork--youtube.png",
+      "blockClass": "mobile__social--youtube"
+    }
+  }
+}

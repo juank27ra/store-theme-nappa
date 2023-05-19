@@ -12,6 +12,7 @@
   display       : flex;
   flex-direction: row;
   align-items   : center;
+  height        : 3rem;
 }
 
 .flexColChild--drawer-close-button {
@@ -35,6 +36,7 @@
 .flexColChild--mobile__col--logo :first-child {
   width : 34vw;
   height: 34vw;
+  color: var(--primary-color);
 }
 
 .flexRowContent--mobile__icons--content:hover :global(.vtex-button) {
@@ -47,5 +49,11 @@
 }
 
 .flexRow--mobile__logo--menu-content {
-  width: 50%;
+  width : 50%;
+  height: 3rem;
 }
+
+.flexCol--mobile__logo--megamenu {
+  margin-top: 4px;
+}
+
