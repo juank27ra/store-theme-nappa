@@ -24,13 +24,12 @@
 }
 
 .flexRowContent--mobile__footer--container-seccionTwo :global(.vtex-checkbox__label) {
-  font-size: 10px;
+  font-size : 10px;
+  display   : flex;
+  text-align: justify;
 }
 
 .flexRow--mobile__footer--container-seccionThree {
-  /* height: 100%;
-  margin: auto;
-  width : 22vw; */
 
   padding: 18px 3px;
   height : 100%;
@@ -48,6 +47,7 @@
 
 .flexCol--mobile__container--footer-col :global(.vtex-flex-layout-0-x-flexColChild--mobile__container--footer-col) {
   margin: auto;
+  padding: 15px 0px;
 }
 
 .flexRowContent--mobile__footer--container-seccionFour :global(.vtex-store-link-0-x-link) {
@@ -62,7 +62,58 @@
 
 .flexRowContent--mobile__footer--container-seccionFour :global(.vtex-store-link-0-x-link)::before {
   height: 14px;
+  /* margin-left: -30px; */
 }
+
 .flexRowContent--mobile__footer--container-seccionFour :global(.vtex-store-link-0-x-label) {
   font-size: 14px;
 }
+
+.flexRowContent--mobile__industry--commerce--text :global(.vtex-rich-text-0-x-paragraph) {
+  color: white;
+}
+
+.flexRow--mobile__footer--container-seccionOne :global(.vtex-rich-text-0-x-paragraph--mobile__subscriber) {
+  color         : white;
+  font-size     : 15px;
+  font-weight   : 500;
+  letter-spacing: 1.5px;
+}
+
+.flexRowContent--mobile__footer--container-seccionTwo :global(.vtex-checkbox__container) {
+  left: 0;
+}
+
+.flexRowContent--mobile__footer--container-seccionTwo :global(.vtex-button__label)::after {
+  font-size: 2vw !important;
+}
+
+
+.flexColChild--mobile__container--footer-col :global(.vtex-flex-layout-0-x-flexRowContent--mobile__footer--container-seccionFour) {
+  display: flex !important;
+  gap    : 45px !important;
+}
+
+.flexColChild--mobile__container--footer-col :global(.vtex-flex-layout-0-x-flexCol--desktop__row--methods-payments) {
+  margin: 0;
+}
+
+.flexColChild--mobile__container--footer-col :global(.vtex-flex-layout-0-x-flexCol--desktop__row--stores) {
+  margin: 0;
+}
+
+
+.flexCol--mobile__container--footer-col :nth-child(3n) {
+  display: contents;
+}
+
+.flexRowContent--mobile__footer--container-seccionThree {
+  gap: 10px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  .flexRowContent--mobile__footer--container-seccionThree {
+      width: 35vw;
+    }
+}
+

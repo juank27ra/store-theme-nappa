@@ -1,6 +1,6 @@
 {
   "newsletter-form#global__subscriber": {
-    "title": "container newslatter",
+    "title": "container newsletter",
     "children": [
     "newsletter-input-email#input__newslater",
     "newsletter-checkbox-confirmation#checkbox",

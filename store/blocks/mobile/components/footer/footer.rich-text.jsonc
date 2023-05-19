@@ -3,7 +3,7 @@
     "title": "richtex subscriber",
     "props": {
       "blockClass": "mobile__subscriber",
-      "text": "Suscríbete a nuestra Newslatter",
+      "text": "Suscríbete a nuestra **newsletter**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }

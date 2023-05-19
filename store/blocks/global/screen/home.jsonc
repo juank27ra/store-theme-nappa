@@ -4,42 +4,10 @@
     "blocks": [
       "responsive-layout.desktop#desktop__home",
       "responsive-layout.mobile#mobile__home",
-      "search-result-layout.customQuery#global__home--search-blocks"
+      "search-result-layout.customQuery#global__home--search-blocks"  //
     ],
     "props": {
       "blockClass": "global__store--home"
     }
-    // "children": [
-    //   "newsletter-form#global__subscriber"
-    // ]
   }
-
-
-  // "newsletter-form#global__subscriber": {
-  //   "title": "Newslatter global",
-  //   "children": [
-  //     "newsletter-input-email#input__newslater",
-  //     "newsletter-checkbox-confirmation#checkbox",
-  //     "newsletter-submit#btn__newscriber--submit"
-  //   ]
-  // },
-  // "newsletter-input-email#input__newslater" : {
-  //   "title": "imput subcriber",
-  //   "props": {
-  //     "blockClass": "btn__newscriber--submit"
-  //   }
-  // },
-  // "newsletter-checkbox-confirmation#checkbox" : {
-  //   "title": "checkbox confirmation",
-  //   "props": {
-  //     "text": "He leído la Política de Tratamiento de Datos Personales y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos.",
-  //     "blockClass": "checkbox"
-  //   }
-  // },
-  // "newsletter-submit#btn__newscriber--submit" : {
-  //   "title": "btn subscriber",
-  //   "props": {
-  //     "blockClass": "btn__newscriber--submit"
-  //   }
-  // }
 }

@@ -39,6 +39,7 @@
 .minicartIconContainer--mobile__header--minicart :first-child {
   width: 5vw;
   margin-top: -5px;
+  color: var(--primary-color);
 }
 
 .minicartWrapperContainer--mobile__header--minicart {

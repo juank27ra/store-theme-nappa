@@ -1,13 +1,9 @@
-/* .newsletterForm--global__subscriber {
-  margin-top: 2rem;
-} */
-
 .emailInputContainer--input__newslater :global(.vtex-input-prefix__group) {
   width         : 45%;
   background    : transparent;
   margin        : auto;
   border        : none;
-  /* padding    : 20px; */
+
   letter-spacing: .5px;
 }
 
@@ -26,19 +22,19 @@
 }
 
 .formSubmitContainer--btn__newscriber--submit {
-  display        : flex;
-  justify-content: center;
+  display        : flex !important;
+  justify-content: center !important;
 }
 
 .confirmationCheckboxContainer--checkbox :global(.vtex-checkbox__label) {
   text-align: center;
   color     : white;
-  font-size : .7vw;
+  font-size : .6vw;
 }
 
 .formSubmitContainer--btn__newscriber--submit :global(.vtex-button) {
   background-color: transparent;
-  border-color    : white;
+  border: 0.5px solid white;
 }
 
 .confirmationCheckboxContainer--checkbox :global(.vtex-checkbox__inner-container) {
@@ -52,4 +48,19 @@
 
 .emailInputContainer--input__newslater :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
   color: white;
+}
+
+.formSubmitContainer--btn__newscriber--submit :global(.vtex-button__label) {
+  visibility    : hidden;
+  text-transform: capitalize;
+  border-radius : 5px;
+  font-weight   : 500;
+}
+
+.formSubmitContainer--btn__newscriber--submit :global(.vtex-button__label)::after {
+  visibility : visible;
+  content    : "Suscribirse";
+  font-family: "Poppins";
+  margin-left: -68px;
+  font-size: 1vw;
 }
