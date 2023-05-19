@@ -1,5 +1,5 @@
 .flexCol--desktop__footer--container-col2 {
-  border-left    : white solid 3px;
+  border-left    : white solid 2px;
   display        : flex;
   justify-content: center;
 }
@@ -10,7 +10,7 @@
 }
 
 .flexCol--desktop__footer--container-col2 {
-  height: 17vw;
+  height: 19vw;
 }
 
 .flexRow--desktop__footer--container :global(.vtex-store-components-3-x-container) {
@@ -69,3 +69,17 @@
 .flexCol--desktop__footer--container-col2 :first-child(3n) {
   height: 50px !important;
 }
+
+.flexCol--desktop__footer--container-col1 {
+
+  margin-top: 4vw;
+}
+
+.flexRow--desktop__footer--container {
+  height: 33.5vw;
+}
+
+.flexRow--desktop__departaments--footer {
+  margin-top: 3vw;
+}
+

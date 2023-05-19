@@ -24,16 +24,3 @@
 .headerRowBackground--desktop__header--row:hover {
   background-color: white;
 }
-
-
-
-/* @media screen and (max-width: 640px) {
-
-  .headerRowBackground--desktop__header--row:hover {
-    background-color: blue;
-  }
-
-  .headerRowBackground--desktop__header--row {
-    background-color: red;
-  }
-} */

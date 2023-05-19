@@ -4,6 +4,7 @@
   width : 5vw;
   margin-bottom: 8px;
   margin-left: -3vw !important;
+  color: var(--primary-color);
 }
 
 .content--loginOptions :global(.vtex-button) {

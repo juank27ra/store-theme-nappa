@@ -4,6 +4,7 @@
     "children": [
       "flex-layout.row#mobile__footer--container-seccionOne",
       "flex-layout.row#mobile__footer--container-seccionTwo",
+      "menu#mobile__us",
       "flex-layout.row#mobile__footer--container-seccionThree",
       "flex-layout.row#mobile__footer--container-seccionFour",
       "flex-layout.row#desktop__industry--commerce",
