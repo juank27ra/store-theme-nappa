@@ -1,0 +1,108 @@
+{
+  "product-summary.shelf#product__summary--content": {
+    "title": "product summary",
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights",
+      "product-summary-image",
+      "product-summary-sku-selector",
+
+      "flex-layout.row#container__card--button"
+    ],
+    "props": {
+      "blockClass": "product__summary--content"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "title": "product highlight",
+    "children": ["product-highlight-wrapper"],
+    "props": {
+      "blockClass": "global__product--highlight",
+      "type": "teaser",
+      "filter": {
+        "type": "show",
+        "highlightNames": "10% Boleto"
+      }
+    }
+  },
+  "product-highlight-wrapper": {
+    "title": "product highlight wrapper",
+    "children": [
+      "product-highlight-text"
+    ]
+  },
+  "product-highlight-text": {
+    "title": "product highlight text",
+    "props": {
+      "message": "-70%",
+      "blockClass": "global__produc--highlight-text"
+    }
+  },
+  // "product-summary-image": {
+  //   "title": "product summary image ",
+  //   "props": {
+  //     "showBadge": true,
+  //     "badgeText": "-70%",
+  //     // "showCollections": true,
+  //     "height": 320
+  //   }
+  // },
+  "product-summary-sku-selector": {
+    "title": "product summary sku selector",
+    "props": {
+      "blockClass": "product__summary--sku-selector",
+      "showVariationsLabels": "variationAndItemValue",
+      "hideImpossibleCombinations": true
+    }
+  },
+  "flex-layout.row#container__card--button": {
+    "title": "summary shelf buttons",
+    "children": [
+      "product-summary-name",
+      "product-summary-space",
+      "flex-layout.row#summary__prices",
+      "flex-layout.row#buttons__summary--shelf"
+    ],
+    "props": {
+      "blockClass": "buttons__summary--shelf"
+    }
+  },
+  "product-summary-name": {
+    "title": "product summary name",
+    "props": {
+      "blockClass": "product__summary--name",
+      "tag": "h3"
+    }
+  },
+  "flex-layout.row#summary__prices": {
+    "title": "summary shelf prices",
+    "children": [
+      "product-list-price",
+      "product-selling-price"
+    ],
+    "props": {
+      "blockClass": "summary__prices"
+    }
+  },
+  "flex-layout.row#buttons__summary--shelf": {
+    "title": "summary shelf buttons",
+    "children": [
+      "add-to-cart-button",
+      "add-to-list-btn"
+    ],
+    "props": {
+      "blockClass": "buttons__summary--shelf"
+    }
+  },
+  "add-to-cart-button": {
+    "title": "title add to cart button",
+    "props": {
+      "text": "AÑADIR"
+    }
+  },
+  "add-to-list-btn": {
+    "title": "wish list",
+    "props": {
+      "blockClass": "wish__list-btn"
+    }
+  }
+}

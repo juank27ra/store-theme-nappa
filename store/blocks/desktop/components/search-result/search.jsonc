@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#desktop__breadcrumb": {
+    "title": "desktop row breadcrumb",
+    "children": [
+      "flex-layout.col#desktop__breadcrumb--col",
+      "total-products.v2",
+      "flex-layout.col#desktop__gallery--switcher-col",
+      "order-by.v2"
+    ],
+    "props": {
+      "blockClass": "desktop__desktop--breadcrumb"
+    }
+  },
+  "flex-layout.col#desktop__breadcrumb--col": {
+    "title": "col desktop breadcrumb",
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "blockClass": "desktop__breadcrumb--col"
+    }
+  },
+  "flex-layout.col#desktop__gallery--switcher-col": {
+    "title": "col desktop breadcrumb",
+    "children": [
+      "gallery-layout-switcher#desktop__gallery--row"
+    ],
+    "props": {
+      "blockClass": "desktop__gallery--switcher-col"
+    }
+  },
+  "breadcrumb.search": {
+    "title": "breadcrumb search",
+    "props": {
+      "showOnMobile": true,
+      "blockClass": [
+        "breadcrumb__desktop",
+        "breadcrumb__mobile"
+      ]
+    }
+  },
+  "gallery-layout-switcher#desktop__gallery--row": {
+    "title": "gallery switcher desktop",
+    "children": [
+      "gallery-layout-option#switcher__inline--grid",
+      "gallery-layout-option#switcher__menu",
+      "gallery-layout-option#switcher__single--grid"
+    ],
+    "props": {
+      "blockClass": "desktop__gallery--row"
+    }
+  },
+  "flex-layout.row#desktop__result--container": {
+    "title": "row container result",
+    "children": [
+      "filter-navigator.v3",
+      "search-content"
+    ],
+    "props": {
+      "blockClass": "desktop__result--container"
+    }
+  },
+  "search-content": {
+    "title": "search content",
+    "blocks": [
+      "gallery",
+      "not-found"
+    ],
+    "props": {
+      "blockClass": "search__content"
+    }
+  },
+  "order-by.v2": {
+    "title": "order by",
+    "props": {
+      "showOrderTitle": true,
+      "filterSelected": "Mas reciente",
+      "specificationOptions": {
+        "Más reciente": "Más reciente",
+        "Relevance": "RELEVANCIA"
+      }
+    }
+  }
+}

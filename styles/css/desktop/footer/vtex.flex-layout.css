@@ -1,5 +1,5 @@
 .flexCol--desktop__footer--container-col2 {
-  border-left    : white solid 2px;
+  border-left    : var(--primary-color-two) solid 2px;
   display        : flex;
   justify-content: center;
 }
@@ -37,7 +37,7 @@
 }
 
 .flexRowContent--desktop__industry--commerce--text :global(.vtex-rich-text-0-x-paragraph) {
-  color    : white !important;
+  color    : var(--primary-color-two) !important;
   font-size: 9px !important;
 }
 

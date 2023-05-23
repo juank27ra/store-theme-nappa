@@ -6,8 +6,8 @@
       "id": "menuitem-the-usual-subcategoryTwo",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/celulares",
         "noFollow": true,
         "tagTile": "Big Title the__usual",
         "text": "LOS DE 100PRE"
@@ -21,9 +21,9 @@
       "id": "menuitem-backpacks-subcategoryTwo",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
+        "type": "internal",
+        "href": "/Mujer",
+        "noFollow": false,
         "tagTile": "Big Title backpacks",
         "text": "MORRALES"
       }
@@ -83,7 +83,7 @@
       "id": "menuitem-see-all-men-subcategoryTwo",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         "href": "/",
         "noFollow": true,
         "tagTile": "Big Title see all men",
@@ -98,7 +98,7 @@
       "id": "menuitem-men-sales-subcategoryTwo",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         "href": "/",
         "noFollow": true,
         "tagTile": "Big Title men sales",

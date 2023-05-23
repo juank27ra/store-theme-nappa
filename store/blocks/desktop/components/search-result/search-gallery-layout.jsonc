@@ -1,0 +1,26 @@
+{
+  "gallery-layout-option#switcher__inline--grid": {
+    "title": "gallery switcher column one",
+    "children": ["icon-inline-grid", "rich-text"],
+    "props": {
+      "name": "whole",
+      "blockClass": "switcher__inline--grid"
+    }
+  },
+  "gallery-layout-option#switcher__menu": {
+    "title": "gallery switcher column two",
+    "children": ["icon-menu", "rich-text"],
+    "props": {
+      "name": "two",
+      "blockClass": "switcher__menu"
+    }
+  },
+  "gallery-layout-option#switcher__single--grid": {
+    "title": "gallery switcher column three",
+    "children": ["icon-single-grid", "rich-text"],
+    "props": {
+      "name": "many",
+      "blockClass": "switcher__single--grid"
+    }
+  }
+}

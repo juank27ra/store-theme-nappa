@@ -1,0 +1,15 @@
+.SKUSelectorContainer {
+  margin    : 0;
+  top       : -70px;
+  margin-top: -70px;
+  z-index   : 999;
+  position  : relative;
+}
+
+.discountInsideContainer {
+  background-color: black;
+}
+
+.container  {
+  margin-bottom: 20px !important;
+}

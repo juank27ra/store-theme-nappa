@@ -1,0 +1,16 @@
+{
+  "rich-text#text__principal--top-principal": {
+    "title": "text top principal search result",
+    "props":  {
+      "text": "# Morrales, bolsos, zapatos, accesorios, ropa y más para mujer",
+      "blockClass": "text__principal--top-principal"
+    }
+  },
+  "rich-text#text__principal--top": {
+    "title": "text top search result",
+    "props":  {
+      "text": "## Morrales, tenis de moda, ropa, accesorios, Nappa y más",
+      "blockClass": "text__principal--top"
+    }
+  }
+}

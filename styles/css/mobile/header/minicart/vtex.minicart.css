@@ -29,7 +29,6 @@
 }
 
 .drawer--mobile__header--minicart :global(.vtex-minicart-2-x-drawerContent--mobile__header--minicart) {
-  /* width         : 85%; */
   max-width     : 328px;
   min-width     : 280px;
   pointer-events: auto;

@@ -1,0 +1,99 @@
+/* product__summary--name */
+.nameContainer {
+  display        : flex;
+  justify-content: flex-start;
+  margin-top     : 4px;
+}
+
+.brandName--product__summary--name {
+  text-transform: uppercase;
+  display       : inline-block;
+  width         : 100%;
+  height        : 100%;
+  white-space   : nowrap;
+  text-overflow : ellipsis;
+  overflow      : hidden;
+}
+
+.productBrand {
+  font-size     : 12px;
+  font-weight   : 500;
+  color         : #575651;
+  letter-spacing: .5px;
+}
+
+.productNameContainer--product__summary--name {
+  margin-left: 0 !important;
+  padding    : 0;
+}
+
+.productBrand--product__summary--name {
+  text-transform: uppercase;
+  display       : inline-block;
+  width         : 100%;
+  height        : 100%;
+  white-space   : nowrap;
+  text-overflow : ellipsis;
+  overflow      : hidden;
+
+}
+
+.element--product__summary--content {
+  padding-top      : 0 !important;
+}
+
+.container--product__summary--content :global(.vtex-product-summary-2-x-imageWrapper) {
+  z-index         : 11;
+  background-color: #EDEDED;
+
+}
+
+.container--product__summary--content {
+  border       : #EDEDED solid 1px;
+  border-radius: 0;
+}
+
+/* image */
+.imageNormal {
+  width     : 100%;
+  max-width : 300px;
+  max-height: 340px;
+  height    : 340px;
+  object-fit: cover;
+  border    : 1px solid #f1f1f1;
+}
+
+.vtex-product-summary-2-x-imageWrapper :global(.vtex-store-components-3-x-discountInsideContainer){
+  background-color: black;
+}
+
+/* sku selector */
+.skuSelectorItem--product__summary--sku-selector {
+  height: 18px;
+}
+
+.valueWrapper--product__summary--sku-selector {
+  font-size: 10px;
+}
+
+.SKUSelectorContainer--product__summary--sku-selector {
+  height       : 25px;
+  margin-top   : -40px;
+  z-index      : 99;
+  margin-bottom: 9px;
+}
+
+.frameAround--product__summary--sku-selector {
+  border       : 1px solid #444;
+  left         : 0.5rem;
+  right        : 0.5rem;
+  bottom       : 0.1rem;
+  top          : 0.1rem;
+  border-radius: 2px;
+  color        : #575651;
+  font-weight  : 600;
+}
+
+.skuSelectorInternalBox--product__summary--sku-selector {
+  border: none;
+}
