@@ -1,0 +1,17 @@
+/* filter and orderby*/
+.flexRowContent--mobile__result--container {
+  margin-bottom: 50px;
+  display: flex;
+}
+.flexRowContent--mobile__result--container {
+  margin-bottom: 30px !important;
+}
+
+/* total products and gallery  */
+.flexRow--mobile__mobile--breadcrumb :global(.vtex-flex-layout-0-x-flexRowContent--mobile__mobile--breadcrumb) {
+  display: flex;
+  flex-direction: inherit;
+  margin-bottom: 14px;
+}
+
+

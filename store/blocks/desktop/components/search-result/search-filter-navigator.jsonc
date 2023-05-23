@@ -1,0 +1,30 @@
+{
+  "filter-navigator.v3": {
+    "title": "filter navigaor",
+    "props": {
+      "blockClass": "filter__navigator",
+      "truncateFilters": true,
+      "showClearByFilter": false,
+      "fullWidthOnMobile": false,
+      "navigationTypeOnMobile": "page",
+      "appliedFiltersOverview": "show",
+      "updateOnFilterSelectionOnMobile": true,
+      "initiallyCollapsed": true,
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ],
+      "layout": "responsive",
+      "scrollToTop": "auto",
+      "preventRouteChange": true,
+      "showQuantityBadgeOnMobile": true,
+      "mobileLayout": {
+        "mode1": "inline",
+        "mode2": "normal"
+      }
+    }
+  }
+}

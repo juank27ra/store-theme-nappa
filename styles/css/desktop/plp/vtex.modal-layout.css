@@ -1,0 +1,9 @@
+.triggerContainer--button__add--to-list :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  display           : flex;
+  justify-content   : end;
+}
+
+.triggerContainer--button__add--to-list :global(.vtex-wish-list-1-x-wishlistIconContainer):hover {
+  background-color: transparent !important;
+}
+

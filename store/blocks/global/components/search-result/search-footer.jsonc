@@ -1,0 +1,12 @@
+{
+  "footer#search__result--footer": {
+    "title": "",
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ],
+    "props": {
+      "blockClass": "search__result--footer"
+    }
+  }
+}

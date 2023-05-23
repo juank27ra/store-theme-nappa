@@ -62,7 +62,6 @@
 
 .flexRowContent--mobile__footer--container-seccionFour :global(.vtex-store-link-0-x-link)::before {
   height: 14px;
-  /* margin-left: -30px; */
 }
 
 .flexRowContent--mobile__footer--container-seccionFour :global(.vtex-store-link-0-x-label) {
@@ -70,11 +69,11 @@
 }
 
 .flexRowContent--mobile__industry--commerce--text :global(.vtex-rich-text-0-x-paragraph) {
-  color: white;
+  color: var(--primary-color-two);
 }
 
 .flexRow--mobile__footer--container-seccionOne :global(.vtex-rich-text-0-x-paragraph--mobile__subscriber) {
-  color         : white;
+  color         : var(--primary-color-two);
   font-size     : 15px;
   font-weight   : 500;
   letter-spacing: 1.5px;

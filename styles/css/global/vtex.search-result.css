@@ -1,0 +1,6 @@
+.searchResultContainer {
+  width    : 82%;
+  padding  : 0;
+  margin   : 0 auto !important;
+  max-width: 1600px;
+}

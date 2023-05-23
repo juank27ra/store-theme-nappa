@@ -1,0 +1,100 @@
+{
+  "flex-layout.row#mobile__breadcrumb": {
+    "title": "mobile row breadcrumb",
+    "children": [
+      "total-products.v2",
+      "gallery-layout-switcher#mobile__gallery--row"
+    ],
+    "props": {
+      "blockClass": "mobile__mobile--breadcrumb"
+    }
+  },
+  "flex-layout.col#mobile__breadcrumb--col": {
+    "title": "col mobile breadcrumb",
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "blockClass": "mobile__breadcrumb--col"
+    }
+  },
+  "flex-layout.col#mobile__gallery--switcher-col": {
+    "title": "col mobile breadcrumb",
+    "children": [
+      "gallery-layout-switcher#mobile__gallery--row"
+    ],
+    "props": {
+      "blockClass": "mobile__gallery--switcher-col"
+    }
+  },
+  "gallery-layout-switcher#mobile__gallery--row": {
+    "title": "gallery switcher mobile",
+    "children": [
+      "gallery-layout-option#switcher__inline--grid",
+      "gallery-layout-option#switcher__menu"
+    ],
+    "props": {
+      "blockClass": "mobile__gallery--row"
+    }
+  },
+  "flex-layout.row#mobile__filter--order-by": {
+    "title": "row container result",
+    "children": [
+      "filter-navigator.v3#mobile__filter--navigator",
+      "order-by.v2#mobile__order--by"
+    ],
+    "props": {
+      "blockClass": "mobile__result--container"
+    }
+  },
+  "filter-navigator.v3#mobile__filter--navigator": {
+    "title": "mobile filter navigator",
+    "props": {
+      "blockClass": "mobile__filter--navigator",
+      "truncateFilters": true,
+      "showClearByFilter": false,
+      "fullWidthOnMobile": false,
+      "navigationTypeOnMobile": "page",
+      "appliedFiltersOverview": "show",
+      "updateOnFilterSelectionOnMobile": true,
+      "initiallyCollapsed": true,
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ],
+      "layout": "responsive",
+      "scrollToTop": "auto",
+      "preventRouteChange": true,
+      "showQuantityBadgeOnMobile": true,
+      "mobileLayout": {
+        "mode1": "inline",
+        "mode2": "normal"
+      },
+      "textColor": "c-on-base"
+    }
+  },
+  "order-by.v2#mobile__order--by": {
+    "title": "order by mobile",
+    "props": {
+      "blockClass": "mobile__order--by",
+      "showOrderTitle": true,
+      "filterSelected": "Mas reciente",
+      "specificationOptions": {
+        "Más reciente": "Mas reciente",
+        "Relevance": "RELEVANCIA"
+      }
+    }
+  },
+  "flex-layout.row#mobile__result--container": {
+    "title": "row container result",
+    "children": [
+      "search-content"
+    ],
+    "props": {
+      "blockClass": "mobile__result--container"
+    }
+  }
+}

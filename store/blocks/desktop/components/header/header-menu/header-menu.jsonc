@@ -15,8 +15,8 @@
       "id": "menu-container-departmentOne",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTile": "Big Title women",
         "text": "MUJER"
@@ -68,8 +68,8 @@
       "id": "menu-container-departmentTwo",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/queso",
         "noFollow": true,
         "tagTile": "Big Title men",
         "text": "HOMBRE"
