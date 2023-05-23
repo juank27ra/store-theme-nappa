@@ -1,0 +1,18 @@
+{
+  "search-result-layout.desktop#desktop__search--result-container": {
+    "title": "desktop department blocks",
+    "children": [
+      "rich-text#text__principal--top-principal",
+      "rich-text#text__principal--top",
+      "flex-layout.row#desktop__breadcrumb",
+      "flex-layout.row#desktop__result--container"
+    ],
+    "props": {
+      "blockClass": "desktop__search--result",
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true
+    }
+  }
+}

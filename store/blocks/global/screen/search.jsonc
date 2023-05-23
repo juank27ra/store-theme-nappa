@@ -1,17 +1,31 @@
 {
   "store.search": {
     "title": "store search",
+    "parent": {
+      "footer": "footer#search__result--footer"
+    },
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "blockClass": "global__store--search",
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
   },
-  "store.search#": {
+  "store.search#category": {
     "title": "store search category",
     "blocks": [
       "search-result-layout"
     ],
     "props": {
-      "blockClass": "category"
+      "blockClass": "category",
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
     }
   },
   "store.search#subcategory": {
@@ -20,59 +34,48 @@
       "search-result-layout"
     ],
     "props": {
-      "blockClass": "subcategory"
+      "blockClass": "subcategory",
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
     }
   },
-  "store.search#global__brand": {
+  "store.search#brand": {
     "title": "store search brand",
     "blocks": [
-      "search-result-layout#global__search--layout-container"
+      "search-result-layout"
     ],
     "props": {
-      "blockClass": "global__brand"
+      "blockClass": "brand",
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
     }
   },
-  "search-result-layout#global__search--layout-container": {
+  "store.search#department": {
+    "title": "store search brand",
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "blockClass": "department",
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout": {
     "title": "search container",
     "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
+      "search-result-layout.desktop#desktop__search--result-container",
+      "search-result-layout.mobile#mobile__search--result-container",
       "search-not-found-layout"
     ],
     "props": {
       "blockClass": "global__search--layout-container"
-    }
-  },
-  "search-result-layout.desktop": {
-    "title": "search desktop",
-    "children": [
-      "rich-text#desktop-response"
-    ],
-    "props": {
-      "blockClass": ""
-    }
-  },
-  "search-result-layout.mobile": {
-    "title": "search mobile",
-    "children": [
-      "rich-text#mobile-response"
-    ],
-    "props": {
-      "blockClass": ""
-    }
-  },
-  "rich-text#desktop-response": {
-    "title": "text search desktop",
-    "props": {
-      "blockClass": "desktop-response",
-      "text": "desktop search"
-    }
-  },
-  "rich-text#mobile-response": {
-    "title": "text search mobile",
-    "props": {
-      "blockClass": "mobile-response",
-      "text": "mobile search"
     }
   }
 }

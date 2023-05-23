@@ -9,14 +9,14 @@
 .link--desktop__btn--col-stores,
 .link--desktop__col--methods-payments {
   background-color: transparent !important;
-  border-color    : white !important;
-  border: 0.5px solid white;
+  border-color    : var(--primary-color-two) !important;
+  border: 0.5px solid var(--primary-color-two);
 }
 
 .link--desktop__col--methods-payments:hover,
 .link--desktop__btn--col-stores:hover {
   background-color: transparent;
-  border-color    : white;
+  border-color    : var(--primary-color-two);
 }
 
 .link--desktop__btn--col-stores:hover::before {

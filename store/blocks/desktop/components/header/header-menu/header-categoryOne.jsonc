@@ -6,8 +6,8 @@
         "id": "menuitems-the-usual-subcategoryOne",
         "type": "custom",
         "itemProps": {
-          "type": "external",
-          "href": "/",
+          "type": "internal",
+          "href": "/celulares",
           "noFollow": true,
           "size": 16,
           "tagTile": "Big Title the usual",
@@ -22,9 +22,9 @@
       "id": "menuitems-backpacks-subcategoryOne",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
+        "type": "internal",
+        "href": "/Mujer",
+        "noFollow": false,
         "size": 16,
         "tagTile": "Big Title backpacks",
         "text": "MORRALES"
@@ -38,8 +38,8 @@
       "id": "menuitems-handbags-subcategoryOne",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "#",
         "noFollow": true,
         "size": 16,
         "tagTile": "Big Title handbags",

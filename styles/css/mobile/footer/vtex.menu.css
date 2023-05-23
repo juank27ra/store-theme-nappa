@@ -1,14 +1,14 @@
 .styledLink {
-  color: white;
+  color: var(--primary-color-two);
 }
 
 .accordionIcon {
-  color: white;
+  color: var(--primary-color-two);
 }
 
 .menuContainerNav--mobile__us {
   padding-bottom: 3vw;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid var(--primary-color-two);
 }
 
 .menuContainerNav--mobile__us {

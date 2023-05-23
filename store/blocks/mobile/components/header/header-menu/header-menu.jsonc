@@ -29,7 +29,6 @@
       "flex-layout.col#mega-menu-go-back-btn",
       "flex-layout.col#drawer-close-button",
       "flex-layout.col#mobile__logo--megamenu"
-      // "icon#mobile__header--logo-megamenu"
     ],
     "props": {
       "blockClass": "header__container--drawer-header",
@@ -72,7 +71,6 @@
   "flex-layout.col#mobile__logo--megamenu": {
     "title": "col logo megamenu",
     "children": [
-      // "logo#mobile__logo--megamenu"
       "icon#desktop__header--logo"
     ],
     "props": {
@@ -90,15 +88,4 @@
       "height": "90"
     }
   }
-  // "icon#mobile__header--logo-megamenu": {
-  //   "title": "logo en mobile megamenu",
-  //   "props": {
-  //     "blockClass": "mobile__header--logo-megamenu",
-  //     "id": "bnd-logo",
-  //     "size": 280,
-  //     // "width": "14.5vw",
-  //     // "height": "10.9vw",
-  //     "href": "/"
-  //   }
-  // }
 }

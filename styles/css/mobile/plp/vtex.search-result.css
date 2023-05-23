@@ -1,0 +1,186 @@
+.searchResultContainer--mobile__search--result {
+  max-width    : none;
+  margin       : 0;
+  padding      : 0;
+  width        : 100%;
+  margin-bottom: 50px !important;
+}
+
+/* breadcrumd */
+.galleryLayoutSwitcher--mobile__gallery--row {
+  display        : flex;
+  justify-content: end;
+}
+
+/* filter and orderby */
+.container--layout--mobile__search--result :global(.vtex-search-result-3-x-filters--layout) {
+  border-bottom  : 3px solid gray;
+  width          : 100% !important;
+  background     : #EDEDED;
+  width          : 100% !important;
+  max-width      : none;
+  margin-right   : 0;
+  display        : flex;
+  justify-content: start;
+}
+
+.container--layout--mobile__search--result :global(.vtex-search-result-3-x-orderByButton--mobile__order--by) {
+  background: #EDEDED;
+}
+
+.container--layout--mobile__search--result :global(.vtex-search-result-3-x-orderByDropdown--mobile__order--by) {
+  border-bottom: 3px solid gray;
+  width        : 100% !important;
+
+}
+
+.container--layout--mobile__search--result :nth-child(2n) :global(.vtex-flex-layout-0-x-flexRow--mobile__result--container) {
+  height: 55px;
+}
+
+.filtersWrapperMobile--mobile__filter--navigator :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+  display: none;
+}
+
+.filtersWrapperMobile--mobile__filter--navigator :global(.vtex-search-result-3-x-filterPopupButton)::before {
+  width         : 20px;
+  height        : 14px;
+  margin-right  : 5px;
+  background    : url("assets/img/Home/search-result/filter-icon.png") no-repeat;
+  display       : inline-block;
+  vertical-align: middle;
+  content       : "";
+  margin-right  : 5vw;
+  z-index       : 999;
+}
+
+.filtersWrapperMobile--mobile__filter--navigator :global(.vtex-search-result-3-x-filterPopupButton)::after {
+  width          : 20px;
+  height         : 20px;
+  position       : relative;
+  display        : block;
+  top            : 0;
+  left           : 25px;
+  background     : url("assets/img/Home/search-result/down arrow.png") no-repeat 7px 9px;
+  background-size: 11px;
+  content        : "";
+}
+
+.container--layout--mobile__search--result :global(.vtex-flex-layout-0-x-flexRowContent--mobile__result--container) {
+  gap: 14px;
+}
+
+.orderByDropdown--mobile__order--by .orderByOptionsContainer {
+  z-index: 999;
+}
+
+
+/* grillas */
+.container--layout--mobile__search--result :nth-child(3n) :global(.vtex-store-components-3-x-container) {
+  max-width: none;
+  margin   : 0;
+  padding  : 0;
+}
+
+.container--layout--mobile__search--result :nth-child(3n) :global(.vtex-search-result-3-x-gallery--gallery) {
+  display              : grid;
+  grid-template-columns: repeat(3, minmax(160px, 210px));
+  gap                  : 8px;
+}
+
+/* sidebar  */
+.sidebar {
+  width: 15rem;
+}
+
+.filterAccordionBreadcrumbs {
+  height: 50px;
+}
+
+.filterBreadcrumbsText--mobile__filter--navigator {
+  font-size: 16px;
+  color    : #3f3f40 !important;
+  font-family: "Poppins-Light",
+}
+
+.accordionFilterItemTitle {
+  font-size: 0.9rem;
+  color    : #3f3f40 !important;
+  font-family: "Poppins-Light",
+}
+
+.filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button) {
+  background   : #000;
+  border-color : #000;
+  border-radius: 0;
+  height       : 31px !important;
+}
+
+.filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button__label) {
+  color    : white;
+  font-size: 12px;
+}
+
+.filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button) {
+  border-radius   : 0;
+  background-color: transparent;
+  height          : 31px !important;
+}
+
+.filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button__label) {
+  color    : #3f3f40;
+  font-size: 12px;
+}
+
+.filterBreadcrumbsItemName--mobile__filter--navigator {
+  font-size: 0.9rem;
+}
+
+.accordionFilter :nth-child(5n) :global(.vtex-search-result-3-x-accordionFilterItemTitle),
+.accordionFilter :nth-child(4n) :global(.vtex-search-result-3-x-accordionFilterItemTitle),
+.accordionFilter :nth-child(3n) :global(.vtex-search-result-3-x-accordionFilterItemTitle),
+.accordionFilter :nth-child(2n) :global(.vtex-search-result-3-x-accordionFilterItemTitle) {
+  visibility: hidden;
+}
+
+.accordionFilter :nth-child(2n) :global(.vtex-search-result-3-x-accordionFilterItemTitle)::before {
+  visibility: visible;
+  content   : "Categoría";
+
+}
+
+.accordionFilter :nth-child(3n) :global(.vtex-search-result-3-x-accordionFilterItemTitle)::before {
+  visibility: visible;
+  content   : "Sub-Categoría";
+
+}
+
+.accordionFilter :nth-child(4n) :global(.vtex-search-result-3-x-accordionFilterItemTitle)::before {
+  visibility: visible;
+  content   : "Talla";
+}
+
+.accordionFilter :nth-child(5n) :global(.vtex-search-result-3-x-accordionFilterItemTitle)::before {
+  visibility: visible;
+  content   : "Gama de precios";
+}
+
+.accordionFilterContent--mobile__filter--navigator {
+  display: contents;
+}
+
+.loadingOverlay--mobile__search--result {
+  margin-top: -140px;
+}
+
+.container--layout--mobile__search--result :global(.vtex-rich-text-0-x-container--text__principal--top) {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .container--layout--mobile__search--result :nth-child(3n) :global(.vtex-search-result-3-x-gallery--gallery) {
+    display              : grid;
+    grid-template-columns: repeat(1, minmax(160px, 510px));
+    gap                  : 8px;
+  }
+}

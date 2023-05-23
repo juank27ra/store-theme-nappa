@@ -1,0 +1,26 @@
+.container {
+  font-size: 11px;
+}
+
+.homeIcon {
+  display: none;
+}
+
+.homeLink::after {
+  content       : "NAPPA";
+  letter-spacing: 1px;
+}
+.homeLink:hover::after {
+  color: none;
+}
+
+.arrow::before {
+  content  : "/";
+  font-size: 11px;
+}
+
+.caretIcon {
+  display: none;
+}
+
+

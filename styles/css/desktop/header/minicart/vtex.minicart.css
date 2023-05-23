@@ -36,3 +36,7 @@
   padding-left : 0.75rem;
   padding-right: 0.75rem;
 }
+
+.minicartContainer--desktop__header--minicart :global(.vtex-button){
+  margin-top: 14px !important;
+}

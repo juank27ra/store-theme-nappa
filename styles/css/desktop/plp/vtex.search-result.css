@@ -1,0 +1,224 @@
+.galleryLayoutSwitcher--desktop__gallery--row {
+  display        : flex;
+  justify-content: end;
+}
+
+.filters--layout {
+  width       : 270px !important;
+  max-width   : 270px;
+  margin-right: 50px;
+  padding     : 0 0 0 25px;
+}
+
+.filtersWrapper--filter__navigator {
+  height: 100%;
+}
+
+.filterTitle--filter__navigator {
+  font-size     : 12px;
+  font-weight   : 600;
+  color         : #575651;
+  text-transform: uppercase;
+  font-family   : "Poppins-Medium";
+}
+
+.filterMessage--filter__navigator {
+  margin        : 0;
+  padding       : 12px;
+  font-size     : 13px;
+  font-weight   : 600;
+  color         : #575651;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.filterMessage--filter__navigator::before {
+  width         : 20px;
+  height        : 14px;
+  margin-right  : 5px;
+  background    : url("assets/img/Home/search-result/filter-icon.png") no-repeat;
+  display       : inline-block;
+  vertical-align: middle;
+  content       : "";
+}
+
+.filter__container--filter__navigator--title {
+  background-color: #ededed;
+  border-bottom   : 2px solid #4d4d4d;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__base) {
+  height: 0.2rem !important;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__base-internal) {
+  background-color: #4d4d4d;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__selector) {
+  height          : 0.6rem !important;
+  width           : 0.6rem !important;
+  background-color: #4d4d4d;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__selector-container) {
+  top: 7px !important;
+
+}
+
+.filterTemplateOverflow :global(.vtex-slider__selector-container) {
+  top: 7px !important;
+}
+
+.totalProducts--layout {
+  display        : flex;
+  justify-content: flex-start;
+  margin-top     : 3px;
+  padding        : 0;
+  font-size      : 12px;
+  color          : grey;
+  text-transform : lowercase;
+}
+
+.orderByButton :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+  color: #575651;
+}
+
+.orderByButton :global(.vtex-search-result-3-x-orderByText) {
+  visibility: hidden;
+  color     : #575651;
+}
+
+.orderByButton :global(.vtex-search-result-3-x-orderByText)::after {
+  width           : 110px;
+  content         : "Ordenar Por:";
+  background-color: #fff;
+  padding         : 14px 9px;
+  z-index         : 9;
+  font-size       : 13px;
+  letter-spacing  : .5px;
+  color           : #575651;
+  text-transform  : capitalize;
+  display         : contents;
+  visibility      : visible;
+}
+
+.filterPopupTitle {
+  text-transform: capitalize;
+  font-size     : 13px;
+  font-family   : "Poppins-light";
+  height        : 11px;
+  margin-left   : 55px;
+  text-transform: uppercase;
+}
+
+.orderByOptionItem {
+  font-size     : 11px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color         : #575651;
+}
+
+.orderByOptionItem .orderByOptionsContainer {
+  z-index  : 99;
+  min-width: 180px;
+  right    : 0;
+}
+
+.orderByOptionsContainer {
+  z-index: 999;
+}
+
+.orderByOptionItem .vtex-search-result-3-x-orderByOptionsContainer {
+  min-width: 180px;
+}
+
+.orderBy--layout {
+  display    : flex;
+  align-items: flex-end;
+}
+
+.gallery {
+  justify-content: space-around;
+}
+
+.galleryItem {
+  padding         : 7px;
+  position        : relative;
+  max-width       : unset !important;
+  max-height      : unset;
+}
+
+.filterItem--filter__navigator {
+  font-size: 12px;
+}
+
+.filterTemplateOverflow--filter__navigator :global(.vtex-slider__right-value) {
+  font-size: 12px;
+}
+
+.filterTemplateOverflow--filter__navigator :global(.vtex-slider__left-value) {
+  font-size: 12px;
+}
+
+/* rango de precios */
+.filtersWrapper--filter__navigator :nth-child(6n) :global(.vtex-search-result-3-x-filterTitle--filter__navigator) {
+  visibility: hidden;
+}
+
+.filtersWrapper--filter__navigator :nth-child(6n) :global(.vtex-search-result-3-x-filterTitle--filter__navigator)::before {
+  visibility : visible;
+  content    : "Rango de precios";
+  text-indent: 0;
+  display    : block;
+  line-height: normal;
+  color      : #575651;
+}
+
+/* subcategoría */
+.filtersWrapper--filter__navigator :nth-child(4n) :global(.vtex-search-result-3-x-filterTitleSpan--filter__navigator) {
+  visibility: hidden;
+}
+
+.filtersWrapper--filter__navigator :nth-child(4n) :global(.vtex-search-result-3-x-filterTitleSpan--filter__navigator)::before {
+  visibility : visible;
+  content    : "SUBCATEGORÍA";
+  text-indent: 0;
+  line-height: normal;
+  color      : #575651;
+}
+
+/* talla */
+.filtersWrapper--filter__navigator :nth-child(5n) :global(.vtex-search-result-3-x-filterTitleSpan--filter__navigator) {
+  visibility: hidden;
+}
+
+.filtersWrapper--filter__navigator :nth-child(5n) :global(.vtex-search-result-3-x-filterTitleSpan--filter__navigator)::before {
+  visibility : visible;
+  content    : "TALLA";
+  text-indent: 0;
+  line-height: normal;
+  color      : #575651;
+}
+
+.loadingOverlay--desktop__search--result {
+  margin-top: -130px;
+}
+
+.resultGallery :global(.vtex-button){
+  background-color: black;
+  border: black solid 1px;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .totalProducts--layout::before {
+    content: "(";
+  }
+
+  .totalProducts--layout::after {
+    content: ")";
+  }
+
+
+}

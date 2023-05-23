@@ -24,15 +24,10 @@
   max-width: 100% ;
 }
 
-/* .closeIconButton--drawer__close--button-megamenu {
-  margin-bottom: 8vw;
-} */
-
 .opened--mobile__header--menu {
   width: 100% !important;
   max-width: none !important;
 }
-
 
 .childrenContainer--mobile__header--menu {
   padding: 8vw 7vw 9vw;

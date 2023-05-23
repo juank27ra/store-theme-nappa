@@ -1,0 +1,19 @@
+{
+  "search-result-layout.mobile#mobile__search--result-container": {
+    "title": "mobile departmets blocks",
+    "children": [
+      "rich-text#text__principal--top-principal",
+      "rich-text#text__principal--top",
+      "flex-layout.row#mobile__filter--order-by",
+      "flex-layout.row#mobile__breadcrumb",
+      "flex-layout.row#mobile__result--container"
+    ],
+    "props": {
+      "blockClass": "mobile__search--result",
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true
+    }
+  }
+}
