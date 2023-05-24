@@ -1,10 +1,9 @@
-
 .profileIcon--mobile__header--login {
-  height: 5vw;
-  width : 5vw;
+  height       : 5vw;
+  width        : 5vw;
   margin-bottom: 8px;
-  margin-left: -3vw !important;
-  color: var(--primary-color);
+  margin-left  : -3vw !important;
+  color        : var(--primary-color);
 }
 
 .content--loginOptions :global(.vtex-button) {
@@ -13,7 +12,7 @@
 }
 
 .inputContainerEmail :global(.vtex-styleguide-9-x-input),
-.inputContainerPassword :global( .vtex-styleguide-9-x-input) {
+.inputContainerPassword :global(.vtex-styleguide-9-x-input) {
   color: gray;
 }
 
@@ -30,13 +29,13 @@
 }
 
 .tooltipContainer {
-  display: table;
-  visibility: visible;
+  display         : table;
+  visibility      : visible;
   background-color: transparent;
-  left: 4vw;
-  top: 6vw;
-  position: relative;
-  max-width: 250px;
+  left            : 4vw;
+  top             : 6vw;
+  position        : relative;
+  max-width       : 250px;
 }
 
 .portalWrapper--mobile__header--login :global(.vtex-login-2-x-button) {
@@ -49,9 +48,9 @@
 
 .portalWrapper--mobile__header--login :global(.vtex-login-2-x-optionsListItem .vtex-button__label) {
   font-size: 15px;
-  color: white;
+  color    : white;
 }
 
 .portalWrapper--mobile__header--login :global(.vtex-login-2-x-sendButton .vtex-button__label) {
-  color: white ;
+  color: white;
 }

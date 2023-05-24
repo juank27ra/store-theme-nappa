@@ -143,10 +143,10 @@
 }
 
 .galleryItem {
-  padding         : 7px;
-  position        : relative;
-  max-width       : unset !important;
-  max-height      : unset;
+  padding   : 7px;
+  position  : relative;
+  max-width : unset !important;
+  max-height: unset;
 }
 
 .filterItem--filter__navigator {
@@ -161,7 +161,7 @@
   font-size: 12px;
 }
 
-/* rango de precios */
+/* range prices */
 .filtersWrapper--filter__navigator :nth-child(6n) :global(.vtex-search-result-3-x-filterTitle--filter__navigator) {
   visibility: hidden;
 }
@@ -175,7 +175,7 @@
   color      : #575651;
 }
 
-/* subcategoría */
+/* subcategory */
 .filtersWrapper--filter__navigator :nth-child(4n) :global(.vtex-search-result-3-x-filterTitleSpan--filter__navigator) {
   visibility: hidden;
 }
@@ -188,7 +188,7 @@
   color      : #575651;
 }
 
-/* talla */
+/* size */
 .filtersWrapper--filter__navigator :nth-child(5n) :global(.vtex-search-result-3-x-filterTitleSpan--filter__navigator) {
   visibility: hidden;
 }
@@ -205,9 +205,9 @@
   margin-top: -130px;
 }
 
-.resultGallery :global(.vtex-button){
+.resultGallery :global(.vtex-button) {
   background-color: black;
-  border: black solid 1px;
+  border          : black solid 1px;
 }
 
 @media screen and (min-width: 1024px) {

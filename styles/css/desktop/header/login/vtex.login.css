@@ -3,11 +3,11 @@
 }
 
 .profileIcon--desktop__header--login {
-  margin-right: -10px;
+  margin-right : -10px;
   margin-bottom: -7px;
-  width : 1.2vw;
-  height: 1.2vw;
-  color: var(--primary-color);
+  width        : 1.2vw;
+  height       : 1.2vw;
+  color        : var(--primary-color);
 }
 
 
@@ -16,16 +16,18 @@
 }
 
 .portalWrapper--desktop__header--login :global(.vtex-login-2-x-backButton .vtex-button):hover {
-  background-color: transparent ;
+  background-color: transparent;
 }
 
 .portalWrapper--desktop__header--login :global(.vtex-login-2-x-sendButton .vtex-button__label) {
-  color: white ;
-}
-.portalWrapper--desktop__header--login :global(.vtex-login-2-x-sendButton .vtex-button):hover {
-  background-color:#DED140 ;
   color: white;
 }
+
+.portalWrapper--desktop__header--login :global(.vtex-login-2-x-sendButton .vtex-button):hover {
+  background-color: #DED140;
+  color           : white;
+}
+
 .portalWrapper--desktop__header--login :global(.vtex-login-2-x-sendButton .vtex-button__label):hover {
   color: white;
 }
@@ -71,4 +73,3 @@
   font-size  : 15px;
   font-weight: 600;
 }
-

@@ -16,7 +16,6 @@
 
 .flexRowContent--mobile__footer--container-seccionTwo :global(.vtex-styleguide-9-x-hideDecorators) {
   font-size: 10px;
-
 }
 
 .flexRowContent--mobile__footer--container-seccionTwo :global(.vtex-input-prefix__group) {
@@ -30,7 +29,6 @@
 }
 
 .flexRow--mobile__footer--container-seccionThree {
-
   padding: 18px 3px;
   height : 100%;
   margin : auto;
@@ -46,7 +44,7 @@
 }
 
 .flexCol--mobile__container--footer-col :global(.vtex-flex-layout-0-x-flexColChild--mobile__container--footer-col) {
-  margin: auto;
+  margin : auto;
   padding: 15px 0px;
 }
 
@@ -101,7 +99,6 @@
   margin: 0;
 }
 
-
 .flexCol--mobile__container--footer-col :nth-child(3n) {
   display: contents;
 }
@@ -112,7 +109,6 @@
 
 @media screen and (min-width: 640px) and (max-width: 1024px) {
   .flexRowContent--mobile__footer--container-seccionThree {
-      width: 35vw;
-    }
+    width: 35vw;
+  }
 }
-

@@ -7,7 +7,6 @@
       "displayMode": "clear-button",
       "hasIconLeft": false,
       "inputType": "search",
-      // "hidden": true,
       "placeholder": "¿ QUE ESTAS BUSCANDO?",
       "hideTitles": true,
       "productLayout": "horizontal",
