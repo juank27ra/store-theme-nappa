@@ -17,6 +17,7 @@
       "autoPlay": true,
       "muted": false,
       "width": "100%",
+      // "height": "600px",
       "blockClass": "mobile__home--seccionFour-two"
     }
   },

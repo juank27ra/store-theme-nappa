@@ -29,4 +29,5 @@
 
 .searchBarInnerContainer--mobile__header--searchbar :global(.vtex-input__suffix){
   background-color: transparent;
+  /* margin-right: 9vw; */
 }

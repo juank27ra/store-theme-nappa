@@ -2,3 +2,9 @@
   display: none;
 }
 
+/* .container  :global(.vtex-flex-layout-0-x-flexRowContent--home__images--seccion-four):first-child{
+  width: 33% !important;
+}
+.container  :global(.vtex-flex-layout-0-x-flexRowContent--home__images--seccion-four):nth-child(2n){
+  width: 67% !important;
+} */

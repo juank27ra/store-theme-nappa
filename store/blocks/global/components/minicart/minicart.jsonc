@@ -9,6 +9,8 @@
       }
     },
     "blocks": [
+      // "search-result-layout.desktop#desktop__home--search",
+      // "search-result-layout.mobile#mobile__home--search",
       "search-not-found-layout"
     ]
   }

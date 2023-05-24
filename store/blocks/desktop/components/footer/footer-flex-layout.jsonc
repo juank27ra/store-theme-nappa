@@ -38,6 +38,7 @@
   "link#desktop__col--methods-payments": {
     "title": "text payments",
     "props": {
+      // "href": "",
       "label": "Medios de pago",
       "displayMode": "button",
       "blockClass": "desktop__col--methods-payments"

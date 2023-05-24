@@ -15,7 +15,7 @@
     "props": {
       "blockClass": "input__newslater",
       "placeholderText": "El parche empieza escribiendo tu correo",
-      "textAlignment": "CENTER",
+      "textAlignment": "CENTER",   //
       "textColor": "c-on-base"
     }
   },
