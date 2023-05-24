@@ -6,7 +6,6 @@
       "displayMode": "search-button",
       "hasIconLeft": false,
       "inputType": "search",
-      // "maxWidth": "100%",
       "placeholder": "¿ QUE ESTAS BUSCANDO?",
       "openAutocompleteOnFocus": true,
       "isFullWidth": true,

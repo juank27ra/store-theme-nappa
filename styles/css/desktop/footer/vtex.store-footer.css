@@ -12,17 +12,15 @@
 }
 
 .socialNetworksContainer--desktop__col--networks :global(.vtex-store-footer-2-x-socialNetworkLink--desktop__col--networks--facebook) {
-    visibility : hidden;
-  }
-.socialNetworksContainer--desktop__col--networks :global(.vtex-store-footer-2-x-socialNetworkLink--desktop__col--networks--facebook)::before {
-    visibility: visible;
-    content: "";
-    background-image: url("assets/img/Home/footer/footer__socialNetwork--fecebook.png");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    vertical-align   : middle;
-    /* width            : 26px;
-    height           : 26px; */
-    margin-left      : -10px;
-  }
+  visibility: hidden;
+}
 
+.socialNetworksContainer--desktop__col--networks :global(.vtex-store-footer-2-x-socialNetworkLink--desktop__col--networks--facebook)::before {
+  visibility       : visible;
+  content          : "";
+  background-image : url("assets/img/Home/footer/footer__socialNetwork--fecebook.png");
+  background-repeat: no-repeat;
+  background-size  : 20px;
+  vertical-align   : middle;
+  margin-left      : -10px;
+}

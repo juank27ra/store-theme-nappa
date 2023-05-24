@@ -43,15 +43,6 @@
       "preventHorizontalStretch": "true"
     }
   },
-  // "unit-price#subcontainer__minicart--unity-price": {
-  //   "title": "unit-price pl minicart",
-  //   "props": {
-  //     "blockClass": "subcontainer__minicart--unity-price",
-  //     "unitPriceType": "sellingPrice",
-  //     "unitPriceDisplay": "default",
-  //     "textAlign": "center"
-  //   }
-  // },
   "flex-layout.row#subcontainer__col--pl-price": {
     "title": "price pl minicart container",
     "children": ["price#row__pl--price"],

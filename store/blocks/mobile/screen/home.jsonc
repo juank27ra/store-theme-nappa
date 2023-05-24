@@ -4,7 +4,7 @@
     "children": [
         "slider-layout#mobile__home--seccion-one",
         "flex-layout.row#mobile__home--seccion-two",
-        "flex-layout.row#mobile__home--seccion-three",   //new-coleccion
+        "flex-layout.row#mobile__home--seccion-three",
         "slider-layout#mobile__home--seccion-four",
         "flex-layout.row#mobile__home--seccion-five",
         "video#mobile__home--seccion-six",
