@@ -21,7 +21,6 @@
     "title": "desktop overlay layout content ",
     "children": [
       "search-bar#desktop__header--searchbar"
-      // "flex-layout.row#searchbar"
     ],
     "props": {
       "blockClass": "desktop__overlay--layout-content",
@@ -35,13 +34,4 @@
       }
     }
   }
-  // "flex-layout.row#searchbar": {
-  //   "title": "flex searchbar",
-  //   "children": [
-  //     "search-bar#desktop__header--searchbar"
-  //   ],
-  //   "props": {
-  //     "blockClass": "searchbar "
-  //   }
-  // }
 }

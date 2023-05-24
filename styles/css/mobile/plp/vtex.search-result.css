@@ -31,7 +31,6 @@
 .container--layout--mobile__search--result :global(.vtex-search-result-3-x-orderByDropdown--mobile__order--by) {
   border-bottom: 3px solid gray;
   width        : 100% !important;
-
 }
 
 .container--layout--mobile__search--result :nth-child(2n) :global(.vtex-flex-layout-0-x-flexRow--mobile__result--container) {
@@ -75,7 +74,7 @@
 }
 
 
-/* grillas */
+/* grids */
 .container--layout--mobile__search--result :nth-child(3n) :global(.vtex-store-components-3-x-container) {
   max-width: none;
   margin   : 0;

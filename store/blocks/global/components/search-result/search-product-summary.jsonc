@@ -5,7 +5,6 @@
       "vtex.product-highlights@2.x:product-highlights",
       "product-summary-image",
       "product-summary-sku-selector",
-
       "flex-layout.row#container__card--button"
     ],
     "props": {
@@ -37,15 +36,6 @@
       "blockClass": "global__produc--highlight-text"
     }
   },
-  // "product-summary-image": {
-  //   "title": "product summary image ",
-  //   "props": {
-  //     "showBadge": true,
-  //     "badgeText": "-70%",
-  //     // "showCollections": true,
-  //     "height": 320
-  //   }
-  // },
   "product-summary-sku-selector": {
     "title": "product summary sku selector",
     "props": {

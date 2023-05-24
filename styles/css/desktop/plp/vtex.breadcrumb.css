@@ -10,6 +10,7 @@
   content       : "NAPPA";
   letter-spacing: 1px;
 }
+
 .homeLink:hover::after {
   color: none;
 }
@@ -22,5 +23,3 @@
 .caretIcon {
   display: none;
 }
-
-
