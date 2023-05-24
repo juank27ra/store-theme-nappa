@@ -36,7 +36,7 @@
 .flexColChild--mobile__col--logo :first-child {
   width : 34vw;
   height: 34vw;
-  color: var(--primary-color);
+  color : var(--primary-color);
 }
 
 .flexRowContent--mobile__icons--content:hover :global(.vtex-button) {
@@ -56,4 +56,3 @@
 .flexCol--mobile__logo--megamenu {
   margin-top: 4px;
 }
-
