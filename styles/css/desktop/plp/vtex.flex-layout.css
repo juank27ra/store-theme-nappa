@@ -7,6 +7,7 @@
 }
 
 /* breadcrumb  */
+
 .flexRow--desktop__desktop--breadcrumb :first-child {
   padding: 0;
 }
@@ -17,6 +18,7 @@
 }
 
 /* search-result  */
+
 .flexRowContent--desktop__result--container .stretchChildrenWidth:nth-child(2n) {
   width: auto !important;
 }
@@ -30,6 +32,7 @@
 }
 
 /* product summary name */
+
 .flexRowContent--buttons__summary--shelf :global(.vtex-product-summary-2-x-nameContainer) {
 
   padding-top   : 0;

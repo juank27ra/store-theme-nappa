@@ -18,4 +18,12 @@
       "preserveLayoutOnMobile": "true"
     }
   }
+
+  // "quantity-selector#global__minicart--quantity-selector": {
+  //   "title": "quantity selector",
+  //   "props": {
+  //     "blockClass": "global__minicart--quantity-selector",
+  //     "mode": "stepper"
+  //   }
+  // },
 }

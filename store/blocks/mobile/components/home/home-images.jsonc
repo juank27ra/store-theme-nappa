@@ -43,6 +43,7 @@
   "image#mobile__home--seccionThree-one": {
     "title": "seccionThree image one",
     "props": {
+      // "maxHeight": 900,
       "src": "assets/img/mobile/mobile__seccionThree-one.jpg",
       "blockClass": "mobile__home--seccionThree-one"
     }

@@ -1,17 +1,17 @@
 .goBackContainer--drawer__back--button-megamenu {
-  margin-top: 2.5vw !important;
+  margin-top    : 2.5vw !important;
 }
 
 .goBackButton--drawer__back--button-megamenu {
-  transform : translateX(12vw) !important;
-  margin-top: -3.5vw !important;
+  transform     : translateX(12vw) !important;
+  margin-top    : -3.5vw !important;
 }
 
 .styledLink--mobile__header--container :global(.vtex-mega-menu-2-x-styledLinkText--mobile__header--container) {
-  color      : #000 !important;
-  font-size  : 3vw !important;
+  color: #000 !important;
+  font-size: 3vw !important;
   font-weight: 700 !important;
-  padding    : 6px 0 !important;
+  padding: 6px 0 !important;
 }
 
 .departmentsContainer--mobile__header--container :global(.vtex-mega-menu-2-x-departmentsTitle--mobile__header--container) {

@@ -5,6 +5,9 @@
 
 .flexRow--mobile__home--seccion-three {
   background-image   : url("assets/img/mobile/mobile__seccionThree.jpg");
+  /* height             : 280vw;
+  background-position: center;
+  background-repeat  : no-repeat; */
   background-size    : cover;
 }
 
@@ -19,6 +22,7 @@
 }
 
 .flexRowContent--mobile__home--seccion-three :nth-child(3n) {
+  /* width: 75% !important; */
   padding: 0 4vw 0 4vw;
 }
 
@@ -42,6 +46,10 @@
   width: 100% !important;
   padding: 0 15vw;
 }
+
+/* .flexRowContent--mobile__home--seccion-three :global(.vtex-product-summary-2-x-clearLink--desktop__home--summary-shelf-containe) {
+  width: 85vw;
+} */
 
 .slideChildrenContainer--desktop__home--slider-product-summary {
   width: 80vw;

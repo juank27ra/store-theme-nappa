@@ -15,7 +15,7 @@
       "disclosure-trigger#desktop__disclosure--icon-search"
     ],
     "props": {
-      "maxVisible": "one",
+      "maxVisible": "one",    //
       "blockClass": "desktop__disclosure--search-bar"
     }
   },
