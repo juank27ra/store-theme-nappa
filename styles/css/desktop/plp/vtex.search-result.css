@@ -161,7 +161,7 @@
   font-size: 12px;
 }
 
-/* rango de precios */
+/* price range */
 .filtersWrapper--filter__navigator :nth-child(6n) :global(.vtex-search-result-3-x-filterTitle--filter__navigator) {
   visibility: hidden;
 }
@@ -175,7 +175,7 @@
   color      : #575651;
 }
 
-/* subcategoría */
+/* subcategory */
 .filtersWrapper--filter__navigator :nth-child(4n) :global(.vtex-search-result-3-x-filterTitleSpan--filter__navigator) {
   visibility: hidden;
 }
@@ -188,7 +188,7 @@
   color      : #575651;
 }
 
-/* talla */
+/* size */
 .filtersWrapper--filter__navigator :nth-child(5n) :global(.vtex-search-result-3-x-filterTitleSpan--filter__navigator) {
   visibility: hidden;
 }

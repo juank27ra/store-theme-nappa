@@ -23,7 +23,7 @@
     "title": "checkbox confirmation",
     "props": {
       // "checkboxLabel": "He leído la  Política de Tratamiento de Datos Personales ** y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos.",
-      "checkboxLabel": "He leído la {firstLabelLink} y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos ",
+      "checkboxLabel": "He leído la {{firstLabelLink}} y al suscribirme autorizo expresamente el tratamiento de los mismos para los fines allí contenidos ",
       "firstLabelLink": {
         "url": "https://www.nappa.com.co/nuestras-politicas",
         "text": "Política de Tratamiento de Datos Personales"
