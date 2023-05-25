@@ -1,3 +1,7 @@
 .productDescriptionContainer {
   display: block;
 }
+
+.productDescriptionTitle {
+  display: none !important;
+}

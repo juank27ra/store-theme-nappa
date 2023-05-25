@@ -11,27 +11,104 @@
   "flex-layout.col#desktop__pdp--container": {
     "title": "desktop feedback pdp",
     "children": [
-      "flex-layout.row#desktop__pdp--feedback",
+      "flex-layout.row#desktop__pdp--overlay-feedback",
       "flex-layout.row#desktop__pdp--breadcrumb",
       "flex-layout.row#desktop__product--detail-container",
       "flex-layout.row#desktop__pdp--deals",
       "flex-layout.row#desktop__pdp--review-ratings",
       "rich-text#desktop__pdp--recommendations",
-      "slider-layout#desktop__pdp--vitrine"
+      "list-context.product-list#desktop__pdp--product-summary"
     ],
     "props": {
       "blockClass": "desktop__pdp--container"
     }
   },
-  "flex-layout.row#desktop__pdp--feedback": {
-    "title": "desktop feedback pdp",
+  "flex-layout.row#desktop__pdp--overlay-feedback": {
+    "title": "desktop row feedback pdp overlay",
     "children": [
-
+      "flex-layout.col#pdp__overlay--feedback"
     ],
     "props": {
-      "blockClass": "desktop__pdp--feedback"
+      "blockClass": "desktop__pdp--overlay-feedback"
     }
   },
+  "flex-layout.col#pdp__overlay--feedback": {
+    "title": "pdp col form feedback",
+    "children": [
+      "overlay-trigger#desktop__trigger--feedback"
+    ],
+    "props": {
+      "blockClass": "pdp__overlay--feedback"
+    }
+  },
+  "overlay-trigger#desktop__trigger--feedback": {
+    "children": [
+      "image#trigger__feedback",
+      "overlay-layout#overlay__content--feedback-pdp"
+    ]
+  },
+  "image#trigger__feedback": {
+    "title": "text trigger__feedback pdp",
+    "props": {
+      "blockClass": "trigger__feedback",
+      "src": "assets/img/Home/products/Feedback__pdp--trigger.png"
+    }
+  },
+  "overlay-layout#overlay__content--feedback-pdp": {
+    "title": "overlay content feedback pdp",
+    "props": {
+      "blockClass": "overlay__content--feedback-pdp",
+      "placement": "right"
+    },
+    "children": [
+      "flex-layout.col#desktop__form--feedback"
+    ]
+  },
+  "flex-layout.col#desktop__form--feedback": {
+    "title": "col feedback container",
+    "children": [
+      "flex-layout.row#desktop__form--feedback-title",
+      "flex-layout.row#desktop__form--feedback-button",
+      "flex-layout.row#desktop__form--feedback-logo"
+    ]
+  },
+  "flex-layout.row#desktop__form--feedback-title": {
+    "title": "text top feedback internal",
+    "children": [
+      "rich-text#content__form--feedback"
+    ],
+    "props": {
+      "blockClass": "desktop__form--feedback-title"
+    }
+  },
+  "flex-layout.row#desktop__form--feedback-button": {
+    "title": "link feedback internal",
+    "children": [
+      "link#overlay__pdp--link"
+    ],
+    "props": {
+      "blockClass": "desktop__form--feedback-button"
+    }
+  },
+  "flex-layout.row#desktop__form--feedback-logo": {
+    "title": "logo feedback internal",
+    "children": [
+      "image#pdp__feedback--logo"
+    ],
+    "props": {
+      "blockClass": "desktop__form--feedback-logo"
+    }
+  },
+
+
+  "rich-text#content__form--feedback": {
+    "title": "overlay content form feedback",
+    "props": {
+      "text": "Cuéntanos como fue tu experiencia en el proceso de compra",
+      "blockClass": "content__form--feedback"
+    }
+  },
+
   "flex-layout.row#desktop__pdp--breadcrumb": {
     "title": "desktop breadcrumb pdp",
     "children": [
@@ -54,12 +131,96 @@
   "flex-layout.row#desktop__pdp--deals": {
     "title": "desktop deals pdp",
     "children": [
-      // "flex-layout.col#desktop__pdp--1",
-      // "flex-layout.col#desktop__pdp--2",
-      // "flex-layout.col#desktop__pdp--3"
+      "flex-layout.col#desktop__pdp--returns-exchanges",
+      "flex-layout.col#desktop__pdp--find-brands",
+      "flex-layout.col#desktop__pdp--shipments"
     ],
     "props": {
       "blockClass": "desktop__pdp--deals"
+    }
+  },
+  "flex-layout.col#desktop__pdp--returns-exchanges": {
+    "title": "content cols returns and exchanges ",
+    "children": [
+      "flex-layout.row#desktop__pdp--returns-exchanges-image",
+      "flex-layout.row#desktop__pdp--returns-exchanges-text"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--returns-exchanges"
+    }
+  },
+  "flex-layout.row#desktop__pdp--returns-exchanges-image": {
+    "title": "image pdp returns and schanges",
+    "children": [
+      "image#pdp__returns--exchanges"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--returns-exchanges-image"
+    }
+  },
+  "flex-layout.row#desktop__pdp--returns-exchanges-text": {
+    "title": "text pdp returns and schanges",
+    "children": [
+      "rich-text#desktop__pdp--returns-exchanges"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--returns-exchanges-text"
+    }
+  },
+  "flex-layout.col#desktop__pdp--find-brands": {
+    "title": "content cols find brand velez",
+    "children": [
+      "flex-layout.row#desktop__pdp--find-brands-image",
+      "flex-layout.row#desktop__pdp--find-brands-text"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--find-brands"
+    }
+  },
+  "flex-layout.row#desktop__pdp--find-brands-image": {
+    "title": "image pdp find brands",
+    "children": [
+      "image#pdp__find--brands"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--find-brands-image"
+    }
+  },
+  "flex-layout.row#desktop__pdp--find-brands-text": {
+    "title": "text pdp find brands",
+    "children": [
+      "rich-text#desktop__pdp--find-brands"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--find-brands-text"
+    }
+  },
+  "flex-layout.col#desktop__pdp--shipments": {
+    "title": "content cols shipments",
+    "children": [
+      "flex-layout.row#desktop__pdp--shipments-image",
+      "flex-layout.row#desktop__pdp--shipments-text"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--shipments"
+    }
+  },
+  "flex-layout.row#desktop__pdp--shipments-image": {
+    "title": "image pdp shipments",
+    "children": [
+      "image#pdp__shipments"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--shipments-image"
+    }
+  },
+  "flex-layout.row#desktop__pdp--shipments-text": {
+    "title": "text pdp shipments",
+    "children": [
+      "rich-text#desktop__pdp--shipments"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--shipments-text"
     }
   },
   "flex-layout.row#desktop__pdp--review-ratings": {
@@ -71,13 +232,14 @@
       "blockClass": "desktop__pdp--review-ratings"
     }
   },
-  "slider-layout#desktop__pdp--vitrine": {
-    "title": "desktop vitrine pdp",
+  "list-context.product-list#desktop__pdp--product-summary": {
+    "title": "desktop list context product list container",
+    "blocks": ["product-summary.shelf"],    //#desktop__pdp--summary-shelf-container
     "children": [
-
+      "slider-layout#desktop__pdp--vitrine"
     ],
     "props": {
-      "blockClass": "desktop__pdp--vitrine"
+      "blockClass": "desktop__pdp--product-summary"
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "link#disclosure__pdp--link": {
+    "title": "Link disclosure pdp simulation credit",
+    "props": {
+        "blockClass": "disclosure__pdp--link",
+        "label": "CALCULA TU CRÉDITO",
+        "displayMode": "button"
+    }
+  },
+  "link#overlay__pdp--link": {
+    "title": "Link overlay pdp feedback",
+    "props": {
+        "blockClass": "overlay__pdp--link",
+        "label": "Comenzar",
+        "displayMode": "button"
+    }
+  }
+}

@@ -17,11 +17,9 @@
     "title": "desktop shipping-policies pdp",
     "props": {
       "blockClass": "desktop__pdp--shipping-policies",
-      "text": "El tiempo de entrega empezará a contar a partir de la confirmación exitosa del pago, que recibirás en el correo electrónico con el cual realizaste tu compra. [ver políticas]"
+      "text": "El tiempo de entrega empezará a contar a partir de la confirmación exitosa del pago, que recibirás en el correo electrónico con el cual realizaste tu compra. [ver políticas](https://www.nappa.com.co)"
     }
   },
-
-
   "rich-text#desktop__pdp--wash":{
     "title": "desktop shipping-policies pdp",
     "props": {
@@ -32,29 +30,50 @@
   "rich-text#desktop__pdp--machine":{
     "title": "desktop shipping-policies pdp",
     "props": {
-      "blockClass": "desktop__pdp--shipping-policies",
-      "text": "No secar en machina"
+      "blockClass": "desktop__pdp--machine",
+      "text": "No secar en maquina"
     }
   },
   "rich-text#desktop__pdp--iron":{
     "title": "desktop shipping-policies pdp",
     "props": {
-      "blockClass": "desktop__pdp--shipping-policies",
+      "blockClass": "desktop__pdp--iron",
       "text": "No planchar"
     }
   },
   "rich-text#desktop__pdp--bleach":{
     "title": "desktop shipping-policies pdp",
     "props": {
-      "blockClass": "desktop__pdp--shipping-policies",
+      "blockClass": "desktop__pdp--bleach",
       "text": "No usar blanqueador"
     }
   },
   "rich-text#desktop__pdp--quoter": {
     "title": "desktop shipping-policies pdp",
     "props": {
-      "blockClass": "desktop__pdp--shipping-policies",
+      "blockClass": "desktop__pdp--quoter",
       "text": "Cotizador"
+    }
+  },
+  "rich-text#desktop__pdp--returns-exchanges": {
+    "title": "rich-text returns and exchanges",
+    "props": {
+      "text": "DEVOLUCIONES Y CAMBIOS GRATIS",
+      "blockClass": "desktop__pdp--returns-exchanges"
+    }
+  },
+  "rich-text#desktop__pdp--find-brands": {
+    "title": "rich-text find brands",
+    "props": {
+      "text": "ENCUENTRA LAS 3 MARCAS DE CUEROS VÉLEZ",
+      "blockClass": "desktop__pdp--find-brands"
+    }
+  },
+  "rich-text#desktop__pdp--shipments": {
+    "title": "rich-text shipments",
+    "props": {
+      "text": "ENVÍOS A TODO EL PAÍS",
+      "blockClass": "desktop__pdp--shipments"
     }
   }
 }

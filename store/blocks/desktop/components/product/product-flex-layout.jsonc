@@ -11,43 +11,33 @@
   "flex-layout.col#desktop__product--data": {
     "title": "col right global product data",
     "children": [
-
       "vtex.store-components:product-name",
       "product-identifier.product",
       "product-price",
       "rich-text#desktop__pdp--quoter",
       "product-separator",
-
       "product-quantity",
-
       "sku-selector",
       "flex-layout.row#desktop__pdp--buy-button",
-      // "flex-layout.row#desktop__pdp--calculate-credit-button",
-
+      // "orderquote",
+      "disclosure-layout#desktop__disclosure--credit-simulation",                //
       "rich-text#desktop__pdp--also-available",
-
       "flex-layout.row#desktop__pdp--specifications",
       "flex-layout.row#desktop__pdp--description",
       "flex-layout.row#desktop__pdp--shipping-policies",
       "flex-layout.row#desktop__pdp--care",
-      // "shipping-simulator",
       "share"
     ],
     "props": {
       "blockClass": "desktop__product--data"
     }
   },
-    "sku-selector": {
-      "props": {
-        "hideImpossibleCombinations": false
-      }
-    },
-
-
   "flex-layout.row#desktop__pdp--buy-button": {
     "title": "desktop btn buy and add-to list",
     "children": [
-      "buy-button"
+      // "buy-bu}tton",
+      "add-to-cart-button",
+      "add-to-list-btn"
       // "product-add-to-list-button"
     ],
     "props": {
@@ -63,53 +53,6 @@
       "blockClass": "desktop__pdp--description"
     }
   },
-  "menu#desktop__menu--description-main": {
-    "title": "desktop menu description main",
-    "children": [
-      "menu-item#desktop__menuitem-description"
-    ],
-    "props": {
-      "blockClass": "desktop__menu--description-main"
-    }
-  },
-  "menu-item#desktop__menuitem-description": {
-    "title": "desktop menu-item description",
-    "props": {
-      "blockClass": "desktop__menuitem-description",
-      "id": "menu-item-description",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": true,
-        "tagTile": "Big Title us",
-        "text": "Descripción"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#menu__container--description"]
-  },
-  "vtex.menu@2.x:submenu.accordion#menu__container--description": {
-    "title": "sub-menu container",
-    "children": [
-      "menu#desktop__container--description"
-    ],
-    "props": {
-      "blockClass": "menu__container--description"
-    }
-  },
-  "menu#desktop__container--description": {
-    "title": "menu container product description",
-    "children": [
-      "product-description"
-    ],
-    "props": {
-      "orientation": "horizontal",
-      "blockClass": "desktop__container--description"
-    }
-  },
-
-
-
   "flex-layout.row#desktop__pdp--shipping-policies": {
     "title": "flex pdp shipping-policies",
     "children": [
@@ -119,54 +62,6 @@
       "blockClass": "desktop__pdp--shipping-policies"
     }
   },
-  "menu#menu__shipping--policies-main": {
-    "title": "desktop menu shippingpolicies main",
-    "children": [
-      "menu-item#desktop__menuitem-shipping-policies"
-    ],
-    "props": {
-      "blockClass": "menu__shipping--policies-main"
-    }
-  },
-  "menu-item#desktop__menuitem-shipping-policies": {
-    "title": "desktop menu-item shipping-policies",
-    "props": {
-      "blockClass": "desktop__menuitem-shipping-policies",
-      "id": "menu-item-shipping-policies",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": true,
-        "tagTile": "Big Title us",
-        "text": "Políticas de envío"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#menu__container--shipping-policies"]
-  },
-  "vtex.menu@2.x:submenu.accordion#menu__container--shipping-policies": {
-    "title": "sub-menu container shipping policies",
-    "children": [
-      "menu#desktop__container--rich-text"
-    ],
-    "props": {
-      "blockClass": "menu__container--shipping-policies"
-    }
-  },
-  "menu#desktop__container--rich-text": {
-    "title": "shipping policies menu container",
-    "children": [
-      "rich-text#desktop__pdp--shipping-policies"
-    ],
-    "props": {
-      "orientation": "horizontal",
-      "blockClass": "desktop__container--rich-text"
-    }
-  },
-
-
-
-
   "flex-layout.row#desktop__pdp--care": {
     "title": "flex pdp care",
     "children": [
@@ -176,56 +71,6 @@
       "blockClass": "desktop__pdp--care"
     }
   },
-  "menu#menu__care--main": {
-    "title": "desktop menu care main",
-    "children": [
-      "menu-item#desktop__menuitem-care"
-    ],
-    "props": {
-      "blockClass": "menu__care--main"
-    }
-  },
-  "menu-item#desktop__menuitem-care": {
-    "title": "desktop menu-item care",
-    "props": {
-      "blockClass": "desktop__menuitem-care",
-      "id": "menu-item-care",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": true,
-        "tagTile": "Big Title us",
-        "text": "Cuidados"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#menu__container--care"]
-  },
-  "vtex.menu@2.x:submenu.accordion#menu__container--care": {
-    "title": "care menu container",
-    "children": [
-      "menu#desktop__container--rich-text-care"
-    ],
-    "props": {
-      "blockClass": "menu__container--care"
-    }
-  },
-  "menu#desktop__container--rich-text-care": {
-    "title": "care submenu container",
-    "children": [
-     "rich-text#desktop__pdp--wash",
-      "rich-text#desktop__pdp--machine",
-      "rich-text#desktop__pdp--iron",
-      "rich-text#desktop__pdp--bleach"
-    ],
-    "props": {
-      "orientation": "horizontal",
-      "blockClass": "desktop__container--rich-text-care"
-    }
-  },
-
-
-
   "flex-layout.row#desktop__pdp--specifications": {
     "title": "flex pdp specifications",
     "children": [
@@ -233,50 +78,6 @@
     ],
     "props": {
       "blockClass": "desktop__pdp--specifications"
-    }
-  },
-  "menu#menu__specifications--main": {
-    "title": "desktop menu specifications main",
-    "children": [
-      "menu-item#desktop__menuitem-specifications"
-    ],
-    "props": {
-      "blockClass": "menu__specifications--main"
-    }
-  },
-  "menu-item#desktop__menuitem-specifications": {
-    "title": "desktop menu-item specifications",
-    "props": {
-      "blockClass": "desktop__menuitem-specifications",
-      "id": "menu-item-specifications",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": true,
-        "tagTile": "Big Title us",
-        "text": "Características"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#menu__container--specifications"]
-  },
-  "vtex.menu@2.x:submenu.accordion#menu__container--specifications": {
-    "title": "specifications menu container",
-    "children": [
-      "menu#desktop__container--specifications"
-    ],
-    "props": {
-      "blockClass": "menu__container--specifications"
-    }
-  },
-  "menu#desktop__container--specifications": {
-    "title": "specifications submenu container",
-    "children": [
-      "product-specifications"
-    ],
-    "props": {
-      "orientation": "horizontal",
-      "blockClass": "desktop__container--specifications"
     }
   }
 }
