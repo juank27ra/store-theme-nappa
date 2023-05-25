@@ -1,0 +1,10 @@
+.accordionIcon--desktop__menuitem-specifications,
+.styledLinkContent--desktop__menuitem-specifications,
+.styledLinkContent--desktop__menuitem-care,
+.accordionIcon--desktop__menuitem-care,
+.styledLinkContent--desktop__menuitem-shipping-policies,
+.accordionIcon--desktop__menuitem-shipping-policies,
+.accordionIcon--desktop__menuitem-description,
+.styledLinkContent--desktop__menuitem-description {
+  color: black !important;
+}

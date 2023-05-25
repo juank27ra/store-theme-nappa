@@ -1,0 +1,19 @@
+.flexRow--desktop__breadcrumb {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 90%;
+}
+.flexRow--desktop__product--detail-container {
+  margin-top: 0.75rem;
+    margin-bottom: 115px;
+    padding: 0;
+    height: 100%;
+}
+
+.flexRowContent--desktop__product--detail-container .stretchChildrenWidth:first-child {
+  width: 55% !important;
+  padding-right: 2rem;
+}
+.flexRowContent--desktop__product--detail-container .stretchChildrenWidth:nth-child(2n) {
+width: 45% !important;
+}

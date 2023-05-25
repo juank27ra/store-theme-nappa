@@ -1,0 +1,9 @@
+{
+  "sku-selector": {
+    "title": "global sku-selector",
+    "props": {
+      "blockClass": "global__sku--selector",
+      "hideImpossibleCombinations": false
+    }
+  }
+}

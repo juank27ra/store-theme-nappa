@@ -1,0 +1,10 @@
+{
+  "breadcrumb": {
+    "title": "global breadcrumb product",
+    "props": {
+      "showOnMobile": true,
+      "blockClass": "global__breadcrumb__product",
+      "id": "global-breadcrumb-product"
+    }
+  }
+}

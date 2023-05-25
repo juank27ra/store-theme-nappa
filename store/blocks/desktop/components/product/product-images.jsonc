@@ -1,0 +1,30 @@
+{
+  "image#pdp__returns--exchanges": {
+    "title": "image returns and exchanges",
+    "props": {
+      "src": "assets/img/Home/products/pdp__icon--returns.png",
+      "blockClass": "pdp__returns--exchanges"
+    }
+  },
+  "image#pdp__find--brands": {
+    "title": "image find to brands",
+    "props": {
+      "src": "assets/img/Home/products/pdp__icon--security.png",
+      "blockClass": "pdp__find--brands"
+    }
+  },
+  "image#pdp__shipments": {
+    "title": "image shipments",
+    "props": {
+      "src": "assets/img/Home/products/pdp__icon--map.png",
+      "blockClass": "pdp__shipments"
+    }
+  },
+  "image#pdp__feedback--logo": {
+    "title": "image feedback internal buttom",
+    "props": {
+      "src": "assets/img/Home/products/Feedback-pdp-logo.png",
+      "blockClass": "pdp__feedback--logos"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slider-layout#desktop__pdp--vitrine": {
+    "title": "desktop vitrine pdp",
+    "props": {
+      "blockClass": "desktop__pdp--vitrine",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "mobile": 2
+      },
+      "showNavigationArrows": "always",
+      "navigationStep": 4,
+      "fullWidth": true
+    }
+  }
+}
