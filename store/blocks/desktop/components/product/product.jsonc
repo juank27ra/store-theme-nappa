@@ -1,0 +1,83 @@
+{
+  "flex-layout.row#desktop__product-content": {
+    "title": "desktop content product page",
+    "children": [
+      "flex-layout.col#desktop__pdp--container"
+    ],
+    "props": {
+      "blockClass": "desktop__product-content"
+    }
+  },
+  "flex-layout.col#desktop__pdp--container": {
+    "title": "desktop feedback pdp",
+    "children": [
+      "flex-layout.row#desktop__pdp--feedback",
+      "flex-layout.row#desktop__pdp--breadcrumb",
+      "flex-layout.row#desktop__product--detail-container",
+      "flex-layout.row#desktop__pdp--deals",
+      "flex-layout.row#desktop__pdp--review-ratings",
+      "rich-text#desktop__pdp--recommendations",
+      "slider-layout#desktop__pdp--vitrine"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--container"
+    }
+  },
+  "flex-layout.row#desktop__pdp--feedback": {
+    "title": "desktop feedback pdp",
+    "children": [
+
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--feedback"
+    }
+  },
+  "flex-layout.row#desktop__pdp--breadcrumb": {
+    "title": "desktop breadcrumb pdp",
+    "children": [
+      "breadcrumb"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--breadcrumb"
+    }
+  },
+  "flex-layout.row#desktop__product--detail-container": {
+    "title": "desktop pdp container",
+    "children": [
+      "flex-layout.col#desktop__product--image",
+      "flex-layout.col#desktop__product--data"
+    ],
+    "props": {
+      "blockClass": "desktop__product--detail-container"
+    }
+  },
+  "flex-layout.row#desktop__pdp--deals": {
+    "title": "desktop deals pdp",
+    "children": [
+      // "flex-layout.col#desktop__pdp--1",
+      // "flex-layout.col#desktop__pdp--2",
+      // "flex-layout.col#desktop__pdp--3"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--deals"
+    }
+  },
+  "flex-layout.row#desktop__pdp--review-ratings": {
+    "title": "desktop review and ratings pdp",
+    "children": [
+      "product-reviews"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--review-ratings"
+    }
+  },
+  "slider-layout#desktop__pdp--vitrine": {
+    "title": "desktop vitrine pdp",
+    "children": [
+
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--vitrine"
+    }
+  }
+}

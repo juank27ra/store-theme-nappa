@@ -1,0 +1,12 @@
+
+{
+  "responsive-layout.desktop#desktop__pdp--nappa": {
+    "title": "pdp nappa desktop",
+    "children": [
+      "flex-layout.row#desktop__product-content"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--nappa"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "rich-text#desktop__pdp--also-available": {
+    "title": "desktop pdp text also available",
+    "props": {
+      "blockClass": "desktop__pdp--also-available",
+      "text": "También disponible:"
+    }
+  },
+  "rich-text#desktop__pdp--recommendations": {
+    "title": "desktop recommendations pdp",
+    "props": {
+      "blockClass": "desktop__pdp--recommendations",
+      "text": "Recomendaciones"
+    }
+  },
+  "rich-text#desktop__pdp--shipping-policies": {
+    "title": "desktop shipping-policies pdp",
+    "props": {
+      "blockClass": "desktop__pdp--shipping-policies",
+      "text": "El tiempo de entrega empezará a contar a partir de la confirmación exitosa del pago, que recibirás en el correo electrónico con el cual realizaste tu compra. [ver políticas]"
+    }
+  },
+
+
+  "rich-text#desktop__pdp--wash":{
+    "title": "desktop shipping-policies pdp",
+    "props": {
+      "blockClass": "desktop__pdp--shipping-policies",
+      "text": "No lavar"
+    }
+  },
+  "rich-text#desktop__pdp--machine":{
+    "title": "desktop shipping-policies pdp",
+    "props": {
+      "blockClass": "desktop__pdp--shipping-policies",
+      "text": "No secar en machina"
+    }
+  },
+  "rich-text#desktop__pdp--iron":{
+    "title": "desktop shipping-policies pdp",
+    "props": {
+      "blockClass": "desktop__pdp--shipping-policies",
+      "text": "No planchar"
+    }
+  },
+  "rich-text#desktop__pdp--bleach":{
+    "title": "desktop shipping-policies pdp",
+    "props": {
+      "blockClass": "desktop__pdp--shipping-policies",
+      "text": "No usar blanqueador"
+    }
+  },
+  "rich-text#desktop__pdp--quoter": {
+    "title": "desktop shipping-policies pdp",
+    "props": {
+      "blockClass": "desktop__pdp--shipping-policies",
+      "text": "Cotizador"
+    }
+  }
+}
