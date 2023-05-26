@@ -75,5 +75,12 @@
       "text": "ENVÍOS A TODO EL PAÍS",
       "blockClass": "desktop__pdp--shipments"
     }
+  },
+  "rich-text#content__form--feedback": {
+    "title": "overlay content form feedback",
+    "props": {
+      "text": "Cuéntanos como fue tu experiencia en el proceso de compra",
+      "blockClass": "content__form--feedback"
+    }
   }
 }

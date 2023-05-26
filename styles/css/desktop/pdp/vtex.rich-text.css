@@ -1,3 +1,7 @@
+.paragraph {
+  font-family: "Poppins-Regular";
+}
+
 .paragraph--desktop__pdp--also-available {
   display       : flex;
   flex-direction: column;
@@ -29,13 +33,31 @@
 .paragraph--desktop__pdp--shipments,
 .paragraph--desktop__pdp--find-brands,
 .paragraph--desktop__pdp--returns-exchanges {
-  margin-left: 10px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #575651;
+  margin-left   : 10px;
+  font-size     : 14px;
+  font-weight   : 700;
+  color         : #575651;
   letter-spacing: 0;
 }
 
 .paragraph--desktop__pdp--recommendations {
   margin: 20px 0 20px 0;
+}
+
+.paragraph--desktop__pdp--shipping-policies {
+  line-height   : 1.5;
+  font-size     : 13px;
+  color         : #575651;
+  letter-spacing: .3px;
+  margin        : 0;
+  font-family   : "Poppins-Regular";
+}
+
+.link--desktop__pdp--shipping-policies {
+  line-height   : 1.5;
+  font-size     : 13px;
+  color         : #dc8079;
+  letter-spacing: .3px;
+  margin        : 0;
+  font-family   : "Poppins-Regular";
 }

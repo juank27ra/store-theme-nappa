@@ -6,17 +6,15 @@
 .accordionIcon--desktop__menuitem-shipping-policies,
 .accordionIcon--desktop__menuitem-description,
 .styledLinkContent--desktop__menuitem-description {
-  /* color: black !important; */
-  width       : calc(100% - 20px);
-  margin-right: 10px;
-  /* display     : block; */
-  word-break  : break-all;
-
+  width         : calc(100% - 20px);
+  margin-right  : 10px;
+  word-break    : break-all;
   cursor        : pointer;
   font-weight   : 700;
   color         : #575651;
   letter-spacing: 0;
   font-size     : 16px;
+  font-family   : "Poppins-Regular";
 }
 
 .accordionIcon--desktop__menuitem-specifications .accordionIcon--isClosed,
@@ -27,17 +25,18 @@
 .accordionIcon--desktop__menuitem-description .accordionIcon--isClosed,
 .styledLinkContent--desktop__menuitem-description .accordionIcon--isClosed,
 .styledLinkContent--desktop__menuitem-care .accordionIcon--isClosed {
-  width       : calc(100% - 20px);
-  margin-right: 10px;
-  display     : block;
-  word-break  : break-all;
-
+  width         : calc(100% - 20px);
+  margin-right  : 10px;
+  display       : block;
+  word-break    : break-all;
+  font-family   : "Poppins-Regular";
   cursor        : pointer;
   font-weight   : 700;
   color         : #575651;
   letter-spacing: 0;
   font-size     : 16px;
 }
+
 .accordionIcon--desktop__menuitem-specifications .accordionIcon--isOpen,
 .styledLinkContent--desktop__menuitem-specifications .accordionIcon--isOpen,
 .accordionIcon--desktop__menuitem-care .accordionIcon--isOpen,
@@ -46,14 +45,43 @@
 .accordionIcon--desktop__menuitem-description .accordionIcon--isOpen,
 .styledLinkContent--desktop__menuitem-description .accordionIcon--isOpen,
 .styledLinkContent--desktop__menuitem-care .accordionIcon--isOpen {
-  width       : calc(100% - 20px);
-  margin-right: 10px;
-  display     : block;
-  word-break  : break-all;
-
+  width         : calc(100% - 20px);
+  margin-right  : 10px;
+  display       : block;
+  word-break    : break-all;
+  font-family   : "Poppins-Regular";
   cursor        : pointer;
   font-weight   : 700;
   color         : #575651;
   letter-spacing: 0;
   font-size     : 16px;
 }
+
+.menuContainer--desktop__container--description :global(.vtex-store-components-3-x-container) {
+  width         : 100% !important;
+  margin-top    : 10px;
+  margin-bottom : 0 !important;
+  line-height   : 1.5;
+  font-size     : 13px;
+  color         : #575651;
+  letter-spacing: .3px;
+  font-family   : "Poppins-Regular";
+}
+
+.menuItem--desktop__menuitem-description :nth-child(2n) {
+  height: 100%;
+}
+
+.menuContainer--desktop__container--rich-text-care {
+  display       : flex;
+  flex-direction: column;
+  width         : auto;
+  margin        : 0;
+  padding       : 0;
+  font-family   : "Poppins-Regular";
+}
+
+/* .menuItem--desktop__menuitem-specifications :nth-child(2n) {
+  overflow       : scroll;
+  scroll-behavior: smooth;
+} */

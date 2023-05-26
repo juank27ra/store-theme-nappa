@@ -1,3 +1,23 @@
 .paginationDotsContainer--desktop__pdp--vitrine .paginationDot--isActive {
   background-color: black;
 }
+
+.sliderLeftArrow--desktop__pdp--vitrine {
+  left : -30px;
+  color: gray;
+}
+
+.sliderRightArrow--desktop__pdp--vitrine {
+  right : -30px;
+  color: gray;
+}
+
+.sliderTrack--desktop__pdp--vitrine {
+  gap: 10px;
+}
+
+@media screen and (max-width: 728px){
+  .sliderTrack--desktop__pdp--vitrine {
+    gap: 20px;
+  }
+}

@@ -2,6 +2,10 @@
   width: 75%;
 }
 
+.flexCol--desktop__pdp--container {
+  margin-top: -145px;
+}
+
 .flexRow--desktop__breadcrumb {
   max-width: 1400px;
   margin   : 0 auto;
@@ -51,12 +55,12 @@
   border-radius   : initial;
 }
 
-.flexColChild--desktop__product--data .flexRowContent--desktop__pdp--buy-button .stretchChildrenWidth:first-child {
+.flexRowContent--desktop__pdp--buy-button .stretchChildrenWidth:first-child {
   width  : calc(100% - 80px) !important;
   padding: 0 !important;
 }
 
-.flexColChild--desktop__product--data .flexRowContent--desktop__pdp--buy-button .stretchChildrenWidth:nth-child(2n) {
+.flexRowContent--desktop__pdp--buy-button .stretchChildrenWidth:nth-child(2n) {
   width      : 80px !important;
   margin-left: 10px;
 }
@@ -112,14 +116,6 @@
 
 } */
 
-/* feedback */
-.flexRow--desktop__pdp--overlay-feedback {
-  z-index  : 100;
-  top      : 50%;
-  left     : 0;
-  transform: translateY(-50%);
-}
-
 /*reviews*/
 .flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-container) {
   max-width: none;
@@ -147,6 +143,7 @@
   border-bottom: 2px solid #e4e4e4;
   padding-top  : 10px;
 }
+
 .flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-container) {
   border-bottom: 1px solid #e4e4e4;
 }
@@ -154,32 +151,95 @@
 .flexRow--desktop__pdp--shipments-image .stretchChildrenWidth:first-child,
 .flexRow--desktop__pdp--returns-exchanges-image .stretchChildrenWidth:first-child,
 .flexRow--desktop__pdp--find-brands-image .stretchChildrenWidth:first-child {
-  height: 60px;
-  width: 40px;
+  height   : 60px;
+  width    : 40px;
   max-width: none;
 }
 
 
 .flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-writeReviewButton) {
-  color: grey;
+  color      : grey;
+  font-family: "Poppins-Regular";
 }
+
 .flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-writeReviewButton):hover {
-  color: #ded140;
+  color      : #ded140;
+  font-family: "Poppins-Regular";
 }
 
 .flexRowContent--desktop__pdp--review-ratings :global(.vtex__icon-caret-up),
-.flexRowContent--desktop__pdp--review-ratings :global(.vtex__icon-caret-down){
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex__icon-caret-down) {
   color: gray;
 }
 
 .flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-starpicker) {
   color: gray;
 }
+
 .flexRowContent--desktop__pdp--review-ratings :global(.vtex-button) {
   background-color: #000;
-  border-color: #000;
+  border-color    : #000;
 }
 
-.flexColChild--section_left_pdp :global(.vtex-store-components-3-x-swiperBullet--active ) {
+.flexColChild--section_left_pdp :global(.vtex-store-components-3-x-swiperBullet--active) {
   background-color: gray;
+}
+
+/* .flexColChild--desktop__product--data :global(.vtex-menu-2-x-menuItemInnerDiv) {
+  width : 210%;
+  height: 35px;
+} */
+
+.flexColChild--desktop__product--data :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0;
+}
+
+.flexColChild--desktop__product--data :global(.vtex-menu-2-x-styledLink) {
+  width: 100%;
+}
+
+.flexColChild--desktop__product--data :global(.vtex-menu-2-x-accordionIcon) {
+  display        : flex;
+  justify-content: end;
+}
+
+.flexColChild--desktop__product--data .stretchChildrenWidth {
+  padding  : 0;
+  max-width: none;
+  display  : contents;
+}
+
+.flexRowContent--desktop__pdp--buy-button :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  visibility: hidden;
+}
+
+.flexRowContent--desktop__pdp--buy-button :global(.vtex-add-to-cart-button-0-x-buttonText)::after {
+  visibility    : visible;
+  content       : "AÑADIR A LA BOLSA";
+  font-family   : "Poppins-Regular";
+  font-size     : 14px;
+  letter-spacing: .5px;
+  font-weight   : 700;
+  position      : relative;
+}
+
+.flexRowContent--desktop__pdp--deals {
+  padding-bottom: 25px !important;
+}
+
+
+/* .flexCol--desktop__product--data {
+  overflow-y: visible;
+  overflow-y: scroll;
+} */
+
+
+
+
+/* feedback */
+.flexRow--desktop__pdp--overlay-feedback {
+  z-index  : 100;
+  top      : 50%;
+  left     : 0;
+  transform: translateY(-50%);
 }
