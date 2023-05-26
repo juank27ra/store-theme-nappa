@@ -1,0 +1,63 @@
+.paragraph {
+  font-family: "Poppins-Regular";
+}
+
+.paragraph--desktop__pdp--also-available {
+  display       : flex;
+  flex-direction: column;
+  margin-bottom : -6px;
+  color         : #575651;
+  font-size     : 14px;
+  font-weight   : 700;
+}
+
+.wrapper--desktop__pdp--recommendations {
+  color         : #575651;
+  letter-spacing: 0;
+  font-size     : 16px;
+  font-weight   : 700;
+}
+
+.container--desktop__pdp--recommendations {
+  display        : flex;
+  justify-content: center;
+}
+
+.container--desktop__pdp--shipments,
+.container--desktop__pdp--find-brands,
+.container--desktop__pdp--returns-exchanges {
+  display        : flex;
+  justify-content: center;
+}
+
+.paragraph--desktop__pdp--shipments,
+.paragraph--desktop__pdp--find-brands,
+.paragraph--desktop__pdp--returns-exchanges {
+  margin-left   : 10px;
+  font-size     : 14px;
+  font-weight   : 700;
+  color         : #575651;
+  letter-spacing: 0;
+}
+
+.paragraph--desktop__pdp--recommendations {
+  margin: 20px 0 20px 0;
+}
+
+.paragraph--desktop__pdp--shipping-policies {
+  line-height   : 1.5;
+  font-size     : 13px;
+  color         : #575651;
+  letter-spacing: .3px;
+  margin        : 0;
+  font-family   : "Poppins-Regular";
+}
+
+.link--desktop__pdp--shipping-policies {
+  line-height   : 1.5;
+  font-size     : 13px;
+  color         : #dc8079;
+  letter-spacing: .3px;
+  margin        : 0;
+  font-family   : "Poppins-Regular";
+}

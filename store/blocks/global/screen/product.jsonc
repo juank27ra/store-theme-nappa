@@ -2,8 +2,8 @@
   "store.product": {
     "title": "global store product",
     "children": [
-      "responsive-layout.desktop#desktop__pdp--nappa"
-      // "responsive-layout.mobile#mobile__pdp--nappa"
+      "responsive-layout.desktop#desktop__pdp--nappa",
+      "responsive-layout.mobile#mobile__pdp--nappa"
     ],
     "props": {
       "blockClass": "global__store--product"

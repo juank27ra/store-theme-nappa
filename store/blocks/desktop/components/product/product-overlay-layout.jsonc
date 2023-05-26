@@ -1,0 +1,53 @@
+{
+  "overlay-trigger#desktop__trigger--feedback": {
+    "children": [
+      "image#trigger__feedback",
+      "overlay-layout#overlay__content--feedback-pdp"
+    ]
+  },
+  "overlay-layout#overlay__content--feedback-pdp": {
+    "title": "overlay content feedback pdp",
+    "props": {
+      "blockClass": "overlay__content--feedback-pdp",
+      "placement": "right"
+    },
+    "children": [
+      "flex-layout.col#desktop__form--feedback"
+    ]
+  },
+  "flex-layout.col#desktop__form--feedback": {
+    "title": "col feedback container",
+    "children": [
+      "flex-layout.row#desktop__form--feedback-title",
+      "flex-layout.row#desktop__form--feedback-button",
+      "flex-layout.row#desktop__form--feedback-logo"
+    ]
+  },
+  "flex-layout.row#desktop__form--feedback-title": {
+    "title": "text top feedback internal",
+    "children": [
+      "rich-text#content__form--feedback"
+    ],
+    "props": {
+      "blockClass": "desktop__form--feedback-title"
+    }
+  },
+  "flex-layout.row#desktop__form--feedback-button": {
+    "title": "link feedback internal",
+    "children": [
+      "link#overlay__pdp--link"
+    ],
+    "props": {
+      "blockClass": "desktop__form--feedback-button"
+    }
+  },
+  "flex-layout.row#desktop__form--feedback-logo": {
+    "title": "logo feedback internal",
+    "children": [
+      "image#pdp__feedback--logo"
+    ],
+    "props": {
+      "blockClass": "desktop__form--feedback-logo"
+    }
+  }
+}

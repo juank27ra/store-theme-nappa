@@ -14,18 +14,22 @@
       "vtex.store-components:product-name",
       "product-identifier.product",
       "product-price",
-      "rich-text#desktop__pdp--quoter",
-      "product-separator",
-      "product-quantity",
+      // "rich-text#desktop__pdp--quoter",
       "sku-selector",
+      "product-quantity",
       "flex-layout.row#desktop__pdp--buy-button",
       // "orderquote",
-      "disclosure-layout#desktop__disclosure--credit-simulation",                //
+      // "disclosure-layout#desktop__disclosure--credit-simulation",                //
       "rich-text#desktop__pdp--also-available",
-      "flex-layout.row#desktop__pdp--specifications",
+      "product-separator",
       "flex-layout.row#desktop__pdp--description",
+      "product-separator",
+      "flex-layout.row#desktop__pdp--specifications",
+      "product-separator",
       "flex-layout.row#desktop__pdp--shipping-policies",
+      "product-separator",
       "flex-layout.row#desktop__pdp--care",
+      "product-separator",
       "share"
     ],
     "props": {

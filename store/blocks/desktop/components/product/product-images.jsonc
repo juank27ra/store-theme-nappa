@@ -26,5 +26,12 @@
       "src": "assets/img/Home/products/Feedback-pdp-logo.png",
       "blockClass": "pdp__feedback--logos"
     }
+  },
+  "image#trigger__feedback": {
+    "title": "text trigger__feedback pdp",
+    "props": {
+      "blockClass": "trigger__feedback",
+      "src": "assets/img/Home/products/Feedback__pdp--trigger.png"
+    }
   }
 }

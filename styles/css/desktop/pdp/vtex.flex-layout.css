@@ -1,19 +1,245 @@
+.flexRow--desktop__product-content :global(.vtex-store-components-3-x-container) {
+  width: 75%;
+}
+
+.flexCol--desktop__pdp--container {
+  margin-top: -145px;
+}
+
 .flexRow--desktop__breadcrumb {
   max-width: 1400px;
-  margin: 0 auto;
-  width: 90%;
+  margin   : 0 auto;
+  width    : 90%;
 }
+
+.flexRow--desktop__pdp--buy-button {
+  margin-right: 15px;
+}
+
 .flexRow--desktop__product--detail-container {
-  margin-top: 0.75rem;
-    margin-bottom: 115px;
-    padding: 0;
-    height: 100%;
+  margin-top   : 0.75rem;
+  margin-bottom: 115px;
+  padding      : 0;
+  height       : 100%;
 }
 
 .flexRowContent--desktop__product--detail-container .stretchChildrenWidth:first-child {
-  width: 55% !important;
+  width        : 55% !important;
   padding-right: 2rem;
 }
+
 .flexRowContent--desktop__product--detail-container .stretchChildrenWidth:nth-child(2n) {
-width: 45% !important;
+  width: 45% !important;
+}
+
+/* review and ratings */
+.flexColChild--desktop__pdp--container :global(.vtex-reviews-and-ratings-3-x-reviewCommentsContainer),
+.flexColChild--desktop__pdp--container :global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy),
+.flexColChild--desktop__pdp--container :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+  display: none;
+}
+
+/* quantity selector */
+.flexColChild--desktop__product--data :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+  font-size    : 14px;
+  font-weight  : 600;
+  color        : #575651;
+  margin-bottom: 6px;
+}
+
+/* add btn  */
+.flexRowContent--desktop__pdp--buy-button .stretchChildrenWidth:first-child :global(.vtex-button) {
+  padding         : 10px;
+  background-color: #000;
+  border          : none;
+  border-radius   : initial;
+}
+
+.flexRowContent--desktop__pdp--buy-button .stretchChildrenWidth:first-child {
+  width  : calc(100% - 80px) !important;
+  padding: 0 !important;
+}
+
+.flexRowContent--desktop__pdp--buy-button .stretchChildrenWidth:nth-child(2n) {
+  width      : 80px !important;
+  margin-left: 10px;
+}
+
+.flexRowContent--desktop__pdp--buy-button :global(.vtex-wish-list-1-x-wishlistIcon) {
+  visibility       : visible;
+  content          : "";
+  width            : 25px;
+  height           : 25px;
+  font-size        : 25px;
+  background       : url("assets/img/Home/search-result/icon__wish--list.svg");
+  background-size  : contain;
+  background-repeat: no-repeat;
+  display          : block;
+  transition       : all .2s;
+}
+
+.flexRowContent--desktop__pdp--buy-button :global(.vtex-wish-list-1-x-wishlistIcon):hover {
+  width            : 25px;
+  height           : 25px;
+  font-size        : 25px;
+  background-image : url("assets/img/Home/search-result/search__result--heart-icon.svg");
+  background-size  : contain;
+  background-repeat: no-repeat;
+  display          : block;
+  transition       : all .2s;
+  background-color : transparent;
+}
+
+.flexRowContent--desktop__pdp--buy-button :global(.vtex-wish-list-1-x-fill) {
+  width            : 25px;
+  height           : 25px;
+  font-size        : 25px;
+  background       : url("assets/img/Home/search-result/search__result--heart-icon.svg");
+  background-size  : contain;
+  background-repeat: no-repeat;
+  display          : block;
+  transition       : all .2s;
+}
+
+.flexRowContent--desktop__pdp--buy-button {
+  margin-bottom: 24px;
+}
+
+.flexRowContent--desktop__pdp--description .stretchChildrenWidth {
+  padding  : none !important;
+  width    : 100% !important;
+  max-width: none !important;
+}
+
+/* image  */
+/* .flexRow--desktop__product-content .flexColChild :global(.vtex-store-components-3-x-productImagesThumbActive) {
+
+} */
+
+/*reviews*/
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-container) {
+  max-width: none;
+  margin   : 30px auto 0;
+}
+
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+  font-size    : 0;
+  border       : none;
+  margin-bottom: 0;
+}
+
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-reviewsHeading)::after {
+  content       : "Reseñas";
+  color         : #575651;
+  letter-spacing: 0;
+  font-weight   : 700;
+  font-size     : 16px;
+  border        : none;
+}
+
+.flexColChild--desktop__pdp--container .flexRow--desktop__pdp--deals {
+  background   : none;
+  border-top   : 2px solid #e4e4e4;
+  border-bottom: 2px solid #e4e4e4;
+  padding-top  : 10px;
+}
+
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-container) {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.flexRow--desktop__pdp--shipments-image .stretchChildrenWidth:first-child,
+.flexRow--desktop__pdp--returns-exchanges-image .stretchChildrenWidth:first-child,
+.flexRow--desktop__pdp--find-brands-image .stretchChildrenWidth:first-child {
+  height   : 60px;
+  width    : 40px;
+  max-width: none;
+}
+
+
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-writeReviewButton) {
+  color      : grey;
+  font-family: "Poppins-Regular";
+}
+
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-writeReviewButton):hover {
+  color      : #ded140;
+  font-family: "Poppins-Regular";
+}
+
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex__icon-caret-up),
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex__icon-caret-down) {
+  color: gray;
+}
+
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex-reviews-and-ratings-3-x-starpicker) {
+  color: gray;
+}
+
+.flexRowContent--desktop__pdp--review-ratings :global(.vtex-button) {
+  background-color: #000;
+  border-color    : #000;
+}
+
+.flexColChild--section_left_pdp :global(.vtex-store-components-3-x-swiperBullet--active) {
+  background-color: gray;
+}
+
+/* .flexColChild--desktop__product--data :global(.vtex-menu-2-x-menuItemInnerDiv) {
+  width : 210%;
+  height: 35px;
+} */
+
+.flexColChild--desktop__product--data :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0;
+}
+
+.flexColChild--desktop__product--data :global(.vtex-menu-2-x-styledLink) {
+  width: 100%;
+}
+
+.flexColChild--desktop__product--data :global(.vtex-menu-2-x-accordionIcon) {
+  display        : flex;
+  justify-content: end;
+}
+
+.flexColChild--desktop__product--data .stretchChildrenWidth {
+  padding  : 0;
+  max-width: none;
+  display  : contents;
+}
+
+.flexRowContent--desktop__pdp--buy-button :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  visibility: hidden;
+}
+
+.flexRowContent--desktop__pdp--buy-button :global(.vtex-add-to-cart-button-0-x-buttonText)::after {
+  visibility    : visible;
+  content       : "AÑADIR A LA BOLSA";
+  font-family   : "Poppins-Regular";
+  font-size     : 14px;
+  letter-spacing: .5px;
+  font-weight   : 700;
+  position      : relative;
+}
+
+.flexRowContent--desktop__pdp--deals {
+  padding-bottom: 25px !important;
+}
+
+
+/* .flexCol--desktop__product--data {
+  overflow-y: visible;
+  overflow-y: scroll;
+} */
+
+
+
+
+/* feedback */
+.flexRow--desktop__pdp--overlay-feedback {
+  z-index  : 100;
+  top      : 50%;
+  left     : 0;
+  transform: translateY(-50%);
 }
