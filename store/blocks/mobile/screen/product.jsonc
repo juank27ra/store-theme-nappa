@@ -1,0 +1,11 @@
+{
+  "responsive-layout.mobile#mobile__pdp--nappa": {
+    "title": "pdp nappa mobile",
+    "children": [
+      "flex-layout.row#mobile__product-content"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--nappa"
+    }
+  }
+}

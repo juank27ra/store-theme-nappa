@@ -1,0 +1,18 @@
+.reviewsHeading {
+  font-size    : 0;
+  border       : none;
+  margin-bottom: 0;
+}
+
+.reviewsHeading::after {
+  content       : "Reseñas";
+  color         : #575651;
+  letter-spacing: 0;
+  font-weight   : 700;
+  font-size     : 16px;
+  border        : none;
+}
+
+.formSubmit :global(.vtex-button) {
+  background-color: black;
+}

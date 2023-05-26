@@ -1,0 +1,80 @@
+.flexColChild--mobile__product--detail-container :global(.vtex-store-components-3-x-carouselGaleryThumbs) {
+  display: none;
+}
+
+.flexRow--mobile__product-content {
+  max-width: none;
+  width    : 100%;
+  margin   : 0;
+  padding  : 0;
+}
+
+.flexRow--mobile__product-content :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRow--mobile__product--detail-container {
+  width : 95%;
+  margin: auto;
+}
+
+.flexColChild--mobile__product--detail-container :global(.vtex-store-components-3-x-productNameContainer) {
+  text-align: center;
+  margin    : 10px 0;
+}
+
+.flexRowContent--mobile__product-content .flexRow--desktop__pdp--breadcrumb {
+  background-color: #efefef
+}
+
+.flexRowContent--mobile__product-content :global(.vtex-breadcrumb-1-x-container--global__breadcrumb__product) {
+  padding: 0 15px;
+}
+
+.flexRowContent--mobile__product-content :global(.vtex-product-identifier-0-x-product-identifier) {
+  padding: 10px 0;
+}
+
+.flexRowContent--mobile__product-content :global(.vtex-store-components-3-x-shareContainer),
+.flexRowContent--mobile__product-content :global(.vtex-reviews-and-ratings-3-x-container),
+.flexRowContent--mobile__product-content .flexRow--desktop__pdp--deals,
+.flexRowContent--mobile__product-content .flexColChild--desktop__pdp--container {
+  width : 95%;
+  margin: auto;
+}
+
+.flexRowContent--mobile__product-content :global(.vtex-store-components-3-x-shareContainer) {
+  margin-bottom: 20px;
+}
+
+.flexCol--mobile__product--detail-container :global(.vtex-store-components-3-x-carouselGaleryCursor) {
+  margin : 0;
+  padding: 0;
+}
+
+.flexCol--mobile__product--detail-container :global(.vtex-store-components-3-x-carouselContainer) {
+  display        : flex;
+  justify-content: center;
+}
+
+.flexRowContent--mobile__product-content .flexRowContent--desktop__pdp--deals {
+  display: flex;
+}
+
+.flexRowContent--mobile__product-content :global(.vtex-rich-text-0-x-paragraph--desktop__pdp--shipments),
+.flexRowContent--mobile__product-content :global(.vtex-rich-text-0-x-paragraph--desktop__pdp--find-brands),
+.flexRowContent--mobile__product-content :global(.vtex-rich-text-0-x-paragraph--desktop__pdp--returns-exchanges) {
+  text-align: center;
+}
+
+/* .flexRowContent--mobile__product-content .stretchChildrenWidth .flexColChild--desktop__pdp--container .sliderTrack--desktop__pdp--vitrine {
+  gap: 20px;
+} */
+
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  .flexCol--mobile__product--detail-container :global(.vtex-store-components-3-x-carouselContainer) {
+    display        : flex !important;
+    justify-content: center !important;
+  }
+}

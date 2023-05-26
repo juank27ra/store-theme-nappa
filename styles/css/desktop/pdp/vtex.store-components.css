@@ -1,0 +1,94 @@
+.productDescriptionContainer {
+  display: block;
+}
+
+.productDescriptionTitle {
+  display: none !important;
+}
+
+/* product Name  */
+.productNameContainer {
+  font-size     : 18px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color         : #575651;
+  font-weight   : 800;
+  font-family: "Poppins-Regular";
+}
+
+/* product price */
+.sellingPriceValue {
+  font-size     : 18px;
+  font-weight   : 700;
+  color         : #000;
+  letter-spacing: .9px;
+  padding       : 20px 3px 0 0;
+}
+
+/* sku  */
+.skuSelectorName {
+  font-weight: 700;
+  color      : #575651;
+  font-size  : 0.875rem;
+}
+
+.skuSelectorNameContainer {
+  margin-top : 30px;
+  margin-left: 0;
+}
+
+/* share  */
+.shareContainer .shareButtons .shareSocialButton--pinterest,
+.shareContainer .shareButtons .shareSocialButton--twitter {
+  display: none;
+}
+
+/* size */
+.valueWrapper--global__sku--selector {
+  font-size: 11px;
+}
+
+/* images */
+.vtex-store-components-3-x-productImagesThumbActive .figure {
+  border       : 2px solid #e7dc61;
+  border-radius: 2px;
+}
+
+/* vitrine image pagination*/
+.swiper-pagination .swiperBullet--active {
+  background-color: gray;
+}
+
+/* .shareContainer .shareButtons .shareSocialIcon--whatsapp:nth-child(3n)  {
+  visibility: hidden;
+  background-color: blue;
+  fill: #575651 !important;
+  color: red;
+} */
+/* .shareContainer .shareButtons .shareSocialIcon--whatsapp::after {
+  visibility: visible;
+  content: "";
+  background-image: url("assets/img/Home/products/btn_whatsapp.png");
+  background-repeat: no-repeat;
+  background-size  : cover;
+  vertical-align   : middle;
+} */
+
+.shareLabel {
+  margin        : 10px 0;
+  color         : #575651;
+  font-weight   : 700;
+  letter-spacing: 0;
+  font-size     : 16px;
+  font-family   : "Poppins-Bold";
+}
+
+.caretIcon,
+.swiperCaretNext {
+  color: gray;
+  right: -6.5px;
+}
+
+.productDescriptionText .content {
+  width: 100% !important;
+}

@@ -1,0 +1,30 @@
+{
+  "disclosure-layout#desktop__disclosure--credit-simulation": {
+    "title": "desktop disclosure layout credit-simulation pdp",
+    "children": [
+      "disclosure-trigger#desktop__disclosure--pdp-link",
+      "disclosure-content#desktop__disclosure--pdp-credit"
+    ],
+    "props": {
+      "blockClass": "desktop__disclosure--credit-simulation"
+    }
+  },
+  "disclosure-trigger#desktop__disclosure--pdp-link": {
+    "title": "desktop trigger pdp",
+    "children": [
+      "link#disclosure__pdp--link"
+    ],
+    "props": {
+      "blockClass": "desktop__disclosure--pdp-link"
+    }
+  },
+  "disclosure-content#desktop__disclosure--pdp-credit": {
+    "title": "disclosure content pdp simulation credit",
+    "children": [
+      "shipping-simulator"
+    ],
+    "props": {
+      "blockClass": "desktop__disclosure--pdp-credit"
+    }
+  }
+}

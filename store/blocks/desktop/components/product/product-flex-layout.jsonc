@@ -1,0 +1,87 @@
+{
+  "flex-layout.col#desktop__product--image": {
+    "title": "col left global product image",
+    "children": [
+      "product-images"
+    ],
+    "props": {
+      "blockClass": "desktop__product--image"
+    }
+  },
+  "flex-layout.col#desktop__product--data": {
+    "title": "col right global product data",
+    "children": [
+      "vtex.store-components:product-name",
+      "product-identifier.product",
+      "product-price",
+      // "rich-text#desktop__pdp--quoter",
+      "sku-selector",
+      "product-quantity",
+      "flex-layout.row#desktop__pdp--buy-button",
+      // "orderquote",
+      // "disclosure-layout#desktop__disclosure--credit-simulation",                //
+      "rich-text#desktop__pdp--also-available",
+      "product-separator",
+      "flex-layout.row#desktop__pdp--description",
+      "product-separator",
+      "flex-layout.row#desktop__pdp--specifications",
+      "product-separator",
+      "flex-layout.row#desktop__pdp--shipping-policies",
+      "product-separator",
+      "flex-layout.row#desktop__pdp--care",
+      "product-separator",
+      "share"
+    ],
+    "props": {
+      "blockClass": "desktop__product--data"
+    }
+  },
+  "flex-layout.row#desktop__pdp--buy-button": {
+    "title": "desktop btn buy and add-to list",
+    "children": [
+      // "buy-bu}tton",
+      "add-to-cart-button",
+      "add-to-list-btn"
+      // "product-add-to-list-button"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--buy-button"
+    }
+  },
+  "flex-layout.row#desktop__pdp--description": {
+    "title": "flex pdp description",
+    "children": [
+      "menu#desktop__menu--description-main"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--description"
+    }
+  },
+  "flex-layout.row#desktop__pdp--shipping-policies": {
+    "title": "flex pdp shipping-policies",
+    "children": [
+      "menu#menu__shipping--policies-main"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--shipping-policies"
+    }
+  },
+  "flex-layout.row#desktop__pdp--care": {
+    "title": "flex pdp care",
+    "children": [
+      "menu#menu__care--main"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--care"
+    }
+  },
+  "flex-layout.row#desktop__pdp--specifications": {
+    "title": "flex pdp specifications",
+    "children": [
+      "menu#menu__specifications--main"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--specifications"
+    }
+  }
+}
