@@ -1,0 +1,7 @@
+.wishlistIconContainer--wish__list-btn :global(.vtex-button__label) {
+  margin-right: 28px;
+}
+
+.vtex-wish-list-1-x-wishlistIconContainer--wish__list-btn :global(.vtex-button) {
+  background-color: transparent;
+}

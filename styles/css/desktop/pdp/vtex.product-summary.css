@@ -1,0 +1,4 @@
+.buyButtonContainer :global(.vtex-button) {
+  background: black;
+  border-color: black;
+}

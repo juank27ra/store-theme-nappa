@@ -234,7 +234,8 @@
   },
   "list-context.product-list#desktop__pdp--product-summary": {
     "title": "desktop list context product list container",
-    "blocks": ["product-summary.shelf"],    //#desktop__pdp--summary-shelf-container
+    // "blocks": ["product-summary.shelf"],    //#desktop__pdp--summary-shelf-container
+    "blocks": ["product-summary.shelf#product__summary--content"],    //#desktop__pdp--summary-shelf-container
     "children": [
       "slider-layout#desktop__pdp--vitrine"
     ],

@@ -6,5 +6,54 @@
 .accordionIcon--desktop__menuitem-shipping-policies,
 .accordionIcon--desktop__menuitem-description,
 .styledLinkContent--desktop__menuitem-description {
-  color: black !important;
+  /* color: black !important; */
+  width       : calc(100% - 20px);
+  margin-right: 10px;
+  /* display     : block; */
+  word-break  : break-all;
+
+  cursor        : pointer;
+  font-weight   : 700;
+  color         : #575651;
+  letter-spacing: 0;
+  font-size     : 16px;
+}
+
+.accordionIcon--desktop__menuitem-specifications .accordionIcon--isClosed,
+.styledLinkContent--desktop__menuitem-specifications .accordionIcon--isClosed,
+.accordionIcon--desktop__menuitem-care .accordionIcon--isClosed,
+.styledLinkContent--desktop__menuitem-shipping-policies .accordionIcon--isClosed,
+.accordionIcon--desktop__menuitem-shipping-policies .accordionIcon--isClosed,
+.accordionIcon--desktop__menuitem-description .accordionIcon--isClosed,
+.styledLinkContent--desktop__menuitem-description .accordionIcon--isClosed,
+.styledLinkContent--desktop__menuitem-care .accordionIcon--isClosed {
+  width       : calc(100% - 20px);
+  margin-right: 10px;
+  display     : block;
+  word-break  : break-all;
+
+  cursor        : pointer;
+  font-weight   : 700;
+  color         : #575651;
+  letter-spacing: 0;
+  font-size     : 16px;
+}
+.accordionIcon--desktop__menuitem-specifications .accordionIcon--isOpen,
+.styledLinkContent--desktop__menuitem-specifications .accordionIcon--isOpen,
+.accordionIcon--desktop__menuitem-care .accordionIcon--isOpen,
+.styledLinkContent--desktop__menuitem-shipping-policies .accordionIcon--isOpen,
+.accordionIcon--desktop__menuitem-shipping-policies .accordionIcon--isOpen,
+.accordionIcon--desktop__menuitem-description .accordionIcon--isOpen,
+.styledLinkContent--desktop__menuitem-description .accordionIcon--isOpen,
+.styledLinkContent--desktop__menuitem-care .accordionIcon--isOpen {
+  width       : calc(100% - 20px);
+  margin-right: 10px;
+  display     : block;
+  word-break  : break-all;
+
+  cursor        : pointer;
+  font-weight   : 700;
+  color         : #575651;
+  letter-spacing: 0;
+  font-size     : 16px;
 }
