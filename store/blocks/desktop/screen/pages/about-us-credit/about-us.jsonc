@@ -1,0 +1,13 @@
+{
+  "responsive-layout.desktop#desktop__store--custom": {
+    "title": "store custom desktop about-us container",
+    "children": [
+      // "flex-layout.row#desktop__custom--image-main",
+      // "flex-layout.row#desktop__custom--image-benefits",
+      // "flex-layout.row#store__custom--disclosures"
+    ],
+    "props": {
+      "blockClass": "desktop__store--custom"
+    }
+  }
+}

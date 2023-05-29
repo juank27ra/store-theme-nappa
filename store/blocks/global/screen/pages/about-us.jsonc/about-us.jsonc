@@ -1,0 +1,12 @@
+{
+  "store.custom#about-us": {
+    "title": "store custom abous-ud content",
+    "blocks": [
+      "responsive-layout.desktop#desktop__custom--about-us",
+      "responsive-layout.mobile#mobile__custom--about-us"
+    ],
+    "props": {
+      "blockClass": "about-us"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#store__custom--text-title": {
+    "title": "store custom row text-title",
+    "children": [
+      "rich-text#custom__rich--text-title"
+    ],
+    "props": {
+      "blockClass": "store__custom--text-title"
+    }
+  },
+  "flex-layout.row#store__custom--text-subtitle": {
+    "title": "store custom row text subtitle",
+    "children": [
+      "rich-text#custom__rich--text-subtitle"
+    ],
+    "props": {
+      "blockClass": "store__custom--text-subtitle"
+    }
+  },
+  "flex-layout.row#store__custom--text-pagraph-top": {
+    "title": "store custom row text pagraph top",
+    "children": [
+      "rich-text#custom__rich--text-pagraph-top"
+    ],
+    "props": {
+      "blockClass": "store__custom--text-pagraph-top"
+    }
+  },
+  "flex-layout.row#store__custom--text-subtitle-about": {
+    "title": "store custom row text subtitle-about",
+    "children": [
+      "rich-text#custom__rich--text-subtitle-about"
+    ],
+    "props": {
+      "blockClass": "store__custom--text-subtitle-about"
+    }
+  },
+  "flex-layout.row#store__custom--text-paragraph-medium": {
+    "title": "store custom row text-paragraph medium",
+    "children": [
+      "rich-text#custom__rich--text-paragraph-medium"
+    ],
+    "props": {
+      "blockClass": "store__custom--text-paragraph-medium"
+    }
+  },
+  "flex-layout.row#store__custom--text-paragraph-down": {
+    "title": "store custom row text-title",
+    "children": [
+      "rich-text#custom__rich--text-paragraph-down"
+    ],
+    "props": {
+      "blockClass": "store__custom--text-paragraph-down"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.wrapper--custom__rich--text-title {
+  margin: 0 auto;
+}
+
+.paragraph--custom__rich--text-title {
+  font-weight   : 700;
+  font-size     : 20px;
+  text-align    : center;
+  text-transform: uppercase;
+  position      : relative;
+}
+
+.paragraph--custom__rich--text-title::before {
+  visibility: visible;
+  width: 60%;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #eee495;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+}
+
+.container--custom__rich--text-title {
+  margin: 30px 0 30px 0;
+}
+
+.paragraph--custom__rich--text-subtitle-about,
+.paragraph--custom__rich--text-subtitle {
+  font-weight: 500;
+}

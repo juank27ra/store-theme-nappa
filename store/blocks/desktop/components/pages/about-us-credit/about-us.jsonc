@@ -1,0 +1,20 @@
+{
+  // "flex-layout.row#desktop__custom--image-main": {
+  //   "title": "store custom row image main",
+  //   "children": [
+  //     "image#desktop__custom--image-main"
+  //   ],
+  //   "props": {
+  //     "blockClass": "desktop__custom--image-main"
+  //   }
+  // },
+  // "flex-layout.row#desktop__custom--image-benefits": {
+  //   "title": "store custom row image benefits",
+  //   "children": [
+  //     "image#desktop__custom--image-benefits"
+  //   ],
+  //   "props": {
+  //     "blockClass": "desktop__custom--image-benefits"
+  //   }
+  // }
+}

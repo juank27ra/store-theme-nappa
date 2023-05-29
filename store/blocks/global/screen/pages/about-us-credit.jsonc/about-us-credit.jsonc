@@ -1,0 +1,12 @@
+{
+  "store.custom#about-us-credit": {
+    "title": "store custom abous-ud content",
+    "blocks": [
+      "responsive-layout.desktop#desktop__store--custom",
+      "responsive-layout.mobile#mobile__store--custom"
+    ],
+    "props": {
+      "blockClass": "about-us-credit"
+    }
+  }
+}

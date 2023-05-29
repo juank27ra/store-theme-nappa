@@ -1,0 +1,16 @@
+{
+  "responsive-layout.desktop#desktop__custom--about-us": {
+    "title": "store custom desktop about-us",
+    "children": [
+      "flex-layout.row#store__custom--text-title",
+      "flex-layout.row#store__custom--text-subtitle",
+      "flex-layout.row#store__custom--text-pagraph-top",
+      "flex-layout.row#store__custom--text-subtitle-about",
+      "flex-layout.row#store__custom--text-paragraph-medium",
+      "flex-layout.row#store__custom--text-paragraph-down"
+    ],
+    "props": {
+      "blockClass": "desktop__custom--about-us"
+    }
+  }
+}

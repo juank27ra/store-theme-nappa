@@ -1,0 +1,15 @@
+.flexColChild--store__custom--col-disclosures {
+  display: contents;
+}
+
+.flexRow--store__custom--disclosures :global(.vtex-store-components-3-x-container){
+  padding: 0;
+}
+
+.flexColChild--store__custom--col-disclosures :global(.vtex-disclosure-layout-1-x-trigger) {
+  display        : flex;
+  justify-content: center;
+  background     : black;
+  margin         : 5px 0;
+  line-height    : 1.5px;
+}

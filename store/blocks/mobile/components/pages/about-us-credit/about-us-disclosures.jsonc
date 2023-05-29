@@ -1,0 +1,161 @@
+
+{
+  "flex-layout.col#store__custom--col-disclosures": {
+    "title": "store custom flex col content disclosures",
+    "children": [
+      "disclosure-layout-group#custom__disclosure--group"
+    ],
+    "props": {
+      "blockClass": "store__custom--col-disclosures"
+    }
+  },
+  "disclosure-layout-group#custom__disclosure--group": {
+    "title": "disclosure layout container",
+    "children": [
+      "disclosure-layout#disclosure__additional--charges",
+      "disclosure-layout#disclosure__collection--policies",
+      "disclosure-layout#disclosure__instructions--payment"
+    ]
+  },
+  "disclosure-layout#disclosure__additional--charges": {
+    "title": "disclosure layout additional charges",
+    "children": [
+      "disclosure-trigger#trigger__additional--charges",
+      "disclosure-content#content__additional--charges"
+    ],
+    "props": {
+      "blockClass": "disclosure__additional--charges"
+    }
+  },
+  "disclosure-trigger#trigger__additional--charges": {
+    "title": "disclosure trigger additional charges",
+    "children": [
+      "rich-text#trigger__text--additional-charges"
+    ],
+    "props": {
+      "blockClass": "trigger__additional--charges"
+    }
+  },
+  "disclosure-content#content__additional--charges": {
+    "title": "disclosure content additional charges",
+    "children": [
+      "rich-text#content__text--additional-charges"
+    ],
+    "props": {
+      "blockClass": "content__additional--charges"
+    }
+  },
+  "disclosure-layout#disclosure__collection--policies": {
+    "title": "disclosure layout collection policies",
+    "children": [
+        "disclosure-trigger#trigger__collection--policies",
+        "disclosure-content#content__collection--policies"
+      ],
+      "props": {
+        "blockClass": "disclosure__collection--policies"
+      }
+  },
+  "disclosure-trigger#trigger__collection--policies": {
+    "title": "disclosure trigger collection policies",
+    "children": [
+      "rich-text#trigger__text--collection-policies"
+    ],
+    "props": {
+      "blockClass": "trigger__collection--policie"
+    }
+  },
+  "disclosure-content#content__collection--policies": {
+    "title": "disclosure content collection policies",
+    "children": [
+      "rich-text#content__text--collection-policies"
+    ],
+    "props": {
+      "blockClass": "content__collection--policies"
+    }
+  },
+  "disclosure-layout#disclosure__instructions--payment": {
+    "title": "disclosure layout instructions payment",
+    "children": [
+      "disclosure-trigger#trigger__instructions--payment",
+      "disclosure-content#content__instructions--payment"
+    ],
+    "props": {
+      "blockClass": "disclosure__instructions--payment"
+    }
+  },
+  "disclosure-trigger#trigger__instructions--payment": {
+    "title": "disclosure trigger instructions payment",
+    "children": [
+      "rich-text#trigger__text--instructions-payment"
+    ],
+    "props": {
+      "blockClass": "trigger__instructions--payment"
+    }
+  },
+  "disclosure-content#content__instructions--payment": {
+    "title": "disclosure content instructions payment",
+    "children": [
+      "disclosure-layout#disclosure__btn--register",
+      "disclosure-layout#disclosure__btn--make-payment"
+    ],
+    "props": {
+      "blockClass": "content__instructions--payment"
+    }
+  },
+  "disclosure-layout#disclosure__btn--register": {
+        "title": "disclosure layout content btn register",
+    "children": [
+      "disclosure-trigger#trigger__btn--register",
+      "disclosure-content#content__btn--register"
+    ],
+    "props": {
+      "blockClass": "disclosure__btn--register"
+    }
+  },
+  "disclosure-trigger#trigger__btn--register": {
+    "title": "disclosure trigger btn register",
+    "children": [
+      "rich-text#trigger__text--btn-register"
+    ],
+    "props": {
+      "blockClass": "trigger__btn--register"
+    }
+  },
+  "disclosure-content#content__btn--register": {
+    "title": "disclosure content btn register",
+    "children": [
+
+    ],
+    "props": {
+      "blockClass": "content__btn--register"
+    }
+  },
+  "disclosure-layout#disclosure__btn--make-payment": {
+        "title": "disclosure layout content btn make payment ",
+    "children": [
+      "disclosure-trigger#trigger__btn--make-payment",
+      "disclosure-content#content__btn--make-payment"
+    ],
+    "props": {
+      "blockClass": "disclosure__btn--make-payment"
+    }
+  },
+  "disclosure-trigger#trigger__btn--make-payment": {
+    "title": "disclosure trigger btn make payment",
+    "children": [
+      "rich-text#trigger__text--btn-make-payment"
+    ],
+    "props": {
+      "blockClass": "trigger__btn--make-payment"
+    }
+  },
+  "disclosure-content#content__btn--make-payment": {
+    "title": "disclosure content btn make payment",
+    "children": [
+
+    ],
+    "props": {
+      "blockClass": "content__btn--make-payment"
+    }
+  }
+}
