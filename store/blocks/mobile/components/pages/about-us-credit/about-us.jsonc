@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#store__custom--image-main": {
+    "title": "store custom row image main",
+    "children": [
+      "image#store__custom--image-main"
+    ],
+    "props": {
+      "blockClass": "store__custom--image-main"
+    }
+  },
+  "flex-layout.row#store__custom--image-benefits": {
+    "title": "store custom row image benefits",
+    "children": [
+      "image#store__custom--image-benefits"
+    ],
+    "props": {
+      "blockClass": "store__custom--image-benefits"
+    }
+  },
+  "flex-layout.row#store__custom--disclosures": {
+    "title": "store custom flex content disclosures",
+    "children": [
+      "flex-layout.col#store__custom--col-disclosures"
+    ],
+    "props": {
+      "blockClass": "store__custom--disclosures"
+    }
+  }
+}

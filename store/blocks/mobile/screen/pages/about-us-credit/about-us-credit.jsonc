@@ -1,0 +1,13 @@
+{
+  "responsive-layout.mobile#mobile__store--custom": {
+    "title": "store custom mobile about-us-credit",
+    "children": [
+      "flex-layout.row#store__custom--image-main",
+      "flex-layout.row#store__custom--image-benefits",
+      "flex-layout.row#store__custom--disclosures"
+    ],
+    "props": {
+      "blockClass": "mobile__store--custom"
+    }
+  }
+}

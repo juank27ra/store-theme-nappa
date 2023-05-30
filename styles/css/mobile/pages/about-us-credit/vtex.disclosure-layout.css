@@ -1,0 +1,17 @@
+.trigger :global(.vtex-rich-text-0-x-paragraph) {
+  font-weight    : 500;
+  color          : #fff;
+  letter-spacing : 4px;
+  text-decoration: none;
+  text-transform : uppercase;
+  margin         : 16px 0;
+}
+
+.content--content__instructions--payment {
+  width          : 70%;
+  margin         : 10px auto;
+  display        : flex;
+  justify-content: center;
+  flex-direction : column;
+  margin-top     : 0;
+}

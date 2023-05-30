@@ -1,0 +1,17 @@
+.flexRow--global__custom--about-us {
+  width      : 90%;
+  margin     : auto;
+  max-width  : none;
+  line-height: 1.5;
+  margin-top : -140px;
+}
+
+.flexRow--global__custom--about-us :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRow--global__custom--about-us :global(.vtex-rich-text-0-x-paragraph) {
+  margin     : 0 0 15px;
+  line-height: 30px;
+  color      : #5c5b56;
+}
