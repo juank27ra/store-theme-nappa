@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#global__custom--about-us": {
+    "title": "store custom desktop about-us",
+    "children": [
+      "flex-layout.col#store__custom--container"
+    ],
+    "props": {
+      "blockClass": "global__custom--about-us"
+    }
+  }
+}
