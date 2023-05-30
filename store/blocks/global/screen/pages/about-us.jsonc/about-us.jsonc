@@ -1,0 +1,11 @@
+{
+  "store.custom#global__about--us": {
+    "title": "store custom abous-ud content",
+    "blocks": [
+      "flex-layout.row#global__custom--about-us"
+    ],
+    "props": {
+      "blockClass": "global__about--us"
+    }
+  }
+}

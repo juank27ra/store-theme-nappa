@@ -1,0 +1,11 @@
+{
+  "store.custom#about-us-credit": {
+    "title": "store-custom routes about-us credit",
+    "path": "/about-us-credit"
+  },
+  "store.custom#global__about--us": {
+    "title": "store-custom routes about-us",
+    "path": "/about-us"
+  }
+
+}

@@ -1,0 +1,29 @@
+{
+  "image#desktop__custom--image-main": {
+    "title": "image main about-us main",
+    "props": {
+      "src": "img/mobile/custom-page/desktop__image--main-credit.jpg",
+      "title": "store-custtom about-us main",
+      "blockClass": "desktop__custom--image-main",
+      "link": {
+        "url": "",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__custom--image-benefits": {
+    "title": "image benefits about-us benefits",
+    "props": {
+      "src": "img/mobile/custom-page/desktop__image--benefits.jpg",
+      "title": "store-custtom about-us benefits",
+      "blockClass": "desktop__custom--image-benefits",
+      "link": {
+        "url": "",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+
+  }
+}

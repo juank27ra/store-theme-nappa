@@ -1,0 +1,12 @@
+.paragraph--custom__rich--text-title {
+  font-weight   : 700;
+  font-size     : 20px;
+  text-align    : center;
+  text-transform: uppercase;
+  position      : relative;
+}
+
+.wrapper--custom__rich--text-title {
+  margin: 0 auto !important;
+}
+
